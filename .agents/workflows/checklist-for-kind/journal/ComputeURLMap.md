@@ -13,6 +13,7 @@ Step 1: Direct API Types (In Progress - PR Created, CI Failing)
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Update Notes
+- **2026-06-16**: Verified PR #10164. CI checks are still failing. Attempted to assign the PR to `factorybot-robot` via API but failed because the user was not found on the repository. Status remains monitored.
 - **2026-06-16**: Checked PR #10164 and found failing CI checks on the head commit. Assigned PR to `factorybot-robot` to trigger correction.
 - **2026-06-16**: Checked PR #10164 and found failing CI checks on the latest head commit. Verified and monitored status as overseer.
 - **2026-06-16**: Initialized migration journal for ComputeURLMap. Step 1 issue (#10137) is open and PR (#10164) is in progress but has failing CI checks.
