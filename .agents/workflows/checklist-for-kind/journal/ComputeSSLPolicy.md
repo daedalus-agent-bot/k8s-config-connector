@@ -12,4 +12,5 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Updates
+* **2026-06-16**: Detected that Step 1 PR #10089 is currently in a dirty state due to merge conflicts, although it is approved by justinsb and all CI checks are passing. Waiting for the merge conflicts to be resolved.
 * **2026-06-16**: Initialized migration tracking journal for `ComputeSSLPolicy`. Checked that Step 1 PR #10089 is open with all CI checks passing and approved. Waiting for it to merge.
