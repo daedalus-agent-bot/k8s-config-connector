@@ -12,6 +12,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Updates
+* **2026-06-17**: Monitored Step 1 PR #10386. Confirmed it remains open and mergeable, pending review/merge. Verified that all CI checks are complete, with the only failing check being the unrelated 'tests-e2e-fixtures-compute' suite. Since Step 1 is not yet merged, we will continue to monitor before starting Step 2.
 * **2026-06-17**: Checked the status of Step 1 PR #10386. The PR remains open, is mergeable, and is pending review/merge of Step 1. All CI checks are passing except the unrelated failing `tests-e2e-fixtures-compute` check. We tried to assign the PR to `factorybot-robot` via API but hit scope constraints. We will continue monitoring the PR before starting Step 2.
 * **2026-06-17**: Monitored Step 1 PR #10386. Checked the PR status and confirmed it is still OPEN and MERGEABLE with no reviewer feedback yet. The `tests-e2e-fixtures-compute` check continues to fail due to the unrelated `networkipcomputeinstance` test. We are continuing to monitor the PR for merge before proceeding to Step 2.
 * **2026-06-17**: Monitored Step 1 PR #10386. The PR remains open and pending review/merge of Step 1 by the maintainers. CI check `tests-e2e-fixtures-compute` continues to fail due to the unrelated test `networkipcomputeinstance` in the compute suite. All other checks are passing successfully. We continue to monitor the PR status before starting Step 2.
