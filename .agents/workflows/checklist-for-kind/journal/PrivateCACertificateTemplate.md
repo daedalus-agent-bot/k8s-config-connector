@@ -34,3 +34,4 @@ Step 1: Direct API Types (In Progress)
 - **2026-06-17**: Re-verified PR #10380 checks. Confirmed `validations` and `tests-e2e-fixtures-servicedirectory` continue to fail. Assigned child Issue #10376 to `codebot-robot` to trigger automatic generation processing of direct types. Continuing to monitor Step 1.
 - **2026-06-17**: The automated system updated PR #10380 with regenerated Go client files. All previous validation errors are resolved, and the new CI checks are currently running.
 - **2026-06-17**: Monitored PR #10380 checks. Key validations and checks (`crd-equivalence-check`, `run-linters`, `license-lint`, `validate-untested-fields`) have successfully passed; remaining checks are pending. Continuing to monitor Step 1.
+- **2026-06-17**: Re-verified PR #10380 checks. Confirmed that all previous failures are resolved, and 156 remaining checks are currently pending. No failing checks detected. Continuing to monitor Step 1.
