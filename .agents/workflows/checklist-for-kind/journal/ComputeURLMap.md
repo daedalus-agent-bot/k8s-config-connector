@@ -1,7 +1,7 @@
 # Migration Journal: ComputeURLMap
 
 ## Current Step
-Step 1: Direct API Types (In Progress - PR Created, CI Pending)
+Step 1: Direct API Types (In Progress - PR Created, CI Passed)
 
 ## Progress Tracking
 
@@ -13,6 +13,7 @@ Step 1: Direct API Types (In Progress - PR Created, CI Pending)
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Update Notes
+- **2026-06-17**: Re-evaluated PR #10164. All CI checks, including all e2e-fixtures, have now completed and passed successfully. The PR is open and pending human review/merge. Status remains monitored as overseer.
 - **2026-06-17**: Checked PR #10164 status on the head commit `d4eec8f`. All previously failing checks (such as `validate-generated-files`, `run-linters`, `golangci-lint`) have now completed and passed successfully. A few e2e-fixtures checks are still in progress/pending with no failures detected. Status remains monitored as overseer.
 - **2026-06-17**: Checked PR #10164. Confirmed that on the head commit `d4eec8f`, all CI checks are currently running (in progress) with no failures detected so far. Status remains monitored.
 - **2026-06-17**: Re-evaluated the CI checks for PR #10164 on the new head commit 912cc3ebddbfe0f766e83d4bfd8a760a3041a7f7. Confirmed that the `validate-generated-files` check is failing, while other CI checks are currently in progress. Successfully assigned the PR to `codebot-robot` to trigger automatic correction. Status remains monitored.
