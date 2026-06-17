@@ -12,6 +12,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Updates
+* **2026-06-17**: Re-verified PR #10386 CI status. Confirmed the only failure is the unrelated `networkipcomputeinstance` test in the `tests-e2e-fixtures-compute` suite. Since the direct KRM types and generate.sh for `computesslpolicy` are fully correct and verified, we are waiting for reviewer approval/merge of Step 1 before we can proceed to Step 2.
 * **2026-06-17**: Monitored the status of Step 1 PR #10386. The PR remains open with the `tests-e2e-fixtures-compute` check still failing. No new reviews or comments have been posted. We will continue monitoring the PR for merge before proceeding to Step 2.
 * **2026-06-17**: Re-ran the local e2e tests for `computesslpolicy` against `mockgcp` and verified that they pass cleanly. PR #10386 remains open and pending merge of Step 1 by the reviewers. Continuing to monitor PR status before initiating Step 2.
 * **2026-06-17**: Investigated the failing `tests-e2e-fixtures-compute` check on PR #10386. Identified that the failure was in an unrelated test: `computeinstance` (`networkipcomputeinstance`). Re-ran both `computesslpolicy` and `networkipcomputeinstance` tests locally against mockgcp, and both passed successfully. Assigned PR #10386 to `codebot-robot` to request a re-run of the CI checks.
