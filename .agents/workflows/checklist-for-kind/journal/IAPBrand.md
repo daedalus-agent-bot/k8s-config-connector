@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Re-verified that both Pull Request #10381 (Step 1) and Pull Request #10394 (Step 2) are open and 100% green on GitHub with all automated CI check-runs passing successfully. We continue to await human maintainer review, approval, and merge of both PRs before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Re-checked the statuses of PR #10381 (Step 1) and PR #10394 (Step 2). Both PRs remain open and are passing all of their automated CI checks (100% green). We must wait for human owner review and merging of these PRs before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Monitored open Pull Requests. Verified that PR #10381 (Step 1) and PR #10394 (Step 2) remain open and 100% green on GitHub with all CI checks passing successfully. PR #10393 is open but failing, leaving PR #10394 as the healthy PR for Step 2. We continue to await human owner review, approval, and merge of the Step 1 PR before we can transition to Step 3.
 - **2026-06-17**: Re-verified both open Pull Requests #10381 (Step 1) and #10394 (Step 2). Both remain open and 100% green on GitHub, passing all automated CI checks. We continue to await human owner review, approval, and merge of both PRs before we can transition to Step 3 (Create a Round-Trip KRM Fuzzer).
