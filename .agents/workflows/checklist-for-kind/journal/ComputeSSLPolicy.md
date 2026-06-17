@@ -6,11 +6,13 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types | [#10033](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10033) | [#10089](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10089) | PR Created | 2026-06-13 | |
+| 1 | Direct API Types | [#10033](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10033) | [#10386](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10386) | PR Created | 2026-06-13 | |
 | 2 | Identity and Reference Types Pattern | | | Not Started | | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Updates
+* **2026-06-17**: Transitioned tracking of Step 1 to the clean, non-conflicting PR #10386 opened by feynman-agent-bot. Verified that all completed CI checks on PR #10386 are passing, with some checks still pending.
+* **2026-06-17**: Re-verified Step 1 PR #10089. Confirmed all 179 CI checks are passing, but the PR remains open and in a 'dirty' state with unresolved merge conflicts on GitHub. Due to permission constraints, we cannot push the resolved merge commit to the contributor's fork or assign the PR to the automation bot for rebase. We will continue monitoring PR #10089 for conflict resolution before starting Step 2.
 * **2026-06-16**: Detected that Step 1 PR #10089 is currently in a dirty state due to merge conflicts, although it is approved by justinsb and all CI checks are passing. Waiting for the merge conflicts to be resolved.
 * **2026-06-16**: Initialized migration tracking journal for `ComputeSSLPolicy`. Checked that Step 1 PR #10089 is open with all CI checks passing and approved. Waiting for it to merge.
