@@ -12,6 +12,7 @@
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Updates
+* **2026-06-17**: Checked the status of Step 1 PR #10386. The PR remains open, mergeable, and pending reviewer approval. All CI checks are passing except the unrelated 'tests-e2e-fixtures-compute' suite. Since Step 1 is not yet merged, we will continue monitoring the PR before starting Step 2.
 * **2026-06-17**: Re-evaluated Step 1 PR #10386 and PR #10089. PR #10386 remains open and pending review/merge, with only the unrelated 'tests-e2e-fixtures-compute' suite failing. PR #10089 is open but currently blocked by merge conflicts ('dirty' state). Step 1 is not yet merged, so we continue to monitor progress before initiating Step 2.
 * **2026-06-17**: Monitored Step 1 PR #10386. Checked the review status and verified it remains OPEN with no reviews or approvals yet (reviewDecision is REVIEW_REQUIRED). The `tests-e2e-fixtures-compute` check remains the only failing check, while all other CI checks are passing successfully. Since Step 1 is not yet merged, we continue to monitor before proceeding to Step 2.
 * **2026-06-17**: Checked the status of Step 1 PR #10386. The PR remains open and mergeable, but is still pending maintainer review and merge. All CI checks have passed successfully with the sole exception of the unrelated failing 'tests-e2e-fixtures-compute' check. We are continuing to monitor the PR for merge before proceeding to Step 2.
