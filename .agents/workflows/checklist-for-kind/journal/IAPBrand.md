@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Detected that PR #10394 (Step 2) is in a 'dirty' state with merge conflicts because of the merged PR #10381 (Step 1), even though all CI checks had previously passed. Assigned PR #10394 back to its author, `lovelace-coder-bot`, to rebase and resolve conflicts. We continue to wait for this Step 2 PR to be merged before proceeding to Step 3.
 - **2026-06-17**: Pull Request #10381 (Step 1: Direct API Types) has been successfully merged! Pull Request #10394 (Step 2: Identity and Reference Types Pattern) remains open and is 100% green with all CI check-runs passing successfully. We are currently awaiting human owner review, approval, and merging of PR #10394 before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Monitored the migration progress. Pull Request #10381 (Step 1) is approved and undergoing pending CI checks before merging. Pull Request #10394 (Step 2) is open and 100% green. We continue to await the merging of both PRs before we can proceed to Step 3.
 - **2026-06-17**: Verified that `lovelace-coder-bot` pushed a fix to PR #10381 (Step 1) addressing review feedback and resolving the schema diff discrepancy. The CI check-runs for PR #10381 are currently running/pending. PR #10394 (Step 2) remains open and 100% green. We continue to await human review, approval, and merging of both PRs before we can proceed to Step 3.
