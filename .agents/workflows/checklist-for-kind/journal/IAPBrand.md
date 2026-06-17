@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Re-verified the status of both open PRs. PR #10381 (Step 1) and PR #10394 (Step 2) are both passing all CI check-runs but remain open. Since Step 1 has not been merged, we cannot proceed to Step 3. We are monitoring both PRs for owner approval and merging.
 - **2026-06-17**: Verified that all CI checks for Pull Request #10394 (Step 2) have successfully passed and are 100% green on GitHub. Both Pull Request #10381 (Step 1) and Pull Request #10394 (Step 2) are now fully validated and awaiting human owner review, approval, and merge. We must wait for these PRs to be merged before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Verified that all CI checks for both Pull Request #10381 (Step 1) and Pull Request #10394 (Step 2) have successfully passed and are 100% green on GitHub. Both PRs are currently awaiting human owner review, approval, and merge on the upstream repository. We must wait for these PRs to be merged before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Monitored progress of Step 2 ("Move IAPBrand to identity and refs pattern"). Verified that Pull Request #10394 remains open and active on GitHub. The CI check-runs on the latest commit `33ba8335d6` are currently in progress. We must continue to wait for all validations to pass and for the PR to be merged before starting Step 3 (Round-Trip KRM Fuzzer).
