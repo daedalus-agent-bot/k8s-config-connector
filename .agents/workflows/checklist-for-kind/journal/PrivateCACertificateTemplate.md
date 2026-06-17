@@ -32,3 +32,5 @@ Step 1: Direct API Types (In Progress)
 - **2026-06-17**: Assigned PR #10380 to `codebot-robot` via the GitHub REST API to trigger the automatic regeneration of the resource Go client files and resolve the failing 'validations' check.
 - **2026-06-17**: Re-verified PR #10380 check status. The 'validations' check remains in a failed state. Confirmed `codebot-robot` is assigned and actively being monitored. Waiting for the automated regeneration to complete.
 - **2026-06-17**: Re-verified PR #10380 checks. Confirmed `validations` and `tests-e2e-fixtures-servicedirectory` continue to fail. Assigned child Issue #10376 to `codebot-robot` to trigger automatic generation processing of direct types. Continuing to monitor Step 1.
+- **2026-06-17**: The automated system updated PR #10380 with regenerated Go client files. All previous validation errors are resolved, and the new CI checks are currently running.
+- **2026-06-17**: Monitored PR #10380 checks. Key validations and checks (`crd-equivalence-check`, `run-linters`, `license-lint`, `validate-untested-fields`) have successfully passed; remaining checks are pending. Continuing to monitor Step 1.
