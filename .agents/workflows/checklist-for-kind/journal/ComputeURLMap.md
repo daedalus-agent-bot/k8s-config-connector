@@ -13,6 +13,7 @@ Step 1: Direct API Types (In Progress - PR Created, CI Failing)
 | 4 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## Status Update Notes
+- **2026-06-17**: Checked PR #10164 and confirmed CI checks are still failing. Added `direct-migration` and `overseer` labels to the PR, and successfully assigned it to `codebot-robot` to trigger auto-correction/action. Status remains monitored as overseer.
 - **2026-06-17**: Verified PR #10164 checks are still failing on head commit b088d8ce7a34ef00ba135fc21990554482bdec2f. Attempted to assign PR to `factorybot-robot` via REST API to trigger auto-correction, but assignment was not permitted (HTTP 404). Status remains monitored as overseer.
 - **2026-06-17**: Checked PR #10164 and confirmed CI checks are still failing. Successfully assigned the PR to `daedalus-agent-bot` to track progress. Status remains monitored as overseer.
 - **2026-06-17**: Verified PR #10164 checks are still failing. Re-attempted assignment to `factorybot-robot` but hit GraphQL scope constraints and REST API 404. Status remains monitored as overseer.
