@@ -7,12 +7,13 @@ Step 2: Identity and Reference Types Pattern
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | PR Created | 2026-06-16 | - |
+| 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | Merged | 2026-06-16 | 2026-06-17 |
 | 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | PR Created | 2026-06-17 | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-17**: Pull Request #10381 (Step 1: Direct API Types) has been successfully merged! Pull Request #10394 (Step 2: Identity and Reference Types Pattern) remains open and is 100% green with all CI check-runs passing successfully. We are currently awaiting human owner review, approval, and merging of PR #10394 before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-17**: Monitored the migration progress. Pull Request #10381 (Step 1) is approved and undergoing pending CI checks before merging. Pull Request #10394 (Step 2) is open and 100% green. We continue to await the merging of both PRs before we can proceed to Step 3.
 - **2026-06-17**: Verified that `lovelace-coder-bot` pushed a fix to PR #10381 (Step 1) addressing review feedback and resolving the schema diff discrepancy. The CI check-runs for PR #10381 are currently running/pending. PR #10394 (Step 2) remains open and 100% green. We continue to await human review, approval, and merging of both PRs before we can proceed to Step 3.
 - **2026-06-17**: Detected a CI failure (`unit-tests`) on PR #10381 (Step 1). The `TestMultiVersionCRDNoDiff` test in the `tests/apichecks` package failed because the `IAPSettings` CRD schema diff did not match its golden file. Re-assigned PR #10381 to `lovelace-coder-bot` so that the coder bot can resolve the golden file diff discrepancy. Meanwhile, PR #10394 (Step 2) remains open and 100% green.
