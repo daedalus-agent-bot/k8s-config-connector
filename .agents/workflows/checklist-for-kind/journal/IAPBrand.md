@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Re-monitored Pull Request #10394 (Step 2). Confirmed that all CI check-runs have now successfully passed (100% green). The PR is currently awaiting human owner review, approval, and merging before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-18**: Re-monitored Pull Request #10394 (Step 2). Verified that all completed check-runs (including `unit-tests`) are passing successfully, with no failures. Only a few remaining `tests-e2e-fixtures-*` checks are still in progress. We are waiting for all checks to pass and for the PR to be merged before starting Step 3.
 - **2026-06-18**: Re-monitored the migration progress. Found that Pull Request #10394 (Step 2) is open but unassigned, and is still failing the `unit-tests` check-run. Re-assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit-tests.
 - **2026-06-18**: Monitored the migration progress. Pull Request #10394 (Step 2) remains open but failing the `unit-tests` check-run on GitHub. Assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit tests so we can proceed to Step 3.
