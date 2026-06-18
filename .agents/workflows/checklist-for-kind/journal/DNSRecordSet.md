@@ -16,10 +16,10 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** and has been **successfully rebased** on `master` by the author bot `codebot-robot`.
-*   The PR's head commit is now `ba7051719f8002979e669ffedfb65074a4847ada` (committed today, 2026-06-18T13:55:15Z).
-*   Verified that the CI checks on the rebased commit are currently running (`in_progress`), with no failures reported so far.
-*   The PR is in `state: OPEN` and `mergeable: MERGEABLE` (awaiting CI checks to complete and subsequent human OWNER review/approval).
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN**.
+*   The head commit is `ba7051719f8002979e669ffedfb65074a4847ada`.
+*   Verified that the `unit-tests` check-run failed on the PR's head commit (completed with `failure` status). The failure was caused by an unrelated schema diff mismatch in `IAPSettings` (`TestMultiVersionCRDNoDiff`).
+*   Assigned the PR back to the author bot `codebot-robot` to resolve the CI test failure.
 *   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
 
 ### 2026-06-17
