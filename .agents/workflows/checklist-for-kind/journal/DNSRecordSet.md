@@ -15,6 +15,12 @@
 
 ## Status Update Notes
 
+#### 2026-06-18 (Update 3)
+*   **Verification of Blocker PR Status**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) has been updated and its critical checks (`unit-tests`, `golangci-lint`, `license-lint`) are successfully **passing** (e2e checks are currently running).
+*   **Migration PR Status**: Verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is still open, but currently failing `unit-tests` check-run because it needs a rebase once PR #10448 is merged.
+*   **Labels and Assignees Alignment**: Checked assignees and labels, finding them empty. Successfully re-assigned `codebot-robot` to both PR #10448 and PR #9783, and added the mandatory `direct-migration` and `overseer` labels to both pull requests using the GitHub REST API.
+*   **Local Journal and Parent Issue Update**: Updated local journal and synchronized the parent tracking issue comment to keep all stakeholders informed.
+
 #### 2026-06-18 (Update 2)
 *   **Verification of Blocker PR Fix**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) has been updated with a new commit (`58de40cb4d0d6f56348a2e5cec8a3e3a616e0a17`) that resolves the `TestMultiVersionCRDNoDiff` failure.
 *   **PR Status Check**: Confirmed that `unit-tests` for PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) have completed and successfully **passed**. There are currently no failing checks on the blocker PR.
