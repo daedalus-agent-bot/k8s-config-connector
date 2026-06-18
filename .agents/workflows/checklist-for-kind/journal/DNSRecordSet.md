@@ -16,9 +16,9 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but the `unit-tests` check-run has failed due to a global schema diff in `IAPSettings`.
-*   Investigated the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448). Found that a human owner (`justinsb`) reviewed the PR and requested changes, stating that we should continue flagging schema description differences and that a bad golden file may have crept into the master branch instead of globally ignoring descriptions.
-*   To trigger the required correction from the author bot, assigned both the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and the migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) back to `codebot-robot`.
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but has failing `unit-tests` check-run.
+*   The blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) remains **OPEN**. Owner `justinsb` commented there asking if `codebot-robot` forgot to push, and commented on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) that we should rebase since testing of both controllers and cross-comparison have been implemented.
+*   Successfully assigned `codebot-robot` back to the migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) via GitHub REST API to prompt the bot to perform the necessary rebase and push.
 *   Updated the local journal and the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
 
 ### 2026-06-17
