@@ -20,7 +20,8 @@
 *   Investigated the `unit-tests` failure and confirmed it is due to the global/shared `TestMultiVersionCRDNoDiff` failure in `IAPSettings` (documented in Issue [#10447](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10447)). This is not caused by the changes in this PR.
 *   Verified that `codebot-robot` has opened PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) specifically to fix this global schema diff issue in `IAPSettings`.
 *   Once PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is merged, the unit test checks on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) are expected to pass. No further action is required from `codebot-robot` on the DNSRecordSet PR itself at this time.
-*   Re-verified checks status: confirmed the `unit-tests` check-run has successfully passed on the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448). The blocker PR is currently waiting for the remaining E2E test suite checks to complete. We will continue monitoring both PRs.
+*   Re-verified checks status: confirmed that all CI check-runs (including `unit-tests`, `smoketest-with-kind`, and the full E2E test suite) have successfully passed on the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448).
+*   The blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is currently **OPEN** and fully green, awaiting human review and merge. We will continue monitoring both PRs.
 *   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
 
 ### 2026-06-17
