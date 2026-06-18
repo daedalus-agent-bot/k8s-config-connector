@@ -16,13 +16,10 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but the `unit-tests` check-run has failed.
-*   Investigated the `unit-tests` failure and confirmed it is due to the global/shared `TestMultiVersionCRDNoDiff` failure in `IAPSettings` (documented in Issue [#10447](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10447)). This is not caused by the changes in this PR.
-*   Verified that `codebot-robot` has opened PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) specifically to fix this global schema diff issue in `IAPSettings`.
-*   Once PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is merged, the unit test checks on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) are expected to pass. No further action is required from `codebot-robot` on the DNSRecordSet PR itself at this time.
-*   Re-verified checks status: confirmed that all CI check-runs (including `unit-tests`, `smoketest-with-kind`, and the full E2E test suite) have successfully passed on the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448).
-*   The blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is currently **OPEN** and fully green, awaiting human review and merge. We will continue monitoring both PRs.
-*   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but the `unit-tests` check-run has failed due to a global schema diff in `IAPSettings`.
+*   Investigated the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448). Found that a human owner (`justinsb`) reviewed the PR and requested changes, stating that we should continue flagging schema description differences and that a bad golden file may have crept into the master branch instead of globally ignoring descriptions.
+*   To trigger the required correction from the author bot, assigned both the blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and the migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) back to `codebot-robot`.
+*   Updated the local journal and the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
 
 ### 2026-06-17
 *   Verified that Step 1 (Direct API Types), Step 2 (Identity & Reference Pattern), and Step 3 (Round-Trip KRM Fuzzer) have all been successfully merged.
