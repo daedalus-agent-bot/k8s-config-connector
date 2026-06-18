@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Re-checked Pull Request #10394 (Step 2). Observed that the PR had become unassigned while still failing the `unit-tests` check-run. Re-assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit-tests.
 - **2026-06-18**: Monitored the migration progress. Pull Request #10394 (Step 2) is currently failing the `unit-tests` check-run on GitHub. Assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit tests.
 - **2026-06-17**: Detected a CI failure (`unit-tests`) on PR #10394 (Step 2) because `TestMultiVersionCRDNoDiff` reported a schema golden file discrepancy on `iapsettings.iap.cnrm.cloud.google.com`. Re-assigned PR #10394 back to its author, `lovelace-coder-bot`, via the GitHub REST API to resolve the failing unit tests.
 - **2026-06-17**: Ensured PR #10394 is assigned to its author, `lovelace-coder-bot`, via GitHub REST API to trigger rebasing and merge conflict resolution. Step 1 (PR #10381) is merged, and we are waiting for Step 2 PR to resolve conflicts and merge before initiating Step 3 (Round-Trip KRM Fuzzer).
