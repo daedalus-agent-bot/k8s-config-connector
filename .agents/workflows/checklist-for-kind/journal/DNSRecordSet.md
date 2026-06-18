@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-18 (Update 2)
+*   **Verification of Blocker PR Fix**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) has been updated with a new commit (`58de40cb4d0d6f56348a2e5cec8a3e3a616e0a17`) that resolves the `TestMultiVersionCRDNoDiff` failure.
+*   **PR Status Check**: Confirmed that `unit-tests` for PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) have completed and successfully **passed**. There are currently no failing checks on the blocker PR.
+*   **Migration PR Status**: Checked migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) and noted that its `unit-tests` check-run is still in a failed state because it hasn't been rebased/re-run since the blocker PR fix.
+*   **Orchestration Action**: Assigned `codebot-robot` to both PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the GitHub REST API to ensure the bot continues monitoring and will rebase/merge once the blocker PR is fully merged.
+*   Updated local journal and tracking comment on parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
+
 #### 2026-06-18
 *   **Verification of PR Status**: Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but has a failing `unit-tests` check-run due to the OpenAPI schema comparison description flake.
 *   **Verification of Blocker PR**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) received a new commit (`1679eef5496885a5f4ff2ae158ebd9ffa6a9d1bb`) from `codebot-robot`, but its `unit-tests` job is still failing `TestMultiVersionCRDNoDiff`.
