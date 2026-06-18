@@ -16,8 +16,8 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** and has **all passing CI checks** (verified green).
-*   The PR remains in a blocked merge state (`mergeStateStatus: BLOCKED`, `reviewDecision: REVIEW_REQUIRED`), awaiting human OWNER review and approval.
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** and has **all passing CI checks** (verified green, 0 non-successful runs across all pages of checks).
+*   Verified that no review submissions or changes have been requested. The PR remains in a blocked merge state (`mergeable_state: blocked`), awaiting human OWNER review and approval from an approver listed in the `OWNERS` file.
 *   Updated the local journal and tracking comment on parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
 
 ### 2026-06-17
