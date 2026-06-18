@@ -15,6 +15,11 @@
 
 ## Status Update Notes
 
+#### 2026-06-18 (Update 9)
+*   **Blocker PR Status Verification**: Checked CI check-runs for blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and confirmed that all checks (including `unit-tests`, `golangci-lint`, `smoketest-with-kind`, `test-mockgcp`) are **100% passing**.
+*   **Migration PR Status Verification**: Checked migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) and verified its status is open but still pending rebase once the blocker is merged.
+*   **Orchestration Action**: Successfully assigned `codebot-robot` to both PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) via the GitHub REST API to trigger action and monitor the merge of the blocker PR and subsequent rebase of the migration PR.
+
 #### 2026-06-18 (Update 8)
 *   **Blocker PR Status Check**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is **100% green** in CI, with all checks passing successfully. The PR is ready for human/automatic merge.
 *   **Migration PR Status Check**: Verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is currently failing its `unit-tests` check. It is pending rebase/retry after the blocker PR #10448 is merged.
