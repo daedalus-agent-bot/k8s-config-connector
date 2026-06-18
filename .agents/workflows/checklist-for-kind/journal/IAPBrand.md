@@ -9,10 +9,11 @@ Step 3: Create a Round-Trip KRM Fuzzer
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | Merged | 2026-06-16 | 2026-06-17 |
 | 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | Merged | 2026-06-17 | 2026-06-18 |
-| 3 | Create a Round-Trip KRM Fuzzer | [Issue #10478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10478) | - | Open | 2026-06-18 | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [Issue #10478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10478) | [PR #10479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10479) | PR Created | 2026-06-18 | - |
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Verified that Pull Request #10479 (Step 3: Create a Round-Trip KRM Fuzzer) has been successfully opened by `ada-coder-bot`. Currently, 100% of the completed CI check-runs (including unit-tests, linters, and validations) are passing. Some other checks are still pending/in progress. We are monitoring the CI checks and awaiting review and merge.
 - **2026-06-18**: Monitored Step 3 (Create a Round-Trip KRM Fuzzer) progress. Confirmed that Issue #10478 is open and successfully assigned to `ada-coder-bot`. The AI Factory has actively started implementing the fuzzer in a sandbox; we are waiting for the fuzzer pull request to be opened.
 - **2026-06-18**: Verified that Pull Request #10394 (Step 2: Identity and Reference Types Pattern) has been successfully merged on GitHub. Transitioning to Step 3: Create a Round-Trip KRM Fuzzer. Created Issue #10478 for Step 3.
 - **2026-06-18**: Checked open Pull Request #10394 (Step 2: Identity and Reference Types Pattern) on GitHub. Confirmed that all 100% of the automated CI checks are fully green and completed successfully with zero failures. The PR remains healthy, officially approved ('lgtm', 'approved'), and open, actively awaiting human owner merging before we can transition to Step 3 (Create a Round-Trip KRM Fuzzer).
