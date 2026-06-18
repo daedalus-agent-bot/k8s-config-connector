@@ -16,13 +16,11 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN**.
-*   Collaborator `justinsb` requested a rebase because the repository has since implemented testing of both controllers (terraform/dcl and direct) and cross-comparison.
-*   Noticed that the PR's head commit is still `32a2bdcd5f77f1d6e1bbc0d41811da13bd5199fc` (originally created on 2026-06-12), meaning the rebase has not yet been performed by the author bot.
-*   Assigned the PR to the author bot `codebot-robot` via the REST API to trigger/request the rebase.
-*   Verified that all existing CI check runs on commit `32a2bdcd5f77f1d6e1bbc0d41811da13bd5199fc` have successfully passed.
-*   The PR remains in `mergeable_state: blocked`, awaiting rebase and subsequent human OWNER review/approval.
-*   Updated the local journal and tracking comment on parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** and has been **successfully rebased** on `master` by the author bot `codebot-robot`.
+*   The PR's head commit is now `ba7051719f8002979e669ffedfb65074a4847ada` (committed today, 2026-06-18T13:55:15Z).
+*   Verified that the CI checks on the rebased commit are currently running (`in_progress`), with no failures reported so far.
+*   The PR is in `state: OPEN` and `mergeable: MERGEABLE` (awaiting CI checks to complete and subsequent human OWNER review/approval).
+*   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
 
 ### 2026-06-17
 *   Verified that Step 1 (Direct API Types), Step 2 (Identity & Reference Pattern), and Step 3 (Round-Trip KRM Fuzzer) have all been successfully merged.
