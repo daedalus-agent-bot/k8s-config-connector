@@ -1,18 +1,19 @@
 # Migration Journal: IAPBrand
 
 ## Current Step
-Step 2: Identity and Reference Types Pattern
+Step 3: Create a Round-Trip KRM Fuzzer
 
 ## Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | Merged | 2026-06-16 | 2026-06-17 |
-| 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | PR Created | 2026-06-17 | - |
-| 3 | Create a Round-Trip KRM Fuzzer | - | - | - | - | - |
+| 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | Merged | 2026-06-17 | 2026-06-18 |
+| 3 | Create a Round-Trip KRM Fuzzer | [Issue #10478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10478) | - | Open | 2026-06-18 | - |
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Verified that Pull Request #10394 (Step 2: Identity and Reference Types Pattern) has been successfully merged on GitHub. Transitioning to Step 3: Create a Round-Trip KRM Fuzzer. Created Issue #10478 for Step 3.
 - **2026-06-18**: Checked open Pull Request #10394 (Step 2: Identity and Reference Types Pattern) on GitHub. Confirmed that all 100% of the automated CI checks are fully green and completed successfully with zero failures. The PR remains healthy, officially approved ('lgtm', 'approved'), and open, actively awaiting human owner merging before we can transition to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-18**: Re-checked and confirmed that 100% of the automated CI check-runs for Pull Request #10394 (Step 2) are completely green and passing successfully (100% green). The PR remains open, healthy, and has already received official approvals ('lgtm', 'approved'). We continue to wait for human owner merging before proceeding to Step 3 (Create a Round-Trip KRM Fuzzer).
 - **2026-06-18**: Monitored open Pull Request #10394 (Step 2: Identity and Reference Types Pattern). Confirmed that 100% of the CI check-runs have successfully passed and are fully green. In addition, the PR has been officially approved with `lgtm` and `approved` labels! It is healthy and actively awaiting human owner merging before we can proceed to Step 3 (Create a Round-Trip KRM Fuzzer).
