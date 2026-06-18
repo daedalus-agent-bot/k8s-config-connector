@@ -16,10 +16,10 @@
 ## Status Update Notes
 
 ### 2026-06-18
-*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN**.
-*   Verified that `codebot-robot` successfully rebased the branch on top of the latest `upstream/master` HEAD (`b50b08eb9936054242944550d277a15c1ae2357b`) and force-pushed head commit `ba7051719f8002979e669ffedfb65074a4847ada`.
-*   The `unit-tests` check-run on the rebased commit failed again with a `TestMultiVersionCRDNoDiff` failure in `IAPSettings`.
-*   Since `codebot-robot` unassigned itself after the rebase push and the unit tests are failing, we re-assigned the PR to `codebot-robot` to fix the test and regenerate the exception/golden files.
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** but the `unit-tests` check-run has failed.
+*   Investigated the `unit-tests` failure and confirmed it is due to the global/shared `TestMultiVersionCRDNoDiff` failure in `IAPSettings` (documented in Issue [#10447](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10447)). This is not caused by the changes in this PR.
+*   Verified that `codebot-robot` has opened PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) specifically to fix this global schema diff issue in `IAPSettings`.
+*   Once PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is merged, the unit test checks on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) are expected to pass. No further action is required from `codebot-robot` on the DNSRecordSet PR itself at this time.
 *   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
 
 ### 2026-06-17
