@@ -15,6 +15,12 @@
 
 ## Status Update Notes
 
+#### 2026-06-18 (Update 10)
+*   **Blocker PR Status Check**: Verified blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) is still open and all CI checks are completely green (179 successful checks, 0 failing, 0 in progress/queued).
+*   **Analysis of Omission**: Noticed that the `codebot-robot` had force-pushed the branch but omitted the critical `cmpopts.IgnoreFields(apiextensions.JSONSchemaProps{}, "Description")` change in `crds_test.go`, resulting in a plain string comparison without ignoring description differences, which is what `justinsb` noticed ("Did you forget to push @codebot-robot ?").
+*   **Orchestration Action**: Confirmed both PRs were currently unassigned. Re-assigned `codebot-robot` (the PR author bot) to both blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the GitHub REST API. This will prompt `codebot-robot` to fix the omission on PR #10448, monitor its merge, and then rebase the main migration PR #9783 once the blocker is merged.
+*   **Journal and Comment Update**: Updated the local migration journal and updated the parent tracking issue comment.
+
 #### 2026-06-18 (Update 9)
 *   **Blocker PR Status Verification**: Checked CI check-runs for blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and confirmed that all checks (including `unit-tests`, `golangci-lint`, `smoketest-with-kind`, `test-mockgcp`) are **100% passing**.
 *   **Migration PR Status Verification**: Checked migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) and verified its status is open but still pending rebase once the blocker is merged.
