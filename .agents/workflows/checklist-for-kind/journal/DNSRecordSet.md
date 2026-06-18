@@ -15,6 +15,11 @@
 
 ## Status Update Notes
 
+### 2026-06-18
+*   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN** and has **all passing CI checks** (verified green).
+*   The PR remains in a blocked merge state (`mergeStateStatus: BLOCKED`, `reviewDecision: REVIEW_REQUIRED`), awaiting human OWNER review and approval.
+*   Updated the local journal and tracking comment on parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
+
 ### 2026-06-17
 *   Verified that Step 1 (Direct API Types), Step 2 (Identity & Reference Pattern), and Step 3 (Round-Trip KRM Fuzzer) have all been successfully merged.
 *   Verified that Step 4 (MockGCP matching) is complete.
