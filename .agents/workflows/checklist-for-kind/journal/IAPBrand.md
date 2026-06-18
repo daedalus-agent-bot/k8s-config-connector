@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Re-checked open Pull Request #10394 (Step 2). Confirmed that the PR is currently assigned to its author, `lovelace-coder-bot`. Verified that the latest `unit-tests` check-run failed with `TestMultiVersionCRDNoDiff` reporting a schema diff discrepancy for `iapsettings.iap.cnrm.cloud.google.com`. Observed that `argus-watcher-bot` has actively started an automated investigation into this failure to resolve it.
 - **2026-06-18**: Re-checked Pull Request #10394 (Step 2). Observed that the PR had become unassigned while still failing the `unit-tests` check-run. Re-assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit-tests.
 - **2026-06-18**: Monitored the migration progress. Pull Request #10394 (Step 2) is currently failing the `unit-tests` check-run on GitHub. Assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit tests.
 - **2026-06-17**: Detected a CI failure (`unit-tests`) on PR #10394 (Step 2) because `TestMultiVersionCRDNoDiff` reported a schema golden file discrepancy on `iapsettings.iap.cnrm.cloud.google.com`. Re-assigned PR #10394 back to its author, `lovelace-coder-bot`, via the GitHub REST API to resolve the failing unit tests.
