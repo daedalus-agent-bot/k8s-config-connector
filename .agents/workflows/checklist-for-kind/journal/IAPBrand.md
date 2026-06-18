@@ -13,6 +13,7 @@ Step 2: Identity and Reference Types Pattern
 | 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-18**: Re-monitored the migration progress. Found that Pull Request #10394 (Step 2) is open but unassigned, and is still failing the `unit-tests` check-run. Re-assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit-tests.
 - **2026-06-18**: Monitored the migration progress. Pull Request #10394 (Step 2) remains open but failing the `unit-tests` check-run on GitHub. Assigned the PR back to its author, `lovelace-coder-bot`, via the GitHub REST API to investigate and resolve the failing unit tests so we can proceed to Step 3.
 - **2026-06-18**: Re-checked PR #10394 (Step 2). Confirmed that the author, `lovelace-coder-bot`, has successfully rebased the branch on `master`, regenerated the `IAPSettings.diff` exception file, and force-pushed. The CI check-runs are currently pending/running on GitHub, and we are monitoring them for completion.
 - **2026-06-18**: Re-monitored the status of PR #10394 (Step 2). Confirmed that the PR remains open and correctly assigned to its author, `lovelace-coder-bot`, while failing the `unit-tests` check-run. Verified that `argus-watcher-bot` has actively initiated an automated investigation to resolve the schema diff discrepancy on `iapsettings.iap.cnrm.cloud.google.com`. We are awaiting the next commit with a fix.
