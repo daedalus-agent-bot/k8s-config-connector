@@ -17,9 +17,10 @@
 
 ### 2026-06-18
 *   Checked status of Step 5: Pull Request [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is currently **OPEN**.
-*   The head commit is `ba7051719f8002979e669ffedfb65074a4847ada`.
+*   The head commit is `ba7051719f8002979e669ffedfb65074a4847ada` and is in `MERGEABLE` state.
 *   Verified that the `unit-tests` check-run failed on the PR's head commit (completed with `failure` status). The failure was caused by an unrelated schema diff mismatch in `IAPSettings` (`TestMultiVersionCRDNoDiff`).
-*   Assigned the PR back to the author bot `codebot-robot` to resolve the CI test failure.
+*   Observed review feedback from human collaborator `justinsb` requesting a rebase: "Ah, we should rebase; we've since implemented testing of both controllers (terraform/dcl _and_ direct) and cross-comparison."
+*   Assigned the PR back to the author bot `codebot-robot` via the GitHub REST API (`gh api`) to trigger the rebase and resolve the CI test failure as per the reviewer's feedback.
 *   Updated the local journal and parent issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) tracking comment.
 
 ### 2026-06-17
