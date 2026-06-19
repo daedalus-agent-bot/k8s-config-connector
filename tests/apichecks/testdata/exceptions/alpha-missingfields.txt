@@ -106,6 +106,15 @@
 [missing_field] crd=apigeeaddonsconfigs.apigee.cnrm.cloud.google.com version=v1alpha1: field ".spec.addonsConfig.integrationConfig.enabled" is not set in unstructured objects
 [missing_field] crd=apigeeaddonsconfigs.apigee.cnrm.cloud.google.com version=v1alpha1: field ".spec.addonsConfig.monetizationConfig.enabled" is not set in unstructured objects
 [missing_field] crd=apigeenataddresses.apigee.cnrm.cloud.google.com version=v1alpha1: field ".spec.instanceId" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.annotations" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.availability" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.labels" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.recommendedDeployment" is not set in unstructured objects
+[missing_field] crd=apigeeregistryapis.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.recommendedVersion" is not set in unstructured objects
 [missing_field] crd=apigeeregistryartifacts.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.contents" is not set in unstructured objects
 [missing_field] crd=apigeeregistryartifacts.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
 [missing_field] crd=apigeeregistryartifacts.apigeeregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.mimeType" is not set in unstructured objects
@@ -346,6 +355,9 @@
 [missing_field] crd=apphubserviceprojectattachments.apphub.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
 [missing_field] crd=apphubserviceprojectattachments.apphub.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=apphubserviceprojectattachments.apphub.cnrm.cloud.google.com version=v1alpha1: field ".spec.serviceProjectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=artifactregistryvpcscconfigs.artifactregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
+[missing_field] crd=artifactregistryvpcscconfigs.artifactregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=artifactregistryvpcscconfigs.artifactregistry.cnrm.cloud.google.com version=v1alpha1: field ".spec.vpcscPolicy" is not set in unstructured objects
 [missing_field] crd=assuredworkloadsworkloads.assuredworkloads.cnrm.cloud.google.com version=v1alpha1: field ".spec.billingAccountRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=assuredworkloadsworkloads.assuredworkloads.cnrm.cloud.google.com version=v1alpha1: field ".spec.complianceRegime" is not set in unstructured objects
 [missing_field] crd=assuredworkloadsworkloads.assuredworkloads.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
@@ -511,6 +523,7 @@
 [missing_field] crd=binaryauthorizationplatformpolicies.binaryauthorization.cnrm.cloud.google.com version=v1alpha1: field ".spec.gkePolicy.imageAllowlist.allowPattern[]" is not set in unstructured objects
 [missing_field] crd=binaryauthorizationplatformpolicies.binaryauthorization.cnrm.cloud.google.com version=v1alpha1: field ".spec.platform" is not set in unstructured objects
 [missing_field] crd=binaryauthorizationplatformpolicies.binaryauthorization.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=blockchainnodeengineblockchainnodes.blockchainnodeengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.labels" is not set in unstructured objects
 [missing_field] crd=ccinsightsconversations.contactcenterinsights.cnrm.cloud.google.com version=v1alpha1: field ".spec.agentID" is not set in unstructured objects
 [missing_field] crd=ccinsightsconversations.contactcenterinsights.cnrm.cloud.google.com version=v1alpha1: field ".spec.callMetadata.agentChannel" is not set in unstructured objects
 [missing_field] crd=ccinsightsconversations.contactcenterinsights.cnrm.cloud.google.com version=v1alpha1: field ".spec.callMetadata.customerChannel" is not set in unstructured objects
@@ -1304,12 +1317,71 @@
 [missing_field] crd=datalabelingdatasets.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
 [missing_field] crd=datalabelingdatasets.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
 [missing_field] crd=datalabelingdatasets.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.annotationSpecSet" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.bigqueryImportKeys" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.boundingPolyConfig.annotationSpecSet" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.boundingPolyConfig.instructionMessage" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.evaluationConfig.boundingBoxEvaluationOptions.iouThreshold" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.evaluationJobAlertConfig.email" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.evaluationJobAlertConfig.minAcceptableMeanAveragePrecision" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.exampleCount" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.exampleSamplePercentage" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.annotatedDatasetDescription" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.annotatedDatasetDisplayName" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.contributorEmails[]" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.instruction" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.labelGroup" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.languageCode" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.questionDuration" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.replicaCount" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.humanAnnotationConfig.userEmailAddress" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.imageClassificationConfig.allowMultiLabel" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.imageClassificationConfig.annotationSpecSet" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.imageClassificationConfig.answerAggregationType" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.annotationType" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.bigquerySource.inputURI" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.classificationMetadata.isMultiLabel" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.dataType" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.gcsSource.inputURI" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.gcsSource.mimeType" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.inputConfig.textMetadata.languageCode" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.textClassificationConfig.allowMultiLabel" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.textClassificationConfig.annotationSpecSet" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.evaluationJobConfig.textClassificationConfig.sentimentConfig.enableLabelSentimentSelection" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.labelMissingGroundTruth" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.modelVersion" is not set in unstructured objects
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=datalabelingevaluationjobs.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.schedule" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.csvInstruction.gcsFileURI" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.dataType" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.pdfInstruction.gcsFileURI" is not set in unstructured objects
 [missing_field] crd=datalabelinginstructions.datalabeling.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.authorization.alternateUsePermission" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.deprecated" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.description" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.displayName" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.displayOrder" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.stringType" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.annotations.stringValues[]" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.arrayItems" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.constraints.required" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.enumValues[].deprecated" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.enumValues[].index" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.enumValues[].name" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.index" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.mapItems" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.name" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.recordFields[]" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.type" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.typeID" is not set in unstructured objects
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.metadataTemplate.typeRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=dataplexaspecttypes.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=dataplexdatataxonomies.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
 [missing_field] crd=dataplexdatataxonomies.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
 [missing_field] crd=dataplexdatataxonomies.dataplex.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
@@ -2132,6 +2204,10 @@
 [missing_field] crd=discoveryengineidentitymappingstores.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.kmsKeyName" is not set in unstructured objects
 [missing_field] crd=discoveryengineidentitymappingstores.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
 [missing_field] crd=discoveryengineidentitymappingstores.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=discoveryenginesamplequerysets.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
+[missing_field] crd=discoveryenginesamplequerysets.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.displayName" is not set in unstructured objects
+[missing_field] crd=discoveryenginesamplequerysets.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
+[missing_field] crd=discoveryenginesamplequerysets.discoveryengine.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.actions[].exportData.profileTable.datasetID" is not set in unstructured objects
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.actions[].exportData.profileTable.projectID" is not set in unstructured objects
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.actions[].exportData.profileTable.tableID" is not set in unstructured objects
@@ -2231,10 +2307,7 @@
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.targets[].vertexDatasetTarget.filter.vertexDatasetResourceReference.datasetResourceName" is not set in unstructured objects
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.targets[].vertexDatasetTarget.generationCadence.inspectTemplateModifiedCadence.frequency" is not set in unstructured objects
 [missing_field] crd=dlpdiscoveryconfigs.dlp.cnrm.cloud.google.com version=v1alpha1: field ".spec.targets[].vertexDatasetTarget.generationCadence.refreshFrequency" is not set in unstructured objects
-[missing_field] crd=dnsresponsepolicies.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.description" is not set in unstructured objects
 [missing_field] crd=dnsresponsepolicies.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.gkeClusters[].gkeClusterName" is not set in unstructured objects
-[missing_field] crd=dnsresponsepolicies.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.networks[].networkUrl" is not set in unstructured objects
-[missing_field] crd=dnsresponsepolicies.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=dnsresponsepolicyrules.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.behavior" is not set in unstructured objects
 [missing_field] crd=dnsresponsepolicyrules.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.dnsName" is not set in unstructured objects
 [missing_field] crd=dnsresponsepolicyrules.dns.cnrm.cloud.google.com version=v1alpha1: field ".spec.localData.localDatas[].name" is not set in unstructured objects
@@ -2572,6 +2645,14 @@
 [missing_field] crd=networksecuritymirroringdeployments.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
 [missing_field] crd=networksecuritymirroringdeployments.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.mirroringDeploymentGroupRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=networksecuritymirroringdeployments.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.labels" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.location" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.pairingKey" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.panOptions.serialNumber" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.panOptions.tenantID" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.partnerNetwork" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.partnerVPC" is not set in unstructured objects
+[missing_field] crd=networksecuritypartnersserealms.networksecurity.cnrm.cloud.google.com version=v1alpha1: field ".spec.projectRef" is not set; neither 'external' nor 'name' are set
 [missing_field] crd=networkservicesedgecachekeysets.networkservices.cnrm.cloud.google.com version=v1alpha1: field ".spec.publicKey[].managed" is not set in unstructured objects
 [missing_field] crd=networkservicesedgecachekeysets.networkservices.cnrm.cloud.google.com version=v1alpha1: field ".spec.publicKey[].value.value" is not set in unstructured objects
 [missing_field] crd=networkservicesedgecachekeysets.networkservices.cnrm.cloud.google.com version=v1alpha1: field ".spec.publicKey[].value.valueFrom.secretKeyRef" is not set; neither 'external' nor 'name' are set

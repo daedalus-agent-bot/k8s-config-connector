@@ -55,6 +55,8 @@ import (
 	fakeapphubv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/apphub/v1alpha1/fake"
 	apphubv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/apphub/v1beta1"
 	fakeapphubv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/apphub/v1beta1/fake"
+	artifactregistryv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1alpha1"
+	fakeartifactregistryv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1alpha1/fake"
 	artifactregistryv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1beta1"
 	fakeartifactregistryv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1beta1/fake"
 	assetv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/asset/v1beta1"
@@ -105,6 +107,8 @@ import (
 	fakebinaryauthorizationv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/binaryauthorization/v1alpha1/fake"
 	binaryauthorizationv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/binaryauthorization/v1beta1"
 	fakebinaryauthorizationv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/binaryauthorization/v1beta1/fake"
+	blockchainnodeenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/blockchainnodeengine/v1alpha1"
+	fakeblockchainnodeenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/blockchainnodeengine/v1alpha1/fake"
 	certificatemanagerv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/certificatemanager/v1alpha1"
 	fakecertificatemanagerv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/certificatemanager/v1alpha1/fake"
 	certificatemanagerv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/certificatemanager/v1beta1"
@@ -544,6 +548,11 @@ func (c *Clientset) ApphubV1beta1() apphubv1beta1.ApphubV1beta1Interface {
 	return &fakeapphubv1beta1.FakeApphubV1beta1{Fake: &c.Fake}
 }
 
+// ArtifactregistryV1alpha1 retrieves the ArtifactregistryV1alpha1Client
+func (c *Clientset) ArtifactregistryV1alpha1() artifactregistryv1alpha1.ArtifactregistryV1alpha1Interface {
+	return &fakeartifactregistryv1alpha1.FakeArtifactregistryV1alpha1{Fake: &c.Fake}
+}
+
 // ArtifactregistryV1beta1 retrieves the ArtifactregistryV1beta1Client
 func (c *Clientset) ArtifactregistryV1beta1() artifactregistryv1beta1.ArtifactregistryV1beta1Interface {
 	return &fakeartifactregistryv1beta1.FakeArtifactregistryV1beta1{Fake: &c.Fake}
@@ -667,6 +676,11 @@ func (c *Clientset) BinaryauthorizationV1alpha1() binaryauthorizationv1alpha1.Bi
 // BinaryauthorizationV1beta1 retrieves the BinaryauthorizationV1beta1Client
 func (c *Clientset) BinaryauthorizationV1beta1() binaryauthorizationv1beta1.BinaryauthorizationV1beta1Interface {
 	return &fakebinaryauthorizationv1beta1.FakeBinaryauthorizationV1beta1{Fake: &c.Fake}
+}
+
+// BlockchainnodeengineV1alpha1 retrieves the BlockchainnodeengineV1alpha1Client
+func (c *Clientset) BlockchainnodeengineV1alpha1() blockchainnodeenginev1alpha1.BlockchainnodeengineV1alpha1Interface {
+	return &fakeblockchainnodeenginev1alpha1.FakeBlockchainnodeengineV1alpha1{Fake: &c.Fake}
 }
 
 // CertificatemanagerV1alpha1 retrieves the CertificatemanagerV1alpha1Client

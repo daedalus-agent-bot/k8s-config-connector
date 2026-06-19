@@ -83,6 +83,7 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		"//dataplex.googleapis.com/projects/{}/locations/{}/dataTaxonomies/{}":                      true,
 		"//dataplex.googleapis.com/projects/{}/locations/{}/entryGroups/{}":                         true,
 		"//dataplex.googleapis.com/projects/{}/locations/{}/entryTypes/{}":                          true,
+		"//dataplex.googleapis.com/projects/{}/locations/{}/aspectTypes/{}":                         true,
 		"//dataproc.googleapis.com/projects/{}/locations/{}/sessionTemplates/{}":                    true,
 		"//firestore.googleapis.com/projects/{}/databases/{}/collectionGroups/{}/indexes/{}":        true,
 		"//firestore.googleapis.com/projects/{}/databases/{}/collectionGroups/{}":                   true,
@@ -95,6 +96,7 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		"//discoveryengine.googleapis.com/projects/{}/locations/{}/dataStores/{}/controls/{}":       true,
 		"//alloydb.googleapis.com/projects/{}/locations/{}/clusters/{}/users/{}":                    true,
 		"//networksecurity.googleapis.com/projects/{}/locations/{}/backendAuthenticationConfigs/{}": true,
+		"//datalabeling.googleapis.com/projects/{}/evaluationJobs/{}":                               true,
 		"//iam.googleapis.com/policies/{}/denypolicies/{}":                                          true,
 		"//networksecurity.googleapis.com/projects/{}/locations/{}/sacRealms/{}":                    true,
 		"//firestore.googleapis.com/projects/{}/databases/{}/backupSchedules/{}":                    true,
@@ -115,6 +117,8 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		"//monitoring.googleapis.com/projects/{}/metricDescriptors/{}":                              true,
 		"//monitoring.googleapis.com/projects/{}/services/{}":                                       true,
 		"//monitoring.googleapis.com/locations/global/metricsScopes/{}/projects/{}":                 true,
+		"//artifactregistry.googleapis.com/projects/{}/locations/{}/vpcscConfig":                    true,
+		"//iap.googleapis.com/projects/{}/brands/{}":                                                true,
 	}
 	for _, tmpl := range templates {
 		fullURL := "//" + tmpl.Host() + "/" + tmpl.CanonicalForm()

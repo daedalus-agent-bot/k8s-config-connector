@@ -41,6 +41,7 @@ import (
 	appenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/appengine/v1alpha1"
 	apphubv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/apphub/v1alpha1"
 	apphubv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/apphub/v1beta1"
+	artifactregistryv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1alpha1"
 	artifactregistryv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/artifactregistry/v1beta1"
 	assetv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/asset/v1beta1"
 	assuredworkloadsv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/assuredworkloads/v1alpha1"
@@ -66,6 +67,7 @@ import (
 	billingbudgetsv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/billingbudgets/v1beta1"
 	binaryauthorizationv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/binaryauthorization/v1alpha1"
 	binaryauthorizationv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/binaryauthorization/v1beta1"
+	blockchainnodeenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/blockchainnodeengine/v1alpha1"
 	certificatemanagerv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/certificatemanager/v1alpha1"
 	certificatemanagerv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/certificatemanager/v1beta1"
 	cloudassetv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/client/clientset/versioned/typed/cloudasset/v1alpha1"
@@ -232,6 +234,7 @@ type Interface interface {
 	AppengineV1alpha1() appenginev1alpha1.AppengineV1alpha1Interface
 	ApphubV1alpha1() apphubv1alpha1.ApphubV1alpha1Interface
 	ApphubV1beta1() apphubv1beta1.ApphubV1beta1Interface
+	ArtifactregistryV1alpha1() artifactregistryv1alpha1.ArtifactregistryV1alpha1Interface
 	ArtifactregistryV1beta1() artifactregistryv1beta1.ArtifactregistryV1beta1Interface
 	AssetV1beta1() assetv1beta1.AssetV1beta1Interface
 	AssuredworkloadsV1alpha1() assuredworkloadsv1alpha1.AssuredworkloadsV1alpha1Interface
@@ -257,6 +260,7 @@ type Interface interface {
 	BillingbudgetsV1beta1() billingbudgetsv1beta1.BillingbudgetsV1beta1Interface
 	BinaryauthorizationV1alpha1() binaryauthorizationv1alpha1.BinaryauthorizationV1alpha1Interface
 	BinaryauthorizationV1beta1() binaryauthorizationv1beta1.BinaryauthorizationV1beta1Interface
+	BlockchainnodeengineV1alpha1() blockchainnodeenginev1alpha1.BlockchainnodeengineV1alpha1Interface
 	CertificatemanagerV1alpha1() certificatemanagerv1alpha1.CertificatemanagerV1alpha1Interface
 	CertificatemanagerV1beta1() certificatemanagerv1beta1.CertificatemanagerV1beta1Interface
 	CloudassetV1alpha1() cloudassetv1alpha1.CloudassetV1alpha1Interface
@@ -421,6 +425,7 @@ type Clientset struct {
 	appengineV1alpha1               *appenginev1alpha1.AppengineV1alpha1Client
 	apphubV1alpha1                  *apphubv1alpha1.ApphubV1alpha1Client
 	apphubV1beta1                   *apphubv1beta1.ApphubV1beta1Client
+	artifactregistryV1alpha1        *artifactregistryv1alpha1.ArtifactregistryV1alpha1Client
 	artifactregistryV1beta1         *artifactregistryv1beta1.ArtifactregistryV1beta1Client
 	assetV1beta1                    *assetv1beta1.AssetV1beta1Client
 	assuredworkloadsV1alpha1        *assuredworkloadsv1alpha1.AssuredworkloadsV1alpha1Client
@@ -446,6 +451,7 @@ type Clientset struct {
 	billingbudgetsV1beta1           *billingbudgetsv1beta1.BillingbudgetsV1beta1Client
 	binaryauthorizationV1alpha1     *binaryauthorizationv1alpha1.BinaryauthorizationV1alpha1Client
 	binaryauthorizationV1beta1      *binaryauthorizationv1beta1.BinaryauthorizationV1beta1Client
+	blockchainnodeengineV1alpha1    *blockchainnodeenginev1alpha1.BlockchainnodeengineV1alpha1Client
 	certificatemanagerV1alpha1      *certificatemanagerv1alpha1.CertificatemanagerV1alpha1Client
 	certificatemanagerV1beta1       *certificatemanagerv1beta1.CertificatemanagerV1beta1Client
 	cloudassetV1alpha1              *cloudassetv1alpha1.CloudassetV1alpha1Client
@@ -671,6 +677,11 @@ func (c *Clientset) ApphubV1beta1() apphubv1beta1.ApphubV1beta1Interface {
 	return c.apphubV1beta1
 }
 
+// ArtifactregistryV1alpha1 retrieves the ArtifactregistryV1alpha1Client
+func (c *Clientset) ArtifactregistryV1alpha1() artifactregistryv1alpha1.ArtifactregistryV1alpha1Interface {
+	return c.artifactregistryV1alpha1
+}
+
 // ArtifactregistryV1beta1 retrieves the ArtifactregistryV1beta1Client
 func (c *Clientset) ArtifactregistryV1beta1() artifactregistryv1beta1.ArtifactregistryV1beta1Interface {
 	return c.artifactregistryV1beta1
@@ -794,6 +805,11 @@ func (c *Clientset) BinaryauthorizationV1alpha1() binaryauthorizationv1alpha1.Bi
 // BinaryauthorizationV1beta1 retrieves the BinaryauthorizationV1beta1Client
 func (c *Clientset) BinaryauthorizationV1beta1() binaryauthorizationv1beta1.BinaryauthorizationV1beta1Interface {
 	return c.binaryauthorizationV1beta1
+}
+
+// BlockchainnodeengineV1alpha1 retrieves the BlockchainnodeengineV1alpha1Client
+func (c *Clientset) BlockchainnodeengineV1alpha1() blockchainnodeenginev1alpha1.BlockchainnodeengineV1alpha1Interface {
+	return c.blockchainnodeengineV1alpha1
 }
 
 // CertificatemanagerV1alpha1 retrieves the CertificatemanagerV1alpha1Client
@@ -1619,6 +1635,10 @@ func NewForConfigAndClient(c *rest.Config, httpClient *http.Client) (*Clientset,
 	if err != nil {
 		return nil, err
 	}
+	cs.artifactregistryV1alpha1, err = artifactregistryv1alpha1.NewForConfigAndClient(&configShallowCopy, httpClient)
+	if err != nil {
+		return nil, err
+	}
 	cs.artifactregistryV1beta1, err = artifactregistryv1beta1.NewForConfigAndClient(&configShallowCopy, httpClient)
 	if err != nil {
 		return nil, err
@@ -1716,6 +1736,10 @@ func NewForConfigAndClient(c *rest.Config, httpClient *http.Client) (*Clientset,
 		return nil, err
 	}
 	cs.binaryauthorizationV1beta1, err = binaryauthorizationv1beta1.NewForConfigAndClient(&configShallowCopy, httpClient)
+	if err != nil {
+		return nil, err
+	}
+	cs.blockchainnodeengineV1alpha1, err = blockchainnodeenginev1alpha1.NewForConfigAndClient(&configShallowCopy, httpClient)
 	if err != nil {
 		return nil, err
 	}
@@ -2328,6 +2352,7 @@ func New(c rest.Interface) *Clientset {
 	cs.appengineV1alpha1 = appenginev1alpha1.New(c)
 	cs.apphubV1alpha1 = apphubv1alpha1.New(c)
 	cs.apphubV1beta1 = apphubv1beta1.New(c)
+	cs.artifactregistryV1alpha1 = artifactregistryv1alpha1.New(c)
 	cs.artifactregistryV1beta1 = artifactregistryv1beta1.New(c)
 	cs.assetV1beta1 = assetv1beta1.New(c)
 	cs.assuredworkloadsV1alpha1 = assuredworkloadsv1alpha1.New(c)
@@ -2353,6 +2378,7 @@ func New(c rest.Interface) *Clientset {
 	cs.billingbudgetsV1beta1 = billingbudgetsv1beta1.New(c)
 	cs.binaryauthorizationV1alpha1 = binaryauthorizationv1alpha1.New(c)
 	cs.binaryauthorizationV1beta1 = binaryauthorizationv1beta1.New(c)
+	cs.blockchainnodeengineV1alpha1 = blockchainnodeenginev1alpha1.New(c)
 	cs.certificatemanagerV1alpha1 = certificatemanagerv1alpha1.New(c)
 	cs.certificatemanagerV1beta1 = certificatemanagerv1beta1.New(c)
 	cs.cloudassetV1alpha1 = cloudassetv1alpha1.New(c)

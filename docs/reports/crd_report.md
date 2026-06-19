@@ -27,6 +27,7 @@
 | apigee.cnrm.cloud.google.com                  | ApigeeInstance                                  | True         | True        | False  | Direct     | True        |
 | apigee.cnrm.cloud.google.com                  | ApigeeNATAddress                                | True         | False       | False  | Terraform  | False       |
 | apigee.cnrm.cloud.google.com                  | ApigeeOrganization                              | False        | True        | False  | DCL        | True        |
+| apigeeregistry.cnrm.cloud.google.com          | ApigeeRegistryAPI                               | True         | False       | False  | Direct     | True        |
 | apigeeregistry.cnrm.cloud.google.com          | ApigeeRegistryArtifact                          | True         | False       | False  | Direct     | True        |
 | apigeeregistry.cnrm.cloud.google.com          | ApigeeRegistryInstance                          | True         | False       | False  | Direct     | True        |
 | apigee.cnrm.cloud.google.com                  | ApigeeSyncAuthorization                         | True         | False       | False  | Terraform  | False       |
@@ -48,6 +49,7 @@
 | apphub.cnrm.cloud.google.com                  | AppHubDiscoveredWorkload                        | True         | False       | False  | Direct     | True        |
 | apphub.cnrm.cloud.google.com                  | AppHubServiceProjectAttachment                  | True         | False       | False  | Direct     | True        |
 | artifactregistry.cnrm.cloud.google.com        | ArtifactRegistryRepository                      | False        | True        | False  | Terraform  | True        |
+| artifactregistry.cnrm.cloud.google.com        | ArtifactRegistryVPCSCConfig                     | True         | False       | False  | Direct     | True        |
 | asset.cnrm.cloud.google.com                   | AssetFeed                                       | True         | True        | False  | Direct     | True        |
 | asset.cnrm.cloud.google.com                   | AssetSavedQuery                                 | True         | True        | False  | Direct     | True        |
 | assuredworkloads.cnrm.cloud.google.com        | AssuredWorkloadsWorkload                        | True         | False       | False  | Direct     | True        |
@@ -95,6 +97,7 @@
 | binaryauthorization.cnrm.cloud.google.com     | BinaryAuthorizationAttestor                     | False        | True        | False  | DCL        | False       |
 | binaryauthorization.cnrm.cloud.google.com     | BinaryAuthorizationPlatformPolicy               | True         | False       | False  | Direct     | True        |
 | binaryauthorization.cnrm.cloud.google.com     | BinaryAuthorizationPolicy                       | False        | True        | False  | DCL        | False       |
+| blockchainnodeengine.cnrm.cloud.google.com    | BlockchainNodeEngineBlockchainNode              | True         | False       | False  | Direct     | True        |
 | contactcenterinsights.cnrm.cloud.google.com   | CCInsightsConversation                          | True         | False       | False  | Direct     | True        |
 | contactcenterinsights.cnrm.cloud.google.com   | CCInsightsIssueModel                            | True         | False       | False  | Direct     | True        |
 | contactcenterinsights.cnrm.cloud.google.com   | CCInsightsPhraseMatcher                         | True         | False       | False  | Direct     | True        |
@@ -198,7 +201,7 @@
 | compute.cnrm.cloud.google.com                 | ComputeSharedVPCServiceProject                  | False        | True        | False  | Terraform  | False       |
 | compute.cnrm.cloud.google.com                 | ComputeSnapshot                                 | False        | True        | False  | Terraform  | True        |
 | compute.cnrm.cloud.google.com                 | ComputeSSLCertificate                           | False        | True        | False  | Terraform  | False       |
-| compute.cnrm.cloud.google.com                 | ComputeSSLPolicy                                | False        | True        | False  | Terraform  | False       |
+| compute.cnrm.cloud.google.com                 | ComputeSSLPolicy                                | False        | True        | False  | Terraform  | True        |
 | compute.cnrm.cloud.google.com                 | ComputeSubnetwork                               | False        | True        | False  | Terraform  | True        |
 | compute.cnrm.cloud.google.com                 | ComputeTargetGRPCProxy                          | False        | True        | False  | Terraform  | False       |
 | compute.cnrm.cloud.google.com                 | ComputeTargetHTTPProxy                          | False        | True        | False  | Terraform  | False       |
@@ -218,7 +221,7 @@
 | containeranalysis.cnrm.cloud.google.com       | ContainerAnalysisOccurrence                     | True         | False       | False  | Terraform  | False       |
 | containerattached.cnrm.cloud.google.com       | ContainerAttachedCluster                        | False        | True        | False  | Terraform  | True        |
 | container.cnrm.cloud.google.com               | ContainerCluster                                | False        | True        | False  | Terraform  | True        |
-| container.cnrm.cloud.google.com               | ContainerNodePool                               | False        | True        | False  | Terraform  | False       |
+| container.cnrm.cloud.google.com               | ContainerNodePool                               | False        | True        | False  | Terraform  | True        |
 | contentwarehouse.cnrm.cloud.google.com        | ContentWarehouseRuleSet                         | True         | False       | False  | Direct     | True        |
 | contentwarehouse.cnrm.cloud.google.com        | ContentWarehouseSchema                          | True         | False       | False  | Direct     | True        |
 | datamigration.cnrm.cloud.google.com           | DatabaseMigrationConversionWorkspace            | True         | False       | False  | Direct     | True        |
@@ -237,7 +240,9 @@
 | datafusion.cnrm.cloud.google.com              | DataFusionInstance                              | False        | True        | False  | DCL        | False       |
 | datalabeling.cnrm.cloud.google.com            | DataLabelingAnnotationSpecSet                   | True         | False       | False  | Direct     | True        |
 | datalabeling.cnrm.cloud.google.com            | DataLabelingDataset                             | True         | False       | False  | Direct     | True        |
+| datalabeling.cnrm.cloud.google.com            | DataLabelingEvaluationJob                       | True         | False       | False  | Direct     | True        |
 | datalabeling.cnrm.cloud.google.com            | DataLabelingInstruction                         | True         | False       | False  | Direct     | True        |
+| dataplex.cnrm.cloud.google.com                | DataplexAspectType                              | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexDataTaxonomy                            | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexEntryGroup                              | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexEntryType                               | True         | False       | False  | Direct     | True        |
@@ -282,6 +287,7 @@
 | discoveryengine.cnrm.cloud.google.com         | DiscoveryEngineDataStoreTargetSite              | True         | False       | False  | Direct     | True        |
 | discoveryengine.cnrm.cloud.google.com         | DiscoveryEngineEngine                           | True         | False       | False  | Direct     | True        |
 | discoveryengine.cnrm.cloud.google.com         | DiscoveryEngineIdentityMappingStore             | True         | False       | False  | Direct     | True        |
+| discoveryengine.cnrm.cloud.google.com         | DiscoveryEngineSampleQuerySet                   | True         | False       | False  | Direct     | True        |
 | dlp.cnrm.cloud.google.com                     | DLPDeidentifyTemplate                           | False        | True        | False  | DCL        | False       |
 | dlp.cnrm.cloud.google.com                     | DLPDiscoveryConfig                              | True         | False       | False  | Direct     | True        |
 | dlp.cnrm.cloud.google.com                     | DLPInspectTemplate                              | False        | True        | False  | DCL        | False       |
@@ -352,7 +358,7 @@
 | iam.cnrm.cloud.google.com                     | IAMWorkforcePool                                | False        | True        | False  | DCL        | False       |
 | iam.cnrm.cloud.google.com                     | IAMWorkloadIdentityPoolProvider                 | False        | True        | False  | DCL        | False       |
 | iam.cnrm.cloud.google.com                     | IAMWorkloadIdentityPool                         | False        | True        | False  | DCL        | False       |
-| iap.cnrm.cloud.google.com                     | IAPBrand                                        | False        | True        | False  | DCL        | False       |
+| iap.cnrm.cloud.google.com                     | IAPBrand                                        | False        | True        | False  | DCL        | True        |
 | iap.cnrm.cloud.google.com                     | IAPIdentityAwareProxyClient                     | False        | True        | False  | DCL        | False       |
 | iap.cnrm.cloud.google.com                     | IAPSettings                                     | True         | True        | False  | Direct     | True        |
 | identityplatform.cnrm.cloud.google.com        | IdentityPlatformConfig                          | False        | True        | False  | DCL        | False       |
@@ -413,13 +419,14 @@
 | networksecurity.cnrm.cloud.google.com         | NetworkSecurityInterceptEndpointGroup           | True         | False       | False  | Direct     | True        |
 | networksecurity.cnrm.cloud.google.com         | NetworkSecurityMirroringDeployment              | True         | False       | False  | Direct     | True        |
 | networksecurity.cnrm.cloud.google.com         | NetworkSecurityMirroringEndpointGroup           | True         | False       | False  | Direct     | True        |
+| networksecurity.cnrm.cloud.google.com         | NetworkSecurityPartnerSSERealm                  | True         | False       | False  | Direct     | True        |
 | networksecurity.cnrm.cloud.google.com         | NetworkSecuritySACRealm                         | True         | False       | False  | Direct     | True        |
 | networksecurity.cnrm.cloud.google.com         | NetworkSecurityServerTLSPolicy                  | False        | True        | False  | DCL        | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesEdgeCacheKeyset                  | True         | False       | False  | Terraform  | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesEdgeCacheOrigin                  | True         | False       | False  | Terraform  | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesEdgeCacheService                 | True         | False       | False  | Terraform  | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesEndpointPolicy                   | False        | True        | False  | DCL        | False       |
-| networkservices.cnrm.cloud.google.com         | NetworkServicesGateway                          | False        | True        | False  | DCL        | False       |
+| networkservices.cnrm.cloud.google.com         | NetworkServicesGateway                          | False        | True        | False  | DCL        | True        |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesGRPCRoute                        | False        | True        | False  | DCL        | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesHTTPRoute                        | False        | True        | False  | DCL        | False       |
 | networkservices.cnrm.cloud.google.com         | NetworkServicesLBRouteExtension                 | True         | False       | False  | Direct     | True        |
@@ -442,7 +449,7 @@
 | privateca.cnrm.cloud.google.com               | PrivateCACAPool                                 | False        | True        | False  | DCL        | True        |
 | privateca.cnrm.cloud.google.com               | PrivateCACertificateAuthority                   | False        | True        | False  | DCL        | False       |
 | privateca.cnrm.cloud.google.com               | PrivateCACertificate                            | False        | True        | False  | DCL        | False       |
-| privateca.cnrm.cloud.google.com               | PrivateCACertificateTemplate                    | False        | True        | False  | DCL        | False       |
+| privateca.cnrm.cloud.google.com               | PrivateCACertificateTemplate                    | False        | True        | False  | DCL        | True        |
 | privilegedaccessmanager.cnrm.cloud.google.com | PrivilegedAccessManagerEntitlement              | True         | True        | False  | Direct     | True        |
 | resourcemanager.cnrm.cloud.google.com         | Project                                         | False        | True        | False  | Terraform  | True        |
 | pubsublite.cnrm.cloud.google.com              | PubSubLiteReservation                           | False        | True        | False  | Terraform  | False       |
@@ -455,7 +462,7 @@
 | recaptchaenterprise.cnrm.cloud.google.com     | ReCAPTCHAEnterpriseFirewallPolicy               | True         | False       | False  | Direct     | True        |
 | recaptchaenterprise.cnrm.cloud.google.com     | RecaptchaEnterpriseKey                          | False        | True        | False  | DCL        | False       |
 | redis.cnrm.cloud.google.com                   | RedisCluster                                    | True         | True        | False  | Direct     | True        |
-| redis.cnrm.cloud.google.com                   | RedisInstance                                   | False        | True        | False  | Terraform  | False       |
+| redis.cnrm.cloud.google.com                   | RedisInstance                                   | False        | True        | False  | Terraform  | True        |
 | resourcemanager.cnrm.cloud.google.com         | ResourceManagerLien                             | False        | True        | False  | Terraform  | False       |
 | resourcemanager.cnrm.cloud.google.com         | ResourceManagerPolicy                           | False        | True        | False  | Terraform  | False       |
 | run.cnrm.cloud.google.com                     | RunJob                                          | False        | True        | False  | Terraform  | True        |

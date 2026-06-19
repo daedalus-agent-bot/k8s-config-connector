@@ -38,6 +38,7 @@ import (
 	appenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/appengine/v1alpha1"
 	apphubv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apphub/v1alpha1"
 	apphubv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/apphub/v1beta1"
+	artifactregistryv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/artifactregistry/v1alpha1"
 	artifactregistryv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/artifactregistry/v1beta1"
 	assetv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/asset/v1beta1"
 	assuredworkloadsv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/assuredworkloads/v1alpha1"
@@ -63,6 +64,7 @@ import (
 	billingbudgetsv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/billingbudgets/v1beta1"
 	binaryauthorizationv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/binaryauthorization/v1alpha1"
 	binaryauthorizationv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/binaryauthorization/v1beta1"
+	blockchainnodeenginev1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/blockchainnodeengine/v1alpha1"
 	certificatemanagerv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/certificatemanager/v1alpha1"
 	certificatemanagerv1beta1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/certificatemanager/v1beta1"
 	cloudassetv1alpha1 "github.com/GoogleCloudPlatform/k8s-config-connector/pkg/clients/generated/apis/cloudasset/v1alpha1"
@@ -233,6 +235,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	appenginev1alpha1.AddToScheme,
 	apphubv1alpha1.AddToScheme,
 	apphubv1beta1.AddToScheme,
+	artifactregistryv1alpha1.AddToScheme,
 	artifactregistryv1beta1.AddToScheme,
 	assetv1beta1.AddToScheme,
 	assuredworkloadsv1alpha1.AddToScheme,
@@ -258,6 +261,7 @@ var localSchemeBuilder = runtime.SchemeBuilder{
 	billingbudgetsv1beta1.AddToScheme,
 	binaryauthorizationv1alpha1.AddToScheme,
 	binaryauthorizationv1beta1.AddToScheme,
+	blockchainnodeenginev1alpha1.AddToScheme,
 	certificatemanagerv1alpha1.AddToScheme,
 	certificatemanagerv1beta1.AddToScheme,
 	cloudassetv1alpha1.AddToScheme,
