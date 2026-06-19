@@ -15,6 +15,15 @@
 
 ## Status Update Notes
 
+#### 2026-06-19 (Update 62)
+*   **PR Review Detection**: Detected that human owner/reviewer `justinsb` requested changes (`CHANGES_REQUESTED`) on migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) at `2026-06-19T10:40:05Z`.
+*   **Requested Changes Analysis**:
+    1. `RecordsetRrdatasRefs` does not implement the `refs.Ref` interface, so the core walker in `common.NormalizeReferences` ignores it. As a result, references specified via name/namespace/kind (pointing to a ComputeAddress) are never normalized or resolved, leaving their `External` field empty.
+    2. Under `dnsrecordset_mappers.go`, we only copy `ref.External` if it is set, which leads to empty `rrdatas` under routing policies or top level. Although this passes mockgcp validation, it fails on real GCP since A records require IP addresses.
+    3. Action needed: Implement `refs.Ref` interface for `RecordsetRrdatasRefs` in `apis/dns/v1beta1/dnsrecordset_reference.go`, and in its `Normalize` method, use the reader to query the referenced `ComputeAddress` resource and extract its IP address to populate `external`.
+*   **Orchestration Actions**: Noticed that the PR assignee list was empty, and the review status changed to `CHANGES_REQUESTED`. Successfully assigned `codebot-robot` (the PR author bot) to PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the GitHub REST API to prompt and coordinate the implementation of the requested changes.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4736213703`) with the 3 most recent update notes (Updates 62, 61, and 60).
+
 #### 2026-06-19 (Update 61)
 *   **PR Status & CI Verification**: Verified that PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `93313e411695d4d62b3155e89e2b2d1c55e76277`.
 *   **CI Checks Status**: Re-verified that all 180+ CI checks on the latest head commit `93313e4` are 100% green and successfully completed with zero failures.
