@@ -1,7 +1,7 @@
 # Migration Journal: IAPBrand
 
 ## Current Step
-Step 3: Create a Round-Trip KRM Fuzzer
+Step 4: Ensure MockGCP matches real gcp behavior
 
 ## Progress Tracking
 
@@ -9,10 +9,12 @@ Step 3: Create a Round-Trip KRM Fuzzer
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types | [Issue #10375](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10375) | [PR #10381](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10381) | Merged | 2026-06-16 | 2026-06-17 |
 | 2 | Identity and Reference Types Pattern | [Issue #10392](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10392) | [PR #10394](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10394) | Merged | 2026-06-17 | 2026-06-18 |
-| 3 | Create a Round-Trip KRM Fuzzer | [Issue #10478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10478) | [PR #10479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10479) | PR Created | 2026-06-18 | - |
-| 4 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [Issue #10478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10478) | [PR #10479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10479) | Merged | 2026-06-18 | 2026-06-19 |
+| 4 | Ensure MockGCP matches real gcp behavior | [Issue #10485](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10485) | - | Open | 2026-06-19 | - |
+| 5 | Implement Direct Controller & E2E Fixtures | - | - | - | - | - |
 
 ## Status Updates
+- **2026-06-19**: Verified that Pull Request #10479 (Step 3: Create a Round-Trip KRM Fuzzer) was successfully merged on upstream master. Transitioning to Step 4: Ensure MockGCP matches real gcp behavior. Created Issue #10485 for MockGCP alignment and left it open and unassigned for the AI Factory to proceed.
 - **2026-06-19**: Re-monitored the progress of open Pull Request #10479 (Step 3: Create a Round-Trip KRM Fuzzer) on GitHub. Verified that 100% of the automated CI check-runs (including unit-tests, linters, mockgcp, and all E2E fixtures tests) are completely green and passing successfully with zero failures. The PR remains healthy, fully validated, and open, actively awaiting human owner review, approval, and merging before we can transition to Step 4 (Implement Direct Controller & E2E Fixtures).
 - **2026-06-19**: Re-monitored open Pull Request #10479 (Step 3: Create a Round-Trip KRM Fuzzer) on GitHub. Confirmed that 100% of the automated CI checks remain completely green and passed successfully (100% green). The PR is healthy, open, and actively awaiting human owner review, approval, and merging before we can transition to Step 4.
 - **2026-06-19**: Re-verified Pull Request #10479 (Step 3: Create a Round-Trip KRM Fuzzer) on GitHub. All 100% of the automated CI check-runs (including unit-tests, linters, mockgcp, and e2e-fixtures) remain fully green and passed successfully with zero failures. We are actively awaiting human owner review, approval, and merging before we can proceed to Step 4 (Implement Direct Controller & E2E Fixtures).
