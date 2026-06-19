@@ -15,6 +15,11 @@
 
 ## Status Update Notes
 
+#### 2026-06-19 (Update 36)
+*   **PR CI Verification**: Checked and verified migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783)'s checks. All 150+ check-runs have passed successfully (100% green).
+*   **Orchestration Actions**: Confirmed that the assignee of PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) was empty. Successfully assigned/re-assigned `codebot-robot` (the PR author bot) to PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the GitHub REST API to ensure active merge monitoring and automatic merge execution.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4736213703`) with the 3 most recent update notes (Updates 36, 35, and 34).
+
 #### 2026-06-19 (Update 35)
 *   **PR CI Verification**: Checked and verified migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783)'s checks. All 150+ check-runs have passed successfully (100% green).
 *   **Orchestration Actions**: Noticed that the PR assignees were empty. Successfully assigned `codebot-robot` (the PR author bot) to PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the GitHub REST API to ensure active merge monitoring and automatic merge execution.
