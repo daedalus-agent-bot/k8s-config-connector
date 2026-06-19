@@ -15,6 +15,12 @@
 
 ## Status Update Notes
 
+#### 2026-06-19 (Update 14)
+*   **PR Status and Assignees Check**: Verified that both blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remain open.
+*   **Rebase Request**: Noticed that `justinsb` requested both PRs to be rebased to head to resolve recent flakes and align with main branch updates.
+*   **Orchestration Actions**: Confirmed that both PRs were currently unassigned and missing proper labels. Assigned `codebot-robot` (the PR author bot) to both PR #10448 and PR #9783, and successfully labeled both PRs with `direct-migration` and `overseer` using the GitHub REST API to trigger the required rebase and CI run.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415).
+
 #### 2026-06-18 (Update 13)
 *   **PR Status and Assignees Check**: Verified that blocker PR [#10448](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10448) and migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) are both open but were unassigned.
 *   **Orchestration Action**: Assigned `codebot-robot` (the PR author bot) to both PRs to trigger action. This will prompt `codebot-robot` to address `justinsb`'s feedback on PR #10448 (the missing `crds_test.go` push) and subsequently rebase/retry the migration PR #9783.
