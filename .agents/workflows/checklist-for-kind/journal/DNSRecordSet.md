@@ -15,6 +15,15 @@
 
 ## Status Update Notes
 
+#### 2026-06-19 (Update 54)
+*   **PR Review Verification**: Detected that human owner/reviewer `justinsb` requested changes (`CHANGES_REQUESTED`) on migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) for head commit `874fa8a`.
+*   **Requested Changes Analysis**:
+    1. `RecordsetRrdatasRefs` does not implement the `refs.Ref` interface, so the core walker in `common.NormalizeReferences` ignores it. As a result, references specified via name/namespace/kind (pointing to a ComputeAddress) are never normalized or resolved, leaving their `External` field empty.
+    2. Under `dnsrecordset_mappers.go`, we only copy `ref.External` if it is set, which leads to empty `rrdatas` under routing policies or top level. Although this passes mockgcp validation, it fails on real GCP.
+    3. Action needed: Implement `refs.Ref` interface for `RecordsetRrdatasRefs` in `apis/dns/v1beta1/dnsrecordset_reference.go`, and in its `Normalize` method, use the reader to query the referenced `ComputeAddress` resource and extract its IP address to populate `external`.
+*   **Orchestration Actions**: Checked assignees and successfully assigned/re-assigned `codebot-robot` (the PR author bot) to PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) using the `gh` CLI to request and coordinate the requested changes.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4736213703`) with the 3 most recent update notes (Updates 54, 53, and 52).
+
 #### 2026-06-19 (Update 53)
 *   **PR CI Verification**: Verified that of the 180 CI check-runs for the head commit `93313e4` of migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783), 179 checks have successfully completed and **passed** with zero failures, leaving only the `tests-e2e-fixtures-bigquery` check active and in-progress.
 *   **Merge State and Conflicts**: Confirmed that the mergeable state of PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) is `"MERGEABLE"`, and its status is `"blocked"` waiting for human OWNER review/approval and the final check to finish.
