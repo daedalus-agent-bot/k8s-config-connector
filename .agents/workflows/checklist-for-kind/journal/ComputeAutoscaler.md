@@ -6,7 +6,7 @@ Current Step: **Step 1: Direct API Types**
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Fix | 2026-06-13 | - |
+| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Review | 2026-06-13 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -15,6 +15,7 @@ Current Step: **Step 1: Direct API Types**
 ## Status Updates
 
 ### 2026-06-20
+- Verified that all core CI checks on PR #10046 are now passing after the latest fixes. Awaiting human OWNER review/approval to merge the PR.
 - Verified that the `validations` CI check has failed on PR #10046 because the Resource Go Clients are out of date (`pkg/clients/generated/apis/compute/v1alpha1/computeautoscaler_types.go` needs to be regenerated).
 - Assigned PR #10046 back to `codebot-robot` to run `make ready-pr` and update the PR.
 - Verified that the latest fix has been pushed by `codebot-robot` and all completed CI checks (including `validate-generated-files`) are passing, with the remaining checks currently in progress. Awaiting human OWNER review/approval to merge the PR and proceed to Step 2.
