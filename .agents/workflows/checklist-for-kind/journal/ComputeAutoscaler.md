@@ -6,7 +6,7 @@ Current Step: **Step 1: Direct API Types**
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | PR Created (CI Failure) | 2026-06-13 | - |
+| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | PR Created (All Checks Passing) | 2026-06-13 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -15,7 +15,8 @@ Current Step: **Step 1: Direct API Types**
 ## Status Updates
 
 ### 2026-06-20
-- Initialized migration tracking journal for ComputeAutoscaler.
-- Step 1 issue (#9956) and PR (#10046) are currently open.
+- Verified that all core CI checks on PR #10046 (including `validate-generated-files`) are now passing. Awaiting human OWNER review/approval to merge the PR and proceed to Step 2.
 - PR #10046 has resolved its merge conflicts, but the `validate-generated-files` CI check-run has failed because `mapper.generated.go` is out of date.
 - Assigned PR #10046 back to its author bot `codebot-robot` to regenerate the types and mappers and update the PR.
+- Initialized migration tracking journal for ComputeAutoscaler.
+- Step 1 issue (#9956) and PR (#10046) are currently open.
