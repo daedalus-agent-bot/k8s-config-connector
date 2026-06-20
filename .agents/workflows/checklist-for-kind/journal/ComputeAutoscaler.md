@@ -18,3 +18,4 @@ Current Step: **Step 1: Direct API Types**
 - Initialized migration tracking journal for ComputeAutoscaler.
 - Step 1 issue (#9956) and PR (#10046) are currently open.
 - PR #10046 has successfully passed all CI validation and mockgcp test check-runs, but is currently in a CONFLICT state (requires rebase).
+- Assigned PR #10046 to its author bot `codebot-robot` to resolve merge conflicts and perform a rebase.
