@@ -22,5 +22,6 @@ Current Step: **Step 1: Direct API Types**
 - Verified that all core CI checks on PR #10046 (including `validate-generated-files`) are now passing. Awaiting human OWNER review/approval to merge the PR and proceed to Step 2.
 - PR #10046 has resolved its merge conflicts, but the `validate-generated-files` CI check-run has failed because `mapper.generated.go` is out of date.
 - Assigned PR #10046 back to its author bot `codebot-robot` to regenerate the types and mappers and update the PR.
+- Labeled PR #10046 with `direct-migration` and `overseer` and assigned it back to `codebot-robot` to resolve any remaining validation issues or finalize generated files.
 - Initialized migration tracking journal for ComputeAutoscaler.
 - Step 1 issue (#9956) and PR (#10046) are currently open.
