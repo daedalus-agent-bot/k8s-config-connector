@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-20 (Update 138)
+*   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `c3dc358bdffdfd4f01dd47c906abc889ad850068`.
+*   **CI Checks Status**: Checked all check-runs using the GitHub CLI/API and confirmed that all 180+ checks are completed with **100% green status** (with zero failures or pending/queued jobs).
+*   **PR Review & Merge Status**: Confirmed that the review status of the PR remains `"CHANGES_REQUESTED"` and the mergeStateStatus is `"BLOCKED"` (with mergeable state as `"MERGEABLE"`), pending final human OWNER review, dismissal of requested changes, and approval from `justinsb` or `fedebongio`. The review from `justinsb` (submitted on June 19, 2026) requested implementing the `refs.Ref` interface for `RecordsetRrdatasRefs` in `dnsrecordset_reference.go` to handle dynamic reference resolution for `ComputeAddress`. Since the head commit is from June 12, the requested changes have not been implemented or pushed yet.
+*   **Orchestration Actions**: Checked assignees on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) and confirmed the author bot `codebot-robot` is now successfully listed as assignee on GitHub to address the requested changes.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `IC_kwDOCrwMCc8AAAABG4THow`) with the 3 most recent update notes (Updates 138, 137, and 136).
+
 #### 2026-06-20 (Update 137)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `c3dc358bdffdfd4f01dd47c906abc889ad850068`.
 *   **CI Checks Status**: Checked all check-runs using the GitHub API/CLI and confirmed that all 180+ checks are completed with **100% green status** (with zero failures or pending/queued jobs).
