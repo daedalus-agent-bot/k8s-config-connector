@@ -1,20 +1,22 @@
 # ComputeAutoscaler Direct Migration Journal
 
-Current Step: **Step 2: Identity and Reference Types Pattern**
+Current Step: **Step 3: Create a Round-Trip KRM Fuzzer**
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
 | 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Completed | 2026-06-13 | 2026-06-21 |
-| 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) | PR Created | 2026-06-21 | - |
-| 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
+| 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) | Completed | 2026-06-21 | 2026-06-21 |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) | - | Open | 2026-06-21 | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 
 ## Status Updates
 
 ### 2026-06-21
+- Opened GitHub Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) for Step 3 ("Implement round-trip KRM fuzzer for ComputeAutoscaler") to initiate round-trip KRM fuzz testing.
+- Verified Step 2 (Issue #10615) is fully completed. Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") has been successfully merged.
 - Re-verified Step 2 (Issue #10615). Confirmed Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") remains open, but all 100% of CI check-runs have now successfully completed and passed (all 158+ checks are green). It is fully approved by reviewer `barney-s` and is awaiting final merge by the Prow bot before we can transition to Step 3.
 - Re-verified Step 2 (Issue #10615). Confirmed Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") remains open but is fully approved and 100% green (all CI checks passed successfully). Awaiting final merge by the Prow bot before we can proceed to Step 3.
 - Monitored Step 2 (Issue #10615). Verified that Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") has successfully completed 100% of its CI check-runs with zero failures. The PR is approved with both `lgtm` and `approved` labels applied. It is currently in the `OPEN` state and awaiting the Prow bot/tide to execute the final merge.
