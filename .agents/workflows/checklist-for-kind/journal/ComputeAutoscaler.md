@@ -15,6 +15,7 @@ Current Step: **Step 2: Identity and Reference Types Pattern**
 ## Status Updates
 
 ### 2026-06-21
+- Monitored Step 2 (Issue #10615). Verified that `ada-coder-bot` is assigned to the issue and the AI Factory has started working on the solution in a sandbox. We are awaiting the creation of a Pull Request for Step 2.
 - PR #10046 has been successfully merged by 'barney-s' on 2026-06-21, completing Step 1 (Direct API Types).
 - Opened GitHub Issue #10615 for Step 2 ("Move ComputeAutoscaler to identity and refs pattern") to migrate the resource to the identity and reference pattern.
 - Re-verified PR #10046 status. All CI check-runs have fully completed and are 100% green with zero failures. The PR is officially approved by reviewer 'barney-s' and is mergeable. We must wait for a human OWNER to merge the PR before starting Step 2.
