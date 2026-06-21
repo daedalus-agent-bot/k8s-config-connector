@@ -6,7 +6,7 @@ Current Step: **Step 1: Direct API Types**
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Review | 2026-06-13 | - |
+| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Fixes | 2026-06-13 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -15,7 +15,7 @@ Current Step: **Step 1: Direct API Types**
 ## Status Updates
 
 ### 2026-06-21
-- Checked status of PR #10046. All CI checks are passing, and the PR remains open, awaiting human OWNER review/approval to merge.
+- Checked PR #10046 status. Identified outstanding review feedback from `barney-s` regarding lost descriptions in the generated CRD file. Assigned the PR back to the author bot `codebot-robot` to investigate and resolve.
 
 ### 2026-06-20
 - Verified that all core CI checks on PR #10046 are now passing after the latest fixes. Awaiting human OWNER review/approval to merge the PR.
