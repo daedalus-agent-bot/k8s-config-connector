@@ -6,7 +6,7 @@ Current Step: **Step 1: Direct API Types**
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Fixes | 2026-06-13 | - |
+| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Merge | 2026-06-13 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -15,6 +15,7 @@ Current Step: **Step 1: Direct API Types**
 ## Status Updates
 
 ### 2026-06-21
+- Verified that `codebot-robot` has pushed a new commit (`199212c5c56fb21673e994409fc7c8ca9eaf06e8`) resolving the feedback by restoring the OpenAPI field descriptions. All completed CI check runs on the PR are passing, and remaining checks are in progress. Awaiting merge of PR #10046 before proceeding to Step 2.
 - Checked PR #10046 status. Identified outstanding review feedback from `barney-s` regarding lost descriptions in the generated CRD file. Assigned the PR back to the author bot `codebot-robot` to investigate and resolve.
 
 ### 2026-06-20
