@@ -1,6 +1,6 @@
 # ComputeAutoscaler Direct Migration Journal
 
-Current Step: **Step 3: Create a Round-Trip KRM Fuzzer**
+Current Step: **Step 4: Ensure MockGCP matches real gcp behavior**
 
 ## Progress Tracking
 
@@ -8,13 +8,14 @@ Current Step: **Step 3: Create a Round-Trip KRM Fuzzer**
 |------|------|-------|----|--------|--------------|----------------|
 | 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Completed | 2026-06-13 | 2026-06-21 |
 | 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) | Completed | 2026-06-21 | 2026-06-21 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) | [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) | Awaiting Merge | 2026-06-21 | - |
-| 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) | [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) | Completed | 2026-06-21 | 2026-06-21 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10645](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10645) | - | Open | 2026-06-21 | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 
 ## Status Updates
 
 ### 2026-06-21
+- **2026-06-21**: Monitored Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) was successfully merged by `barney-s` on 2026-06-21, completing Step 3. Transitioned to Step 4: Ensure MockGCP matches real gcp behavior. Opened GitHub Issue [#10645](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10645) and assigned it to `factorybot-robot` (via mention) to match real GCP behavior in MockGCP.
 - **2026-06-21**: Re-verified Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) remains open but is officially **APPROVED** (reviewDecision: `APPROVED`) and all 179/179 (100%) of CI checks have successfully completed and passed (all green). Awaiting final merge by a human OWNER or the Prow/tide bot before transitioning to Step 4.
 - **2026-06-21**: Monitored Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) is now officially **APPROVED** (reviewDecision: `APPROVED`) and all 100% of CI checks have successfully completed and passed (all green). It is currently awaiting final merge by a human OWNER or the Prow/tide bot before we can transition to Step 4.
 - **2026-06-21**: Monitored Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Re-verified that Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) remains open in state `OPEN` with `reviewDecision: REVIEW_REQUIRED` and 100% of CI checks are successfully passing (all green). Awaiting final review, approval, and merge by a human OWNER before we can transition to Step 4.
