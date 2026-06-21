@@ -1,13 +1,13 @@
 # ComputeAutoscaler Direct Migration Journal
 
-Current Step: **Step 1: Direct API Types**
+Current Step: **Step 2: Identity and Reference Types Pattern**
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Awaiting Merge | 2026-06-13 | - |
-| 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
+| 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Completed | 2026-06-13 | 2026-06-21 |
+| 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | - | Open | 2026-06-21 | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
@@ -15,6 +15,8 @@ Current Step: **Step 1: Direct API Types**
 ## Status Updates
 
 ### 2026-06-21
+- PR #10046 has been successfully merged by 'barney-s' on 2026-06-21, completing Step 1 (Direct API Types).
+- Opened GitHub Issue #10615 for Step 2 ("Move ComputeAutoscaler to identity and refs pattern") to migrate the resource to the identity and reference pattern.
 - Re-verified PR #10046 status. All CI check-runs have fully completed and are 100% green with zero failures. The PR is officially approved by reviewer 'barney-s' and is mergeable. We must wait for a human OWNER to merge the PR before starting Step 2.
 - Checked PR #10046 status. All CI checks are 100% green and passing with zero failures. Reviewer `barney-s` has officially APPROVED the pull request. The PR is mergeable and awaiting a human OWNER to merge it before we can proceed to Step 2.
 - Monitored PR #10046. All CI check-runs are 100% green and passing with zero failures. The PR remains in the OPEN state, awaiting a human OWNER review, approval, and merge before we can transition to Step 2.
