@@ -7,7 +7,7 @@ Current Step: **Step 2: Identity and Reference Types Pattern**
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
 | 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Completed | 2026-06-13 | 2026-06-21 |
-| 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | - | Open | 2026-06-21 | - |
+| 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) | PR Created | 2026-06-21 | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
@@ -15,6 +15,7 @@ Current Step: **Step 2: Identity and Reference Types Pattern**
 ## Status Updates
 
 ### 2026-06-21
+- Monitored Step 2 (Issue #10615). Verified that `ada-coder-bot` has successfully created Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern"). The PR is currently open and core CI checks are in progress. We are monitoring the progress.
 - Monitored Step 2 (Issue #10615). Verified that `ada-coder-bot` is assigned to the issue and the AI Factory has started working on the solution in a sandbox. We are awaiting the creation of a Pull Request for Step 2.
 - PR #10046 has been successfully merged by 'barney-s' on 2026-06-21, completing Step 1 (Direct API Types).
 - Opened GitHub Issue #10615 for Step 2 ("Move ComputeAutoscaler to identity and refs pattern") to migrate the resource to the identity and reference pattern.
