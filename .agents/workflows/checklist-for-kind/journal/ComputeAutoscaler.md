@@ -15,6 +15,7 @@ Current Step: **Step 3: Create a Round-Trip KRM Fuzzer**
 ## Status Updates
 
 ### 2026-06-21
+- Monitored Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Checked Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) ("Implement round-trip KRM fuzzer for ComputeAutoscaler") status. The PR is open, with basic validations and unit tests successfully passing, but several E2E fixture suites remain in a pending state.
 - Monitored Step 3 (Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619)). Verified that `hopper-coder-bot` has successfully created Pull Request [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) ("Implement round-trip KRM fuzzer for ComputeAutoscaler"). The PR is currently open and core CI checks are in progress.
 - Opened GitHub Issue [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) for Step 3 ("Implement round-trip KRM fuzzer for ComputeAutoscaler") to initiate round-trip KRM fuzz testing.
 - Verified Step 2 (Issue #10615) is fully completed. Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") has been successfully merged.
