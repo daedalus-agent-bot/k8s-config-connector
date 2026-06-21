@@ -15,6 +15,7 @@ Current Step: **Step 2: Identity and Reference Types Pattern**
 ## Status Updates
 
 ### 2026-06-21
+- Monitored Step 2 (Issue #10615). Verified that Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") has successfully completed 100% of its CI check-runs with zero failures. The PR is approved with both `lgtm` and `approved` labels applied. It is currently in the `OPEN` state and awaiting the Prow bot/tide to execute the final merge.
 - Monitored Step 2 (Issue #10615). Verified that Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern") remains open. There are zero CI check failures: 21 checks have successfully passed and the remaining 158 checks are currently in progress. Reviewer `barney-s` has already approved the PR and enabled auto-merge, so the PR will automatically merge once all CI checks pass.
 - Monitored Step 2 (Issue #10615). Verified that `ada-coder-bot` has successfully created Pull Request [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) ("Move ComputeAutoscaler to identity and refs pattern"). The PR is currently open and core CI checks are in progress. We are monitoring the progress.
 - Monitored Step 2 (Issue #10615). Verified that `ada-coder-bot` is assigned to the issue and the AI Factory has started working on the solution in a sandbox. We are awaiting the creation of a Pull Request for Step 2.
