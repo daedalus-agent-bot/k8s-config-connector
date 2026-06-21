@@ -48,6 +48,7 @@
 | apphub.cnrm.cloud.google.com                  | AppHubDiscoveredService                         | True         | False       | False  | Direct     | True        |
 | apphub.cnrm.cloud.google.com                  | AppHubDiscoveredWorkload                        | True         | False       | False  | Direct     | True        |
 | apphub.cnrm.cloud.google.com                  | AppHubServiceProjectAttachment                  | True         | False       | False  | Direct     | True        |
+| appoptimize.cnrm.cloud.google.com             | AppOptimizeReport                               | True         | False       | False  | Direct     | True        |
 | artifactregistry.cnrm.cloud.google.com        | ArtifactRegistryRepository                      | False        | True        | False  | Terraform  | True        |
 | artifactregistry.cnrm.cloud.google.com        | ArtifactRegistryVPCSCConfig                     | True         | False       | False  | Direct     | True        |
 | asset.cnrm.cloud.google.com                   | AssetFeed                                       | True         | True        | False  | Direct     | True        |
@@ -136,7 +137,7 @@
 | colab.cnrm.cloud.google.com                   | ColabRuntimeTemplate                            | True         | False       | False  | Direct     | True        |
 | composer.cnrm.cloud.google.com                | ComposerEnvironment                             | True         | True        | False  | Direct     | True        |
 | compute.cnrm.cloud.google.com                 | ComputeAddress                                  | False        | True        | False  | Terraform  | True        |
-| compute.cnrm.cloud.google.com                 | ComputeAutoscaler                               | True         | False       | False  | Terraform  | False       |
+| compute.cnrm.cloud.google.com                 | ComputeAutoscaler                               | True         | False       | False  | Terraform  | True        |
 | compute.cnrm.cloud.google.com                 | ComputeBackendBucket                            | False        | True        | False  | Terraform  | False       |
 | compute.cnrm.cloud.google.com                 | ComputeBackendBucketSignedURLKey                | True         | False       | False  | Terraform  | False       |
 | compute.cnrm.cloud.google.com                 | ComputeBackendService                           | False        | True        | False  | Terraform  | False       |
@@ -217,6 +218,7 @@
 | configcontroller.cnrm.cloud.google.com        | ConfigControllerInstance                        | False        | True        | False  | DCL        | False       |
 | configdelivery.cnrm.cloud.google.com          | ConfigDeliveryFleetPackage                      | True         | False       | False  | Direct     | True        |
 | configdelivery.cnrm.cloud.google.com          | ConfigDeliveryResourceBundle                    | True         | False       | False  | Direct     | True        |
+| connectors.cnrm.cloud.google.com              | ConnectorsConnection                            | True         | False       | False  | Direct     | True        |
 | containeranalysis.cnrm.cloud.google.com       | ContainerAnalysisNote                           | False        | True        | False  | DCL        | False       |
 | containeranalysis.cnrm.cloud.google.com       | ContainerAnalysisOccurrence                     | True         | False       | False  | Terraform  | False       |
 | containerattached.cnrm.cloud.google.com       | ContainerAttachedCluster                        | False        | True        | False  | Terraform  | True        |
@@ -246,6 +248,7 @@
 | datalineage.cnrm.cloud.google.com             | DataLineageProcess                              | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexAspectType                              | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexDataAttributeBinding                    | True         | False       | False  | Direct     | True        |
+| dataplex.cnrm.cloud.google.com                | DataplexDataScan                                | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexDataTaxonomy                            | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexEntryGroup                              | True         | False       | False  | Direct     | True        |
 | dataplex.cnrm.cloud.google.com                | DataplexEntryType                               | True         | False       | False  | Direct     | True        |
@@ -455,7 +458,7 @@
 | parametermanager.cnrm.cloud.google.com        | ParameterManagerParameter                       | True         | False       | False  | Direct     | True        |
 | parametermanager.cnrm.cloud.google.com        | ParameterManagerParameterVersion                | True         | False       | False  | Direct     | True        |
 | privateca.cnrm.cloud.google.com               | PrivateCACAPool                                 | False        | True        | False  | DCL        | True        |
-| privateca.cnrm.cloud.google.com               | PrivateCACertificateAuthority                   | False        | True        | False  | DCL        | False       |
+| privateca.cnrm.cloud.google.com               | PrivateCACertificateAuthority                   | False        | True        | False  | DCL        | True        |
 | privateca.cnrm.cloud.google.com               | PrivateCACertificate                            | False        | True        | False  | DCL        | False       |
 | privateca.cnrm.cloud.google.com               | PrivateCACertificateTemplate                    | False        | True        | False  | DCL        | True        |
 | privilegedaccessmanager.cnrm.cloud.google.com | PrivilegedAccessManagerEntitlement              | True         | True        | False  | Direct     | True        |

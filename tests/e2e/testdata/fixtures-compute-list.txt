@@ -20,8 +20,11 @@ pkg/test/resourcefixture/testdata/basic/compute/v1alpha1/computenetworkfirewallp
 pkg/test/resourcefixture/testdata/basic/compute/v1alpha1/computeorganizationsecuritypolicy/organizationsecuritypolicyautogen
 pkg/test/resourcefixture/testdata/basic/compute/v1alpha1/computeregiondiskresourcepolicyattachment/regiondiskresourcepolicyattachmentautogen
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/computeaddressipcollection
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/computeaddressipcollection-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/globalcomputeaddress
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/globalcomputeaddress-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/regionalcomputeaddress
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeaddress/regionalcomputeaddress-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computebackendbucket
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computebackendservice/globalcomputebackendservice
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computebackendservice/globalcomputebackendserviceiap
@@ -59,7 +62,8 @@ pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computehealthcheck/regio
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computehttphealthcheck
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computehttphealthcheck/computehttphealthcheck-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computehttpshealthcheck
-pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeimage
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeimage/computeimage
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeimage/computeimage-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeinstance/computeinstancebasicexample
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeinstance/computeinstancebasicexample-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeinstance/computeinstancefromtemplate
@@ -98,6 +102,7 @@ pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computerouterinterface
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computerouternat
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computerouterpeer
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computesecuritypolicy
+pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computesecuritypolicy/computesecuritypolicy-direct
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computeserviceattachment
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computesharedvpchostproject
 pkg/test/resourcefixture/testdata/basic/compute/v1beta1/computesharedvpcserviceproject/computesharedvpcserviceproject
