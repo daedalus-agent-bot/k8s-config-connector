@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 341)
+*   **PR Status & CI Verification**: Verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `c2dd61143695e338115a9da4989550d100823207`.
+*   **CI Checks Status**: Checked all check-runs on the latest head commit using the GitHub REST API and confirmed that all 170+ CI checks continue to pass successfully with **100% green status** (with zero failures or pending jobs).
+*   **PR Review & Merge Status**: Confirmed that the review decision on the PR remains `"CHANGES_REQUESTED"`, pending final human OWNER review, dismissal of requested changes, and approval from `justinsb` or `fedebongio`. Checked and verified that `codebot-robot` has successfully addressed the changes requested (implemented the `refs.Ref` interface for `RecordsetRrdatasRefs` to handle reference resolution dynamically).
+*   **Orchestration Actions**: Detected that the PR assignee list was empty on GitHub. Successfully assigned/re-assigned the PR author bot `codebot-robot` using the GitHub REST API (`gh api -X POST repos/GoogleCloudPlatform/k8s-config-connector/issues/9783/assignees`) to delegate addressing outstanding reviews and ensure continuous automated progression and merge execution upon final approval.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4769679010`) with the 3 most recent update notes (Updates 341, 340, and 339).
+
 #### 2026-06-22 (Update 340)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `c2dd61143695e338115a9da4989550d100823207`.
 *   **CI Checks Status**: Checked all check-runs on the latest head commit using the GitHub REST API and confirmed that all 170+ CI checks continue to pass successfully with **100% green status** (with zero failures or pending jobs).
