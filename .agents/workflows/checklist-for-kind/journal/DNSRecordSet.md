@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 280)
+*   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
+*   **CI Checks Status**: Checked all check-runs using the GitHub CLI/REST API and confirmed that all 170+ CI checks continue to pass successfully with **100% green status** (with zero failures).
+*   **PR Review & Merge Status**: Confirmed that the review decision on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains `"CHANGES_REQUESTED"`, pending final review/approval and merge by human OWNERS (`justinsb` or `fedebongio`). The PR has outstanding feedback from `justinsb` regarding implementing the `refs.Ref` interface for `RecordsetRrdatasRefs` to resolve IPs dynamically, and rebasing the branch to resolve recent merge conflicts.
+*   **Orchestration Actions**: Checked the assignee list on GitHub, found it empty, and successfully assigned the PR author bot `codebot-robot` using the GitHub REST API (`gh api -X POST repos/GoogleCloudPlatform/k8s-config-connector/issues/9783/assignees`) to delegate addressing the outstanding review feedback and rebasing. The assignment was successfully recorded on GitHub.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4762398900` / `IC_kwDOCrwMCc8AAAABG9xwtA`) with the 3 most recent update notes (Updates 280, 279, and 278).
+
 #### 2026-06-21 (Update 279)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
 *   **CI Checks Status**: Checked all check-runs using the GitHub REST API/CLI and confirmed that all 170+ CI checks continue to pass successfully with **100% green status** (with zero failures).
