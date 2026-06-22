@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 318)
+*   **PR Status & CI Verification**: Verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open with head commit `c2dd61143695e338115a9da4989550d100823207`.
+*   **CI Checks Status**: Checked all check-runs using the GitHub CLI. Confirmed that some checks have completed and passed (including check-changes, cla/google, crd-equivalence-check, run-linters, and validate-untested-fields), and other checks are currently pending/running due to a recently pushed commit.
+*   **PR Review & Merge Status**: Confirmed that the review decision on the PR remains `"CHANGES_REQUESTED"` and the mergeStateStatus is `"BLOCKED"` pending final human owner review and approval from `justinsb` or `fedebongio` once all CI checks complete.
+*   **Orchestration Actions**: Detected that the PR assignee list was empty on GitHub. Successfully assigned the PR author bot `codebot-robot` using the GitHub REST API (`gh api -X POST repos/GoogleCloudPlatform/k8s-config-connector/issues/9783/assignees`) to delegate addressing outstanding reviews and ensure continuous automated progression and merge execution upon final approval.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4762398900`) with the 3 most recent update notes (Updates 318, 317, and 316).
+
 #### 2026-06-22 (Update 317)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
 *   **CI Checks Status**: Checked all check-runs on the latest head commit (`3fb1a84f854659d61a9424d61bd3cf779765faa5`) and confirmed that all 177 checks have completed with **100% green status** (with zero failures or pending jobs).
