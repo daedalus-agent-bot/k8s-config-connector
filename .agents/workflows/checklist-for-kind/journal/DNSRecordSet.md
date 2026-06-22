@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 287)
+*   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
+*   **CI Checks Status**: Checked all check-runs on the latest head commit (`656b9f27950dfae38b7f15d677f314bbb9ea9ccf`). Found that `fuzz-roundtrippers` and `unit-tests` jobs have completed but failed.
+*   **Failure Analysis**: Analyzed the logs of the failed jobs and found that both are failing in the fuzzing suite (`TestSomeMappers`) on `DNSRecordSetSpec`. Specifically, the round-trip fuzz test fails because `Rrdatas` gets duplicated (doubling the number of items) when converting from API -> KRM -> API. This happens because `DNSRecordSetSpec_FromAPI` populates both `Rrdatas` and `RrdatasRefs` in KRM, and then `DNSRecordSetSpec_ToAPI` copies `Rrdatas` and appends all items from `RrdatasRefs` to `Rrdatas`, resulting in duplication.
+*   **Orchestration Actions**: Checked the assignee list and successfully assigned the PR author bot `codebot-robot` using the GitHub REST API (`gh api -X POST repos/GoogleCloudPlatform/k8s-config-connector/issues/9783/assignees`) to delegate resolving the duplication in the mappers (e.g., by implementing a deduplicating mapping logic or ensuring `Rrdatas` is not duplicated) and re-running the tests.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4762398900` / `IC_kwDOCrwMCc8AAAABG9xwtA`) with the 3 most recent update notes (Updates 287, 286, and 285).
+
 #### 2026-06-22 (Update 286)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
 *   **CI Checks Status**: Checked all check-runs on the latest head commit (`656b9f27950dfae38b7f15d677f314bbb9ea9ccf`). Multiple main CI check-runs (such as `build-images`, `fuzz-roundtrippers`, `golangci-lint`, `smoketest-with-kind`, `test-mockgcp`, `unit-tests`, `validate-generated-files`, `validations`) are currently in a `pending` state following the latest commit.
