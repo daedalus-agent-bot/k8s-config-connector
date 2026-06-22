@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 290)
+*   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
+*   **CI Checks Status**: Checked all check-runs on the latest head commit (`3fb1a84f854659d61a9424d61bd3cf779765faa5`). Multiple main CI check-runs (such as `smoketest-with-kind`, `fuzz-roundtrippers`, `unit-tests`, `golangci-lint`, `build-images`, and `test-mockgcp`) have completed and passed successfully with **100% green status** (with zero failures). Only some regional e2e fixture checks remain in-progress.
+*   **PR Review & Merge Status**: Confirmed that the review decision on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains `"CHANGES_REQUESTED"` pending human OWNER review/dismissal/approval from `justinsb` or `fedebongio` on implementing the `refs.Ref` interface for `RecordsetRrdatasRefs` to resolve IPs dynamically.
+*   **Orchestration Actions**: Checked the assignee list and successfully assigned the PR author bot `codebot-robot` using the GitHub REST API (`gh api -X POST repos/GoogleCloudPlatform/k8s-config-connector/issues/9783/assignees`) to delegate addressing the outstanding review feedback and implementing `refs.Ref` reference resolution.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4762398900` / `IC_kwDOCrwMCc8AAAABG9xwtA`) with the 3 most recent update notes (Updates 290, 289, and 288).
+
 #### 2026-06-22 (Update 289)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
 *   **CI Checks Status**: Checked all check-runs on the latest head commit (`3fb1a84f854659d61a9424d61bd3cf779765faa5`). Multiple main CI check-runs (such as `smoketest-with-kind`, `fuzz-roundtrippers`, `unit-tests`, `validations`, and `build-images`) are currently in a `pending` state following the latest commit. `test-mockgcp` and `golangci-lint` have successfully passed.
