@@ -15,6 +15,13 @@
 
 ## Status Update Notes
 
+#### 2026-06-22 (Update 288)
+*   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
+*   **CI Checks Status**: Checked all check-runs on the latest head commit (`656b9f27950dfae38b7f15d677f314bbb9ea9ccf`). Verified that `fuzz-roundtrippers` and `unit-tests` are still failing on the round-trip fuzz test due to the `Rrdatas` duplication issue in the mappers, while the rest of the checks are passing green.
+*   **PR Review & Merge Status**: Confirmed that the review decision on PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains `"CHANGES_REQUESTED"`, pending final review/approval and merge by human OWNERS (`justinsb` or `fedebongio`).
+*   **Orchestration Actions**: Confirmed that the PR is assigned to the PR author bot `codebot-robot` (`[codebot-robot]`) to resolve the duplication in the mappers (e.g., ensuring `Rrdatas` is not duplicated between KRM fields `Rrdatas` and `RrdatasRefs`) and trigger a new commit/run.
+*   **Progress Synchronization**: Updated the local journal and synchronized the parent tracking comment on issue [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415) (Comment ID: `4762398900` / `IC_kwDOCrwMCc8AAAABG9xwtA`) with the 3 most recent update notes (Updates 288, 287, and 286).
+
 #### 2026-06-22 (Update 287)
 *   **PR Status & CI Verification**: Re-verified that migration PR [#9783](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9783) remains open and is in `"MERGEABLE"` state with mergeStateStatus `"BLOCKED"`.
 *   **CI Checks Status**: Checked all check-runs on the latest head commit (`656b9f27950dfae38b7f15d677f314bbb9ea9ccf`). Found that `fuzz-roundtrippers` and `unit-tests` jobs have completed but failed.
