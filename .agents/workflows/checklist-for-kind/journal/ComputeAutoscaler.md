@@ -1,6 +1,6 @@
 # ComputeAutoscaler Direct Migration Journal
 
-Current Step: **Step 4: Ensure MockGCP matches real gcp behavior**
+Current Step: **Step 5: Implement Direct Controller & E2E Fixtures**
 
 ## Progress Tracking
 
@@ -9,12 +9,13 @@ Current Step: **Step 4: Ensure MockGCP matches real gcp behavior**
 | 1 | Direct API Types | [#9956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9956) | [#10046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10046) | Completed | 2026-06-13 | 2026-06-21 |
 | 2 | Identity and Reference Types Pattern | [#10615](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10615) | [#10617](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10617) | Completed | 2026-06-21 | 2026-06-21 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#10619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10619) | [#10621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10621) | Completed | 2026-06-21 | 2026-06-21 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#10645](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10645) | [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) | Open | 2026-06-21 | - |
-| 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10645](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10645) | [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) | Completed | 2026-06-21 | 2026-06-23 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#10727](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10727) | - | Open | 2026-06-23 | - |
 
 ## Status Updates
 
 ### 2026-06-23
+- **2026-06-23**: Verified that Pull Request [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) was successfully merged on 2026-06-23, officially completing Step 4! Transitioned to **Step 5: Implement Direct Controller & E2E Fixtures**. Opened GitHub Issue [#10727](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10727) and assigned it to `daedalus-agent-bot` to initiate the direct controller implementation.
 - **2026-06-23**: Checked and monitored Step 4 status. Verified that Pull Request [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) remains open in state `OPEN` and `reviewDecision` is `APPROVED`. Checked all GitHub Actions CI checks and confirmed that 100% of the 170+ check-runs have successfully completed and are completely green and passing with zero failures. Since it is approved, it remains assigned to human OWNER `barney-s` awaiting final merge before we proceed to Step 5.
 - **2026-06-23**: Checked and monitored Step 4 status. Verified that Pull Request [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) remains open in state `OPEN` and has a review decision of `APPROVED`. Rigorously verified that 100% of all 170+ GitHub Actions CI checks have completed successfully and are completely green and passing (zero failures). The PR remains assigned to human OWNER `barney-s` and is actively awaiting final merge by a human OWNER before we proceed to Step 5.
 - **2026-06-23**: Re-monitored and verified Step 4 status. Pull Request [#10668](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10668) is now officially **APPROVED** (reviewDecision is `APPROVED`) and 100% of all 170+ GitHub Actions CI check-runs are completely green and passing (zero failures!). The PR remains open, is currently assigned to human OWNER `barney-s`, and is actively awaiting final merge by a human OWNER before we can transition to Step 5.
