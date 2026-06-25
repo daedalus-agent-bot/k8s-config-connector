@@ -7,12 +7,13 @@
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity | [#9257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9257) | [#10811](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10811) | Open (Failing CI) | - | - |
-| 2 | Direct Controller & E2E Fixtures | [#10837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10837) | [#10839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10839) | Open (Failing CI) | 2026-06-25 | - |
+| 1 | Direct API Types and Identity | [#9257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9257) | [#10811](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10811) | Open (Running CI) | - | - |
+| 2 | Direct Controller & E2E Fixtures | [#10837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10837) | [#10839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10839) | Open (Running CI) | 2026-06-25 | - |
 | 3 | mockGCP Generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-06-25**: Monitored PR progress. On PR #10811 (Step 1), `lovelace-coder-bot` successfully resolved all compilation and deepcopy generation errors, force-pushing clean updates. On PR #10839 (Step 2), `hopper-coder-bot` resolved fuzzer roundtrip and API validation check failures, force-pushing updated commits. All completed CI checks on both PRs are currently passing, and we are monitoring outstanding runs before merging Step 1.
 - **2026-06-25**: Monitored PR progress. Triaged CI checks for PR #10811 (Step 1) and found validations and validate-generated-files are failing on formatting errors in `zz_generated.deepcopy.go` files. Triaged PR #10839 (Step 2) and found unit-tests is failing due to a fuzzer roundtrip mismatch in `TestSomeMappers`. Re-assigned PR #10811 to `lovelace-coder-bot` and PR #10839 to `hopper-coder-bot` to trigger fixes.
 - **2026-06-25**: Monitored PR progress and triaged CI statuses. Found both Step 1 PR #10811 and Step 2 PR #10839 were open and unassigned. Step 1 continues to fail validation/formatting checks. Re-assigned PR #10811 to `lovelace-coder-bot` and PR #10839 to `hopper-coder-bot` to ensure their respective author bots resume progress and fix the errors.
 - **2026-06-25**: Monitored PR progress. Verified that Step 1 PR #10811 was unassigned with failing `validations` and `validate-generated-files` checks. Assigned PR #10811 back to its author `lovelace-coder-bot` to request action on the failing checks. Step 2 PR #10839 is correctly assigned to `hopper-coder-bot` with failing `unit-tests`, `validations`, and `validate-generated-files` checks, and remains blocked by Step 1.
