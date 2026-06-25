@@ -103,6 +103,12 @@ func TestRegisteredTemplatesMatchCAI(t *testing.T) {
 		// Billing Budgets
 		"//billingbudgets.googleapis.com/billingAccounts/{}/budgets/{}": true,
 
+		// Cloud Security Compliance
+		"//cloudsecuritycompliance.googleapis.com/organizations/{}/locations/{}/frameworks/{}":           true,
+		"//cloudsecuritycompliance.googleapis.com/organizations/{}/locations/{}/frameworkDeployments/{}": true,
+		"//cloudsecuritycompliance.googleapis.com/organizations/{}/locations/{}/cloudControls/{}":        true,
+		"//cloudsecuritycompliance.googleapis.com/organizations/{}/locations/{}/cloudControlGroups/{}":   true,
+
 		// Cloud KMS
 		"//cloudkms.googleapis.com/projects/{}/locations/{}/keyRings/{}/cryptoKeys/{}/ciphertext/{}": true,
 
