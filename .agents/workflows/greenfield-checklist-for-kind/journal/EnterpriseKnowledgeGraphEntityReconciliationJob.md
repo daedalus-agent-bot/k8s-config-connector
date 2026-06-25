@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | PR Created (Failing Checks) | 2026-06-24 | |
+| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | PR Created (Checks In Progress) | 2026-06-24 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: MockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Status Updates
+- **2026-06-25**: Checked PR #10813 checks. Verified that all core generator, validation, and linter checks remain fully passing. The previously reported systemic fuzzer and unit test failures on master appear to have been resolved or are currently passing. Several e2e fixture tests are still in progress. The PR is open but was unassigned; successfully assigned it back to `hopper-coder-bot` via the REST API to ensure continued monitoring by the watch daemon.
 - **2026-06-25**: Monitored PR #10813 checks. Verified that core validation, generator, operator, and linter checks remain fully passing, and only unrelated fuzzer/unit test failures on master are present. The PR is open, correctly assigned to `hopper-coder-bot`, and the watch daemon is active.
 - **2026-06-25**: Checked PR #10813 checks. Verified that `validate-generated-files` and `validations` are now fully passing. The only remaining failures are the unrelated systemic fuzzer failures (`fuzz-roundtrippers` and `unit-tests`) on the upstream `master` branch. The PR remains open, assigned to `hopper-coder-bot`, and awaiting human/OWNER review/intervention as the author bot has given up on resolving these upstream issues.
 - **2026-06-25**: Monitored PR #10813 status. Confirmed the PR is open with failing `unit-tests` and `fuzz-roundtrippers` CI checks, while being correctly assigned to `hopper-coder-bot`. The watch daemon (`argus-watcher-bot`) is actively tracking it, and no additional action is required.
