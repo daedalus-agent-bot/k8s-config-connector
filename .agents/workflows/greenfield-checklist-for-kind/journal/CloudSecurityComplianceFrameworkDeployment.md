@@ -7,12 +7,13 @@
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity | [#9257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9257) | [#10811](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10811) | Open (Running CI) | - | - |
-| 2 | Direct Controller & E2E Fixtures | [#10837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10837) | [#10839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10839) | Open (Running CI) | 2026-06-25 | - |
+| 1 | Direct API Types and Identity | [#9257](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9257) | [#10811](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10811) | Open (CI Passed) | - | - |
+| 2 | Direct Controller & E2E Fixtures | [#10837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10837) | [#10839](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10839) | Open (CI Passed) | 2026-06-25 | - |
 | 3 | mockGCP Generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-06-25**: Verified that all CI checks on both Step 1 PR #10811 and Step 2 PR #10839 have successfully completed and passed. Both PRs are fully green, unassigned, and awaiting human review/approval and merge before we can proceed to Step 3 (mockGCP Generation).
 - **2026-06-25**: Verified that all CI checks on Step 2 PR #10839 have successfully completed and passed. For Step 1 PR #10811, all completed checks are passing, with only 3 remaining end-to-end fixture tests currently in progress. Both PRs are in a clean, non-failing state, and we are waiting for human review and merge of Step 1 before proceeding to the subsequent steps.
 - **2026-06-25**: Monitored open PRs and verified CI statuses. Found both Step 1 PR #10811 and Step 2 PR #10839 are currently open, unassigned, and actively running CI. All completed checks on both PRs are passing successfully (including unit-tests, validations, and validate-generated-files), and we are monitoring the remaining pending checks.
 - **2026-06-25**: Monitored PR progress. On PR #10811 (Step 1), `lovelace-coder-bot` successfully resolved all compilation and deepcopy generation errors, force-pushing clean updates. On PR #10839 (Step 2), `hopper-coder-bot` resolved fuzzer roundtrip and API validation check failures, force-pushing updated commits. All completed CI checks on both PRs are currently passing, and we are monitoring outstanding runs before merging Step 1.
