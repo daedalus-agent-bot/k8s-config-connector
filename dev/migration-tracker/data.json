@@ -11,19 +11,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7286, External Work: #7290",
     "sortOrder": 125,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigateway",
@@ -37,19 +40,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 126,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apikeys",
@@ -74,9 +80,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6637, External Work: #7623",
     "sortOrder": 133,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "accesscontextmanager",
@@ -91,19 +100,22 @@
       "AccessContextManagerAccessPolicy",
       "IAMServiceAccount"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6814",
     "sortOrder": 46,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -117,19 +129,22 @@
     "dependencies": [
       "AccessContextManagerAccessLevel"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8948, External Work: #7285, External Work: #9601",
     "sortOrder": 136,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -141,19 +156,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6821, External Work: #4821, External Work: #4820",
     "sortOrder": 37,
-    "downstreamCount": 3
+    "downstreamCount": 3,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -165,19 +183,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8950",
     "sortOrder": 137,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -194,19 +215,22 @@
       "IAMServiceAccount",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8951, External Work: #4754",
     "sortOrder": 138,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "accesscontextmanager",
@@ -218,19 +242,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8952, External Work: #6992",
     "sortOrder": 139,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "alloydb",
@@ -244,19 +271,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 140,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "alloydb",
@@ -283,9 +313,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8652, External Work: #7676, External Work: #6375, External Work: #7252",
     "sortOrder": 47,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "alloydb",
@@ -299,19 +332,22 @@
     "dependencies": [
       "AlloyDBCluster"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 142,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -323,19 +359,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 145,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -349,19 +388,22 @@
     "dependencies": [
       "ApigeeOrganization"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 48,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -373,19 +415,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 149,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -400,19 +445,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 20,
-    "downstreamCount": 7
+    "downstreamCount": 7,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -424,19 +472,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 153,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "appengine",
@@ -448,7 +499,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -458,9 +509,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5705",
     "sortOrder": 154,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -472,7 +526,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -482,9 +536,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5706",
     "sortOrder": 155,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -510,7 +567,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 156,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -534,7 +594,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 157,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -560,7 +623,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 158,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "artifactregistry",
@@ -585,9 +651,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #3720",
     "sortOrder": 163,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "beyondcorp",
@@ -613,7 +682,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 173,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -639,7 +711,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 174,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -665,7 +740,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 175,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "bigquerydatapolicy",
@@ -691,7 +769,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 183,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "bigquery",
@@ -717,9 +798,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9767, External Work: #7936, External Work: #6382",
     "sortOrder": 30,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -733,19 +817,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 185,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -761,19 +848,22 @@
       "BigQueryTable",
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 186,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigqueryreservation",
@@ -787,19 +877,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9562",
     "sortOrder": 189,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -814,19 +907,22 @@
       "BigQueryDataset",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 190,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -852,9 +948,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7321, External Work: #5068, External Work: #4614",
     "sortOrder": 82,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigtable",
@@ -881,7 +980,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 191,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigtable",
@@ -907,9 +1009,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7385, External Work: #9616",
     "sortOrder": 194,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigtable",
@@ -923,19 +1028,22 @@
     "dependencies": [
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 17,
-    "downstreamCount": 8
+    "downstreamCount": 8,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigtable",
@@ -949,19 +1057,22 @@
     "dependencies": [
       "BigtableInstance"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8799",
     "sortOrder": 51,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "billingbudgets",
@@ -975,19 +1086,22 @@
     "dependencies": [
       "PubSubTopic"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9170, External Work: #5011, External Work: #5944, External Work: #4994",
     "sortOrder": 197,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "binaryauthorization",
@@ -1001,19 +1115,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 198,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "binaryauthorization",
@@ -1027,7 +1144,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1037,9 +1154,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #4760",
     "sortOrder": 200,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "certificatemanager",
@@ -1064,9 +1184,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5678",
     "sortOrder": 206,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1093,7 +1216,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 208,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1120,7 +1246,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 209,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "cloudasset",
@@ -1146,7 +1275,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 211,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1170,7 +1302,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 212,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1196,7 +1331,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 213,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudbuild",
@@ -1212,19 +1350,22 @@
       "KMSCryptoKey",
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 216,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudfunctions2",
@@ -1250,7 +1391,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 223,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudfunctions",
@@ -1265,19 +1409,22 @@
       "IAMServiceAccount",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 224,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudids",
@@ -1292,19 +1439,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 225,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudiot",
@@ -1328,7 +1478,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 226,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudiot",
@@ -1352,7 +1505,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 227,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudscheduler",
@@ -1378,7 +1534,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 229,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "compute",
@@ -1404,9 +1563,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10627",
     "sortOrder": 53,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1433,7 +1595,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 233,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1447,19 +1612,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9957",
     "sortOrder": 21,
-    "downstreamCount": 7
+    "downstreamCount": 7,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1474,19 +1642,22 @@
       "ComputeBackendBucket",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9958, External Work: #7578, External Work: #7330",
     "sortOrder": 234,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1505,19 +1676,22 @@
       "ComputeNetworkEndpointGroup",
       "ComputeSecurityPolicy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9960, External Work: #8857, External Work: #6975, External Work: #7736",
     "sortOrder": 16,
-    "downstreamCount": 9
+    "downstreamCount": 9,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1545,7 +1719,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 235,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1575,7 +1752,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 552,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1603,7 +1783,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 551,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1615,19 +1798,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9970",
     "sortOrder": 236,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1641,19 +1827,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10802",
     "sortOrder": 237,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1667,19 +1856,22 @@
     "dependencies": [
       "Folder"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5440",
     "sortOrder": 31,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1693,19 +1885,22 @@
     "dependencies": [
       "ComputeFirewallPolicy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9976",
     "sortOrder": 238,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1740,9 +1935,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10236, External Work: #8898, External Work: #4767",
     "sortOrder": 88,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1756,19 +1954,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9978, External Work: #4541, External Work: #7316",
     "sortOrder": 241,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1782,19 +1983,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9980",
     "sortOrder": 242,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1817,9 +2021,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10397",
     "sortOrder": 13,
-    "downstreamCount": 11
+    "downstreamCount": 11,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1831,19 +2038,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9982",
     "sortOrder": 243,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1859,15 +2069,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 12,
-    "downstreamCount": 12
+    "downstreamCount": 12,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1895,7 +2108,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 554,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1926,7 +2142,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 32,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1953,7 +2172,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 15,
-    "downstreamCount": 10
+    "downstreamCount": 10,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1970,19 +2192,22 @@
       "IAMServiceAccount",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9987",
     "sortOrder": 89,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1996,19 +2221,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9988",
     "sortOrder": 244,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2025,19 +2253,22 @@
       "IAMServiceAccount",
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9989, External Work: #6168, External Work: #5958",
     "sortOrder": 22,
-    "downstreamCount": 7
+    "downstreamCount": 7,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2051,19 +2282,22 @@
     "dependencies": [
       "ComputeRouter"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9990",
     "sortOrder": 33,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2077,19 +2311,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9991",
     "sortOrder": 246,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2103,19 +2340,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9992",
     "sortOrder": 247,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2138,9 +2378,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6858, External Work: #6195",
     "sortOrder": 4,
-    "downstreamCount": 126
+    "downstreamCount": 126,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2156,19 +2399,22 @@
       "ComputeNetworkEndpointGroup",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9994",
     "sortOrder": 250,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2183,19 +2429,22 @@
       "ComputeNetwork",
       "ComputeSubnetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9995, External Work: #6132",
     "sortOrder": 14,
-    "downstreamCount": 11
+    "downstreamCount": 11,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2209,19 +2458,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9997",
     "sortOrder": 251,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2236,19 +2488,22 @@
       "ComputeFirewallPolicy",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9998",
     "sortOrder": 252,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2263,19 +2518,22 @@
       "ComputeFirewallPolicy",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9999, External Work: #4942",
     "sortOrder": 253,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2289,19 +2547,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2316,19 +2577,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10002, External Work: #5608",
     "sortOrder": 255,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2343,19 +2607,22 @@
       "ComputeNodeTemplate",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10003",
     "sortOrder": 256,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2367,19 +2634,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 90,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2391,19 +2661,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2415,19 +2688,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10007",
     "sortOrder": 258,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2439,19 +2715,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10010",
     "sortOrder": 259,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2465,19 +2744,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10011",
     "sortOrder": 260,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2492,19 +2774,22 @@
       "ComputeInstanceGroupManager",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10012",
     "sortOrder": 261,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2516,19 +2801,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10013",
     "sortOrder": 262,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2542,19 +2830,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": true,
-      "tests": false
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": false,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 263,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2569,19 +2860,22 @@
       "ComputeDisk",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10015",
     "sortOrder": 553,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2597,19 +2891,22 @@
       "ComputeSubnetwork",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10017",
     "sortOrder": 264,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2623,19 +2920,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 265,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2649,19 +2949,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10019",
     "sortOrder": 266,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2686,9 +2989,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10020",
     "sortOrder": 267,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2700,19 +3006,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 268,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2726,19 +3035,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10746",
     "sortOrder": 269,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10746",
+    "assignee": "walle-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2765,7 +3077,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 24,
-    "downstreamCount": 6
+    "downstreamCount": 6,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2782,19 +3097,22 @@
       "ComputeSubnetwork",
       "ComputeVPNTunnel"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10749",
     "sortOrder": 91,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10749",
+    "assignee": "walle-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2809,19 +3127,22 @@
       "ComputeRouter",
       "ComputeSubnetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10028, External Work: #6649, External Work: #10424",
     "sortOrder": 270,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2836,19 +3157,22 @@
       "ComputeRouter",
       "ComputeRouterInterface"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10029",
     "sortOrder": 271,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2860,19 +3184,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10030",
     "sortOrder": 272,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2895,9 +3222,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #4779",
     "sortOrder": 34,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2920,9 +3250,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6486, External Work: #3783",
     "sortOrder": 11,
-    "downstreamCount": 13
+    "downstreamCount": 13,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2936,19 +3269,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10035",
     "sortOrder": 54,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2960,19 +3296,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10037",
     "sortOrder": 273,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2986,19 +3325,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10038",
     "sortOrder": 274,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3012,19 +3354,22 @@
     "dependencies": [
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 35,
-    "downstreamCount": 4
+    "downstreamCount": 4,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3038,19 +3383,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5953, External Work: #5773",
     "sortOrder": 9,
-    "downstreamCount": 23
+    "downstreamCount": 23,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3064,19 +3412,22 @@
     "dependencies": [
       "ComputeURLMap"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10041",
     "sortOrder": 55,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3090,19 +3441,22 @@
     "dependencies": [
       "ComputeURLMap"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10042",
     "sortOrder": 56,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3117,19 +3471,22 @@
       "ComputeSSLPolicy",
       "ComputeURLMap"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10043, External Work: #8480, External Work: #6788, External Work: #5399, External Work: #4602",
     "sortOrder": 57,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3145,19 +3502,22 @@
       "ComputeNetwork",
       "ComputeSecurityPolicy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10044",
     "sortOrder": 275,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3172,19 +3532,22 @@
       "ComputeHTTPHealthCheck",
       "ComputeSecurityPolicy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10133",
     "sortOrder": 276,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3199,19 +3562,22 @@
       "ComputeBackendService",
       "ComputeSSLPolicy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10134",
     "sortOrder": 58,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3236,9 +3602,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10135",
     "sortOrder": 59,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3252,19 +3621,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10136",
     "sortOrder": 26,
-    "downstreamCount": 5
+    "downstreamCount": 5,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3290,9 +3662,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8709, External Work: #5713",
     "sortOrder": 27,
-    "downstreamCount": 5
+    "downstreamCount": 5,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3307,19 +3682,22 @@
       "ComputeInterconnectAttachment",
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10138",
     "sortOrder": 39,
-    "downstreamCount": 3
+    "downstreamCount": 3,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3335,19 +3713,22 @@
       "ComputeTargetVPNGateway",
       "ComputeVPNGateway"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10139",
     "sortOrder": 60,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "configcontroller",
@@ -3362,19 +3743,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 277,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "containeranalysis",
@@ -3386,19 +3770,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 280,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "containeranalysis",
@@ -3412,19 +3799,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 281,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "containerattached",
@@ -3438,7 +3828,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": false,
@@ -3450,7 +3840,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 282,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "container",
@@ -3466,19 +3859,22 @@
       "IAMServiceAccount",
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #8125, External Work: #7605, External Work: #7495, External Work: #7206, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #5901, External Work: #5514, External Work: #5186, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
     "sortOrder": 61,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "container",
@@ -3495,19 +3891,22 @@
       "IAMServiceAccount",
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10534, External Work: #10410, External Work: #8362, External Work: #7682, External Work: #7604, External Work: #6520, External Work: #3798, External Work: #3480, External Work: #2775",
     "sortOrder": 283,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -3534,7 +3933,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 288,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3560,7 +3962,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 93,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3576,7 +3981,7 @@
       "Project",
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3586,9 +3991,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7417",
     "sortOrder": 290,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3614,7 +4022,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 291,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dns",
@@ -3641,7 +4052,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 94,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dns",
@@ -3666,9 +4080,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5356",
     "sortOrder": 292,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dns",
@@ -3684,19 +4101,22 @@
       "DNSManagedZone",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287",
     "sortOrder": 293,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dns",
@@ -3723,7 +4143,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 294,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dns",
@@ -3737,19 +4160,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 295,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "datacatalog",
@@ -3763,19 +4189,22 @@
     "dependencies": [
       "DataCatalogTaxonomy"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 296,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "datacatalog",
@@ -3789,19 +4218,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 96,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "datafusion",
@@ -3816,19 +4248,22 @@
       "ComputeNetwork",
       "IAMServiceAccount"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 299,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dataflow",
@@ -3857,7 +4292,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 308,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataflow",
@@ -3873,19 +4311,22 @@
       "IAMServiceAccount",
       "KMSCryptoKey"
     ],
-    "state": "Not Started",
+    "state": "Completed",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10782, External Work: #6803",
     "sortOrder": 309,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataproc",
@@ -3912,7 +4353,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 321,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataproc",
@@ -3930,19 +4374,22 @@
       "Project",
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10695, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #6989, External Work: #5609",
     "sortOrder": 25,
-    "downstreamCount": 6
+    "downstreamCount": 6,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10695",
+    "assignee": "walle-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dataproc",
@@ -3960,19 +4407,22 @@
       "Project",
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 326,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "datastore",
@@ -3998,7 +4448,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 327,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "datastream",
@@ -4012,19 +4465,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 330,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "deploymentmanager",
@@ -4050,7 +4506,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 331,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4074,7 +4533,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 336,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4100,7 +4562,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 337,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4124,7 +4589,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 338,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4148,7 +4616,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 339,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4172,7 +4643,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 340,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4196,7 +4670,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 341,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflowcx",
@@ -4220,7 +4697,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 342,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4246,7 +4726,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 344,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4272,7 +4755,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 345,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4298,7 +4784,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 347,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "documentai",
@@ -4310,19 +4799,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 356,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "edgecontainer",
@@ -4337,19 +4829,22 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 65,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "edgecontainer",
@@ -4365,19 +4860,22 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 359,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "edgecontainer",
@@ -4392,19 +4890,22 @@
       "EdgeContainerCluster",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 360,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "edgenetwork",
@@ -4418,19 +4919,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 98,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "edgenetwork",
@@ -4445,19 +4949,22 @@
       "EdgeNetworkNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 361,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "eventarc",
@@ -4474,19 +4981,22 @@
       "Project",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 367,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "filestore",
@@ -4500,19 +5010,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10267",
     "sortOrder": 368,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "filestore",
@@ -4527,19 +5040,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #10731, External Work: #2291",
     "sortOrder": 369,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
+    "assignee": "feynman-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "filestore",
@@ -4553,19 +5069,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 370,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebase",
@@ -4591,7 +5110,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 371,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasedatabase",
@@ -4617,7 +5139,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 372,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasehosting",
@@ -4641,7 +5166,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 373,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasehosting",
@@ -4667,7 +5195,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 374,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -4691,7 +5222,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 99,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasestorage",
@@ -4717,7 +5251,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 375,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -4741,7 +5278,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 376,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firestore",
@@ -4764,9 +5304,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7656, External Work: #5319, External Work: #5570",
     "sortOrder": 380,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "resourcemanager",
@@ -4778,19 +5321,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": true,
-      "tests": false
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": false,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9481, External Work: #9266, External Work: #5007, External Work: #5474, External Work: #5434, External Work: #5008",
     "sortOrder": 1,
-    "downstreamCount": 394
+    "downstreamCount": 394,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -4804,19 +5350,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #4597",
     "sortOrder": 102,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -4828,19 +5377,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 67,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -4864,7 +5416,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 387,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -4888,7 +5443,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 388,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -4914,7 +5472,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 389,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -4938,7 +5499,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 390,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -4962,7 +5526,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 391,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "iam",
@@ -4976,19 +5543,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 392,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5000,19 +5570,22 @@
       "IAMAuditConfig"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #7649",
     "sortOrder": 393,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5024,19 +5597,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 394,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5055,7 +5631,7 @@
     "state": "Completed",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
@@ -5064,7 +5640,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 396,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5076,19 +5655,22 @@
       "IAMPolicy"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": true,
-      "tests": false
+      "mocks": true,
+      "controller": false,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #7650",
     "sortOrder": 397,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5103,19 +5685,22 @@
       "IAMServiceAccount",
       "ServiceIdentity"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #6027",
     "sortOrder": 398,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5127,19 +5712,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #10735",
     "sortOrder": 7,
-    "downstreamCount": 53
+    "downstreamCount": 53,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
+    "assignee": "feynman-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5153,19 +5741,22 @@
     "dependencies": [
       "IAMServiceAccount"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6675, External Work: #3338",
     "sortOrder": 399,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5177,19 +5768,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 103,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5203,19 +5797,22 @@
     "dependencies": [
       "IAMWorkforcePool"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 400,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5229,19 +5826,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #1839",
     "sortOrder": 104,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5256,19 +5856,22 @@
       "IAMWorkloadIdentityPool",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 401,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iap",
@@ -5280,19 +5883,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9737",
     "sortOrder": 105,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iap",
@@ -5306,19 +5912,22 @@
     "dependencies": [
       "IAPBrand"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 402,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5332,19 +5941,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9416",
     "sortOrder": 404,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5370,7 +5982,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 405,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5396,7 +6011,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 406,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5408,19 +6026,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 407,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5446,7 +6067,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 408,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5458,19 +6082,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 106,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5496,7 +6123,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 409,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5522,7 +6152,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 410,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5536,19 +6169,22 @@
     "dependencies": [
       "IdentityPlatformTenant"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 411,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -5575,7 +6211,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 6,
-    "downstreamCount": 124
+    "downstreamCount": 124,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "kms",
@@ -5587,19 +6226,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 413,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -5622,9 +6264,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10170",
     "sortOrder": 5,
-    "downstreamCount": 126
+    "downstreamCount": 126,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "kms",
@@ -5636,19 +6281,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10682",
     "sortOrder": 416,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -5660,19 +6308,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10722, External Work: #10681",
     "sortOrder": 417,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "logging",
@@ -5698,9 +6349,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10529, External Work: #9423",
     "sortOrder": 44,
-    "downstreamCount": 3
+    "downstreamCount": 3,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "logging",
@@ -5728,7 +6382,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 419,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "logging",
@@ -5758,9 +6415,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #4715, External Work: #2188",
     "sortOrder": 421,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "logging",
@@ -5787,9 +6447,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #2873",
     "sortOrder": 422,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "mlengine",
@@ -5815,7 +6478,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 423,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "memcache",
@@ -5829,19 +6495,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 426,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5853,19 +6522,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10640, External Work: #6991, External Work: #5641",
     "sortOrder": 107,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5879,19 +6551,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10808",
     "sortOrder": 108,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5905,19 +6580,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 432,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5929,19 +6607,22 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5721",
     "sortOrder": 433,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5953,19 +6634,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7684",
     "sortOrder": 434,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -5979,19 +6663,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 109,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -6006,19 +6693,22 @@
       "MonitoringService",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10147, External Work: #5559",
     "sortOrder": 435,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "monitoring",
@@ -6033,19 +6723,22 @@
       "MonitoringGroup",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9566, External Work: #5714, External Work: #2469",
     "sortOrder": 436,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkconnectivity",
@@ -6059,19 +6752,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 110,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkconnectivity",
@@ -6086,19 +6782,22 @@
       "NetworkConnectivityHub",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 442,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networksecurity",
@@ -6112,19 +6811,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5077",
     "sortOrder": 445,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networksecurity",
@@ -6138,19 +6840,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 447,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networksecurity",
@@ -6164,19 +6869,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 454,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6190,19 +6898,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 455,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6216,19 +6927,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 456,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6242,19 +6956,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10612, External Work: #7277",
     "sortOrder": 457,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
+    "assignee": "walle-agent-bot",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6268,19 +6985,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 458,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6295,19 +7015,22 @@
       "Project",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #3520",
     "sortOrder": 459,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6334,7 +7057,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 460,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -6349,19 +7075,22 @@
       "Project",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6207, External Work: #6511",
     "sortOrder": 461,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6375,19 +7104,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 463,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6402,19 +7134,22 @@
       "Project",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 465,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "networkservices",
@@ -6429,19 +7164,22 @@
       "Project",
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 466,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -6455,19 +7193,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 470,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -6481,7 +7222,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
@@ -6493,7 +7234,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 471,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "osconfig",
@@ -6519,7 +7263,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 472,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "oslogin",
@@ -6543,7 +7290,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 473,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "privateca",
@@ -6568,9 +7318,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5859",
     "sortOrder": 69,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -6587,19 +7340,22 @@
       "PrivateCACertificateTemplate",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 477,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -6616,19 +7372,22 @@
       "Project",
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #10622, External Work: #10363",
     "sortOrder": 115,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -6655,7 +7414,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 116,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "resourcemanager",
@@ -6673,15 +7435,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #2943, External Work: #5240",
     "sortOrder": 3,
-    "downstreamCount": 389
+    "downstreamCount": 389,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "pubsublite",
@@ -6695,19 +7460,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5702",
     "sortOrder": 479,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "pubsublite",
@@ -6721,19 +7489,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 480,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "pubsublite",
@@ -6747,19 +7518,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5701",
     "sortOrder": 481,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "pubsub",
@@ -6786,7 +7560,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 19,
-    "downstreamCount": 8
+    "downstreamCount": 8,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsub",
@@ -6814,7 +7591,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 70,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "pubsub",
@@ -6842,7 +7622,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 23,
-    "downstreamCount": 7
+    "downstreamCount": 7,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "recaptchaenterprise",
@@ -6856,19 +7639,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "Completed",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10750",
     "sortOrder": 484,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "redis",
@@ -6893,9 +7679,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8448, External Work: #6635",
     "sortOrder": 486,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "resourcemanager",
@@ -6909,19 +7698,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 487,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "resourcemanager",
@@ -6936,19 +7728,22 @@
       "Folder",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 488,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "run",
@@ -6976,9 +7771,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9387, External Work: #5552, External Work: #9388",
     "sortOrder": 489,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "run",
@@ -6994,19 +7792,22 @@
       "IAMServiceAccount",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9714, External Work: #6686, External Work: #5554",
     "sortOrder": 490,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "sql",
@@ -7018,19 +7819,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 492,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "sql",
@@ -7042,19 +7846,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 493,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "sql",
@@ -7066,19 +7873,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8796, External Work: #2416, External Work: #7148",
     "sortOrder": 494,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "secretmanager",
@@ -7103,9 +7913,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5725, External Work: #6651, External Work: #5730",
     "sortOrder": 71,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "secretmanager",
@@ -7132,7 +7945,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 495,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "securitycenter",
@@ -7156,7 +7972,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 499,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "securitycenter",
@@ -7180,7 +7999,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 500,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "serviceusage",
@@ -7205,9 +8027,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10450, External Work: #10297, External Work: #10292, External Work: #10268, External Work: #7897, External Work: #7391, External Work: #6468, External Work: #6389, External Work: #6048, External Work: #5940, External Work: #5031, External Work: #8132, External Work: #6941, External Work: #5939, External Work: #5938, External Work: #5801, External Work: #5788, External Work: #5564, External Work: #5033, External Work: #4924",
     "sortOrder": 10,
-    "downstreamCount": 15
+    "downstreamCount": 15,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicedirectory",
@@ -7235,7 +8060,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 501,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicedirectory",
@@ -7262,7 +8090,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 118,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicedirectory",
@@ -7289,7 +8120,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 502,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "serviceusage",
@@ -7303,19 +8137,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 72,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "servicenetworking",
@@ -7329,19 +8166,22 @@
     "dependencies": [
       "ComputeNetwork"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 503,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "serviceusage",
@@ -7355,19 +8195,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 505,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "sourcerepo",
@@ -7381,19 +8224,22 @@
     "dependencies": [
       "IAMServiceAccount"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6319",
     "sortOrder": 506,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "spanner",
@@ -7408,19 +8254,22 @@
       "KMSCryptoKey",
       "SpannerInstance"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5359",
     "sortOrder": 119,
-    "downstreamCount": 1
+    "downstreamCount": 1,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "spanner",
@@ -7443,9 +8292,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5494",
     "sortOrder": 73,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -7464,15 +8316,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9779, External Work: #6921, External Work: #5556, External Work: #5553, External Work: #5572, External Work: #5546",
     "sortOrder": 8,
-    "downstreamCount": 40
+    "downstreamCount": 40,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storage",
@@ -7486,19 +8341,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 513,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storage",
@@ -7512,19 +8370,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 514,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storage",
@@ -7538,19 +8399,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 516,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storage",
@@ -7564,19 +8428,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 518,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storagetransfer",
@@ -7602,7 +8469,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 519,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "storagetransfer",
@@ -7616,19 +8486,22 @@
     "dependencies": [
       "StorageBucket"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 520,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "tpu",
@@ -7642,19 +8515,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 521,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "tags",
@@ -7679,9 +8555,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8710, External Work: #2894, External Work: #6256",
     "sortOrder": 523,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "tags",
@@ -7706,9 +8585,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6251, External Work: #6032, External Work: #5160, External Work: #5634, External Work: #5515",
     "sortOrder": 524,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "tags",
@@ -7733,7 +8615,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 525,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "tags",
@@ -7756,9 +8641,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5613",
     "sortOrder": 74,
-    "downstreamCount": 2
+    "downstreamCount": 2,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vpcaccess",
@@ -7773,19 +8661,22 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 529,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -7800,19 +8691,22 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": false,
       "controller": false,
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9698, External Work: #7985",
     "sortOrder": 532,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "vertexai",
@@ -7828,7 +8722,7 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7838,9 +8732,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7987",
     "sortOrder": 534,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "vertexai",
@@ -7864,7 +8761,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 539,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "vertexai",
@@ -7888,7 +8788,10 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 540,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   },
   {
     "group": "vertexai",
@@ -7902,19 +8805,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8389",
     "sortOrder": 541,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -7928,7 +8834,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7938,9 +8844,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8390",
     "sortOrder": 542,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "vertexai",
@@ -7966,6 +8875,9 @@
     "mocksLastRefreshed": "Never",
     "notes": "",
     "sortOrder": 545,
-    "downstreamCount": 0
+    "downstreamCount": 0,
+    "trackingIssue": "",
+    "assignee": "",
+    "stage": "Investigation/Setup"
   }
 ]
