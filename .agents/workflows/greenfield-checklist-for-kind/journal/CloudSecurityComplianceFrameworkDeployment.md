@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+- **2026-06-25**: Triaged PR #10811 and identified that the `controller-gen` deepcopy generation panic (`panic: interface conversion: types.Type is nil, not *types.Named`) is caused by a duplicate declaration of the `CloudControlObservedState` struct in `frameworkdeployment_types.go` (it is already generated/defined in `types.generated.go`). Re-assigned PR #10811 back to its author `lovelace-coder-bot` to remove the duplicate struct and regenerate deepcopy code.
 - **2026-06-25**: Checked PR status. PR #10811 (Step 1) was unassigned with failing CI checks (validate-generated-files). Re-assigned PR #10811 back to its author `lovelace-coder-bot`. PR #10839 (Step 2) remains open and assigned to `hopper-coder-bot` with failing validations and unit-tests.
 - **2026-06-25**: Monitored PRs #10811 (Step 1) and #10839 (Step 2). PR #10811 remains assigned to `lovelace-coder-bot` and is failing validation with a deepcopy generation panic. PR #10839 was unassigned, so we assigned it to its author `hopper-coder-bot` to track and resolve the same generation panic.
 - **2026-06-25**: PR #10839 was opened by `hopper-coder-bot` to implement the direct controller, E2E fixtures, and fuzzer. Assigned PR #10839 to `hopper-coder-bot` to monitor/resolve CI checks.
