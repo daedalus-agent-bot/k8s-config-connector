@@ -12,6 +12,7 @@ Current Step: Step 1: Direct API Types
 
 ## History / Status Updates
 
+- **2026-06-28**: Analyzed CI check failures for PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943). `validate-generated-files` failed because documentation file `scripts/generate-google3-docs/resource-reference/generated/resource-docs/osconfig/osconfigguestpolicy.md` is out-of-date (needs `make resource-docs`). `unit-tests` failed because `TestMissingRefs` found an unexpected diff for `osconfigguestpolicies` in `testdata/exceptions/missingrefs.txt` (needs to run presubmit script to update exceptions). `argus-watcher-bot` is currently investigating.
 - **2026-06-28**: Pull Request [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) has failed CI check runs (specifically `unit-tests` and `validate-generated-files`). Re-assigned the PR to author bot `lovelace-coder-bot` to investigate and apply fixes.
 - **2026-06-28**: Pull Request [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) has been created by `lovelace-coder-bot` to resolve issue #10940. CI checks are currently in progress.
 - **2026-06-28**: Verified that issue #10940 is still open and assigned to `lovelace-coder-bot`. No Pull Request has been created yet, and the sandbox run is still in progress.
