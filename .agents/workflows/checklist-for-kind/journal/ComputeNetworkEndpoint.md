@@ -1,12 +1,12 @@
 # ComputeNetworkEndpoint Migration Journal
 
-**Current Step:** Step 1: Direct API Types (In Progress - CI Failing)
+**Current Step:** Step 1: Direct API Types (In Progress - Blocked by Blocker PR #10056)
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | PR Created (CI Failing) | 2026-06-13 | - |
+| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | In Progress (Blocked by Blocker PR #10056) | 2026-06-13 | - |
 | 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -14,6 +14,7 @@
 
 ## Status Update Notes
 
+- **2026-06-28**: Monitored migration progress. Verified all 193 checks on PR #10052 are successfully passing, but it remains blocked by a dependency on PR #10056. Checked PR #10056 and found it continues to fail `tests-scenarios-unclassified`. Verified both PRs were unassigned, so reassigned `codebot-robot` to both PR #10052 and PR #10056 using the GitHub REST API to ensure the author bot resumes active troubleshooting.
 - **2026-06-28**: Monitored migration progress. Verified all 193 checks on PR #10052 are passing, but it remains blocked by the dependency hold. PR #10056 continues to fail `tests-scenarios-unclassified`. Found both PRs were unassigned, so assigned `codebot-robot` to both PR #10052 and PR #10056 using the GitHub REST API to ensure the author bot resumes active troubleshooting.
 - **2026-06-28**: Re-evaluated PRs. All completed checks on PR #10052 are passing, with some still in progress. On PR #10056, verified that `tests-scenarios-unclassified` is failing. Inspected the failed job logs and confirmed that the scenario `ccc_pause_change_reconcile` failed. Assigned `codebot-robot` to PR #10052 using the REST API to ensure ownership is active, and kept `codebot-robot` assigned to PR #10056 to resolve the test failure.
 - **2026-06-28**: Checked status of PR #10052 and PR #10056. All completed checks on PR #10052 are passing. PR #10056 has a failing check-run `tests-scenarios-unclassified` and outstanding rebase requests. Assigned `codebot-robot` to both PR #10052 and PR #10056 via REST API to ensure the author bot is notified and can address the rebase and test failures.
