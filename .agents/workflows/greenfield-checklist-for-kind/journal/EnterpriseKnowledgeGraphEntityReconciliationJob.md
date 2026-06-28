@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review (Pending Checks) | 2026-06-24 | |
+| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review | 2026-06-24 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: MockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Status Updates
+- **2026-06-28**: Checked Step 1 progress. Confirmed that PR #10813 remains open and has 100% of its completed CI presubmit checks passing successfully (with only a couple of e2e fixture runs pending). The PR remains correctly assigned to `hopper-coder-bot` as we continue to await final human OWNER review, approval, and merge before transitioning to Step 2.
 - **2026-06-28**: Checked Step 1 progress. Confirmed PR #10813 remains open with all completed presubmit checks passing successfully and several checks currently in progress on head commit `b6c38b0e8765a7e658f1f0c7d67f47284c0dd407`. The PR is correctly assigned to `hopper-coder-bot` while we continue to await final human OWNER review, approval, and merge before we can proceed to Step 2.
 - **2026-06-28**: Monitored Step 1 progress. Confirmed that PR #10813 remains open and is currently awaiting human OWNER final review, approval, and merge. Verified that several core presubmit checks are currently in-progress on the latest commit (`b6c38b0e8765a7e658f1f0c7d67f47284c0dd407`), with all completed checks passing successfully. Since the PR was unassigned, successfully re-assigned it back to the author bot `hopper-coder-bot` via the REST API to maintain active tracking by the automated watch daemon.
 - **2026-06-28**: Checked Step 1 progress. Re-verified PR #10813 remains open and correctly assigned to `hopper-coder-bot` with the transiently failing check `tests-scenarios-unclassified`. The watch daemon has given up on automatic troubleshooting, and we continue to await human OWNER final review, approval, and merge to proceed to Step 2.
