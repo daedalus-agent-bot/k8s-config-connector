@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review (Retest in Progress) | 2026-06-24 | |
+| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review (Failing Checks / Flake) | 2026-06-24 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: MockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Status Updates
+- **2026-06-28**: Checked Step 1 progress. Re-verified PR #10813 remains open and correctly assigned to `hopper-coder-bot` with the transiently failing check `tests-scenarios-unclassified`. The watch daemon has given up on automatic troubleshooting, and we continue to await human OWNER final review, approval, and merge to proceed to Step 2.
 - **2026-06-28**: Checked Step 1 progress. Confirmed PR #10813 remains open and correctly assigned to `hopper-coder-bot`. The `tests-scenarios-unclassified` check continues to fail due to a transient timeout in the unrelated `cc_pause_change_reconcile` scenario. The watch daemon (`argus-watcher-bot`) reported that it has attempted to fix failures 3 times and is giving up on automatic resolution, though a subsequent sandbox rebase operation was initiated. We continue to await check completion or final human OWNER review, approval, and merge before proceeding to Step 2.
 - **2026-06-28**: Checked Step 1 progress. Confirmed PR #10813 remains open. A failure was detected in the `tests-scenarios-unclassified` check. Since the PR was unassigned and had a failing check, successfully assigned the PR back to the author bot `hopper-coder-bot` via the REST API to trigger the automated troubleshooting watch daemon (`argus-watcher-bot`) and prompt a `/retest` or investigation.
 - **2026-06-28**: Monitored Step 1 progress. Verified that PR #10813 remains open and correctly assigned to `hopper-coder-bot`. A timing-dependent integration test failure (`tests-scenarios-unclassified`) triggered a flake report. The author bot `hopper-coder-bot` automatically commented `/retest` to rerun the checks, and we continue to await their completion and final human OWNER review and merge before transitioning to Step 2.
