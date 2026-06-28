@@ -12,6 +12,7 @@ Current Step: Step 2: Identity and Reference Types Pattern
 
 ## History / Status Updates
 
+- **2026-06-28**: Re-checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is still in progress, and no Pull Request has been submitted yet.
 - **2026-06-28**: Checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is currently in progress, and no Pull Request has been created yet.
 - **2026-06-28**: Step 1 PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) was merged. Initialized Step 2 by opening issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) to transition OSConfigGuestPolicy to the canonical identity and reference pattern.
 - **2026-06-28**: Re-checked PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) status. It is fully approved by owner `barney-s` (`/lgtm` and `/approve` applied) and all 193 CI checks have successfully passed. Awaiting final merge to proceed to Step 2.
