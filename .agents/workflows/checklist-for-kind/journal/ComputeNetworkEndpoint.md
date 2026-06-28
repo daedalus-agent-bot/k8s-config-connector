@@ -14,6 +14,7 @@
 
 ## Status Update Notes
 
+- **2026-06-28**: Monitored migration progress. Verified all 193 checks on PR #10052 are passing, but it remains blocked by the dependency hold. PR #10056 continues to fail `tests-scenarios-unclassified`. Found both PRs were unassigned, so assigned `codebot-robot` to both PR #10052 and PR #10056 using the GitHub REST API to ensure the author bot resumes active troubleshooting.
 - **2026-06-28**: Re-evaluated PRs. All completed checks on PR #10052 are passing, with some still in progress. On PR #10056, verified that `tests-scenarios-unclassified` is failing. Inspected the failed job logs and confirmed that the scenario `ccc_pause_change_reconcile` failed. Assigned `codebot-robot` to PR #10052 using the REST API to ensure ownership is active, and kept `codebot-robot` assigned to PR #10056 to resolve the test failure.
 - **2026-06-28**: Checked status of PR #10052 and PR #10056. All completed checks on PR #10052 are passing. PR #10056 has a failing check-run `tests-scenarios-unclassified` and outstanding rebase requests. Assigned `codebot-robot` to both PR #10052 and PR #10056 via REST API to ensure the author bot is notified and can address the rebase and test failures.
 - **2026-06-28**: Found PR #10052 has a failing `validations` check-run ("Resource Go Clients must be regenerated"). Assigned `codebot-robot` to PR #10052 to fix this validation failure. Also assigned `codebot-robot` to PR #10056 as it was unassigned and its checks are currently pending.
