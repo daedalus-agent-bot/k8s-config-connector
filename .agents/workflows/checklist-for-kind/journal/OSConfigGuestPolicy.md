@@ -12,6 +12,7 @@ Current Step: Step 1: Direct API Types
 
 ## History / Status Updates
 
+- **2026-06-28**: Re-checked PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) status. It is still open and all 193 CI checks are passing. Awaiting review, approval, and merge by owner `barney-s`.
 - **2026-06-28**: Verified that PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) has successfully passed all 193 CI checks. The PR remains open and is currently awaiting review, approval, and merge by owner `barney-s`.
 - **2026-06-28**: Checked status of PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943). All CI checks are fully passing, and the PR is open and awaiting review/merge by owner `barney-s`.
 - **2026-06-28**: All 193 CI check-runs passed successfully. Assigned the PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) to owner `barney-s` for review, approval, and merge.
