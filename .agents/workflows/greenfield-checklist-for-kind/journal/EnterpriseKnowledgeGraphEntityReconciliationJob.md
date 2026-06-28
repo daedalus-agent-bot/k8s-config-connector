@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review | 2026-06-24 | |
+| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review (Checks in Progress) | 2026-06-24 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: MockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Status Updates
+- **2026-06-28**: Monitored Step 1 progress. Confirmed that PR #10813 remains open. An automatic rebase was executed by `argus-watcher-bot` to resolve merge conflicts, resulting in the new head commit `cde72eb60b9a486e5f4117ce79d231003127ff6b`. The presubmit checks are currently in progress, and we continue to await their completion and subsequent human OWNER final review, approval, and merge.
 - **2026-06-28**: Monitored Step 1 progress. Confirmed that PR #10813 remains open and correctly assigned to `hopper-coder-bot` with all 193 CI checks 100% green and passing. We continue to await human OWNER final review, approval, and merge before proceeding to Step 2.
 - **2026-06-28**: Checked Step 1 progress. Re-verified PR #10813 remains open and has all 193 CI checks fully passing (100% success rate). It is assigned to `hopper-coder-bot` while we continue to await final human OWNER review, approval, and merge before proceeding to Step 2.
 - **2026-06-28**: Checked Step 1 progress. Confirmed that PR #10813 remains open and fully green with all 193 CI checks passing (100% success rate). It is assigned to `hopper-coder-bot` while awaiting human OWNER final review, approval, and merge before proceeding to Step 2.
