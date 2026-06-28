@@ -14,6 +14,7 @@
 
 ## Status Update Notes
 
+- **2026-06-28**: Checked status of PR #10052 and PR #10056. All completed checks on PR #10052 are passing. PR #10056 has a failing check-run `tests-scenarios-unclassified` and outstanding rebase requests. Assigned `codebot-robot` to both PR #10052 and PR #10056 via REST API to ensure the author bot is notified and can address the rebase and test failures.
 - **2026-06-28**: Found PR #10052 has a failing `validations` check-run ("Resource Go Clients must be regenerated"). Assigned `codebot-robot` to PR #10052 to fix this validation failure. Also assigned `codebot-robot` to PR #10056 as it was unassigned and its checks are currently pending.
 - **2026-06-28**: Monitored PR #10052 and dependency PR #10056. Both are currently running CI checks. The previously failing `crd-equivalence-check` on PR #10052 is now passing. All checks are currently pending without active failures.
 - **2026-06-28**: Re-evaluated PRs status. Found PR #10052 has a failing `crd-equivalence-check` check-run and was unassigned. Assigned `codebot-robot` to PR #10052 to resolve the failure. PR #10056 continues to have failing `tests-e2e-fixtures-compute` tests and is assigned to `codebot-robot`. Both PRs are currently blocked by failing tests.
