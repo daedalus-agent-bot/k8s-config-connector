@@ -4,7 +4,7 @@ Current Step: Step 1: Direct API Types
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | CI Failing / Assigned to Bot | 2026-06-28 | |
+| 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | PR Passing / Awaiting Merge | 2026-06-28 | |
 | 2 | Identity and Reference Types Pattern | | | Not Started | | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
@@ -12,6 +12,7 @@ Current Step: Step 1: Direct API Types
 
 ## History / Status Updates
 
+- **2026-06-28**: All 193 CI check-runs passed successfully. Assigned the PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) to owner `barney-s` for review, approval, and merge.
 - **2026-06-28**: Verified PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) is still open. CI checks `unit-tests` and `validate-generated-files` are currently failing. The PR is assigned to `lovelace-coder-bot`, and `argus-watcher-bot` is currently investigating the failures.
 - **2026-06-28**: Analyzed CI check failures for PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943). `validate-generated-files` failed because documentation file `scripts/generate-google3-docs/resource-reference/generated/resource-docs/osconfig/osconfigguestpolicy.md` is out-of-date (needs `make resource-docs`). `unit-tests` failed because `TestMissingRefs` found an unexpected diff for `osconfigguestpolicies` in `testdata/exceptions/missingrefs.txt` (needs to run presubmit script to update exceptions). `argus-watcher-bot` is currently investigating.
 - **2026-06-28**: Pull Request [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) has failed CI check runs (specifically `unit-tests` and `validate-generated-files`). Re-assigned the PR to author bot `lovelace-coder-bot` to investigate and apply fixes.
