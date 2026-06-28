@@ -5,13 +5,14 @@ Current Step: Step 2: Identity and Reference Types Pattern
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | Completed | 2026-06-28 | 2026-06-28 |
-| 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | | Open | 2026-06-28 | |
+| 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | CI Failing / Assigned to Bot | 2026-06-28 | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## History / Status Updates
 
+- **2026-06-28**: Pull Request [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) has failed CI check runs (specifically `validate-generated-files` and `validations`). Re-assigned the PR to author bot `ada-coder-bot` to investigate and apply fixes.
 - **2026-06-28**: Re-checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is still in progress, and no Pull Request has been submitted yet.
 - **2026-06-28**: Checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is currently in progress, and no Pull Request has been created yet.
 - **2026-06-28**: Step 1 PR [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) was merged. Initialized Step 2 by opening issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) to transition OSConfigGuestPolicy to the canonical identity and reference pattern.
