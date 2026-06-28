@@ -12,6 +12,7 @@ Current Step: Step 2: Identity and Reference Types Pattern
 
 ## History / Status Updates
 
+- **2026-06-28**: Verified PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) is open and currently assigned to `ada-coder-bot`. CI check-runs for `validate-generated-files` and `validations` are failing, while several other E2E fixtures and direct-iam runs are in progress. Awaiting `ada-coder-bot` to push updates.
 - **2026-06-28**: Pull Request [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) has failed CI check runs (specifically `validate-generated-files` and `validations`). Re-assigned the PR to author bot `ada-coder-bot` to investigate and apply fixes.
 - **2026-06-28**: Re-checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is still in progress, and no Pull Request has been submitted yet.
 - **2026-06-28**: Checked status of Step 2 (Issue [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949)). Verified that the sandbox run by `ada-coder-bot` is currently in progress, and no Pull Request has been created yet.
