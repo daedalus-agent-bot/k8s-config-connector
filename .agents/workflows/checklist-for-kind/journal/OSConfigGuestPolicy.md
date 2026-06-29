@@ -12,6 +12,7 @@ Current Step: Step 3: Create a Round-Trip KRM Fuzzer
 
 ## History / Status Updates
 
+- **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Confirmed it has been approved by code owner `barney-s` and is in a healthy, mergeable state. All completed CI check-runs are 100% green; the final `crd-equivalence-check` is currently in progress. Awaiting its completion and final Prow auto-merge before proceeding to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that all 193 CI checks are 100% green and successfully completed on the open, fully mergeable PR. It continues to await final human review, approval, and merge by code owner `barney-s` before we can proceed to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that all 193 CI checks have successfully completed (100% green) and no reviews have been submitted yet. The PR remains open and fully mergeable, awaiting final human review and merge by code owner `barney-s`.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that all 193 CI check-runs are successfully completed and 100% green. The PR remains open, fully mergeable, and currently awaits final review and merge by human code owner `barney-s` before we can proceed to Step 4.
