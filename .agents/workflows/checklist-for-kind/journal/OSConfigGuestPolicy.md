@@ -5,13 +5,14 @@ Current Step: Step 2: Identity and Reference Types Pattern
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | Completed | 2026-06-28 | 2026-06-28 |
-| 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | CI Failing / Assigned to Bot | 2026-06-28 | |
+| 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | CI In Progress (Passing) | 2026-06-28 | |
 | 3 | Create a Round-Trip KRM Fuzzer | | | Not Started | | |
 | 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## History / Status Updates
 
+- **2026-06-29**: Checked status of Step 2 (PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950)). `ada-coder-bot`'s previous force-push successfully addressed the deepcopy generation issues, resulting in the `validate-generated-files` and `validations` CI checks passing cleanly. All other completed checks are passing, with the remaining E2E test suites currently in progress. Awaiting CI completion and human review.
 - **2026-06-29**: Checked PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) status. The PR remains open and `ada-coder-bot` is still assigned. The `validate-generated-files` and `validations` checks are still failing due to out-of-date `zz_generated.deepcopy.go`. Awaiting the coder bot's fix.
 - **2026-06-29**: Verified `validate-generated-files` and `validations` checks failed on PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) because `apis/osconfig/v1beta1/zz_generated.deepcopy.go` was out of date. Re-assigned the PR to `ada-coder-bot` via REST API to trigger regeneration and push the fix.
 - **2026-06-29**: Checked status of Step 2 (PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950)). `validate-generated-files` and `validations` checks have failed. Re-assigned the PR back to author bot `ada-coder-bot` via REST API to request triage and fixes.
