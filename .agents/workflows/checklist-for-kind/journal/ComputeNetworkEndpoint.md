@@ -1,19 +1,20 @@
 # ComputeNetworkEndpoint Migration Journal
 
-**Current Step:** Step 1: Direct API Types (In Progress - Blocker Merged, Awaiting Merge of #10052)
+**Current Step:** Step 2: Identity and Reference Types Pattern (In Progress)
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | In Progress (Blocker Merged, Awaiting Merge) | 2026-06-13 | - |
-| 2 | Identity and Reference Types Pattern | - | - | Pending | - | - |
+| 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | Completed | 2026-06-13 | 2026-06-29 |
+| 2 | Identity and Reference Types Pattern | [#10952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10952) | - | Open | 2026-06-29 | - |
 | 3 | Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 
 ## Status Update Notes
 
+- **2026-06-29**: Step 1 completed as PR #10052 has successfully merged. Initiated Step 2 (Identity and Reference Types Pattern) by opening issue #10952 to transition ComputeNetworkEndpoint.
 - **2026-06-29**: Audited migration status. Verified PR #10052 is approved, in a clean mergeable state, and all 193 CI checks are passing. Assigned `codebot-robot` to PR #10052 using the REST API to trigger the automatic `/hold cancel` and active merge orchestration, since blocker PR #10056 is merged.
 - **2026-06-28**: Audited migration status. Verified PR #10052 is approved with all 193 CI checks green and passing. Blocker PR #10056 has been successfully merged. Successfully assigned `codebot-robot` to PR #10052 via the GitHub REST API to trigger the automatic rebase and `/hold cancel` process, resuming active merge orchestration.
 - **2026-06-28**: Audited PR #10052 and verified all 193 CI checks are 100% green and passing. Since the blocker PR #10056 has successfully merged, assigned 'codebot-robot' to PR #10052 via the REST API to trigger a rebase and `/hold cancel`, resuming active merge orchestration.
