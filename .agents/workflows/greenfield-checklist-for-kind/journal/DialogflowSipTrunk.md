@@ -1,18 +1,19 @@
 # Migration Journal: DialogflowSipTrunk
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (In Progress, Step 1 merged, Step 2 issue created)
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (In Progress, Step 1 merged, Step 2 PR Created)
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity & Reference | [#9289](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9289) | [#10814](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10814) | Completed | 2026-06-24 | 2026-06-29 |
-| 2 | Direct Controller, E2E fixtures & Fuzzer | [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) | | Open | 2026-06-29 | |
+| 2 | Direct Controller, E2E fixtures & Fuzzer | [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) | [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967) | PR Created | 2026-06-29 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+- **2026-06-29**: Monitored Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961). Identified that a new Pull Request [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967) has been successfully created by `ada-coder-bot` for implementing the direct controller, E2E fixtures, and fuzzer. The PR is currently OPEN with CI checks pending. Updated status to PR Created.
 - **2026-06-29**: Checked Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) status. It remains OPEN and assigned to `ada-coder-bot` while sandbox development of the direct controller is still in progress with no PR opened yet. Will continue to monitor.
 - **2026-06-29**: Monitored Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) again. Confirmed that `ada-coder-bot` is actively working on the direct controller in a sandbox environment and no pull request has been opened yet. Will continue monitoring.
 - **2026-06-29**: Monitored the progress of Step 2 GitHub Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961). The task remains OPEN and assigned to `ada-coder-bot`. Sandbox development is in progress, but no Pull Request has been created yet. Continuing to monitor.
