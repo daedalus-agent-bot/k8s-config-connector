@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+- **2026-06-29**: Checked Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) status. It remains OPEN and assigned to `ada-coder-bot` while sandbox development of the direct controller is still in progress with no PR opened yet. Will continue to monitor.
 - **2026-06-29**: Monitored Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) again. Confirmed that `ada-coder-bot` is actively working on the direct controller in a sandbox environment and no pull request has been opened yet. Will continue monitoring.
 - **2026-06-29**: Monitored the progress of Step 2 GitHub Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961). The task remains OPEN and assigned to `ada-coder-bot`. Sandbox development is in progress, but no Pull Request has been created yet. Continuing to monitor.
 - **2026-06-29**: Monitored Step 2 Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) again. Confirmed that the task is still OPEN and assigned to `ada-coder-bot` with sandbox development underway. No PR has been opened yet. Will continue monitoring.
