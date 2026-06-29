@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+- **2026-06-29**: Verified that Step 1 PR #10814 was successfully merged. Step 2 is in progress with open GitHub Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) assigned to `ada-coder-bot`. Monitoring the issue for the creation of a direct controller PR.
 - **2026-06-29**: PR #10814 has been successfully merged! Transitioned to Step 2 and created GitHub Issue [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) for implementing the direct controller, E2E fixtures, and fuzzer.
 - **2026-06-29**: Checked PR #10814 status and CI check-runs. Verified all CI checks are completed successfully (100% green). The PR remains OPEN with reviewDecision: APPROVED, awaiting merge by a human OWNER before transitioning to Step 2.
 - **2026-06-29**: Monitored PR #10814 status. All 195 CI check-runs are verified successfully completed and 100% green with zero failures. The PR's review decision remains **APPROVED**, and it is OPEN awaiting merge by a human OWNER before transitioning to Step 2.
