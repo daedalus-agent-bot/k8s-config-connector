@@ -1,6 +1,6 @@
 # ComputeNetworkEndpoint Migration Journal
 
-**Current Step:** Step 3: Create a Round-Trip KRM Fuzzer (In Progress)
+**Current Step:** Step 4: Ensure MockGCP matches real gcp behavior (In Progress)
 
 ## Progress Tracking
 
@@ -8,11 +8,13 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types | [#9994](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9994) | [#10052](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10052) | Completed | 2026-06-13 | 2026-06-29 |
 | 2 | Identity and Reference Types Pattern | [#10952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10952) | [#10953](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10953) | Completed | 2026-06-29 | 2026-06-29 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | PR Created | 2026-06-29 | - |
-| 4 | Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10963](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10963) | [#10964](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10964) | Completed | 2026-06-29 | 2026-06-29 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10970](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10970) | - | Open | 2026-06-29 | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 
 ## Status Update Notes
+
+- **2026-06-29**: Step 3 completed as PR #10964 has successfully merged. Initiated Step 4 (Ensure MockGCP matches real gcp behavior) by opening issue #10970.
 
 - **2026-06-29**: Audited Step 3 (Create a Round-Trip KRM Fuzzer) progress again. Re-verified that PR #10964 remains fully approved and green (all 194 check-runs are successfully completed and passing with zero failures). The PR is currently open and assigned to its author bot `hopper-coder-bot` and reviewer `barney-s`. We are waiting for Prow/GitHub merge queue to merge the PR so we can proceed to Step 4.
 - **2026-06-29**: Audited Step 3 (Create a Round-Trip KRM Fuzzer) progress. Verified that all 194 CI checks on PR #10964 have successfully passed (100% green checks). Human OWNER `barney-s` has officially approved and LGTM'd the PR, putting it in an APPROVED, 'clean' mergeable state. The PR remains open, assigned to its author `hopper-coder-bot` and `barney-s`, awaiting automatic merge by Prow.
