@@ -12,6 +12,7 @@ Current Step: Step 2: Identity and Reference Types Pattern
 
 ## History / Status Updates
 
+- **2026-06-29**: Checked PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) status. The PR remains open and `ada-coder-bot` is still assigned. The `validate-generated-files` and `validations` checks are still failing due to out-of-date `zz_generated.deepcopy.go`. Awaiting the coder bot's fix.
 - **2026-06-29**: Verified `validate-generated-files` and `validations` checks failed on PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) because `apis/osconfig/v1beta1/zz_generated.deepcopy.go` was out of date. Re-assigned the PR to `ada-coder-bot` via REST API to trigger regeneration and push the fix.
 - **2026-06-29**: Checked status of Step 2 (PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950)). `validate-generated-files` and `validations` checks have failed. Re-assigned the PR back to author bot `ada-coder-bot` via REST API to request triage and fixes.
 - **2026-06-28**: Re-assigned `ada-coder-bot` to PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) via REST API to ensure active triage of the failing `validate-generated-files` and `validations` CI checks. `argus-watcher-bot` is also investigating the failures.
