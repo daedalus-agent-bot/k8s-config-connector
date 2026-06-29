@@ -1,17 +1,18 @@
 # Migration Journal: OSConfigGuestPolicy
 
-Current Step: Step 3: Create a Round-Trip KRM Fuzzer
+Current Step: Step 4: Ensure MockGCP matches real gcp behavior
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | Completed | 2026-06-28 | 2026-06-28 |
 | 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | Completed | 2026-06-28 | 2026-06-29 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) | [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) | PR Created | 2026-06-29 | |
-| 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) | [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) | Completed | 2026-06-29 | 2026-06-29 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962) | | Open | 2026-06-29 | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## History / Status Updates
 
+- **2026-06-29**: Verified that PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) for Step 3 has been merged successfully. Marked Step 3 as completed. Initialized Step 4 by opening GitHub issue [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962) to match real GCP behavior in MockGCP for OSConfigGuestPolicy.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified the PR is open with a CLEAN mergeable state. All 194 CI check-runs are successfully completed and 100% green. It remains approved and waiting for final merge. We will continue to await the merge before proceeding to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that the PR is fully approved, in a healthy, mergeable state, and has passed all 194 CI checks with 100% success. Confirmed via the GitHub API/CLI that the PR is currently queued to merge in the GitHub merge queue. Continuing to await the final merge before proceeding to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Confirmed that all 193 CI check-runs have now successfully completed (100% green). The PR has been approved/LGTM'd by code owner `barney-s`, is in a healthy and mergeable state, and is currently awaiting the final Prow bot auto-merge before we can transition to Step 4.
@@ -26,7 +27,7 @@ Current Step: Step 3: Create a Round-Trip KRM Fuzzer
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Confirmed all 193 CI check-runs remain 100% green and successfully completed. The PR continues to be fully mergeable, remains open, and is currently awaiting final review and merge by human code owner `barney-s` before we can proceed to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Verified all 193 CI check-runs are successfully completed and 100% green. The PR remains open, fully mergeable, and currently awaits final code owner review and merge by `barney-s` to proceed to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Confirmed all 193 CI check-runs remain 100% green and successfully completed. The PR continues to be fully mergeable and remains assigned to code owner `barney-s` for final human review, approval, and merge before we can proceed to Step 4.
-- **2026-06-29**: Re-checked Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Confirmed all 193 CI check-runs remain 100% green and fully passed. The PR is open, fully mergeable, and currently assigned to human code owner `barney-s` awaiting final review and merge to proceed to Step 4.
+- **2026-06-29**: Re-checked PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) status. Confirmed all 193 CI check-runs remain 100% green and fully passed. The PR is open, fully mergeable, and currently assigned to human code owner `barney-s` awaiting final review and merge to proceed to Step 4.
 - **2026-06-29**: Re-verified Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). All 193 CI check-runs continue to pass successfully and the PR is 100% green and fully mergeable. It remains open, awaiting final review and merge by a human code owner to proceed to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that all 193 CI check-runs are 100% green and successfully completed. The PR is fully mergeable, remains open, and is currently awaiting final review and merge by human code owner `ldanielmadariaga` (as indicated by the prow approval notifier) before we can proceed to Step 4.
 - **2026-06-29**: Monitored Step 3 (PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959)). Re-verified that all 193 CI check-runs are 100% green and successfully completed. The PR is fully mergeable, remains open, and is currently awaiting final review and merge by human code owner `barney-s` before we can proceed to Step 4.
