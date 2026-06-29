@@ -6,12 +6,13 @@ Current Step: Step 3: Create a Round-Trip KRM Fuzzer
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | Completed | 2026-06-28 | 2026-06-28 |
 | 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | Completed | 2026-06-28 | 2026-06-29 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) | | Open | 2026-06-29 | |
+| 3 | Create a Round-Trip KRM Fuzzer | [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) | [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) | PR Created | 2026-06-29 | |
 | 4 | Ensure MockGCP matches real gcp behavior | | | Not Started | | |
 | 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
 
 ## History / Status Updates
 
+- **2026-06-29**: Monitored Step 3. Confirmed that PR [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) has been created by `hopper-coder-bot` to implement the round-trip fuzzer. Checked CI status: several check-runs (including fuzz-roundtrippers, unit-tests, validations, and build-images) are currently in progress, and all completed checks are 100% green. Awaiting CI completion and review.
 - **2026-06-29**: Verified that PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) for Step 2 has been merged successfully. Marked Step 2 as completed. Initialized Step 3 by opening GitHub issue [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) to implement the round-trip KRM fuzzer for OSConfigGuestPolicy.
 - **2026-06-29**: Monitored Step 2 (PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950)). Verified that all 193 CI check-runs have completed successfully and are 100% green. The PR remains approved/LGTM'd and is awaiting final merge by the prow bot to proceed to Step 3.
 - **2026-06-29**: Re-verified the status of PR [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950). Confirmed that all 193 CI check-runs are successfully completed and 100% green. The PR remains in an approved state and is awaiting final merge by the prow bot to proceed to Step 3.
