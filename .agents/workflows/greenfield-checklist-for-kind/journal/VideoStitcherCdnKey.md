@@ -4,12 +4,13 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | N/A | Open | 2026-06-29 | |
+| 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | [#10993](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10993) | PR Created | 2026-06-29 | |
 | 2 | Direct Controller, E2E fixtures, and Fuzzer | N/A | N/A | Not Started | | |
 | 3 | mockGCP Generation | N/A | N/A | Not Started | | |
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+- **2026-06-30**: Verified that PR #10993 is open for Step 1. Noticed that the `unit-tests-operator` CI check-run has failed. Assigned the PR back to its author bot `hopper-coder-bot` via the REST API to trigger triage and fixes.
 - **2026-06-30**: Verified that Issue #10310 remains open with no active PR. The sandbox run under `hopper-coder-bot` is still in progress. Continuing to monitor Step 1.
 - **2026-06-30**: Checked progress again; confirmed that issue #10310 remains open and assigned, with no new pull request created yet. Continuing to monitor Step 1.
 - **2026-06-30**: Checked again; verified that `hopper-coder-bot` remains assigned to issue #10310 and the sandbox run is still in progress. No new pull request has been opened. Monitoring continues.
