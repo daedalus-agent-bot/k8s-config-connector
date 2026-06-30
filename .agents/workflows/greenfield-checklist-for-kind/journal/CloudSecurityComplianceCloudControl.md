@@ -12,6 +12,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step 4: MockGCP Alignment | | | Pending | | |
 
 ### Status Updates
+* **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and confirmed that 170+ checks have passed successfully with 0 failures. Only 3 final checks (`tests-e2e-fixtures-dataflow`, `tests-e2e-fixtures-compute`, and `tests-e2e-fixtures-bigquery`) remain in progress. Monitoring the remaining checks.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). CI checks are in progress, with 147 checks successfully passing, 41 pending, and 0 failing. Monitoring the PR status.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and verified that all major checks (including `unit-tests`, `validations`, `validate-generated-files`, and `test-mockgcp`) are now completing successfully on the latest force-pushed commit. Awaiting completion of the remaining generic environment check-runs before proceeding.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and verified that checks are failing on `fuzz-roundtrippers`, `unit-tests`, and `validations`. Re-assigned the PR back to the author bot (`ada-coder-bot`) via REST API to investigate and resolve these failures.
