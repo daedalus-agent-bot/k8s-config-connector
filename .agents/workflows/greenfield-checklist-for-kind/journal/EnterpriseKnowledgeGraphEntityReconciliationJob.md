@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Review | 2026-06-24 | |
+| Step 1: Direct API Types | [#9293](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9293) | [#10813](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10813) | Awaiting Rebase | 2026-06-24 | |
 | Step 2: Direct Controller & E2E | | | Not Started | | |
 | Step 3: MockGCP Generation | | | Not Started | | |
 | Step 4: MockGCP Alignment | | | Not Started | | |
 
 ## Status Updates
+- **2026-06-30**: Checked Step 1 progress on PR #10813. Verified that the PR remains open but its mergeable state is currently 'CONFLICTING' (indicating merge conflicts), with all 6 completed CI checks fully passing. Successfully assigned the PR back to the author bot `hopper-coder-bot` via the GitHub REST API to trigger active watch-daemon tracking for automatic rebasing.
 - **2026-06-30**: Checked Step 1 progress on PR #10813. Verified that the PR remains open and is 'MERGEABLE' with all 193 CI checks completed and passing successfully (100% green). Since the PR was currently unassigned on GitHub, successfully assigned it back to the author bot `hopper-coder-bot` via the GitHub REST API to ensure active watch-daemon tracking while we continue to await final human OWNER review, approval, and merge.
 - **2026-06-30**: Monitored Step 1 progress. Checked PR #10813 and verified it remains open and is currently 'MERGEABLE' with all 193 CI checks fully complete and passing successfully (100% green). All reviewer feedback has been addressed, and the PR remains correctly assigned on GitHub to the author bot `hopper-coder-bot` while we continue to await final human OWNER review, approval, and merge before transitioning to Step 2.
 - **2026-06-30**: Checked Step 1 progress. Confirmed PR #10813 remains open with all 193 CI checks fully complete and passing successfully (100% green). Reviewer feedback on `Location` and `mockgcp/go.sum` has been successfully addressed. Since the PR was currently unassigned, successfully assigned it back to the author bot `hopper-coder-bot` to trigger active watch-daemon tracking while we continue to await final human OWNER review, approval, and merge.
