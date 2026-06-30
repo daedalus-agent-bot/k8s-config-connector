@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity
 
 | Step | Task Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | Needs Human Intervention (Gave Up) | 2026-06-29 | - |
+| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | Checks Running | 2026-06-29 | - |
 | 2 | Direct Controller and E2E | - | - | Pending | - | - |
 | 3 | MockGCP Generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Log
+* **2026-06-30**: Checked PR #10989 status at 21:16 UTC. Verified that a new CI check run has been successfully initiated and is currently in progress (active/queued). All core check-runs are currently running. Updating status from "Needs Human Intervention (Gave Up)" to "Checks Running".
 * **2026-06-30**: Checked PR #10989 status at 20:55 UTC. Confirmed that the PR remains OPEN and assigned to `hopper-coder-bot` under "Needs Human Intervention (Gave Up)" status. The transient `tests-e2e-samples-iam` check-run failure persists as the sole blocker, while all other core, validation, unit, and image build checks are 100% successful. Awaiting manual human OWNER action to retest or merge.
 * **2026-06-30**: Checked PR #10989 status at 20:39 UTC. Verified that the PR remains OPEN and assigned to `hopper-coder-bot` under "Needs Human Intervention (Gave Up)" status. The transient `tests-e2e-samples-iam` check-run failure persists as the sole blocker, while all other core, validation, unit, and image build checks are 100% successful. Awaiting manual human OWNER action to retest or merge.
 * **2026-06-30**: Checked PR #10989 status at 20:18 UTC. Verified that the PR remains OPEN and assigned to `hopper-coder-bot` under "Needs Human Intervention (Gave Up)" status. The transient `tests-e2e-samples-iam` check-run failure persists as the sole blocker, while all other 192 checks are 100% successful. Awaiting manual human OWNER action to retest or merge.
