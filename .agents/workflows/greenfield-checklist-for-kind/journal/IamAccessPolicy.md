@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity
 
 | Step | Task Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | PR Created (CI Failing) | 2026-06-29 | - |
+| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | PR Created (CI In Progress) | 2026-06-29 | - |
 | 2 | Direct Controller and E2E | - | - | Pending | - | - |
 | 3 | MockGCP Generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Log
+* **2026-06-30**: Monitored PR #10989. Found that hopper-coder-bot pushed a set of fixes addressing the failing `unit-tests` (updating golden exemptions) and `validations` (generating client libraries). The CI check-runs have restarted and are currently in progress. Assigned the PR back to `hopper-coder-bot` to track build results.
 * **2026-06-30**: Checked PR #10989. Found it was unassigned and CI checks (unit-tests, validations) were failing. Assigned the PR back to hopper-coder-bot using the GitHub REST API to investigate and resolve the failures.
 * **2026-06-30**: Verified PR #10989. The CI checks `unit-tests` and `validations` are failing. Since the PR was currently unassigned, assigned it back to `hopper-coder-bot` to troubleshoot and resolve the failures.
 * **2026-06-30**: Monitored PR #10989. Checked the status and confirmed that the PR remains open and assigned to `hopper-coder-bot`. The CI checks (`unit-tests`, `validate-generated-files`, and `validations`) are still failing. AI Factory is currently triaging via `argus-watcher-bot`. We continue monitoring the PR for updates.
