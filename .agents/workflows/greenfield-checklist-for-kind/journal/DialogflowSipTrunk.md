@@ -1,18 +1,19 @@
 # Migration Journal: DialogflowSipTrunk
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (In Progress, Step 1 merged, Step 2 PR Created)
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Closed, Step 2 PR closed without merge by human OWNER)
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity & Reference | [#9289](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9289) | [#10814](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10814) | Completed | 2026-06-24 | 2026-06-29 |
-| 2 | Direct Controller, E2E fixtures & Fuzzer | [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) | [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967) | PR Created | 2026-06-29 | |
+| 2 | Direct Controller, E2E fixtures & Fuzzer | [#10961](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10961) | [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967) | Closed (Unmerged) | 2026-06-29 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+- **2026-07-01**: Observed that Step 2 Pull Request [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967) was closed without being merged by human OWNER `acpana` because "the bots are cycling on it". In accordance with safety guardrails for closed but unmerged PRs, no further bot assignments will be made to this PR. The migration is currently paused at Step 2 awaiting human OWNER intervention or guidance.
 - **2026-07-01**: Re-verified Step 2 Pull Request [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967). Confirmed that all 194 CI checks are fully completed successfully and remain 100% green. The PR is open, currently assigned to the author bot `ada-coder-bot`, and is awaiting review and merge by a human OWNER before transitioning to Step 3.
 - **2026-07-01**: Monitored Step 2 Pull Request [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967). Confirmed all 194 CI checks are fully completed and 100% green with zero failures. Since the PR was found unassigned, successfully assigned it back to the author bot `ada-coder-bot` via the GitHub REST API. The PR remains open, currently awaiting review and merge by a human OWNER before we can transition to Step 3.
 - **2026-06-30**: Monitored Step 2 Pull Request [#10967](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10967). Verified that all 194 CI check-runs remain completed and 100% green. The PR remains open, assigned to the author bot `ada-coder-bot`, and is awaiting review and merge by a human OWNER before we can transition to Step 3.
