@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity
 
 | Step | Task Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | Needs Human Intervention (Gave Up) | 2026-06-29 | - |
+| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | Checks Running | 2026-06-29 | - |
 | 2 | Direct Controller and E2E | - | - | Pending | - | - |
 | 3 | MockGCP Generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Log
+* **2026-07-01**: Checked PR #10989 checks status at 03:55 UTC. All 192/193 completed checks have successfully passed. The previously failing `tests-e2e-fixtures-certificatemanager` check is currently `in_progress` (running). The PR remains OPEN, with `hopper-coder-bot` assigned. Status is updated to "Checks Running".
 * **2026-07-01**: Checked PR #10989 checks status at 03:40 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
 * **2026-07-01**: Checked PR #10989 checks status at 03:20 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
 * **2026-07-01**: Checked PR #10989 status at 03:05 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
