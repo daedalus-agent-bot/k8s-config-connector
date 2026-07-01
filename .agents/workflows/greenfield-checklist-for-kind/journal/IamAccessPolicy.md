@@ -7,15 +7,15 @@ Step 1: Direct API Types and Identity
 
 | Step | Task Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | Checks Running | 2026-06-29 | - |
+| 1 | Direct API Types and Identity | [Issue #10278](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10278) | [PR #10989](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10989) | All Checks Passed | 2026-06-29 | - |
 | 2 | Direct Controller and E2E | - | - | Pending | - | - |
 | 3 | MockGCP Generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Log
+* **2026-07-01**: Checked PR #10989 checks status at 04:15 UTC. All 193/193 completed checks have successfully passed (100% green), including the previously failing `tests-e2e-fixtures-certificatemanager` check. The PR remains OPEN, with `hopper-coder-bot` assigned, and is awaiting manual human OWNER review and merge.
 * **2026-07-01**: Checked PR #10989 checks status at 03:55 UTC. All 192/193 completed checks have successfully passed. The previously failing `tests-e2e-fixtures-certificatemanager` check is currently `in_progress` (running). The PR remains OPEN, with `hopper-coder-bot` assigned. Status is updated to "Checks Running".
 * **2026-07-01**: Checked PR #10989 checks status at 03:40 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
-* **2026-07-01**: Checked PR #10989 checks status at 03:20 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
 * **2026-07-01**: Checked PR #10989 status at 03:05 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
 * **2026-07-01**: Checked PR #10989 checks status at 02:43 UTC. Re-verified that the PR remains OPEN and in "Needs Human Intervention (Gave Up)" status with `hopper-coder-bot` assigned. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
 * **2026-07-01**: Checked PR #10989 checks status at 02:30 UTC. Re-verified that the PR remains OPEN and assigned to `hopper-coder-bot` in "Needs Human Intervention (Gave Up)" status. All 192/193 checks have successfully passed, with only the single unrelated `tests-e2e-fixtures-certificatemanager` failure persisting. Awaiting manual human OWNER intervention to retest or merge.
@@ -100,7 +100,7 @@ Step 1: Direct API Types and Identity
 * **2026-06-30**: Monitored PR #10989. Checked the status and confirmed that the PR remains open and assigned to `hopper-coder-bot`. The CI checks (`unit-tests`, `validate-generated-files`, and `validations`) are still failing. AI Factory is currently triaging via `argus-watcher-bot`. We continue monitoring the PR for updates.
 * **2026-06-30**: Monitored PR #10989 and confirmed that the PR remains open and assigned to `hopper-coder-bot`. The CI checks (`unit-tests`, `validate-generated-files`, and `validations`) are still failing. Awaiting `hopper-coder-bot` to push updates and resolve the failures.
 * **2026-06-30**: Monitored PR #10989. Checked CI check failures (`unit-tests`, `validate-generated-files`, `validations`). The PR is open, still assigned to `hopper-coder-bot`, and awaiting the coder bot to resolve the failing CI checks.
-* **2026-06-30**: Monitored PR #10989. Noted that `argus-watcher-bot` has started investigating the CI check failures on behalf of the AI Factory, and the PR remains assigned to `hopper-coder-bot` for resolution.
+* **2026-06-30**: Noted that `argus-watcher-bot` has started investigating the CI check failures on behalf of the AI Factory, and the PR remains assigned to `hopper-coder-bot` for resolution.
 * **2026-06-30**: Monitored PR #10989 and verified CI checks are still failing (`unit-tests`, `validate-generated-files`, and `validations`). Confirmed PR is currently assigned to `hopper-coder-bot` and awaiting updates.
 * **2026-06-30**: Identified open PR #10989 by hopper-coder-bot for Step 1. CI checks failed (specifically `validate-generated-files` and `validations`). Assigned the PR back to `hopper-coder-bot` for troubleshooting and fixes.
 * **2026-06-30**: Verified status of Step 1. Issue #10278 is open, but no active PR has been opened yet. Waiting for coder bots to start a new PR.
