@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct API Types and Identity & Reference Types | [#8069](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8069), [#8503](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8503) | [#8081](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8081), [#8521](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8521) | Completed | 2026-05-15 | 2026-05-22 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#8584](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8584) | - | Open | 2026-05-22 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11196](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11196) | - | Open | 2026-05-22 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-02 (17:40 UTC)**: Re-triggered Step 2 implementation. Closed stale issue #8584 and opened a brand new, correctly formatted issue #11196 to trigger the automated AI Factory run.
 * **2026-07-02 (17:17 UTC)**: Monitored Step 2 progress. Confirmed that issue #8584 remains open and assigned to `ada-coder-bot`, with no active Pull Request opened yet. Continuing to monitor.
 * **2026-07-02 (17:03 UTC)**: Monitored Step 2 progress. Confirmed that issue #8584 remains open and assigned to `ada-coder-bot`, with no active Pull Request opened yet. Continuing to monitor.
 * **2026-07-02 (16:46 UTC)**: Monitored Step 2 progress. Confirmed that issue #8584 remains open and assigned to `ada-coder-bot`, with no active Pull Request opened yet. Continuing to monitor.
