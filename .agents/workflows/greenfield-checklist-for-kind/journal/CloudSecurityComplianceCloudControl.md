@@ -1,17 +1,18 @@
 # CloudSecurityComplianceCloudControl Greenfield Migration Journal
 
 ### Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer
+Step 3: mockGCP generation
 
 ### Progress Tracking
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types and Identity | [#9024](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9024) | [#9040](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9040) | Merged | 2026-06-03 | 2026-06-03 |
-| Step 2: Direct Controller, E2E & Fuzzer | [#9368](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9368) | [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) | PR Created | 2026-06-05 | |
-| Step 3: mockGCP Generation | | | Pending | | |
+| Step 2: Direct Controller, E2E & Fuzzer | [#9368](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9368) | [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) | Merged | 2026-06-05 | 2026-07-02 |
+| Step 3: mockGCP Generation | [#11208](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11208) | | Open | 2026-07-02 | |
 | Step 4: MockGCP Alignment | | | Pending | | |
 
 ### Status Updates
+* **2026-07-02 (20:49 UTC)**: Confirmed PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) has been successfully MERGED. Completed Step 2. Transitioning to Step 3 (mockGCP Generation) and created a new tracking issue [#11208](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11208).
 * **2026-07-02 (20:13 UTC)**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI and PR status: all 195 checks are passing successfully and the PR remains in an approved state, with the `lgtm` and `approved` labels applied. The PR remains open and is currently awaiting Prow's merge execution/queue before we can proceed to Step 3.
 * **2026-07-02 (19:39 UTC)**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI and PR status: all 195 checks are passing successfully and the PR has been officially APPROVED by collaborator `acpana` via Prow (`google-oss-prow[bot]`). The PR is in a clean mergeable state and is currently awaiting Prow's merge execution before we can proceed to Step 3.
 * **2026-07-02 (19:20 UTC)**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI status and verified that all 193 checks continue to pass successfully with 0 failures. The PR remains mergeable and open, currently unassigned, and is awaiting final human review/approval and merge before we can proceed to Step 3.
@@ -136,7 +137,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) again. Verified that all 193 CI checks have completed successfully with 0 failures. The PR is ready and is currently awaiting human review and merge.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) at 06:37 UTC. Re-confirmed all 193 CI checks are passing successfully with 0 failures. PR state is OPEN and is still awaiting human review and merge.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991) again. Confirmed that all 193 checks are still passing successfully. The PR remains open, awaiting human review and merge.
-* **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and confirmed that all 193 checks have now passed successfully with 0 failures. The PR remains open and is awaiting human review and merge before we can proceed to Step 3.
+* **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Confirmed that all 193 checks have now passed successfully with 0 failures. The PR remains open and is awaiting human review and merge before we can proceed to Step 3.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and confirmed that 170+ checks have passed successfully with 0 failures. Only 3 final checks (`tests-e2e-fixtures-dataflow`, `tests-e2e-fixtures-compute`, and `tests-e2e-fixtures-bigquery`) remain in progress. Monitoring the remaining checks.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). CI checks are in progress, with 147 checks successfully passing, 41 pending, and 0 failing. Monitoring the PR status.
 * **2026-06-30**: Monitored PR [#10991](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10991). Checked CI statuses and verified that all major checks (including `unit-tests`, `validations`, `validate-generated-files`, and `test-mockgcp`) are now completing successfully on the latest force-pushed commit. Awaiting completion of the remaining generic environment check-runs before proceeding.
