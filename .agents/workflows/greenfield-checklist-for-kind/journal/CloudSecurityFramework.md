@@ -13,5 +13,5 @@ Step 1: Direct API Types and Identity
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
-* **2026-07-02**: Monitored Step 1 child issue #11162. The issue is assigned to ada-coder-bot and they are actively working on it. Awaiting the creation of the first Pull Request for direct API types and identity.
+* **2026-07-02**: Monitored Step 1 child issue #11162. No Pull Request has been created yet. The sandbox run is in progress and assigned to `ada-coder-bot`, who is actively working on it.
 * **2026-07-02**: Initialized migration tracking journal. Created Step 1 child issue #11162 and closed duplicate old issue #8665.
