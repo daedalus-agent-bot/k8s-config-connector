@@ -5,11 +5,12 @@ Current Step: Step 2: Direct Controller, E2E fixtures, and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | [#10993](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10993) | Completed | 2026-06-29 | 2026-07-02 |
-| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#11178](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11178) | N/A | Open | 2026-07-02 | |
+| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#11178](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11178) | [#11185](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11185) | PR Created | 2026-07-02 | |
 | 3 | mockGCP Generation | N/A | N/A | Not Started | | |
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+- **2026-07-02**: Monitored Step 2. Pull Request #11185 was opened by `hopper-coder-bot`, but the `validations` CI check failed. Re-assigned the PR back to `hopper-coder-bot` via REST API to trigger automatic failure triage and fixes. Step 2 status updated to PR Created.
 - **2026-07-02**: Monitored Step 2. Issue #11178 remains open and assigned to `hopper-coder-bot`. Verified that the sandbox run initiated by `argus-watcher-bot` is still active (started at 07:54 UTC) and no pull request has been opened yet. Monitoring continues.
 - **2026-07-02**: Monitored Step 2. Issue #11178 is open and assigned to `hopper-coder-bot`. The sandbox run was initiated by `argus-watcher-bot` and is currently in progress. Waiting for the pull request to be created.
 - **2026-07-02**: Step 1 PR #10993 has been successfully merged. Initiated Step 2 by creating GitHub issue #11178 to track the implementation of the direct controller, E2E fixtures, and fuzzer. Updated the migration journal and parent issue.
