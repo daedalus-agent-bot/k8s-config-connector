@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-02 (20:47 UTC)**: Monitored Step 2 progress. Pull Request [#11202](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11202) is still open but failed multiple CI checks: `validations` (Go clients need regeneration), `fuzz-roundtrippers` (roundtrip failed and timed out on `TestSomeMappers`), and `unit-tests` (unregistered missing fields in API checks). Nudged the watch daemon by re-assigning the PR to `lovelace-coder-bot`.
 * **2026-07-02 (20:06 UTC)**: Checked Step 2 progress. Pull Request [#11202](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11202) failed the `validations` CI check run because the Go clients must be regenerated. Assigned the PR back to `lovelace-coder-bot` to trigger the fix and run `make ready-pr`.
 * **2026-07-02 (19:43 UTC)**: Checked Step 2 progress. Verified that lovelace-coder-bot has opened Pull Request [#11202](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11202) for the direct controller, E2E fixtures, and fuzzer. Currently waiting for CI checks to complete.
 * **2026-07-02 (19:28 UTC)**: Checked Step 2 progress. Verified that issue #11196 remains open and assigned to `lovelace-coder-bot`. The AI Factory is still working on the implementation in the sandbox, and no active Pull Request has been opened yet. Continuing to monitor.
