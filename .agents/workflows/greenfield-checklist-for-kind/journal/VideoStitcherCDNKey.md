@@ -1,15 +1,16 @@
 # VideoStitcherCDNKey Migration Journal
 
-Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
+Current Step: Step 2: Direct Controller, E2E fixtures, and Fuzzer
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | [#10993](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10993) | PR Created | 2026-06-29 | |
-| 2 | Direct Controller, E2E fixtures, and Fuzzer | N/A | N/A | Not Started | | |
+| 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | [#10993](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10993) | Completed | 2026-06-29 | 2026-07-02 |
+| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#11178](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11178) | N/A | Open | 2026-07-02 | |
 | 3 | mockGCP Generation | N/A | N/A | Not Started | | |
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+- **2026-07-02**: Step 1 PR #10993 has been successfully merged. Initiated Step 2 by creating GitHub issue #11178 to track the implementation of the direct controller, E2E fixtures, and fuzzer. Updated the migration journal and parent issue.
 - **2026-07-01**: Monitored PR #10993; robustly verified via paginated checks that the PR remains open, mergeable, and 100% green with all CI check-runs successfully passed. The PR continues to await human OWNER review and approval (`reviewDecision: REVIEW_REQUIRED`). Step 1 monitoring continues.
 - **2026-07-01**: Monitored PR #10993; robustly verified via paginated checks that all CI check-runs remain 100% green and successful. The PR is open, mergeable, and continues to await human OWNER review and approval (`reviewDecision: REVIEW_REQUIRED`). Step 1 monitoring continues.
 - **2026-07-01**: Checked PR #10993; robustly verified via paginated checks that the PR remains open, is mergeable, and all 193 CI check-runs have passed successfully (100% green). It is currently awaiting human OWNER review and approval (`reviewDecision: REVIEW_REQUIRED`). Step 1 monitoring continues.
