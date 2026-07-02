@@ -10,6 +10,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures, and Fuzzer
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+- **2026-07-02**: Monitored Step 2. Verified that PR #11185 is open, mergeable, and all completed CI checks (including `validations`, `golangci-lint`, and `test-mockgcp`) have passed successfully. `hopper-coder-bot` resolved the previous unit-test failures by updating `tests/apichecks/testdata/exceptions/alpha-missingfields.txt` for the newly-exercised fields. Remaining checks are actively running (pending) with no new failures reported. Monitoring continues.
 - **2026-07-02**: Monitored Step 2. Checked PR #11185; observed that the `unit-tests` CI check has failed on the latest commit. The PR is open, assigned to its author bot `hopper-coder-bot`, and `argus-watcher-bot` has initiated a sandbox triage run to investigate and fix the failure. Monitoring continues.
 - **2026-07-02**: Monitored Step 2. Verified that hopper-coder-bot resolved the validations and unit-tests failures by tidying go.mod to promote cloud.google.com/go/video to a direct dependency, and force-pushed the updated commit. The CI presubmits are currently running on the latest commit. Monitoring continues.
 - **2026-07-02**: Monitored Step 2. Verified that PR #11185 remains open and assigned to its author bot `hopper-coder-bot` with `unit-tests` and `validations` failures. The sandbox run initiated by `argus-watcher-bot` to triage and fix these failures remains active. Monitoring continues.
