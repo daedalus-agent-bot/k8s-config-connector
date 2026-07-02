@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | - | Open | 2026-07-02 | - |
+| 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) | PR Created | 2026-07-02 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-02**: Monitored Step 1 child issue #11162. Pull Request [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) has been created. CI check runs are currently pending.
 * **2026-07-02**: Checked child issue #11162. The sandbox run under `ada-coder-bot` is still in progress (approx. 2.75+ hours). No Pull Request has been created yet.
 * **2026-07-02**: Monitored child issue #11162. The sandbox run under `ada-coder-bot` is still in progress (approx. 2.25+ hours). No Pull Request has been created yet.
 * **2026-07-02**: Checked child issue #11162. The sandbox run under `ada-coder-bot` is still in progress (approx. 1.5+ hours). No Pull Request has been created yet.
