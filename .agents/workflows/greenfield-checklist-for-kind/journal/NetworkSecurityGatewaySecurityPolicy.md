@@ -13,6 +13,7 @@ Current Step: **Step 1: Direct API Types and Identity and Reference Types Patter
 
 ## Status Updates
 
+* **2026-07-02**: Polled PR [#11173](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11173) status. Confirmed that active CI checks continue to run successfully with no failures. All completed check-runs are green, and the remaining 3 long-running checks (`tests-e2e-fixtures-dataflow`, `tests-e2e-fixtures-compute`, `tests-e2e-fixtures-bigquery`) are in-progress.
 * **2026-07-02**: Polled PR [#11173](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11173) status. Verified that all completed checks are passing, with some long-running CI check-runs currently in-progress. No failures detected.
 * **2026-07-02**: Polled PR [#11173](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11173) status. Verified that `lovelace-coder-bot` has resolved the previous `unit-tests` failure by registering the API checks exceptions and pushing a clean commit `92f66bace315717ebca4c1ec83f20f057098afae`. Active CI checks are currently running and all completed checks are passing.
 * **2026-07-02**: Identified that the `unit-tests` failure on PR [#11173](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11173) is due to `TestCRDShortNamePluralization` flagging the new CRD's plural shortName (`gcpnetworksecuritygatewaysecuritypolicys`). Verified that `lovelace-coder-bot` is assigned and the AI Factory sandbox investigation is actively in-progress.
