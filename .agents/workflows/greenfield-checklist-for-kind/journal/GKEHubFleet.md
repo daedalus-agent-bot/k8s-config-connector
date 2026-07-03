@@ -28,6 +28,7 @@ Current Step: **Step 1: Direct KRM types, identity, and generate.sh**
 
 ## Status Update Notes
 
+- **2026-07-03**: Monitored PR #11237. Checked the CI check-runs for the latest commit; all checks have successfully passed except for `tests-e2e-fixtures-compute`, which is currently in-progress. No failures have been detected. The PR remains open, and we are waiting for the run to complete.
 - **2026-07-03**: Monitored PR #11237. Following the update from `hopper-coder-bot`, a new CI run was triggered. Several checks (`cla/google`, `run-linters`, `license-lint`, `tests-preview`, `validate-untested-fields`, `check-changes`) have already passed, and the remaining checks are in progress with no failures detected.
 - **2026-07-03**: Verified CI checks on PR #11237. The `validations` check-run failed because the generated Go clients under `pkg/clients/generated/` are missing or outdated. Assigned the PR back to `hopper-coder-bot` to run `make ready-pr` and update the PR.
 - **2026-07-03**: Monitored PR #11237. The previously failing checks (`unit-tests`, `validate-generated-files`, etc.) have now passed. The remaining checks are currently in progress, and no failures have been detected in the active run.
