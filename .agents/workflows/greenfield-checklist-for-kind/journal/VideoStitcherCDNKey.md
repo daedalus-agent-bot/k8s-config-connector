@@ -1,15 +1,16 @@
 # VideoStitcherCDNKey Migration Journal
 
-Current Step: Step 2: Direct Controller, E2E fixtures, and Fuzzer
+Current Step: Step 3: mockGCP Generation
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types, Identity, and References | [#10310](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10310) | [#10993](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10993) | Completed | 2026-06-29 | 2026-07-02 |
-| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#11178](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11178) | [#11185](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11185) | PR Created | 2026-07-02 | |
-| 3 | mockGCP Generation | N/A | N/A | Not Started | | |
+| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#11178](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11178) | [#11185](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11185) | Completed | 2026-07-02 | 2026-07-03 |
+| 3 | mockGCP Generation | [#11295](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11295) | N/A | Open | 2026-07-03 | |
 | 4 | mockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+- **2026-07-03**: Step 2 PR #11185 was successfully merged. Initiated Step 3 by creating GitHub issue #11295 to track the mockGCP generation and implementation. Updated the migration journal and parent issue.
 - **2026-07-03**: Monitored Step 2. Checked PR #11185; robustly verified via paginated checks that the PR remains open, is mergeable, and is 100% green with all 193 CI check-runs successfully completed. The PR continues to await human OWNER review and approval (`reviewDecision: REVIEW_REQUIRED`). Step 2 monitoring continues.
 - **2026-07-02**: Checked PR #11185; robustly verified via paginated checks that the PR remains open and is 100% green with all 194 CI check-runs successfully passed. The PR continues to await human OWNER review and approval (`reviewDecision: REVIEW_REQUIRED`). Step 2 monitoring continues.
 - **2026-07-02**: Monitored Step 2. Re-checked PR #11185; robustly verified via paginated checks that all 194 CI check-runs remain 100% green and successfully passed. The PR is open, mergeable, and continues to await human OWNER review and approval (reviewDecision: REVIEW_REQUIRED). Step 2 monitoring continues.
