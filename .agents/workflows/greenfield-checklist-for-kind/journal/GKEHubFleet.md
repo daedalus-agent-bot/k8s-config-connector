@@ -21,11 +21,12 @@ Current Step: **Step 1: Direct KRM types, identity, and generate.sh**
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct KRM types, identity, and generate.sh | [#10272](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10272) | - | Open | 2026-07-02 | - |
+| Step 1: Direct KRM types, identity, and generate.sh | [#10272](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10272) | [#11237](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11237) | PR Created | 2026-07-02 | - |
 | Step 2: Direct controller, E2E fixtures, and fuzzer | - | - | Pending | - | - |
 | Step 3: MockGCP and Alignment | - | - | Pending | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
 
+- **2026-07-03**: Found that PR #11237 has been created by hopper-coder-bot. Some CI checks (unit-tests, validations, validate-generated-files) are failing. Assigning PR back to hopper-coder-bot for fix.
 - **2026-07-02**: Initialized migration tracking journal for GKEHubFleet. Step 1 (Issue #10272) is currently open and active.
