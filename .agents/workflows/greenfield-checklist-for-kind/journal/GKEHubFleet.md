@@ -28,5 +28,6 @@ Current Step: **Step 1: Direct KRM types, identity, and generate.sh**
 
 ## Status Update Notes
 
+- **2026-07-03**: CI check failures (unit-tests, validations, validate-generated-files) detected on PR #11237. `argus-watcher-bot` has started investigating the failures, and the PR remains assigned to `hopper-coder-bot`.
 - **2026-07-03**: Found that PR #11237 has been created by hopper-coder-bot. Some CI checks (unit-tests, validations, validate-generated-files) are failing. Assigning PR back to hopper-coder-bot for fix.
 - **2026-07-02**: Initialized migration tracking journal for GKEHubFleet. Step 1 (Issue #10272) is currently open and active.
