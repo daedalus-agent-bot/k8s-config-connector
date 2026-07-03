@@ -13,5 +13,6 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | mockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-03**: Checked PR [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255) CI status and detected a unit-tests check-run failure. Assigned the PR back to the author bot `hopper-coder-bot` to resolve the failure.
 - **2026-07-03**: Detected active pull request [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255) for Step 1 (`step/gen-types`). Checked CI status and confirmed check-runs are currently running.
 - **2026-07-02**: Initialized greenfield checklist tracking for `NetworkServicesAuthzExtension`. Identified that the Step 1 issue (#10292) is currently open. Sibling PR #10339 was closed without being merged. Tracked status as `Open` for Step 1.
