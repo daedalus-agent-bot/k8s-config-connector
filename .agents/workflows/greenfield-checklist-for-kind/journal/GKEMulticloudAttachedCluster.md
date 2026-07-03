@@ -13,5 +13,6 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 ## Status Updates
 
+* **2026-07-03 (Update)**: Confirmed that `argus-watcher-bot` has started investigating the CI failures (`unit-tests`, `unit-tests-operator`, `validate-generated-files`, and `validations`) on PR [#11264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11264). The PR remains assigned to author bot `hopper-coder-bot` for automated repair.
 * **2026-07-03**: Monitored migration progress. Detected new Pull Request [#11264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11264) opened for Step 1. Noticed CI checks `unit-tests-operator` and `validate-generated-files` are failing; successfully assigned the PR to the author bot `hopper-coder-bot` to trigger automated troubleshooting and repair.
 * **2026-07-02**: Initialized Greenfield Migration Journal. Step 1 is in progress. The previous PR #10304 passed all checks but was closed; a new sandbox run has been started by `argus-watcher-bot` to address it.
