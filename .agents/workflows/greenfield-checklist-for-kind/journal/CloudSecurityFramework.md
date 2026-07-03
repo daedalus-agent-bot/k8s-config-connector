@@ -1,18 +1,19 @@
 # CloudSecurityFramework Greenfield Migration Journal
 
 ## Current Step
-Step 1: Direct API Types and Identity
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) | PR Created | 2026-07-02 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) | Completed | 2026-07-02 | 2026-07-03 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11288) | - | Open | 2026-07-03 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-03**: Verified that Step 1 PR #11187 was successfully merged. Opened Step 2 child issue #11288 to implement the direct controller, E2E fixtures, and fuzzer for CloudSecurityFramework.
 * **2026-07-02**: Checked PR #11187. Confirmed that the PR is approved by acpana and has "lgtm" and "approved" labels. Several downstream E2E tests are currently in progress with all completed checks passing. Awaiting final merge to complete Step 1.
 * **2026-07-02**: Monitored PR #11187. Verified that a new set of CI checks are currently in progress following recent commits. So far, all completed checks are successful with no failures. The PR is open and awaiting check completion and human OWNER review.
 * **2026-07-02**: Checked PR #11187 again. Verified that all 193 CI check-runs remain completely green. The PR remains open, awaiting human OWNER review and merge to complete Step 1.
