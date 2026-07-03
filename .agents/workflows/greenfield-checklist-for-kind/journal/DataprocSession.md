@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | 1. Direct API Types and Identity | [#8682](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8682) | [#8695](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8695), [#8780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8780) | Merged | 2026-05-26 | 2026-05-28 |
-| 2. Direct Controller, E2E fixtures and Fuzzer | [#8884](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8884) | [#8890](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8890) (Closed) | Open | 2026-05-31 | |
+| 2. Direct Controller, E2E fixtures and Fuzzer | [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) | | Open | 2026-05-31 | |
 | 3. mockGCP generation | | | Pending | | |
 | 4. MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-03 (14:35 UTC)**: Created new issue [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) to trigger a fresh implementation attempt for Step 2 after the previous PR #8890 was closed. Monitoring for coder bot assignment and new PR creation.
 * **2026-07-03 (13:53 UTC)**: Progress monitoring check. Confirmed that codebot-robot remains assigned to issue #8884 and is actively working on the implementation; no new PR has been opened yet.
 * **2026-07-03 (13:18 UTC)**: Progress monitoring check. Confirmed that codebot-robot remains assigned to issue #8884 and is actively working on the implementation; no new PR has been opened yet.
 * **2026-07-03 (12:50 UTC)**: Progress monitoring check. Confirmed that codebot-robot remains assigned to issue #8884 and is actively working on the implementation; no new PR has been opened yet.
