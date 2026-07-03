@@ -13,4 +13,5 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 ## Status Updates
 
+* **2026-07-03**: Monitored migration progress. Step 1 is still in progress; the sandbox run is active on issue #10273, awaiting the creation of the new pull request.
 * **2026-07-02**: Initialized Greenfield Migration Journal. Step 1 is in progress. The previous PR #10304 passed all checks but was closed; a new sandbox run has been started by `argus-watcher-bot` to address it.
