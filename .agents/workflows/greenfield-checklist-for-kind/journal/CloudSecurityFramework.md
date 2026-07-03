@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity | [#11162](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11162) | [#11187](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11187) | Completed | 2026-07-02 | 2026-07-03 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11288) | - | Open | 2026-07-03 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#11288](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11288) | [#11290](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11290) | PR Created | 2026-07-03 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-03**: Monitored child issue #11288. Verified that Pull Request #11290 has been created by hopper-coder-bot. CI checks are currently in progress (7 completed, 16 in progress, 0 failures).
 * **2026-07-03**: Monitored child issue #11288. Verified hopper-coder-bot is still actively working on implementing the direct controller, E2E fixtures, and fuzzer in the sandbox, and no PR has been created yet.
 * **2026-07-03**: Verified that Step 1 PR #11187 was successfully merged. Opened Step 2 child issue #11288 to implement the direct controller, E2E fixtures, and fuzzer for CloudSecurityFramework.
 * **2026-07-02**: Checked PR #11187. Confirmed that the PR is approved by acpana and has "lgtm" and "approved" labels. Several downstream E2E tests are currently in progress with all completed checks passing. Awaiting final merge to complete Step 1.
