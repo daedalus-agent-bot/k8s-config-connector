@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-03**: Monitored PR #11250 checks. Three e2e-fixtures checks (bigquery, dataflow, compute) remain pending, while all other checks are passing. Continuing to monitor.
 * **2026-07-03**: Monitored PR #11250. The PR is open and several CI check-runs are currently pending. Continuing to monitor the PR for completion.
 * **2026-07-03**: Checked PR #11250 status. The PR is open and all CI check-runs are currently pending (in_progress). Continuing to monitor the PR for completion.
 * **2026-07-03**: Monitored PR #11250. Checked all CI check-runs and verified they are 100% green and passing. However, the PR has merge conflicts with the base branch (DIRTY). Assigned the PR to the author bot `ada-coder-bot` to resolve the conflicts.
