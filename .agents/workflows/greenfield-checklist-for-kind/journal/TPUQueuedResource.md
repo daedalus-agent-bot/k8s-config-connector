@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Notes / Status Updates
+- **2026-07-03**: Checked Step 1 progress. Pull request #11251 remains open. Most CI checks have passed (including `unit-tests` and `test-mockgcp`), but the `validations` check is failing due to out-of-date deepcopy code (`zz_generated.deepcopy.go`). Assigned the PR to the author bot `lovelace-coder-bot` to regenerate and push.
 - **2026-07-03**: Checked Step 1 progress. Pull request #11251 is still open, and a new commit `6483d775f4c04ae3d803b99cb61b5888299e166d` was submitted. Many CI checks (such as `validate-generated-files` and `test-mockgcp`) are now passing, while `unit-tests`, `smoketest-with-kind`, `fuzz-roundtrippers`, and `validations` are actively in progress. No active failures have been reported on this commit so far.
 - **2026-07-03**: Monitored Step 1 progress. Pull request #11251 remains open. The check `validate-generated-files` is now passing, but `unit-tests` and `validations` are still failing. The PR remains assigned to the author bot `lovelace-coder-bot` for continued investigation and fixes.
 - **2026-07-03**: Verified PR #11251 remains open with a failing `unit-tests` CI check. Discovered that no assignee was set on the PR, so assigned the author bot `lovelace-coder-bot` to investigate and resolve the failure.
