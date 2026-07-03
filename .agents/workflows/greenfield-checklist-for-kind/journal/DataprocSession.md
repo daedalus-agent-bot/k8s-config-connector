@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | 1. Direct API Types and Identity | [#8682](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8682) | [#8695](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8695), [#8780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8780) | Merged | 2026-05-26 | 2026-05-28 |
-| 2. Direct Controller, E2E fixtures and Fuzzer | [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) | | Open | 2026-05-31 | |
+| 2. Direct Controller, E2E fixtures and Fuzzer | [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) | [#11300](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11300) | PR Created | 2026-05-31 | |
 | 3. mockGCP generation | | | Pending | | |
 | 4. MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-03 (16:58 UTC)**: Progress monitoring check. Confirmed that hopper-coder-bot has opened Pull Request [#11300](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11300) for Step 2. All completed CI checks are passing; some are still in progress. Monitoring the PR for reviews and merge status.
 * **2026-07-03 (16:19 UTC)**: Progress monitoring check. Confirmed that hopper-coder-bot remains assigned to issue [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) and is actively working on the implementation in its sandbox. No PR has been opened yet.
 * **2026-07-03 (15:48 UTC)**: Progress monitoring check. Confirmed that hopper-coder-bot remains assigned to issue [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) and is actively working on the implementation in its sandbox. No PR has been opened yet.
 * **2026-07-03 (15:16 UTC)**: Progress monitoring check. Confirmed that hopper-coder-bot remains assigned to issue [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) and is actively working on the implementation in its sandbox. No PR has been opened yet.
