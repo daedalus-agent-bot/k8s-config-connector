@@ -13,5 +13,6 @@
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-02**: Monitored PR #11250 checks. Confirmed that CI check-runs are currently failing, and `argus-watcher-bot` has started investigating. The PR remains assigned to `ada-coder-bot` to address the failures.
 * **2026-07-02**: Checked PR #11250 status. Found failing CI check-runs (`unit-tests`, `unit-tests-operator`, `validate-generated-files`). Assigned `ada-coder-bot` to address the failures.
 * **2026-07-02**: Initialized the Greenfield tracking journal for VMMigrationGroup. PR #11250 is open for Step 1, and its CI check runs are currently pending.
