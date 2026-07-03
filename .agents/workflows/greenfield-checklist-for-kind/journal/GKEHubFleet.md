@@ -28,6 +28,7 @@ Current Step: **Step 1: Direct KRM types, identity, and generate.sh**
 
 ## Status Update Notes
 
+- **2026-07-03**: Re-audited PR #11237 check-runs. Verified that all checks are fully green and successful. The PR remains open and awaiting human OWNER review, approval, and merge. Holding execution on Step 2 until Step 1 is merged.
 - **2026-07-03**: Verified PR #11237. All CI check-runs have now passed successfully (all jobs are green). The PR is fully ready and awaiting human/OWNER review and approval to merge.
 - **2026-07-03**: Monitored PR #11237. Checked the CI check-runs for the latest commit; all checks have successfully passed except for `tests-e2e-fixtures-compute`, which is currently in-progress. No failures have been detected. The PR remains open, and we are waiting for the run to complete.
 - **2026-07-03**: Monitored PR #11237. Following the update from `hopper-coder-bot`, a new CI run was triggered. Several checks (`cla/google`, `run-linters`, `license-lint`, `tests-preview`, `validate-untested-fields`, `check-changes`) have already passed, and the remaining checks are in progress with no failures detected.
