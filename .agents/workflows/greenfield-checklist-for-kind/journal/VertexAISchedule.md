@@ -1,0 +1,17 @@
+# Greenfield Migration Journal: VertexAISchedule
+
+## Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Progress Tracking
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|------|-----------|--------------|---------------------|--------|--------------|----------------|
+| 1 | Direct API Types & Identity | [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) | [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) | PR Created | 2026-07-06 | |
+| 2 | Direct Controller & E2E | | | Planned | | |
+| 3 | mockGCP generation | | | Planned | | |
+| 4 | MockGCP Alignment | | | Planned | | |
+
+## Status Updates
+- **2026-07-07**: Initialized Greenfield migration checklist for `VertexAISchedule`.
+- **2026-07-07**: Step 1 is in progress. Issue [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) is open and PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) is created but currently has failing checks. Assigning the PR to `ada-coder-bot` to trigger automated retry and fix the checks.
