@@ -13,6 +13,7 @@
 
 ## Notes & Status Updates
 
+* **2026-07-07**: Checked PR #11431 (implementing Step 2) again. Confirmed that the pull request is still OPEN and awaiting human OWNER review and merge. All direct-scoped CI tests remain completely green and passing, with only the unrelated `tests-scenarios-acquisition` check failing. No other manual or automated intervention is currently required.
 * **2026-07-07**: Monitored PR #11431 (implementing Step 2) again in the late evening. Confirmed that the PR is still OPEN and assigned to `ada-coder-bot` with all direct-scoped checks green. The unrelated failure in `tests-scenarios-acquisition` persists and blocks the merge. It continues to await manual human OWNER review and merge to proceed to Step 3.
 * **2026-07-07**: Conducted a periodic check of PR #11431 (implementing Step 2). Confirmed that the PR is still open and all direct-scoped checks remain fully green and passing. The unrelated flake in `tests-scenarios-acquisition` is still failing. The PR remains open, awaiting manual human OWNER/approver review and merge to proceed to Step 3.
 * **2026-07-07**: Monitored PR #11431 (implementing Step 2) again. Verified that all direct-scoped CI checks (including E2E fixtures, validations, and fuzzers) are green and passing. The unrelated `tests-scenarios-acquisition` check is still failing, so the PR remains open awaiting manual human OWNER review and merge.
