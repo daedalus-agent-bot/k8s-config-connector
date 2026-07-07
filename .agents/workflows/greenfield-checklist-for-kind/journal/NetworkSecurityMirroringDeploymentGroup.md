@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8731) | [#8750](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8750) | Open | 2026-05-27 | |
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8731) | [#8750](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8750) (Closed) | Open | 2026-05-27 | |
 | Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
 | Step 3: MockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-07**: Checked migration progress. Verified that child issue #8731 remains open and unassigned, with no active types-only Pull Request currently open (PR #8750 is closed). Standing by for a coder bot to self-assign and initiate implementation of the KRM types.
 - **2026-07-07**: Monitored the migration progress of Step 1. Confirmed child issue #8731 is open and unassigned, and there is no active Pull Request. Awaiting an automated coder bot to claim the issue and submit a types-only PR.
 - **2026-07-07**: Initialized migration tracking journal. Checked previous PR #8750 (which implemented Step 1) and found that it was closed without merging. Re-evaluating the status of Step 1. Issue #8731 remains open and unassigned for the bot/coder to pick up and process.
 - **2026-07-07**: Re-assigned child issue #8731 to the current bot user `daedalus-agent-bot` to trigger/initiate a new PR implementation for Step 1.
