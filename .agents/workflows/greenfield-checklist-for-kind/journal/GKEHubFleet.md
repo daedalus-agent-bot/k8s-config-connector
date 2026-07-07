@@ -28,9 +28,7 @@ Current Step: **Step 1: Direct KRM types, identity, and generate.sh**
 
 ## Status Update Notes
 
-- **2026-07-07**: Re-confirmed PR #11237 remains open and pending human OWNER review. All 194 CI checks are successfully completed and completely green. Step 2 remains on hold until Step 1 is merged.
-- **2026-07-07**: Re-verified PR #11237 status. All CI checks are completely green and passing. The PR remains open, awaiting human OWNER review, approval, and merge. Step 2 execution remains on hold.
-- **2026-07-07**: Checked PR #11237 status. Confirmed all 194 CI checks have fully passed and are 100% green. The PR remains open, awaiting human OWNER review, approval, and merge. Step 2 execution is on hold until Step 1 is merged.
+- **2026-07-07**: Verified PR #11237 status. All 194 CI checks have completed successfully and are 100% green. The PR is awaiting human OWNER review, approval, and merge. Step 2 execution remains on hold until the PR is merged.
 - **2026-07-03**: Checked PR #11237 status. Re-verified all 194 CI check-runs have completed successfully and remain 100% green. The PR is open, awaiting human OWNER review, approval, and merge. Step 2 execution remains on hold.
 - **2026-07-03**: Re-verified PR #11237 status. Checked all 194 CI check-runs and confirmed 100% of the tests passed successfully (all green). The PR remains open, awaiting human OWNER review, approval, and merge. Step 2 execution remains on hold.
 - **2026-07-03**: Checked and confirmed that all CI check-runs for PR #11237 are completely green and successful. The PR remains open, awaiting human OWNER review, approval, and merge. We continue to hold Step 2 until Step 1 is merged.
