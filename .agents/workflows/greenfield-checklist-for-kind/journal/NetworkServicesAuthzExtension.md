@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | mockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07**: Re-monitored PR [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255). Detected a merge conflict with the base branch (mergeable status is CONFLICTING). All 195 CI checks are passing successfully. Assigned the PR back to the author bot `hopper-coder-bot` to resolve the merge conflict.
 - **2026-07-07**: Re-monitored PR [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255). Confirmed all 195 CI checks remain green and successful. The PR is healthy, mergeable, and continues to await human OWNER review and merge approval before proceeding to Step 2.
 - **2026-07-07**: Re-monitored PR [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255). Verified that all 195 CI checks successfully passed. The PR remains open, healthy, and mergeable with review decision REVIEW_REQUIRED, currently awaiting human OWNER review and merge approval to complete Step 1.
 - **2026-07-07**: Re-monitored PR [#11255](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11255). Confirmed all CI checks continue to pass successfully. The PR remains open, healthy, and mergeable, currently awaiting human OWNER review and merge approval to complete Step 1.
