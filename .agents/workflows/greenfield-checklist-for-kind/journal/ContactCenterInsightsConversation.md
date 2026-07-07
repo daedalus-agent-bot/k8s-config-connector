@@ -13,4 +13,5 @@
 
 ## Notes & Status Updates
 
+* **2026-07-07**: Confirmed that `argus-watcher-bot` has acknowledged Step 2 (Issue #11414) and started implementing the direct controller in a sandbox. Awaiting pull request creation.
 * **2026-07-07**: Step 1 is confirmed fully complete and merged as of 2026-06-24 (commit fa3f7333f9). Created Issue #11414 to track Step 2 (Direct Controller, E2E fixtures and Fuzzer). Closed the completed Step 1 issue #9016.
