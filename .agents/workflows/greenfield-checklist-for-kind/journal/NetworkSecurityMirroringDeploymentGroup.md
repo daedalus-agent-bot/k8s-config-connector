@@ -1,0 +1,16 @@
+# Migration Journal: NetworkSecurityMirroringDeploymentGroup
+
+## Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Progress Tracking
+
+| Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8731) | [#8750](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8750) | Open | 2026-05-27 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
+| Step 3: MockGCP generation | | | Pending | | |
+| Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
+
+## Status Updates
+- **2026-07-07**: Initialized migration tracking journal. Checked previous PR #8750 (which implemented Step 1) and found that it was closed without merging. Re-evaluating the status of Step 1. Issue #8731 remains open and unassigned for the bot/coder to pick up and process.
