@@ -166,7 +166,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4820, External Work: #4821, External Work: #6821",
+    "notes": "External Work: #6821",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #6992, External Work: #8951, External Work: #8952",
+    "notes": "External Work: #6992, External Work: #8951, External Work: #8952",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -313,7 +313,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6375, External Work: #7252, External Work: #7676, External Work: #8652",
+    "notes": "External Work: #10968, External Work: #10969, External Work: #6375, External Work: #7252, External Work: #7676, External Work: #8652",
     "sortOrder": 47,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -651,7 +651,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3720",
+    "notes": "",
     "sortOrder": 163,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -887,7 +887,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9562",
+    "notes": "External Work: #11197",
     "sortOrder": 189,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -948,7 +948,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4614, External Work: #5068, External Work: #7321",
+    "notes": "External Work: #7321",
     "sortOrder": 82,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4994, External Work: #5011, External Work: #5944, External Work: #9170",
+    "notes": "External Work: #4994, External Work: #5944, External Work: #9170",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1154,7 +1154,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4760",
+    "notes": "",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1184,7 +1184,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4602, External Work: #5678, External Work: #6788, External Work: #8480",
+    "notes": "External Work: #10972, External Work: #10973, External Work: #11198, External Work: #5678, External Work: #6788, External Work: #8480",
     "sortOrder": 206,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1622,7 +1622,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578, External Work: #9957, External Work: #9958",
+    "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1750,7 +1750,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10863",
+    "notes": "",
     "sortOrder": 552,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -1808,7 +1808,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9970",
+    "notes": "",
     "sortOrder": 236,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1837,7 +1837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10870, External Work: #10884, External Work: #5440, External Work: #9976",
+    "notes": "External Work: #5440",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1866,11 +1866,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5440, External Work: #9976",
+    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: #5440",
     "sortOrder": 31,
     "downstreamCount": 4,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10884",
-    "assignee": "daedalus-agent-bot",
+    "trackingIssue": "",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1895,7 +1895,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9976",
+    "notes": "",
     "sortOrder": 238,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1935,7 +1935,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4767, External Work: #8898",
+    "notes": "External Work: #11017, External Work: #8898",
     "sortOrder": 88,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4541, External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "External Work: #7316, External Work: #9978, External Work: #9980",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2048,7 +2048,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9982",
+    "notes": "Tracking issue #10923 is closed but direct controller is not registered in code",
     "sortOrder": 243,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2106,7 +2106,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11358",
     "sortOrder": 554,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2140,7 +2140,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5958, External Work: #6168, External Work: #9987, External Work: #9988, External Work: #9989",
+    "notes": "External Work: #5958, External Work: #6168, External Work: #9988, External Work: #9989",
     "sortOrder": 32,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2170,7 +2170,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9987, External Work: #9988",
+    "notes": "External Work: #9988",
     "sortOrder": 15,
     "downstreamCount": 10,
     "trackingIssue": "",
@@ -2202,7 +2202,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9987",
+    "notes": "Tracking issue #10924 is closed but direct controller is not registered in code",
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -2292,7 +2292,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9990",
+    "notes": "",
     "sortOrder": 33,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2321,7 +2321,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9991",
+    "notes": "",
     "sortOrder": 246,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2378,7 +2378,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10002, External Work: #4942, External Work: #5608, External Work: #6132, External Work: #6195, External Work: #6858, External Work: #9994, External Work: #9995, External Work: #9998, External Work: #9999",
+    "notes": "External Work: #10002, External Work: #10938, External Work: #11292, External Work: #11446, External Work: #5608, External Work: #6132, External Work: #6195, External Work: #6858, External Work: #9998, External Work: #9999",
     "sortOrder": 4,
     "downstreamCount": 126,
     "trackingIssue": "",
@@ -2409,11 +2409,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6132, External Work: #9994, External Work: #9995",
+    "notes": "External Work: #11292, External Work: #6132",
     "sortOrder": 250,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2439,7 +2439,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6132, External Work: #9995",
+    "notes": "External Work: #11292, External Work: #6132",
     "sortOrder": 14,
     "downstreamCount": 11,
     "trackingIssue": "",
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4942, External Work: #9998, External Work: #9999",
+    "notes": "External Work: #9998, External Work: #9999",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2528,7 +2528,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4942, External Work: #9999",
+    "notes": "External Work: #9999",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2644,7 +2644,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #10944 is closed but direct controller is not registered in code",
     "sortOrder": 90,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -2754,7 +2754,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10011",
+    "notes": "",
     "sortOrder": 260,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2811,7 +2811,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10013",
+    "notes": "",
     "sortOrder": 262,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2989,7 +2989,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10020",
+    "notes": "",
     "sortOrder": 267,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3045,7 +3045,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #10029, External Work: #10424, External Work: #10846, External Work: #6649",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #10029, External Work: #10424, External Work: #6649",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3075,7 +3075,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10029, External Work: #10424, External Work: #10846, External Work: #6649",
+    "notes": "External Work: #10029, External Work: #10424, External Work: #6649",
     "sortOrder": 24,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -3137,11 +3137,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10424, External Work: #6649",
+    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, External Work: #10424, External Work: #6649",
     "sortOrder": 270,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10846",
-    "assignee": "walle-agent-bot",
+    "trackingIssue": "",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3194,7 +3194,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10030",
+    "notes": "",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3222,7 +3222,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4779",
+    "notes": "",
     "sortOrder": 34,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -3250,7 +3250,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3783, External Work: #6486",
+    "notes": "External Work: #11448, External Work: #6486",
     "sortOrder": 11,
     "downstreamCount": 13,
     "trackingIssue": "",
@@ -3335,7 +3335,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10038",
+    "notes": "",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3364,7 +3364,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11356",
     "sortOrder": 35,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5773, External Work: #5953",
+    "notes": "External Work: #5953",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "",
@@ -3422,7 +3422,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10041",
+    "notes": "",
     "sortOrder": 55,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3451,7 +3451,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10042",
+    "notes": "",
     "sortOrder": 56,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3481,11 +3481,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4602, External Work: #5399, External Work: #6788, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #6788, External Work: #8480",
     "sortOrder": 57,
     "downstreamCount": 2,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10845",
-    "assignee": "daedalus-agent-bot",
+    "trackingIssue": "",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3512,7 +3512,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10044",
+    "notes": "",
     "sortOrder": 275,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3542,7 +3542,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10133",
+    "notes": "",
     "sortOrder": 276,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3572,7 +3572,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10134",
+    "notes": "",
     "sortOrder": 58,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3602,7 +3602,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10135",
+    "notes": "",
     "sortOrder": 59,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3631,7 +3631,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10136",
+    "notes": "",
     "sortOrder": 26,
     "downstreamCount": 5,
     "trackingIssue": "",
@@ -3692,7 +3692,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10138",
+    "notes": "",
     "sortOrder": 39,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -3723,7 +3723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10139",
+    "notes": "",
     "sortOrder": 60,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10458, External Work: #10459, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5186, External Work: #5514, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6520, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7206, External Work: #7495, External Work: #7604, External Work: #7605, External Work: #8125, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
+    "notes": "External Work: #10458, External Work: #10459, External Work: #11201, External Work: #11293, External Work: #11314, External Work: #11321, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6520, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #7604, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #10907, External Work: #2775, External Work: #3480, External Work: #3570, External Work: #3798, External Work: #4871, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
+    "notes": "External Work: #10410, External Work: #10534, External Work: #11189, External Work: #11314, External Work: #11435, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -4080,7 +4080,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5356",
+    "notes": "",
     "sortOrder": 292,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777",
+    "notes": "External Work: #10415, External Work: #9777",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4290,7 +4290,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2571, External Work: #5587",
+    "notes": "External Work: #5587",
     "sortOrder": 308,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4322,7 +4322,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10782, External Work: #6803",
+    "notes": "External Work: #6803, External Work: #9410",
     "sortOrder": 309,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4385,11 +4385,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10461, External Work: #5609, External Work: #6989, External Work: #8023, External Work: #9000",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #5609, External Work: #6989, External Work: #8023, External Work: #9000",
     "sortOrder": 25,
     "downstreamCount": 6,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10695",
-    "assignee": "walle-agent-bot",
+    "trackingIssue": "",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -5021,7 +5021,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10267",
+    "notes": "",
     "sortOrder": 368,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5051,7 +5051,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2291",
+    "notes": "",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
@@ -5305,7 +5305,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5319, External Work: #5570, External Work: #7656",
+    "notes": "External Work: #11443, External Work: #5570, External Work: #7656",
     "sortOrder": 380,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5361,7 +5361,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2553, External Work: #4597, External Work: #5788, External Work: #5801, External Work: #6471",
+    "notes": "External Work: #5788, External Work: #5801, External Work: #6471",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5666,7 +5666,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #2873, External Work: #5739, External Work: #6027, External Work: #7650",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5739, External Work: #6027, External Work: #7650",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #3338, External Work: #6675",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #6675",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5752,7 +5752,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #6675",
+    "notes": "External Work: #6675",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5837,7 +5837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1839",
+    "notes": "",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6416,7 +6416,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2188, External Work: #4715",
+    "notes": "",
     "sortOrder": 421,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6448,7 +6448,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2873",
+    "notes": "",
     "sortOrder": 422,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2469, External Work: #5714, External Work: #9566",
+    "notes": "External Work: #5714, External Work: #9566",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6822,7 +6822,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5077",
+    "notes": "",
     "sortOrder": 445,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7026,7 +7026,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3520",
+    "notes": "",
     "sortOrder": 459,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7207,8 +7207,8 @@
     "notes": "",
     "sortOrder": 470,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363, External Work: #10622",
+    "notes": "External Work: #10363, External Work: #11330",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7383,7 +7383,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10363, External Work: #10622",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10363, External Work: #11330",
     "sortOrder": 115,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2188, External Work: #2943, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849",
+    "notes": "External Work: #11186, External Work: #5240, External Work: #5888, External Work: #6849",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7590,7 +7590,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2606",
+    "notes": "",
     "sortOrder": 70,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -7681,7 +7681,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6635, External Work: #8448",
+    "notes": "External Work: #11294, External Work: #6635, External Work: #8448",
     "sortOrder": 486,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7885,7 +7885,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2416, External Work: #7148, External Work: #8796",
+    "notes": "External Work: #7148, External Work: #8796",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7915,7 +7915,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5725, External Work: #5730, External Work: #6651",
+    "notes": "External Work: #11445, External Work: #5725, External Work: #5730, External Work: #6651",
     "sortOrder": 71,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8029,7 +8029,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #5031, External Work: #5033, External Work: #6027, External Work: #6941, External Work: #7897",
+    "notes": "External Work: #5033, External Work: #6027, External Work: #6941, External Work: #7897",
     "sortOrder": 10,
     "downstreamCount": 15,
     "trackingIssue": "",
@@ -8149,7 +8149,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11315",
     "sortOrder": 72,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8266,7 +8266,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5359",
+    "notes": "",
     "sortOrder": 119,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #6511, External Work: #6921, External Work: #9779",
+    "notes": "External Work: #11183, External Work: #11312, External Work: #11322, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #6511, External Work: #6921, External Work: #9779",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "",
@@ -8557,7 +8557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2894, External Work: #6256, External Work: #8710",
+    "notes": "External Work: #6256, External Work: #8710",
     "sortOrder": 523,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8587,7 +8587,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5160, External Work: #5515, External Work: #5634, External Work: #6032, External Work: #6251",
+    "notes": "External Work: #5515, External Work: #5634, External Work: #6032, External Work: #6251",
     "sortOrder": 524,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8703,7 +8703,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7985, External Work: #9698",
+    "notes": "External Work: #11137, External Work: #7985, External Work: #9698",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
