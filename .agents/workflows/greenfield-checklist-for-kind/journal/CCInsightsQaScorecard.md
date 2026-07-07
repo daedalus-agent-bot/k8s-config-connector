@@ -7,12 +7,13 @@
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | - | Open | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | PR Created | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-07**: Pull Request [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) was created by `ada-coder-bot`. Verified CI checks: `unit-tests` and `validate-generated-files` failed. Assigned the PR back to `ada-coder-bot` to run `dev/tasks/generate-types-and-mappers` and update `alpha-missingfields.txt` to fix these failures.
 * **2026-07-07**: Confirmed `ada-coder-bot` is actively working on issue #11403 in an initialized sandbox. Awaiting PR creation.
 * **2026-07-07**: Monitored Step 1 progress. Issue #11403 is open and assigned to `ada-coder-bot`. Sandbox environment initialized, awaiting PR creation.
 * **2026-07-07**: Restarted Step 1 by creating a new GitHub issue #11403 under the clean Greenfield workflow. The previous attempt (#8666 / PR #8701) was closed due to conflicts and memory exhaustion.
