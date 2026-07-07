@@ -13,6 +13,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-07**: Checked migration progress. Confirmed child issue #8731 remains OPEN and unassigned. Previously, coder bot `ada-coder-bot` self-assigned the issue but unassigned itself without opening a pull request. No active pull request exists. Keeping the issue unassigned so it can be claimed by an available coder bot to implement the direct KRM types.
 - **2026-07-07**: Checked migration progress of Step 1. Issue #8731 remains open and unassigned with no active types-only Pull Request opened yet. Continuing to monitor and wait for a coder bot to claim the issue and initiate implementation of the KRM types.
 - **2026-07-07**: Checked migration progress. Confirmed that child issue #8731 was assigned to `ada-coder-bot` but remained inactive with no Pull Request created for 15 hours. To re-trigger a fresh claim, unassigned `ada-coder-bot` from #8731 and returned it to open/unassigned status.
 - **2026-07-07**: Checked migration progress of Step 1. Issue #8731 remains assigned to `ada-coder-bot` in OPEN status. No active types-only Pull Request has been opened yet. Continuing to wait for the coder bot to submit the PR.
