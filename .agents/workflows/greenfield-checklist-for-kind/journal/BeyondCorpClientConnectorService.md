@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Assigned to codebot-robot**. The previous PR #8795 was closed. We have assigned the issue to codebot-robot to trigger a new implementation run.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Assigned to codebot-robot**. The previous PR #8795 was closed. We have re-assigned the issue to codebot-robot to trigger a fresh implementation run.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-07 17:25 UTC**: Detected that the previous PR #8795 was closed without being merged. Re-triggered Step 2 by unassigning and reassigning `codebot-robot` on Issue #8787 to initiate a fresh implementation run.
 - **2026-07-07 06:31 UTC**: Verified that Issue #8787 remains assigned to `codebot-robot` with no new Pull Request opened yet. Continuing to monitor Step 2.
 - **2026-07-07 06:13 UTC**: Verified that Issue #8787 remains assigned to `codebot-robot` with no new Pull Request opened yet. Continuing to monitor Step 2.
 - **2026-07-07 05:57 UTC**: Checked and verified that Issue #8787 remains open and assigned to `codebot-robot`. No new PR has been opened yet. We will continue monitoring Step 2.
