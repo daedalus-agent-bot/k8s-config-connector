@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#8861](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8861) | | In Progress (Assigned: codebot-robot) | 2026-06-01 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#8861](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8861) | | In Progress (Assigned: ada-coder-bot, lovelace-coder-bot, hopper-coder-bot) | 2026-06-01 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-07**: Monitored Step 2. Confirmed that old PR #8867 remains closed. Unassigned inactive `codebot-robot` and assigned active coder bots `ada-coder-bot`, `lovelace-coder-bot`, and `hopper-coder-bot` to launch a fresh direct controller implementation run.
 - **2026-07-07**: Monitored Step 2. Confirmed that child issue #8861 is open and assigned to `codebot-robot` on GitHub with no active Pull Request. We continue to await implementation of the direct controller and E2E fixtures.
 - **2026-07-07**: Monitored Step 2. Verified that child issue #8861 remains open and is actively assigned to `codebot-robot` on GitHub with no open Pull Request. The coder bot assigned itself recently, so we continue to await the implementation of the direct controller.
 - **2026-07-07**: Monitored Step 2. Confirmed that child issue #8861 was unassigned on GitHub and the previous PR #8867 remains closed. Explicitly assigned `codebot-robot` to issue #8861 to launch a fresh direct controller implementation run.
