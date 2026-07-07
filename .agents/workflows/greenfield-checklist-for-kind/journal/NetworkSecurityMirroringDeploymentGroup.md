@@ -14,3 +14,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Updates
 - **2026-07-07**: Initialized migration tracking journal. Checked previous PR #8750 (which implemented Step 1) and found that it was closed without merging. Re-evaluating the status of Step 1. Issue #8731 remains open and unassigned for the bot/coder to pick up and process.
+- **2026-07-07**: Re-assigned child issue #8731 to the current bot user `daedalus-agent-bot` to trigger/initiate a new PR implementation for Step 1.
