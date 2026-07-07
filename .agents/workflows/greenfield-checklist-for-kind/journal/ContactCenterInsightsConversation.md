@@ -13,6 +13,7 @@
 
 ## Notes & Status Updates
 
+* **2026-07-07**: Checked PR #11431 (implementing Step 2) again. Verified that it is OPEN but still has active CI failures. The PR remains assigned to `ada-coder-bot` for investigation and fixes.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2). Found that the PR is OPEN but has CI failures (fuzz-roundtrippers, unit-tests, validate-generated-files, validations). Assigned PR #11431 to `ada-coder-bot` to investigate and fix the failures.
 * **2026-07-07**: Periodic check: Verified that the direct controller is still being implemented in the sandbox by `ada-coder-bot`. No pull request has been created yet. Step 2 remains in Open status.
 * **2026-07-07**: Confirmed that `argus-watcher-bot` has acknowledged Step 2 (Issue #11414) and started implementing the direct controller in a sandbox. Awaiting pull request creation.
