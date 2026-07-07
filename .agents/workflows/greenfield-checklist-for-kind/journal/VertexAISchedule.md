@@ -15,3 +15,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 ## Status Updates
 - **2026-07-07**: Initialized Greenfield migration checklist for `VertexAISchedule`.
 - **2026-07-07**: Step 1 is in progress. Issue [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) is open and PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) is created but currently has failing checks. Assigning the PR to `ada-coder-bot` to trigger automated retry and fix the checks.
+- **2026-07-07**: Verified that PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) is still open with failing CI checks. The `argus-watcher-bot` has successfully acknowledged the failures and initiated an investigation. The PR remains assigned to `ada-coder-bot`, and we are monitoring its progress.
