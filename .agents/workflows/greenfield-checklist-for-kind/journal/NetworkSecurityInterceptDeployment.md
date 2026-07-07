@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | Step 1: Direct API Types and Identity | [#8726](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8726) | [#8748](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8748) | Completed | 2026-05-27 | 2026-05-27 |
-| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#8861](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8861) | | In Progress (Assigned: ada-coder-bot, lovelace-coder-bot) | 2026-06-01 | |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#8861](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8861) | | In Progress (Assigned: codebot-robot) | 2026-06-01 | |
 | Step 3: mockGCP generation | | | Pending | | |
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-07**: Monitored Step 2. Detected that previous PR #8867 was closed by human maintainers with 'giving this one to overseer'. Since no active PR is open, explicitly assigned `codebot-robot` to issue #8861 to trigger a brand-new controller implementation run.
 - **2026-07-07**: Monitored Step 2. Verified that issue #8861 remains open and assigned to `ada-coder-bot` and `lovelace-coder-bot` with no active Pull Request. Awaiting the coder bots to pick up and complete the implementation.
 - **2026-07-07**: Monitored Step 2 progress. Verified that `ada-coder-bot` and `lovelace-coder-bot` remain assigned to issue #8861. No new Pull Request has been opened yet.
 - **2026-07-07**: Monitored Step 2. Confirmed that old PR #8867 was closed by human maintainers due to merge conflicts. Explicitly unassigned and re-assigned issue #8861 to `ada-coder-bot` and `lovelace-coder-bot` to trigger a brand-new implementation run for the controller.
