@@ -13,6 +13,7 @@
 
 ## Notes & Status Updates
 
+* **2026-07-07**: Monitored PR #11431 (implementing Step 2). Confirmed that the PR is still open with unresolved CI check failures (unit-tests, validate-generated-files, fuzz-roundtrippers, validations). `ada-coder-bot` remains assigned to address these failures.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2) again. Verified that it is OPEN but still has active CI failures. The PR remains assigned to `ada-coder-bot` for investigation and fixes.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2). Found that the PR is OPEN but has CI failures (fuzz-roundtrippers, unit-tests, validate-generated-files, validations). Assigned PR #11431 to `ada-coder-bot` to investigate and fix the failures.
 * **2026-07-07**: Periodic check: Verified that the direct controller is still being implemented in the sandbox by `ada-coder-bot`. No pull request has been created yet. Step 2 remains in Open status.
