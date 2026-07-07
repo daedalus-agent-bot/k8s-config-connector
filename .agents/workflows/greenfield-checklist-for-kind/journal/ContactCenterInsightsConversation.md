@@ -13,6 +13,7 @@
 
 ## Notes & Status Updates
 
+* **2026-07-07**: Monitored PR #11431 (implementing Step 2) again. Verified that all direct-scoped CI checks (including E2E fixtures, validations, and fuzzers) are green and passing. The unrelated `tests-scenarios-acquisition` check is still failing, so the PR remains open awaiting manual human OWNER review and merge.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2) again. Confirmed all direct-scoped checks (including E2E fixtures, validations, and fuzzers) remain fully green. The unrelated failing check `tests-scenarios-acquisition` is still blocking. The AI Factory has officially given up on further automated retry attempts, and the PR remains open awaiting manual human OWNER review/merge to proceed to Step 3.
 * **2026-07-07**: Monitored PR #11431 (implementing Step 2). Confirmed the PR is still open and awaiting human OWNER review/merge. All direct-scoped CI checks (including `tests-e2e-fixtures-contactcenterinsights`, `validate-generated-files`, `fuzz-roundtrippers`, `unit-tests`, and `validations`) are green and passing. The unrelated flake in `tests-scenarios-acquisition` is still failing, preventing automatic merge.
 * **2026-07-07**: Monitored PR #11431 (implementing Step 2). Confirmed that the PR is still open with all direct-scoped checks green. The unrelated flake in `tests-scenarios-acquisition` continues to block, awaiting human OWNER merge/intervention.
