@@ -1,0 +1,16 @@
+# Greenfield Migration Journal: ContentWarehouseSynonymSet
+
+## Current Step
+Step 1: Direct API Types and Identity and Reference Types Pattern
+
+## Migration Progress
+
+| Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|------|------|--------------|---------------------|--------|--------------|----------------|
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#9265](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9265) | [#11383](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11383) | PR Created | 2026-07-06 | |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | | | Pending | | |
+| 3 | mockGCP generation | | | Pending | | |
+| 4 | MockGCP Alignment with RealGCP | | | Pending | | |
+
+## Status Updates
+- **2026-07-07**: Initialized greenfield migration tracker for ContentWarehouseSynonymSet. Found existing Issue #9265 and open PR #11383. Assigned PR #11383 to the author bot `lovelace-coder-bot` to resolve the failing `unit-tests` check.
