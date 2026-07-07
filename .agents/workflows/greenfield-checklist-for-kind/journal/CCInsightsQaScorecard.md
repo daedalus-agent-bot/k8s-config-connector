@@ -1,20 +1,20 @@
 # CCInsightsQaScorecard Greenfield Migration Journal
 
 ## Current Step
-**Step 1**: Direct API Types, Identity and Reference Types Pattern (PR Checks Running)
+**Step 1**: Direct API Types, Identity and Reference Types Pattern (Awaiting Review)
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | PR Checks Running | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Awaiting Review | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Verified all CI checks (including `validate-generated-files`, `unit-tests`, `validations`, `golangci-lint`, etc.) have completed and passed successfully. The PR is fully green and awaiting human review/merge.
 * **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Verified that the author bot `ada-coder-bot` force-pushed a new head commit `6937c7ee90d5b88ed1ded87ec328350fa5e9e1c8` containing all necessary fixes for `validations` and `unit-tests`. All active CI checks are currently running (pending) or passing, with no failures reported.
-* **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. All core CI checks (including `validate-generated-files`, `unit-tests`, `validations`, `golangci-lint`, etc.) have completed and passed successfully. The PR is fully green and awaiting human review/merge.
 * **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Verified CI checks: `unit-tests` and `validations` failed on head commit `c67cdf21610fb3ccb145da19653e1033a4c20880`. Since no assignee was set on the PR, assigned `ada-coder-bot` back to the PR to resume work and resolve the failures.
 * **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. A new commit `c67cdf21610fb3ccb145da19653e1033a4c20880` was force-pushed by `ada-coder-bot` resolving the previous failures. The CI checks are currently in progress; no failures have been reported on this commit.
 * **2026-07-07**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Verified CI checks: `validate-generated-files`, `unit-tests`, and `validations` have failed. The author bot `ada-coder-bot` remains assigned and is working on resolving the failures. No new commits have been pushed since the last check.
