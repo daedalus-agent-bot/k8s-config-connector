@@ -1,18 +1,19 @@
 # CCInsightsQaScorecard Greenfield Migration Journal
 
 ## Current Step
-**Step 1**: Direct API Types, Identity and Reference Types Pattern (CI Failed)
+**Step 1**: Direct API Types, Identity and Reference Types Pattern (Checks In Progress)
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | CI Failed | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Checks In Progress | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) checks and state. All completed checks (including `unit-tests`, `test-mockgcp`, `golangci-lint`, `build-images`, and `validate-generated-files`) have passed successfully, and remaining checks are in progress. The PR is open, in a mergeable state, and currently assigned to `ada-coder-bot`.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Re-confirmed that the `tests-e2e-fixtures` check-run failed on the head commit and the PR is unassigned. Assigned the author bot `ada-coder-bot` back to the PR to investigate and resolve the failing check.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Found that the `tests-e2e-fixtures` check-run failed on the head commit. Assigned the author bot `ada-coder-bot` back to the PR to investigate and resolve the failing check.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) checks and state. Checked active CI check-runs: several key checks including `build-images`, `test-mockgcp`, and `golangci-lint` have passed successfully, with others currently pending and showing no failures. The PR remains open, in a mergeable state, and is currently awaiting final review and merge by human owners.
