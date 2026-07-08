@@ -7,10 +7,10 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#11396](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11396) | PR Created | 2026-07-06 | |
-| Step 2: Direct Controller & E2E | | | Not Started | | |
-| Step 3: mockGCP Generation | | | Not Started | | |
-| Step 4: MockGCP Alignment | | | Not Started | | |
+| Step 1: Direct API Types and Identity | [#9290](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9290) | [#11396](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11396) | PR Created | 2026-07-06 |  |
+| Step 2: Direct Controller & E2E |  |  | Not Started |  |  |
+| Step 3: mockGCP Generation |  |  | Not Started |  |  |
+| Step 4: MockGCP Alignment |  |  | Not Started |  |  |
 
 ## Status Updates
 * **2026-07-07**: Step 1 PR #11396 is open but has failing CI checks (unit-tests, validations). Assigning the PR back to `hopper-coder-bot` for fixing.
@@ -61,3 +61,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 * **2026-07-08**: Checked PR #11396 at 09:26 UTC. Verified that all 195 checks are still passing successfully. The PR remains open, awaiting human OWNER review and merge.
 * **2026-07-08**: Checked PR #11396 at 09:59 UTC. Verified that all 195 checks are still passing successfully. The PR remains open, awaiting human OWNER review and merge.
 * **2026-07-08**: Checked PR #11396 at 10:31 UTC. Verified that all 195 checks are still passing successfully. The PR remains open, awaiting human OWNER review and merge.
+* **2026-07-08**: Checked PR #11396 at 10:51 UTC. Verified that all 195 checks are still passing successfully. The PR remains open, awaiting human OWNER review and merge.
