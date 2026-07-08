@@ -1,18 +1,19 @@
 # CCInsightsQaScorecard Greenfield Migration Journal
 
 ## Current Step
-**Step 1**: Direct API Types, Identity and Reference Types Pattern (Checks In Progress)
+**Step 1**: Direct API Types, Identity and Reference Types Pattern (Awaiting Merge)
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Checks In Progress | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Awaiting Merge | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-08**: Re-verified PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Confirmed all 197 CI checks are completed successfully with no failures (100% green). Updated the Step 1 status to 'Awaiting Merge' in the progress tracking table.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Verified that the head commit `80368518cadeff6d9349c2dbf3732fa2dc438b5f` is mergeable and all completed CI check-runs are completely green with zero failures. Since several CI check-runs are still pending, the PR remains open and unassigned, and its progress continues to be monitored.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) checks and state. Checked active CI check-runs: several key checks including `test-pause`, `run-linters`, and `capture-pprof` have passed successfully, with others currently pending and showing no failures. The PR remains open, in a mergeable state, and is currently unassigned awaiting final checks and human review.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) checks and state. All completed checks (including `unit-tests`, `test-mockgcp`, `golangci-lint`, `build-images`, and `validate-generated-files`) have passed successfully, and remaining checks are in progress. The PR is open, in a mergeable state, and currently assigned to `ada-coder-bot`.
