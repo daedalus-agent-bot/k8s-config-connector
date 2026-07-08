@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step 4: MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-07-08**: Monitored Step 2. Confirmed that child issue #8861 remains open with no active Pull Requests on GitHub. Explicitly unassigned and re-assigned active coder bots (`ada-coder-bot`, `lovelace-coder-bot`, `hopper-coder-bot`) via GitHub CLI to trigger a fresh direct controller and E2E fixtures implementation run.
 - **2026-07-08**: Monitored Step 2. Confirmed child issue #8861 remains open with no active Pull Requests since PR #8867 was closed. Explicitly unassigned and re-assigned active coder bots (`ada-coder-bot`, `lovelace-coder-bot`, `hopper-coder-bot`) on GitHub to trigger a fresh direct controller and E2E fixtures implementation run.
 - **2026-07-08**: Monitored Step 2 progress. Re-verified child issue #8861 remains open with no active Pull Requests on GitHub. Coder bots (`ada-coder-bot`, `lovelace-coder-bot`, `hopper-coder-bot`) remain assigned and active; we continue to await direct controller implementation.
 - **2026-07-08**: Monitored Step 2. Verified that child issue #8861 remains open with no active Pull Requests on GitHub. Coder bots (`ada-coder-bot`, `lovelace-coder-bot`, `hopper-coder-bot`) remain assigned and are actively working; we continue to await the direct controller and E2E fixtures implementation.
@@ -67,7 +68,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 - **2026-07-07**: Monitored Step 2. Confirmed that issue #8861 remains open and is assigned to `codebot-robot` on GitHub with no active Pull Request. Awaiting a new Pull Request from the assignee bot.
 - **2026-07-07**: Monitored Step 2. Confirmed that old PR #8867 remains closed. Explicitly unassigned and re-assigned issue #8861 to `codebot-robot` to trigger a fresh direct controller implementation run.
 - **2026-07-07**: Monitored Step 2. Confirmed that issue #8861 remains open and assigned to `codebot-robot` on GitHub with no active Pull Request. Awaiting a new Pull Request from the assignee bot to proceed.
-- **2026-07-07**: Monitored Step 2. Found that issue #8861 was open and unassigned with no active Pull Request. Explicitly assigned `codebot-robot` to issue #8861 to launch a new direct controller implementation run.
+- **2026-07-07**: Found that issue #8861 was open and unassigned with no active Pull Request. Explicitly assigned `codebot-robot` to issue #8861 to launch a new direct controller implementation run.
 - **2026-07-07**: Monitored Step 2. Confirmed that issue #8861 remains open on GitHub with `codebot-robot` as the assignee. No active Pull Request has been opened yet since the closure of PR #8867. Awaiting a fresh controller implementation run from `codebot-robot`.
 - **2026-07-07**: Monitored Step 2. Confirmed that old PR #8867 was closed and issue #8861 was open but unassigned. Assigned `codebot-robot` to issue #8861 to launch a fresh implementation run for Step 2.
 - **2026-07-07**: Monitored Step 2. Confirmed that old PR #8867 was closed by human maintainers due to merge conflicts, with comment "giving this one to overseer". Explicitly unassigned `ada-coder-bot` and `lovelace-coder-bot` and assigned `codebot-robot` to issue #8861 to launch a fresh implementation run.
