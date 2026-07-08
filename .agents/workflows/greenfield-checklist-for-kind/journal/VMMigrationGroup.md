@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-07-08**: Verified that PR #11250 remains open in Step 1. The unrelated `tests-e2e-fixtures-compute` check continues to fail, while all other 150+ checks have passed. Since the PR is assigned to `ada-coder-bot` and lacks the `overseer/giving-up` label, it continues to await human OWNER review and merge.
 * **2026-07-08**: Re-monitored PR #11250 checks. Confirmed that `tests-e2e-fixtures-compute` remains the sole failing check, and the PR is still open, assigned to `ada-coder-bot` (status: `PR Created`), and awaiting human OWNER review and merge.
 * **2026-07-08**: Re-monitored PR #11250 checks on GitHub. Verified that the continuous integration check `tests-e2e-fixtures-compute` remains the sole failing check, with all other 150+ checks passing successfully. Since the PR is assigned to `ada-coder-bot` and does not carry the `overseer/giving-up` label, it remains in `PR Created` status, awaiting human OWNER review and merge.
 * **2026-07-08**: Re-monitored PR #11250 checks. Checked the CI check-runs status on GitHub and confirmed that `tests-e2e-fixtures-compute` continues to be the only failing check, with all other 150+ checks green and passing. Since the PR is assigned to `ada-coder-bot` and lacks the `overseer/giving-up` label, it remains in `PR Created` status, awaiting human OWNER review and merge.
@@ -109,7 +110,7 @@
 * **2026-07-03**: Monitored PR #11250. The check `tests-e2e-fixtures-compute` continues to fail due to a transient GitHub Actions infrastructure timeout (ETIMEDOUT during Upload artifacts). The AI Factory has attempted to fix CI failures 3 times since the last commit and is giving up. The PR is unassigned from the bot, awaiting human OWNER review and intervention.
 * **2026-07-03**: Re-verified check-run failure for `tests-e2e-fixtures-compute` on PR #11250. Reset and re-assigned the PR back to `ada-coder-bot` via the REST API to re-trigger resolution.
 * **2026-07-03**: Re-monitored PR #11250. The check `tests-e2e-fixtures-compute` continues to fail on head commit ee840f75. Re-assigned the PR to `ada-coder-bot` via the REST API to prompt for resolution.
-* **2026-07-03**: Monitored PR #11250. Checked all CI check-runs and verified they are passing except for `tests-e2e-fixtures-compute`, which failed. The PR remains assigned to `ada-coder-bot` for resolution.
+* **2026-07-03**: Monitored PR #11250 checks. Checked all CI check-runs and verified they are passing except for `tests-e2e-fixtures-compute`, which failed. The PR remains assigned to `ada-coder-bot` for resolution.
 * **2026-07-03**: Monitored PR #11250. The check `tests-e2e-fixtures-compute` continues to fail on head commit ee840f75. The PR remains assigned to `ada-coder-bot` to resolve the failure.
 * **2026-07-03**: Monitored PR #11250. The check `tests-e2e-fixtures-compute` continues to fail on the latest commit. The PR remains assigned to `ada-coder-bot` for resolution.
 * **2026-07-03**: Re-verified check failure on `tests-e2e-fixtures-compute` and re-assigned PR #11250 to `ada-coder-bot` on GitHub.
