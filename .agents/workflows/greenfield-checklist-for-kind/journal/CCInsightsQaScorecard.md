@@ -1,18 +1,19 @@
 # CCInsightsQaScorecard Greenfield Migration Journal
 
 ## Current Step
-**Step 1**: Direct API Types, Identity and Reference Types Pattern (CI Pending)
+**Step 1**: Direct API Types, Identity and Reference Types Pattern (CI Failed)
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | CI Pending | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | CI Failed | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Found that the `tests-e2e-fixtures` check-run failed on the head commit. Assigned the author bot `ada-coder-bot` back to the PR to investigate and resolve the failing check.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) checks and state. Checked active CI check-runs: several key checks including `build-images`, `test-mockgcp`, and `golangci-lint` have passed successfully, with others currently pending and showing no failures. The PR remains open, in a mergeable state, and is currently awaiting final review and merge by human owners.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Found that the PR has merge conflicts (mergeable state is dirty) and was unassigned. Assigned the author bot `ada-coder-bot` back to the PR to resolve the conflicts and perform a rebase.
 * **2026-07-08**: Verified that all 197 CI checks on PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) are 100% green and successfully completed. The PR remains open and in a mergeable state, currently awaiting final review and merge by human owners.
