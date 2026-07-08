@@ -1,18 +1,19 @@
 # CCInsightsQaScorecard Greenfield Migration Journal
 
 ## Current Step
-**Step 1**: Direct API Types, Identity and Reference Types Pattern (Awaiting Review)
+**Step 1**: Direct API Types, Identity and Reference Types Pattern (Resolving Conflicts)
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Awaiting Review | 2026-07-07 | - |
+| 1 | Direct API Types, Identity and Reference Types Pattern | [#11403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11403) | [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) | Resolving Conflicts | 2026-07-07 | - |
 | 2 | Direct Controller, E2E fixtures and fuzzer | - | - | - | - | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates / Log
+* **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Found that the PR has merge conflicts (mergeable state is dirty) and was unassigned. Assigned the author bot `ada-coder-bot` back to the PR to resolve the conflicts and perform a rebase.
 * **2026-07-08**: Verified that all 197 CI checks on PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) are 100% green and successfully completed. The PR remains open and in a mergeable state, currently awaiting final review and merge by human owners.
 * **2026-07-08**: Monitored PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Re-verified all 197 CI checks continue to pass successfully and the `lgtm` label is present. The PR remains fully green, open, and is currently awaiting final review and approval from human owners.
 * **2026-07-08**: Checked PR [#11420](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11420) status. Confirmed all CI checks (over 190 checks) have completed successfully and are 100% green. The PR is open, in a mergeable state, and currently awaiting human owner review and merge.
