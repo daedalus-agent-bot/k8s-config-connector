@@ -1,7 +1,7 @@
 # Greenfield Migration Journal: DataprocSession
 
 ## Current Step
-Step 3: mockGCP generation
+Step 4: MockGCP Alignment with RealGCP
 
 ## Progress Tracking
 
@@ -9,10 +9,11 @@ Step 3: mockGCP generation
 |---|---|---|---|---|---|
 | 1. Direct API Types and Identity | [#8682](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8682) | [#8695](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8695), [#8780](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8780) | Merged | 2026-05-26 | 2026-05-28 |
 | 2. Direct Controller, E2E fixtures and Fuzzer | [#11297](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11297) | [#11300](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11300), [#11333](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11333) | Merged | 2026-05-31 | 2026-07-06 |
-| 3. mockGCP generation | [#11451](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11451) | [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459) | PR Created | 2026-07-07 | |
-| 4. MockGCP Alignment with RealGCP | | | Pending | | |
+| 3. mockGCP generation | [#11451](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11451) | [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459) | Merged | 2026-07-07 | 2026-07-08 |
+| 4. MockGCP Alignment with RealGCP | [#11474](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11474) | | Open | 2026-07-08 | |
 
 ## Status Update Notes
+* **2026-07-08 (00:30 UTC)**: Step 3 (mockGCP generation) is complete and merged under PR [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459). Initiated Step 4 (MockGCP Alignment with RealGCP) and created tracking issue [#11474](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11474).
 * **2026-07-08 (00:04 UTC)**: Progress monitoring check. Confirmed that Pull Request [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459) remains open but is now **APPROVED** by repository owner/approver acpana. All CI checks are passing successfully. The PR is awaiting final merge.
 * **2026-07-07 (23:20 UTC)**: Progress monitoring check. Confirmed that Pull Request [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459) remains open. All CI checks are passing successfully. The PR continues to await review and merge by repository owners.
 * **2026-07-07 (22:56 UTC)**: Progress monitoring check. Verified that Pull Request [#11459](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11459) remains open with all CI check-runs successfully completed and passing. The PR continues to await review and merge by repository owners.
