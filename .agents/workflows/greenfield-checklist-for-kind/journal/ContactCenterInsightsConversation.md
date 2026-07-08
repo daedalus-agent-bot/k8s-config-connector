@@ -13,6 +13,7 @@
 
 ## Notes & Status Updates
 
+* **2026-07-08**: Monitored PR #11431 (implementing Step 2). Verified that the PR is still open and all direct-scoped CI checks (including E2E fixtures, validations, fuzzers, and unit tests) remain 100% green and passing. The unrelated flake in `tests-scenarios-acquisition` is still failing, preventing automatic merge. The PR remains open, awaiting manual human OWNER/approver review and merge to proceed to Step 3.
 * **2026-07-07**: Conducted a periodic check of PR #11431 (implementing Step 2). Confirmed that the PR remains OPEN and is awaiting manual human OWNER/approver review and merge. All direct-scoped CI tests are green and passing; only the unrelated flake `tests-scenarios-acquisition` is failing.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2). Verified that all direct-scoped CI check runs (including E2E fixtures, validations, fuzzers, and unit tests) are 100% green and passing. The unrelated flake in `tests-scenarios-acquisition` is still failing, so the PR remains open, awaiting manual human OWNER review and merge to proceed to Step 3.
 * **2026-07-07**: Checked PR #11431 (implementing Step 2) again. Confirmed that the pull request is still OPEN and awaiting human OWNER review and merge. All direct-scoped CI tests remain completely green and passing, with only the unrelated `tests-scenarios-acquisition` check failing. No other manual or automated intervention is currently required.
