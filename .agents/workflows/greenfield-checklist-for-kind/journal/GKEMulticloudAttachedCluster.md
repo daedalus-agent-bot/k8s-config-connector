@@ -13,6 +13,8 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 ## Status Updates
 
+* **2026-07-09 (Update)**: Audited the migration progress for `GKEMulticloudAttachedCluster`. Confirmed that parent issue #11235 is assigned to @barney-s, and Pull Request [#11264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11264) for Step 1 remains open and blocked in the 'CI Failing / Retries Exhausted' state due to failing `unit-tests` and `validations` checks. We continue to await manual human OWNER triage and intervention before proceeding.
+
 * **2026-07-09 (Update)**: Completed a subsequent progress audit on the Greenfield migration for `GKEMulticloudAttachedCluster`. Confirmed that Pull Request [#11264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11264) remains open in the 'CI Failing / Retries Exhausted' state with failing `unit-tests` and `validations` checks. No new changes, commits, or comments have been added. The migration remains fully blocked at Step 1, awaiting manual human OWNER triage and intervention by the assigned owner @barney-s.
 
 * **2026-07-09 (Update)**: Performed a subsequent progress audit on the Greenfield migration for `GKEMulticloudAttachedCluster`. Checked the open Pull Request [#11264](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11264) for Step 1 and confirmed it is still open and blocked in the 'CI Failing / Retries Exhausted' state with failing `unit-tests` and `validations` checks. The migration continues to wait for manual human OWNER triage and intervention by the assigned owner @barney-s.
