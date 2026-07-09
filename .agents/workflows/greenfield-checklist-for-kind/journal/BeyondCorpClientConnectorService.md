@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) has been assigned to **hopper-coder-bot**. We have delegated the implementation of the direct controller, E2E fixtures, and fuzzer for `BeyondCorpClientConnectorService` to a healthy, active coder bot.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Open** and unassigned. We unassigned the inactive/busy coder bot to allow the repository's active scheduler to automatically assign an available, healthy coder bot to implement the direct controller, E2E fixtures, and fuzzer.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-09 19:06 UTC**: Monitored the progress of Step 2. Verified that `hopper-coder-bot` remained assigned to Issue #8787 with no open Pull Request. Since the bot is currently active on other tasks (such as ComputeSubnetwork and GKEHubMembership), we have unassigned `hopper-coder-bot` from Issue #8787 to leave it unassigned, enabling the repository's active scheduler to automatically assign a healthy, available coder bot. We will continue monitoring the progress of Step 2.
 - **2026-07-09 18:49 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `hopper-coder-bot` with no active Pull Request opened yet. We will continue monitoring the progress of Step 2.
 - **2026-07-09 18:28 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `hopper-coder-bot` with no active Pull Request opened yet. We will continue monitoring the progress of Step 2.
 - **2026-07-09 18:10 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `hopper-coder-bot` with no active Pull Request opened yet. We will continue monitoring the progress of Step 2.
