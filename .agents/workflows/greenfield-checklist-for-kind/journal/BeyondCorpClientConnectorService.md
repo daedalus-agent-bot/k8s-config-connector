@@ -1,18 +1,19 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Assigned to codebot-robot**. The previous PR #8795 was closed. We have unassigned and reassigned `codebot-robot` on the issue to ensure the task runner triggers a fresh run and wake up the bot.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Unassigned**. We have removed the obsolete and inactive `codebot-robot` assignee from the issue so that a healthy, functioning coder bot can be automatically assigned by the repository's scheduler to begin a fresh implementation.
 
 ## Migration Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity/Reference | [#8403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8403), [#8836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8836) | [#8407](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8407), [#8837](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8837) | Completed | - | 2026-05-28 |
-| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#8795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8795) (Closed) | Assigned | 2026-05-28 | - |
+| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#8795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8795) (Closed) | Open | 2026-05-28 | - |
 | 3 | mockGCP Generation | Pending | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-09 02:40 UTC**: Verified that `codebot-robot` was inactive and had made no progress on Step 2. Removed `codebot-robot` from Issue #8787 to leave it unassigned, allowing the repository's active scheduler to automatically assign a healthy coder bot. We will continue monitoring the progress of Step 2.
 - **2026-07-09 02:22 UTC**: Verified that Issue #8787 remains open with no active Pull Request. Re-triggered Step 2 by unassigning and reassigning `codebot-robot` on the issue to wake up the bot and ensure a fresh implementation run. We will continue monitoring the progress of Step 2.
 - **2026-07-09 02:03 UTC**: Checked and verified that Issue #8787 remains open and assigned to `codebot-robot` with no open Pull Request yet. We will continue monitoring the progress of Step 2.
 - **2026-07-09 01:32 UTC**: Checked and verified that Issue #8787 remains open and assigned to `codebot-robot` with no open Pull Request yet. We will continue monitoring the progress of Step 2.
