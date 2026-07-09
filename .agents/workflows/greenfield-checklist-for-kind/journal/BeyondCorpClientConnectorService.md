@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Unassigned**. We have removed the obsolete and inactive `codebot-robot` assignee from the issue so that a healthy, functioning coder bot can be automatically assigned by the repository's scheduler to begin a fresh implementation.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) has been assigned to **hopper-coder-bot**. We have delegated the implementation of the direct controller, E2E fixtures, and fuzzer for `BeyondCorpClientConnectorService` to a healthy, active coder bot.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-09 03:05 UTC**: Assigned `hopper-coder-bot` to Issue #8787 to delegate the implementation of Step 2 (Direct Controller, E2E fixtures, and fuzzer) to a healthy, active coder bot. We will monitor the progress of the implementation and any newly opened Pull Request.
 - **2026-07-09 02:40 UTC**: Verified that `codebot-robot` was inactive and had made no progress on Step 2. Removed `codebot-robot` from Issue #8787 to leave it unassigned, allowing the repository's active scheduler to automatically assign a healthy coder bot. We will continue monitoring the progress of Step 2.
 - **2026-07-09 02:22 UTC**: Verified that Issue #8787 remains open with no active Pull Request. Re-triggered Step 2 by unassigning and reassigning `codebot-robot` on the issue to wake up the bot and ensure a fresh implementation run. We will continue monitoring the progress of Step 2.
 - **2026-07-09 02:03 UTC**: Checked and verified that Issue #8787 remains open and assigned to `codebot-robot` with no open Pull Request yet. We will continue monitoring the progress of Step 2.
