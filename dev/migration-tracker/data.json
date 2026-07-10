@@ -21,7 +21,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7286, External Work: #7290",
+    "notes": "External Work: #7286",
     "sortOrder": 125,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -50,12 +50,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10421",
     "sortOrder": 126,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apikeys",
@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6814, External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "External Work: #6814",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -139,7 +139,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "External Work: #8948, External Work: #7285",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6992, External Work: #8951, External Work: #8952",
+    "notes": "External Work: #8951",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -252,7 +252,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6992, External Work: #8952",
+    "notes": "External Work: #8952, External Work: #6992",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -281,7 +281,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6515",
     "sortOrder": 140,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -342,7 +342,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11080",
     "sortOrder": 142,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -455,7 +455,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5551",
     "sortOrder": 20,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -499,7 +499,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -509,12 +509,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5705",
+    "notes": "",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -526,7 +526,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -536,7 +536,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5706",
+    "notes": "",
     "sortOrder": 155,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -670,7 +670,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -685,7 +685,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -699,7 +699,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -714,7 +714,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -728,7 +728,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -743,7 +743,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "bigquerydatapolicy",
@@ -772,7 +772,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "bigquery",
@@ -858,7 +858,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9432, External Work: #7417, External Work: #6481, External Work: #5587",
     "sortOrder": 186,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1012,8 +1012,8 @@
     "notes": "External Work: #7385, External Work: #9616",
     "sortOrder": 194,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10610",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -1038,7 +1038,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "",
@@ -1072,7 +1072,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "billingbudgets",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4994, External Work: #5944, External Work: #9170",
+    "notes": "External Work: #9170",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1130,7 +1130,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "binaryauthorization",
@@ -1154,12 +1154,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7897, External Work: #6984",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7417",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1493,7 +1493,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1508,7 +1508,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudscheduler",
@@ -1532,12 +1532,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9432, External Work: #7417, External Work: #6481, External Work: #5587",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "compute",
@@ -1596,8 +1596,8 @@
     "notes": "",
     "sortOrder": 233,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10600",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -1622,7 +1622,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1652,7 +1652,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "External Work: #9958, External Work: #7578",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1686,12 +1686,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6975, External Work: #7736, External Work: #8857, External Work: #9960",
+    "notes": "External Work: #9960, External Work: #8857, External Work: #8672, External Work: #6975",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1720,8 +1720,8 @@
     "notes": "",
     "sortOrder": 235,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10608",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -1784,8 +1784,8 @@
     "notes": "",
     "sortOrder": 551,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10641",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -1837,12 +1837,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5440",
+    "notes": "External Work: #6787",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1866,12 +1866,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: #5440",
+    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code",
     "sortOrder": 31,
     "downstreamCount": 4,
     "trackingIssue": "",
-    "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "assignee": "daedalus-agent-bot",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2024,8 +2024,8 @@
     "notes": "",
     "sortOrder": 13,
     "downstreamCount": 11,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9656",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -2052,7 +2052,7 @@
     "sortOrder": 243,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2080,7 +2080,7 @@
     "downstreamCount": 12,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2109,8 +2109,8 @@
     "notes": "",
     "sortOrder": 554,
     "downstreamCount": 4,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10552",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -2143,8 +2143,8 @@
     "notes": "External Work: #5958, External Work: #6168, External Work: #9988, External Work: #9989",
     "sortOrder": 32,
     "downstreamCount": 4,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9734",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -2173,8 +2173,8 @@
     "notes": "External Work: #9988",
     "sortOrder": 15,
     "downstreamCount": 10,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10642",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -2206,7 +2206,7 @@
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2263,7 +2263,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5958, External Work: #6168, External Work: #9989",
+    "notes": "External Work: #9989",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -2409,7 +2409,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11292, External Work: #6132",
+    "notes": "",
     "sortOrder": 250,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
@@ -2439,7 +2439,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11292, External Work: #6132",
+    "notes": "External Work: #6132",
     "sortOrder": 14,
     "downstreamCount": 11,
     "trackingIssue": "",
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9998, External Work: #9999",
+    "notes": "",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2557,7 +2557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10002, External Work: #5608",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2648,7 +2648,7 @@
     "sortOrder": 90,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2671,7 +2671,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10007, External Work: #10010",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2845,7 +2845,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3021,7 +3021,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3045,12 +3045,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #10029, External Work: #11549, External Work: #6649",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "assignee": "walle-agent-bot",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3078,8 +3078,8 @@
     "notes": "External Work: #10029, External Work: #11549, External Work: #6649",
     "sortOrder": 24,
     "downstreamCount": 6,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10551",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -3111,7 +3111,7 @@
     "sortOrder": 91,
     "downstreamCount": 1,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3137,11 +3137,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, External Work: #11549, External Work: #6649",
+    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, External Work: #6649",
     "sortOrder": 270,
     "downstreamCount": 0,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3225,8 +3225,8 @@
     "notes": "",
     "sortOrder": 34,
     "downstreamCount": 4,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9723",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -3253,8 +3253,8 @@
     "notes": "External Work: #6486",
     "sortOrder": 11,
     "downstreamCount": 13,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10591",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11557, External Work: #5953",
+    "notes": "External Work: #5953",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
@@ -3481,11 +3481,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #5399, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #8480, External Work: #5399",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3665,8 +3665,8 @@
     "notes": "External Work: #5713, External Work: #8709",
     "sortOrder": 27,
     "downstreamCount": 5,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9740",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -3753,12 +3753,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 277,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "containeranalysis",
@@ -3780,7 +3780,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5627",
     "sortOrder": 280,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3838,12 +3838,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8441, External Work: #7262, External Work: #7254, External Work: #7009, External Work: #5529",
     "sortOrder": 282,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "container",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10458, External Work: #10459, External Work: #11293, External Work: #11314, External Work: #11321, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6520, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #7604, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
+    "notes": "External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #8441, External Work: #8362, External Work: #7605, External Work: #7604, External Work: #7495, External Work: #7262, External Work: #7254, External Work: #7009, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #6520, External Work: #6496, External Work: #5901, External Work: #5529, External Work: #5514",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #11314, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
+    "notes": "External Work: #10534, External Work: #10410, External Work: #8362, External Work: #7682, External Work: #7604, External Work: #6520, External Work: #5529",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -3921,7 +3921,7 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3950,7 +3950,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3996,7 +3996,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "dlp",
@@ -4010,7 +4010,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dns",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #5355, External Work: #9777",
+    "notes": "External Work: #10415, External Work: #9777, External Work: #5355",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4258,12 +4258,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 299,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dataflow",
@@ -4325,8 +4325,8 @@
     "notes": "External Work: #6803, External Work: #9410",
     "sortOrder": 309,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10751",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -4355,8 +4355,8 @@
     "notes": "",
     "sortOrder": 321,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10694",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -4385,11 +4385,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #5609, External Work: #6989, External Work: #8023, External Work: #9000",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8441, External Work: #8023, External Work: #7262, External Work: #7254, External Work: #7009, External Work: #6989, External Work: #5529",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
-    "assignee": "",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -4481,7 +4481,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "deploymentmanager",
@@ -4505,12 +4505,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6430",
     "sortOrder": 331,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4522,7 +4522,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4532,7 +4532,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10691, External Work: #7606, External Work: #7170, External Work: #7152, External Work: #6901, External Work: #6468",
     "sortOrder": 336,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4551,7 +4551,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4561,7 +4561,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10691, External Work: #7606, External Work: #7170, External Work: #7152, External Work: #6901, External Work: #6468",
     "sortOrder": 337,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4686,7 +4686,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4696,7 +4696,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7160",
     "sortOrder": 342,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4715,7 +4715,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4730,7 +4730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4744,7 +4744,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4759,7 +4759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4773,7 +4773,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4788,7 +4788,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "documentai",
@@ -4840,7 +4840,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8441, External Work: #7262, External Work: #7254, External Work: #7009, External Work: #5529",
     "sortOrder": 65,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -4871,7 +4871,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5529",
     "sortOrder": 359,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4930,7 +4930,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10450",
     "sortOrder": 98,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -4960,7 +4960,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7719",
     "sortOrder": 361,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4992,7 +4992,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7417",
     "sortOrder": 367,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5021,7 +5021,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6515",
     "sortOrder": 368,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5051,7 +5051,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
@@ -5099,7 +5099,7 @@
     "dependencies": [
       "FirebaseProject"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5114,7 +5114,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasedatabase",
@@ -5138,12 +5138,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 372,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasehosting",
@@ -5155,7 +5155,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5165,7 +5165,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #6494",
     "sortOrder": 373,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5184,7 +5184,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5199,7 +5199,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -5221,12 +5221,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #5888",
     "sortOrder": 99,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "firebasestorage",
@@ -5240,7 +5240,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5250,7 +5250,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7417",
     "sortOrder": 375,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5337,7 +5337,7 @@
     "downstreamCount": 394,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -5361,12 +5361,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5788, External Work: #5801, External Work: #6471",
+    "notes": "External Work: #11506, External Work: #11505, External Work: #10410, External Work: #10401, External Work: #10363, External Work: #8802, External Work: #8709, External Work: #8653, External Work: #8652, External Work: #8448, External Work: #8445, External Work: #8444, External Work: #8026, External Work: #7262, External Work: #7112, External Work: #6921, External Work: #6883, External Work: #6882, External Work: #6677, External Work: #6522, External Work: #6520, External Work: #6515, External Work: #6429, External Work: #6382, External Work: #6228, External Work: #6207, External Work: #6027, External Work: #5899",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "gkehub",
@@ -5393,7 +5393,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "healthcare",
@@ -5461,7 +5461,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5476,7 +5476,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -5581,7 +5581,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7649",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 393,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5666,7 +5666,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5739, External Work: #6027, External Work: #7650",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7897, External Work: #6984",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #6675",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5952,12 +5952,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9416",
+    "notes": "External Work: #10456, External Work: #10391, External Work: #9416, External Work: #8485, External Work: #8026, External Work: #7449, External Work: #7112, External Work: #6984, External Work: #6883, External Work: #6515, External Work: #6349, External Work: #6348, External Work: #6325, External Work: #5995, External Work: #5970, External Work: #5825",
     "sortOrder": 404,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "identityplatform",
@@ -5971,7 +5971,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5986,7 +5986,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6000,7 +6000,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6015,7 +6015,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6027,7 +6027,7 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6042,7 +6042,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6083,7 +6083,7 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6098,7 +6098,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6170,7 +6170,7 @@
     "dependencies": [
       "IdentityPlatformTenant"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6185,7 +6185,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "kms",
@@ -6477,12 +6477,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8026, External Work: #6522",
     "sortOrder": 423,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "memcache",
@@ -6506,7 +6506,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11500, External Work: #5502",
     "sortOrder": 426,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10640, External Work: #5641, External Work: #6991",
+    "notes": "External Work: #10640, External Work: #6991",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6562,7 +6562,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10867",
+    "notes": "External Work: #10956, External Work: #10867, External Work: #8023",
     "sortOrder": 108,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6645,7 +6645,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7684",
+    "notes": "",
     "sortOrder": 434,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6674,7 +6674,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10147, External Work: #5559",
+    "notes": "External Work: #7897, External Work: #6027",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5714, External Work: #9566",
+    "notes": "External Work: #9566, External Work: #5714",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6763,7 +6763,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11505, External Work: #7449, External Work: #6451",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6967,7 +6967,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7277",
+    "notes": "External Work: #7277, External Work: #6389",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
@@ -7059,8 +7059,8 @@
     "notes": "",
     "sortOrder": 460,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10388",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -7086,7 +7086,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6207, External Work: #6511",
+    "notes": "External Work: #6207",
     "sortOrder": 461,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7209,7 +7209,7 @@
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "osconfig",
@@ -7238,7 +7238,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "osconfig",
@@ -7252,7 +7252,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7267,7 +7267,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "oslogin",
@@ -7279,7 +7279,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7294,7 +7294,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "privateca",
@@ -7351,12 +7351,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363, External Work: #11330, External Work: #11496",
+    "notes": "External Work: #11496, External Work: #10997",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7383,7 +7383,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10363, External Work: #11330",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11330, External Work: #10363",
     "sortOrder": 115,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -7416,8 +7416,8 @@
     "notes": "",
     "sortOrder": 116,
     "downstreamCount": 1,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9738",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11186, External Work: #5240, External Work: #5888, External Work: #6849",
+    "notes": "External Work: #5888",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7471,7 +7471,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5702",
+    "notes": "",
     "sortOrder": 479,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7500,7 +7500,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5700",
+    "notes": "",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7529,7 +7529,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5701",
+    "notes": "",
     "sortOrder": 481,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7654,8 +7654,8 @@
     "notes": "",
     "sortOrder": 484,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10750",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -7684,8 +7684,8 @@
     "notes": "External Work: #8448",
     "sortOrder": 486,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10420",
+    "assignee": "barney-s",
     "stage": "Stage 5 (Controller Implemented)"
   },
   {
@@ -7740,7 +7740,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7897, External Work: #6984",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5554, External Work: #6686, External Work: #9714",
+    "notes": "External Work: #9714, External Work: #7897, External Work: #6686, External Work: #6027, External Work: #5554",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7885,7 +7885,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7148, External Work: #8796",
+    "notes": "External Work: #11080, External Work: #8796",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7989,7 +7989,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "serviceusage",
@@ -8178,7 +8178,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7897",
     "sortOrder": 503,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8236,7 +8236,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6319",
+    "notes": "External Work: #6326, External Work: #6319",
     "sortOrder": 506,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11312, External Work: #11322, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #6511, External Work: #6921, External Work: #9779",
+    "notes": "External Work: #9779, External Work: #7417, External Work: #6921, External Work: #6207, External Work: #5556, External Work: #5553",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
@@ -8440,7 +8440,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #8653",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8498,12 +8498,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9432, External Work: #7417, External Work: #6481, External Work: #5587",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "tpu",
@@ -8527,7 +8527,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #9134, External Work: #8023",
     "sortOrder": 521,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8673,7 +8673,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10456, External Work: #10391, External Work: #8485, External Work: #8026, External Work: #7449, External Work: #7112, External Work: #6984, External Work: #6515, External Work: #6349, External Work: #6348, External Work: #6325, External Work: #5995, External Work: #5970, External Work: #5825",
     "sortOrder": 529,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8703,12 +8703,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11137, External Work: #7985, External Work: #9698",
+    "notes": "External Work: #11137, External Work: #9698, External Work: #7985",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "vertexai",
@@ -8739,7 +8739,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "vertexai",
@@ -8751,7 +8751,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8766,7 +8766,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "vertexai",
@@ -8778,7 +8778,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8793,7 +8793,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "vertexai",
@@ -8817,12 +8817,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8389, External Work: #8390",
+    "notes": "External Work: #8389",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "vertexai",
@@ -8851,7 +8851,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "vertexai",
@@ -8865,7 +8865,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8880,6 +8880,6 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   }
 ]
