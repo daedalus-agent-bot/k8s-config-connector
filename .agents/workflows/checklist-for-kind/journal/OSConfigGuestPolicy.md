@@ -1,16 +1,20 @@
 # Migration Journal: OSConfigGuestPolicy
 
-Current Step: Step 4: Ensure MockGCP matches real gcp behavior
+Current Step: Step 5: Implement Direct Controller & E2E Fixtures
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#10940](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10940) | [#10943](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10943) | Completed | 2026-06-28 | 2026-06-28 |
 | 2 | Identity and Reference Types Pattern | [#10949](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10949) | [#10950](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10950) | Completed | 2026-06-28 | 2026-06-29 |
 | 3 | Create a Round-Trip KRM Fuzzer | [#10957](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10957) | [#10959](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10959) | Completed | 2026-06-29 | 2026-06-29 |
-| 4 | Ensure MockGCP matches real gcp behavior | [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962) | [#10965](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10965) | PR Created | 2026-06-29 | |
-| 5 | Implement Direct Controller & E2E Fixtures | | | Not Started | | |
+| 4 | Ensure MockGCP matches real gcp behavior | [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962) | [#10965](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10965) | Completed | 2026-06-29 | 2026-07-13 |
+| 5 | Implement Direct Controller & E2E Fixtures | [#11619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11619) | [#11621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11621) | PR Created | 2026-07-13 | |
 
 ## History / Status Updates
+
+- **2026-07-15**: Monitored Step 5 (Issue [#11619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11619)) at 20:30 UTC. Checked Pull Request [#11621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11621) status. Verified it is OPEN. Switched OSConfig client from gRPC to REST client per code owner feedback. Checked CI check-runs; all 193 CI checks are completed successfully and are 100% green. The PR remains assigned to human code owner `barney-s` for final review, approval, and merge.
+- **2026-07-14**: Monitored Step 5 (Issue [#11619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11619)) at 00:30 UTC. Checked Pull Request [#11621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11621) status. Verified it is OPEN. Found that the `tests-e2e-fixtures-osconfig` check-run has failed, while other validation checks are green. Assigned the PR back to the author bot (`hopper-coder-bot`) via the GitHub REST API to investigate and resolve the failing test fixtures.
+- **2026-07-13**: Verified Step 4 (PR [#10965](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10965)) has been merged successfully. Marked Step 4 as completed. Initialized Step 5 by opening GitHub issue [#11619](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11619) to implement the direct controller and E2E test fixtures for OSConfigGuestPolicy.
 
 - **2026-07-11**: Monitored Step 4 (Issue [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962)) at 23:15 UTC. Checked Pull Request [#10965](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10965) status. Verified it remains open in an OPEN state and is blocked awaiting human review (`BLOCKED` mergeStateStatus, `REVIEW_REQUIRED` reviewDecision). All CI check-runs have successfully passed and are 100% green. The PR remains assigned to human code owner `barney-s` awaiting final review, approval, and merge. Progress to Step 5 remains blocked until this PR is merged.
 - **2026-07-11**: Monitored Step 4 (Issue [#10962](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10962)) at 18:36 UTC. Checked Pull Request [#10965](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10965) status. Verified it remains open in an OPEN state and is blocked awaiting human review (`BLOCKED` mergeStateStatus, `REVIEW_REQUIRED` reviewDecision). All CI check-runs have successfully passed and are 100% green. The PR remains assigned to human code owner `barney-s` awaiting final review, approval, and merge. Progress to Step 5 remains blocked until this PR is merged.
