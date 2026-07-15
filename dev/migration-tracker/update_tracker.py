@@ -261,8 +261,8 @@ def main():
 
     # 5. Fetch ALL Open Issues and PRs in the Repository (SET 2)
     print("Fetching all open issues and PRs for external work detection...")
-    open_issues = run_gh(["issue", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,assignees,author,state"])
-    open_prs = run_gh(["pr", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,author,state"])
+    open_issues = run_gh(["issue", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,assignees,author,state"])
+    open_prs = run_gh(["pr", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,author,state"])
     
     # We filter out bots (author login has "bot" or "robot")
     external_issues_and_prs = []
