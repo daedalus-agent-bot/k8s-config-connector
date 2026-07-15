@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6992, External Work: #8951, External Work: #8952",
+    "notes": "External Work: #4754, External Work: #6992, External Work: #8951, External Work: #8952",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -651,7 +651,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #3720",
     "sortOrder": 163,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -948,7 +948,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5068, External Work: #7321",
+    "notes": "External Work: #4614, External Work: #5068, External Work: #7321",
     "sortOrder": 82,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -1184,7 +1184,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10972, External Work: #10973, External Work: #11198, External Work: #5678, External Work: #8480",
+    "notes": "External Work: #10972, External Work: #10973, External Work: #11198, External Work: #4602, External Work: #5678, External Work: #8480",
     "sortOrder": 206,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "External Work: #4541, External Work: #7316, External Work: #9978, External Work: #9980",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11557, External Work: #5953",
+    "notes": "External Work: #5953",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #5399, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #4602, External Work: #5399, External Work: #8480",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #11314, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
+    "notes": "External Work: #10410, External Work: #10534, External Work: #11314, External Work: #3570, External Work: #3798, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #4982, External Work: #5355, External Work: #9777",
+    "notes": "External Work: #10415, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5361,7 +5361,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5788, External Work: #5801, External Work: #6471",
+    "notes": "External Work: #4597, External Work: #5788, External Work: #5801, External Work: #6471",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #6675",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #3338, External Work: #6675",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5752,7 +5752,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6675",
+    "notes": "External Work: #3338, External Work: #6675",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6416,7 +6416,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11574",
+    "notes": "External Work: #11574, External Work: #4715",
     "sortOrder": 421,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7026,7 +7026,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #3520",
     "sortOrder": 459,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363, External Work: #11608, External Work: #11613",
+    "notes": "External Work: #10363, External Work: #11613",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7383,7 +7383,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10363, External Work: #11608",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10363",
     "sortOrder": 115,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -8029,7 +8029,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5031, External Work: #5033, External Work: #6027, External Work: #6941, External Work: #7897",
+    "notes": "External Work: #11635, External Work: #3338, External Work: #5031, External Work: #5033, External Work: #6027, External Work: #6941, External Work: #7897",
     "sortOrder": 10,
     "downstreamCount": 15,
     "trackingIssue": "",
