@@ -13,3 +13,4 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Status Updates
 - **2026-07-18**: Initialized the greenfield migration for VertexAICustomJob. Created the Step 1 issue (#11715) to generate types and identity.
+- **2026-07-18**: Checked the status of Step 1 (#11715). The coder bot has started work in a sandbox, but no Pull Request has been opened yet. Monitoring continues.
