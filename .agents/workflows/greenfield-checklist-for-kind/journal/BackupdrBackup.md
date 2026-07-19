@@ -7,11 +7,12 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#11717](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11717) | - | `Open` | 2026-07-18 | - |
+| 1 | Direct API Types & Identity | [#11717](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11717) | [#11734](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11734) | `PR Created` | 2026-07-18 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | `Not Started` | - | - |
 | 3 | mockGCP Generation | - | - | `Not Started` | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | `Not Started` | - | - |
 
 ## Status Update Notes
+- **2026-07-19**: Detected open Pull Request #11734 for Step 1. However, CI checks `unit-tests` and `validate-generated-files` have failed. Assigned the PR back to the author bot (`ada-coder-bot`) to fix the CI failures.
 - **2026-07-19**: Monitored Step 1 progress. Coder bot is currently working on the implementation in the sandbox. No pull request has been opened yet.
 - **2026-07-18**: Initiated Greenfield migration for BackupdrBackup. Created Step 1 child issue #11717 and assigned to coder bot.
