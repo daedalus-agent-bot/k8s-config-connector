@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #4602, External Work: #5399, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #11678, External Work: #4602, External Work: #5399, External Work: #8480",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3662,7 +3662,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11641, External Work: #11650, External Work: #5713, External Work: #8709",
+    "notes": "External Work: #11641, External Work: #5713",
     "sortOrder": 27,
     "downstreamCount": 5,
     "trackingIssue": "",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10458, External Work: #10459, External Work: #11293, External Work: #11314, External Work: #11321, External Work: #11647, External Work: #1792, External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #576, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6520, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #699, External Work: #7495, External Work: #7604, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
+    "notes": "External Work: #10458, External Work: #10459, External Work: #11321, External Work: #11647, External Work: #1792, External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #576, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #699, External Work: #7495, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #11314, External Work: #2775, External Work: #3570, External Work: #3798, External Work: #479, External Work: #6520, External Work: #7604, External Work: #7682, External Work: #8362",
+    "notes": "External Work: #10410, External Work: #10534, External Work: #2775, External Work: #3570, External Work: #3798, External Work: #479, External Work: #7682, External Work: #8362",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -7086,11 +7086,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6207, External Work: #6511",
+    "notes": "External Work: #6207",
     "sortOrder": 461,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11186, External Work: #1734, External Work: #2188, External Work: #2943, External Work: #388, External Work: #402, External Work: #505, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #654, External Work: #6849, External Work: #720, External Work: #818",
+    "notes": "External Work: #1734, External Work: #2188, External Work: #388, External Work: #402, External Work: #505, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #654, External Work: #6849, External Work: #720, External Work: #818",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7681,7 +7681,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11674, External Work: #622, External Work: #802, External Work: #8448",
+    "notes": "External Work: #11674, External Work: #11675, External Work: #11681, External Work: #622, External Work: #802, External Work: #8448",
     "sortOrder": 486,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11312, External Work: #11322, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #6511, External Work: #681, External Work: #6921, External Work: #9779",
+    "notes": "External Work: #11322, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #681, External Work: #9779",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
@@ -8817,7 +8817,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8389, External Work: #8390",
+    "notes": "External Work: #11702, External Work: #8390",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
