@@ -1,496 +1,479 @@
 #!/usr/bin/env python3
-# Copyright 2026 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
 import json
-import re
 import os
-import sys
+import re
 import subprocess
-from collections import defaultdict
+import sys
 
-def run_gh(args):
-    cmd = ["gh"] + args
-    res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-    if res.returncode != 0:
-        print(f"Error running {' '.join(cmd)}: {res.stderr}", file=sys.stderr)
-        return []
-    try:
-        return json.loads(res.stdout)
-    except Exception as e:
-        print(f"Error parsing JSON from {' '.join(cmd)}: {e}", file=sys.stderr)
-        return []
+COORDINATOR_ISSUE_NUMBER = 10588
 
-def get_implemented_types(apis_dir="../../apis"):
-    implemented_kinds = {}
-    struct_regex = re.compile(r"type\s+([A-Za-z0-9_]+)\s+struct\s*\{")
-    if not os.path.exists(apis_dir):
-        return implemented_kinds
+def run_command(args):
+    print(f"Running command: {' '.join(args)}")
+    result = subprocess.run(args, capture_output=True, text=True, check=True)
+    return result.stdout.strip()
 
-    for root, _, files in os.walk(apis_dir):
-        for file in files:
-            if file.endswith("_types.go"):
-                filepath = os.path.join(root, file)
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    matches = struct_regex.findall(content)
-                    for kind in matches:
-                        if kind.endswith("Spec") or kind.endswith("Status") or kind.endswith("List") or kind.endswith("ObservedState"):
-                            continue
-                        if kind not in implemented_kinds:
-                            implemented_kinds[kind] = []
-                        implemented_kinds[kind].append(filepath)
-    return implemented_kinds
-
-def get_implemented_controllers(direct_dir="../../pkg/controller/direct"):
-    implemented_controllers = set()
-    if not os.path.exists(direct_dir):
-        return implemented_controllers
-    for root, _, files in os.walk(direct_dir):
-        for file in files:
-            if file.endswith("_controller.go"):
-                implemented_controllers.add(file)
-    return implemented_controllers
-
-def parse_static_config(config_file_path="../../pkg/controller/resourceconfig/static_config.go"):
-    static_configs = {}
-    if not os.path.exists(config_file_path):
-        return static_configs
-        
-    with open(config_file_path, 'r') as f:
-        config_lines = f.readlines()
-        
-    for line in config_lines:
-        line = line.strip()
-        if not line.startswith('{Group: '):
-            continue
-            
-        group_match = re.search(r'Group:\s*"([^"]+)"', line)
-        kind_match = re.search(r'Kind:\s*"([^"]+)"', line)
-        default_ctrl_match = re.search(r'DefaultController:\s*k8s\.ReconcilerType([A-Za-z]+)', line)
-        supported_ctrls_match = re.search(r'SupportedControllers:\s*\[\]k8s\.ReconcilerType\{(.*?)\}', line)
-        
-        if group_match and kind_match:
-            kind = kind_match.group(1)
-            supported = []
-            if supported_ctrls_match:
-                ctrls_raw = supported_ctrls_match.group(1)
-                supported = re.findall(r'k8s\.ReconcilerType([A-Za-z]+)', ctrls_raw)
-            
-            default_ctrl = "Unknown"
-            if default_ctrl_match:
-                default_ctrl = default_ctrl_match.group(1)
-                
-            static_configs[kind] = {
-                "supported": supported,
-                "default": default_ctrl
-            }
-    return static_configs
-
-def matches_kind(kind, text):
-    text_lower = text.lower()
-    kind_lower = kind.lower()
-    if kind_lower not in text_lower:
+def is_bot(username):
+    if not username:
         return False
-    
-    # Generic short/common kinds
-    if kind in ["Service", "Project", "Folder", "Run"]:
-        pattern = rf"\b{re.escape(kind)}\b"
-        if not re.search(pattern, text):  # Case-sensitive whole-word
-            # Check also lowercase with word boundary
-            pattern_lower = rf"\b{re.escape(kind_lower)}\b"
-            if not re.search(pattern_lower, text):
-                return False
-    return True
+    u = username.lower()
+    return "bot" in u or "robot" in u
 
-def generate_summary(resources):
-    completed = [r for r in resources if r['state'] == "Completed"]
-    in_progress = [r for r in resources if r['state'] == "In Progress"]
-    not_started = [r for r in resources if r['state'] == "Not Started"]
+def parse_registered_direct_kinds(static_config_path):
+    registered_kinds = set()
+    if not os.path.exists(static_config_path):
+        return registered_kinds
+    with open(static_config_path, "r", encoding="utf-8") as f:
+        content = f.read()
     
-    completed_count = len(completed)
-    in_progress_count = len(in_progress)
-    pending_count = len(not_started)
-    total_count = len(resources)
-    
-    md = []
-    md.append("### Migration Progress Tracker Summary\n")
-    md.append("## High-Level Status")
-    md.append("| State | Count |")
-    md.append("|-------|-------|")
-    md.append(f"| Completed | {completed_count} |")
-    md.append(f"| In Progress | {in_progress_count} |")
-    md.append(f"| Pending | {pending_count} |")
-    md.append(f"| Total | {total_count} |\n")
-    
-    md.append("## In Progress Resources")
-    md.append("| Kind | Current Stage | Tracking Issue/PR | Assignee | Notes |")
-    md.append("|------|---------------|-------------------|----------|-------|")
-    for r in sorted(in_progress, key=lambda x: x['kind']):
-        issue_link = "N/A"
-        if r.get('trackingIssue'):
-            m = re.search(r"/issues/(\d+)", r['trackingIssue'])
-            if m:
-                issue_link = f"[#{m.group(1)}]({r['trackingIssue']})"
-            else:
-                issue_link = f"[Link]({r['trackingIssue']})"
-        assignee = r.get('assignee', '')
-        notes = r.get('notes', '')
-        md.append(f"| {r['kind']} | {r['stage']} | {issue_link} | {assignee} | {notes} |")
-    md.append("")
-    
-    # Next Resources (Pending & Unblocked)
-    completed_kinds = {r['kind'] for r in completed}
-    next_resources = []
-    for r in not_started:
-        if r.get('defaultController') in ("Terraform", "DCL"):
-            deps = r.get('dependencies', [])
-            # All deps must be in completed_kinds
-            if all(dep in completed_kinds for dep in deps):
-                next_resources.append(r)
-                
-    next_resources = sorted(next_resources, key=lambda x: x['sortOrder'])
-    
-    md.append("## Next Resources (Pending & Unblocked)")
-    md.append("| Kind | Sort Order | Default Controller | Dependencies | Notes |")
-    md.append("|------|------------|--------------------|--------------|-------|")
-    for r in next_resources:
-        deps_str = ", ".join(r.get('dependencies', []))
-        notes = r.get('notes', '')
-        md.append(f"| {r['kind']} | {r['sortOrder']} | {r.get('defaultController', '')} | {deps_str} | {notes} |")
-    md.append("")
-    
-    md.append("## Completed Resources")
-    md.append("| Kind | Default Controller | Date Completed / Notes |")
-    md.append("|------|--------------------|------------------------|")
-    for r in sorted(completed, key=lambda x: x['kind']):
-        notes = r.get('notes', '')
-        if not notes:
-            notes = "Registered in code"
-        md.append(f"| {r['kind']} | {r.get('defaultController', '')} | {notes} |")
-        
-    return "\n".join(md)
+    for line in content.splitlines():
+        if "Kind:" in line:
+            match = re.search(r'Kind:\s*"([^"]+)"', line)
+            if match:
+                kind = match.group(1)
+                if "k8s.ReconcilerTypeDirect" in line:
+                    registered_kinds.add(kind)
+    return registered_kinds
 
-def update_comment_on_github(summary_body, coordinator_issue="10588"):
-    comments_data = run_gh(["issue", "view", coordinator_issue, "--json", "comments"])
+def has_types_go(group, version, kind):
+    # Check apis/{group}/{version} or apis/{group}
+    dir_path = f"apis/{group}/{version}"
+    if not os.path.exists(dir_path):
+        dir_path = f"apis/{group}"
+        if not os.path.exists(dir_path):
+            return False
+            
+    for root, _, files in os.walk(dir_path):
+        for file in files:
+            if file.endswith(".go") and not file.endswith("_test.go"):
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        if f"type {kind} struct" in f.read():
+                            return True
+                except Exception:
+                    pass
+    return False
+
+def has_identity_ref_go(group, version, kind):
+    dir_path = f"apis/{group}/{version}"
+    if not os.path.exists(dir_path):
+        dir_path = f"apis/{group}"
+        if not os.path.exists(dir_path):
+            return False
+            
+    low_kind = kind.lower()
+    low_kind_stripped = kind.replace(group, "").lower() if kind.lower().startswith(group.lower()) else low_kind
     
-    comment_id = None
-    if isinstance(comments_data, dict) and "comments" in comments_data:
-        for c in comments_data["comments"]:
-            if "### Migration Progress Tracker Summary" in c.get("body", ""):
-                html_url = c.get("url", "")
-                m = re.search(r"#issuecomment-(\d+)", html_url)
-                if m:
-                    comment_id = m.group(1)
-                else:
-                    comment_id = c.get("id")
-                break
+    for root, _, files in os.walk(dir_path):
+        for file in files:
+            if file.endswith("_identity.go") or file.endswith("_reference.go"):
+                if low_kind in file.lower() or low_kind_stripped in file.lower():
+                    return True
                 
-    if comment_id:
-        print(f"Editing existing comment {comment_id} on issue {coordinator_issue}...")
-        with open("temp_comment.md", "w") as f:
-            f.write(summary_body)
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        if kind in f.read():
+                            return True
+                except Exception:
+                    pass
+    return False
+
+def has_fuzzer_go(group, kind):
+    dir_path = f"pkg/controller/direct/{group}"
+    if not os.path.exists(dir_path):
+        return False
         
-        cmd = ["gh", "api", "-X", "PATCH", f"repos/GoogleCloudPlatform/k8s-config-connector/issues/comments/{comment_id}", "-F", "body=@temp_comment.md"]
-        subprocess.run(cmd, check=True)
-        os.remove("temp_comment.md")
-        print("Successfully updated comment!")
-    else:
-        print("Posting new comment...")
-        with open("temp_comment.md", "w") as f:
-            f.write(summary_body)
-        cmd = ["gh", "issue", "comment", "create", coordinator_issue, "-F", "temp_comment.md"]
-        subprocess.run(cmd, check=True)
-        os.remove("temp_comment.md")
-        print("Successfully posted new comment!")
+    low_kind = kind.lower()
+    low_kind_stripped = kind.replace(group, "").lower() if kind.lower().startswith(group.lower()) else low_kind
+    
+    for root, _, files in os.walk(dir_path):
+        for file in files:
+            if file.endswith("_fuzzer.go"):
+                if low_kind in file.lower() or low_kind_stripped in file.lower():
+                    return True
+                
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        if kind in f.read():
+                            return True
+                except Exception:
+                    pass
+    return False
+
+def has_mocks_or_fixtures(group, version, kind):
+    low_kind = kind.lower()
+    fixture_dir = f"pkg/test/resourcefixture/testdata/basic/{group}/{version}/{low_kind}"
+    if os.path.exists(fixture_dir):
+        return True
+    fixture_dir_no_ver = f"pkg/test/resourcefixture/testdata/basic/{group}/{low_kind}"
+    if os.path.exists(fixture_dir_no_ver):
+        return True
+        
+    basic_dir = "pkg/test/resourcefixture/testdata/basic"
+    if os.path.exists(basic_dir):
+        for root, dirs, _ in os.walk(basic_dir):
+            for d in dirs:
+                if d == low_kind and group in root:
+                    return True
+
+    if os.path.exists(f"mockgcp/mock{group}"):
+        return True
+        
+    direct_test_dir = f"pkg/controller/direct/{group}"
+    if os.path.exists(direct_test_dir):
+        for root, _, files in os.walk(direct_test_dir):
+            for file in files:
+                if file.endswith("_test.go"):
+                    file_path = os.path.join(root, file)
+                    try:
+                        with open(file_path, "r", encoding="utf-8") as f:
+                            if kind in f.read():
+                                return True
+                    except Exception:
+                        pass
+    return False
+
+def has_controller_go(group, kind):
+    dir_path = f"pkg/controller/direct/{group}"
+    if not os.path.exists(dir_path):
+        return False
+        
+    low_kind = kind.lower()
+    low_kind_stripped = kind.replace(group, "").lower() if kind.lower().startswith(group.lower()) else low_kind
+    
+    for root, _, files in os.walk(dir_path):
+        for file in files:
+            if file.endswith("_controller.go") or file == "adapter.go":
+                if low_kind in file.lower() or low_kind_stripped in file.lower():
+                    return True
+                if file == "adapter.go":
+                    return True
+                
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        content = f.read()
+                        if kind in content or "RegisterModel" in content:
+                            return True
+                except Exception:
+                    pass
+    return False
+
+def rebuild_notes(kind, existing_notes, closed_anomaly, external_works):
+    parts = []
+    if existing_notes:
+        for p in existing_notes.split(","):
+            p_strip = p.strip()
+            if not p_strip:
+                continue
+            # Filter out automated elements
+            if p_strip.startswith("External Work:") or ("is closed but direct controller is not registered in code" in p_strip):
+                continue
+            parts.append(p_strip)
+            
+    if closed_anomaly:
+        parts.append(closed_anomaly)
+        
+    for ew in sorted(list(set(external_works))):
+        parts.append(f"External Work: #{ew}")
+        
+    return ", ".join(parts)
 
 def main():
-    apis_dir = "../../apis"
-    direct_dir = "../../pkg/controller/direct"
-    static_config_path = "../../pkg/controller/resourceconfig/static_config.go"
-    data_json_path = "data.json"
+    data_path = "dev/migration-tracker/data.json"
+    static_config_path = "pkg/controller/resourceconfig/static_config.go"
     
-    # 1. Load data.json
-    if not os.path.exists(data_json_path):
-        print(f"Error: {data_json_path} does not exist.", file=sys.stderr)
+    if not os.path.exists(data_path):
+        print(f"Error: tracking file {data_path} not found.")
         sys.exit(1)
         
-    with open(data_json_path, 'r') as f:
-        resources = json.load(f)
+    with open(data_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
         
-    all_kinds = [res['kind'] for res in resources]
-    resource_by_kind = {res['kind']: res for res in resources}
+    # Step 2: Audit Ground Reality in Code
+    registered_kinds = parse_registered_direct_kinds(static_config_path)
+    print(f"Registered Direct Kinds in static_config.go ({len(registered_kinds)}): {sorted(list(registered_kinds))}")
     
-    # 2. Parse static_config.go
-    static_configs = parse_static_config(static_config_path)
+    # Pre-build mappings and check if direct controllers are registered
+    all_kinds = [d["kind"] for d in data]
+    kind_to_data = {d["kind"]: d for d in data}
     
-    # 3. Get implemented types and controllers
-    implemented_types = get_implemented_types(apis_dir)
-    implemented_controllers = get_implemented_controllers(direct_dir)
+    for d in data:
+        kind = d["kind"]
+        if kind in registered_kinds:
+            d["state"] = "Completed"
+            d["stage"] = "Stage 5 (Controller Implemented)"
+            if "steps" not in d:
+                d["steps"] = {}
+            for step in ["gen-types", "identity-reference", "mapper-fuzzer", "mocks", "controller", "tests"]:
+                d["steps"][step] = True
+        else:
+            # If not registered, ensure state is not Completed
+            if d.get("state") == "Completed":
+                d["state"] = "In Progress"
+                
+    # Step 3: Scan GitHub for Active and External Work (SET 1)
+    issues_json = run_command(["gh", "issue", "list", "--state", "all", "--label", "overseer,workflow/migrate", "--limit", "1000", "--json", "number,title,labels,assignees,createdAt,state,url"])
+    overseer_issues = json.loads(issues_json)
+    print(f"Fetched {len(overseer_issues)} migration overseer issues/PRs.")
     
-    # 4. Fetch GitHub Overseer/Migrate Issues (SET 1)
-    print("Fetching active overseer/migrate issues...")
-    overseer_issues = run_gh(["issue", "list", "--state", "all", "--label", "overseer,workflow/migrate", "--limit", "300", "--json", "number,title,labels,assignees,state,url"])
-    
-    kind_to_overseer_issue = {}
+    # Group issues by Kind
+    kind_to_overseer_issues = {}
     for issue in overseer_issues:
         title = issue.get("title", "")
-        # Try to find a matching Kind for this issue title
-        matched_kind = None
-        title_lower = title.lower()
-        for k in sorted(all_kinds, key=len, reverse=True):
-            if k.lower() in title_lower:
-                matched_kind = k
-                break
-        if matched_kind:
-            # We prefer open issues over closed ones, or the newest one
-            existing = kind_to_overseer_issue.get(matched_kind)
-            if not existing or (existing.get("state") == "CLOSED" and issue.get("state") == "OPEN"):
-                kind_to_overseer_issue[matched_kind] = issue
-
-    # 5. Fetch ALL Open Issues and PRs in the Repository (SET 2)
-    print("Fetching all open issues and PRs for external work detection...")
-    open_issues = run_gh(["issue", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,assignees,author,state"])
-    open_prs = run_gh(["pr", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,author,state"])
+        # Exclude tracker itself
+        if issue.get("number") == COORDINATOR_ISSUE_NUMBER:
+            continue
+        for kind in all_kinds:
+            if re.search(r'\b' + re.escape(kind) + r'\b', title):
+                kind_to_overseer_issues.setdefault(kind, []).append(issue)
+                break # Matched this issue to this Kind, stop checking others
+                
+    # Map from issue URL to Kind to avoid counting tracking issue as external work
+    tracked_issue_urls = set()
+    closed_anomalies = {}
     
-    # We filter out bots (author login has "bot" or "robot")
-    external_issues_and_prs = []
+    for kind, issues in kind_to_overseer_issues.items():
+        d = kind_to_data[kind]
+        # Sort issues so open ones come first
+        open_issues = [i for i in issues if i.get("state") == "OPEN"]
+        closed_issues = [i for i in issues if i.get("state") != "OPEN"]
+        
+        if kind in registered_kinds:
+            # Already completed, we don't need active tracking issues
+            d["trackingIssue"] = ""
+            d["assignee"] = ""
+            continue
+            
+        if open_issues:
+            # Use the first open issue as tracking
+            issue = open_issues[0]
+            d["state"] = "In Progress"
+            d["trackingIssue"] = issue.get("url", "")
+            tracked_issue_urls.add(issue.get("url", ""))
+            
+            # Extract assignee
+            assignees = issue.get("assignees", [])
+            if assignees:
+                d["assignee"] = assignees[0].get("login", "")
+            else:
+                d["assignee"] = ""
+        else:
+            # Only closed issues found and not registered in code (anomaly!)
+            d["trackingIssue"] = ""
+            d["assignee"] = ""
+            if closed_issues:
+                issue = closed_issues[0]
+                closed_anomalies[kind] = f"Tracking issue #{issue.get('number')} is closed but direct controller is not registered in code"
+                
+    # Scan GitHub for Other/External Issues and PRs (SET 2)
+    open_issues_json = run_command(["gh", "issue", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,author"])
+    open_prs_json = run_command(["gh", "pr", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,author"])
+    
+    open_issues = json.loads(open_issues_json)
+    open_prs = json.loads(open_prs_json)
+    
+    print(f"Fetched {len(open_issues)} open issues and {len(open_prs)} open PRs.")
+    
+    external_work_by_kind = {}
+    
     for item in open_issues + open_prs:
-        author_login = item.get("author", {}).get("login", "").lower()
-        if "bot" in author_login or "robot" in author_login:
-            continue
-        # Also skip tracker issue 10588
-        if item.get("number") == 10588:
-            continue
-        external_issues_and_prs.append(item)
-
-    # 6. Process each resource
-    for res in resources:
-        kind = res['kind']
-        group = res['group']
-        version = res.get('version', 'v1beta1')
+        title = item.get("title", "")
+        url = item.get("url", "")
+        author_login = item.get("author", {}).get("login", "") if item.get("author") else ""
+        number = item.get("number")
         
-        # Determine static registration
-        cfg = static_configs.get(kind, {})
-        supported_ctrls = cfg.get("supported", [])
-        default_ctrl = cfg.get("default", "Unknown")
-        
-        res['supportedControllers'] = supported_ctrls
-        if default_ctrl != "Unknown":
-            res['defaultController'] = default_ctrl
-            res['controllerType'] = default_ctrl
+        if number == COORDINATOR_ISSUE_NUMBER:
+            continue
+        if is_bot(author_login):
+            continue
+        if url in tracked_issue_urls:
+            continue
             
-        is_direct_registered = "Direct" in supported_ctrls
-        
-        # Compute files existence
-        has_types = kind in implemented_types
-        has_id_ref = False
-        has_fuzzer = False
-        has_ctrl = False
-        prefix = kind.lower()
-        
-        if has_types:
-            res['steps']['gen-types'] = True
-            for filepath in implemented_types[kind]:
-                dirpath = os.path.dirname(filepath)
-                filename = os.path.basename(filepath)
-                prefix = filename.replace("_types.go", "")
-                
-                possible_id_ref_names = [
-                    f"{prefix}_reference.go",
-                    f"{prefix}_identity.go",
-                    f"{kind.lower()}_reference.go",
-                    f"{kind.lower()}_identity.go",
-                ]
-                for name in possible_id_ref_names:
-                    if os.path.exists(os.path.join(dirpath, name)):
-                        has_id_ref = True
-                        break
-                        
-                possible_mapper_names = [
-                    f"{prefix}_mapper.go",
-                    f"{prefix}_fuzzer.go",
-                    f"{kind.lower()}_mapper.go",
-                    f"{kind.lower()}_fuzzer.go",
-                ]
-                for name in possible_mapper_names:
-                    if os.path.exists(os.path.join(dirpath, name)):
-                        has_fuzzer = True
-                        break
-                if has_id_ref and has_fuzzer:
+        # Check if any uncompleted Kind name is in the title
+        for kind in all_kinds:
+            d = kind_to_data[kind]
+            if d.get("state") != "Completed":
+                # Exact word-boundary match for Kind
+                if re.search(r'\b' + re.escape(kind) + r'\b', title):
+                    external_work_by_kind.setdefault(kind, []).append(number)
+                    d["state"] = "In Progress"
                     break
+                    
+    # Step 4: Determine Current Stage for In Progress Resources
+    for d in data:
+        kind = d["kind"]
+        group = d["group"]
+        version = d.get("version", "v1beta1")
+        
+        # Build anomaly & external notes
+        closed_anomaly = closed_anomalies.get(kind, "")
+        ext_works = external_work_by_kind.get(kind, [])
+        d["notes"] = rebuild_notes(kind, d.get("notes", ""), closed_anomaly, ext_works)
+        
+        if d.get("state") == "Completed":
+            d["stage"] = "Stage 5 (Controller Implemented)"
+            continue
+            
+        # File checks
+        s5 = has_controller_go(group, kind)
+        s4 = has_mocks_or_fixtures(group, version, kind)
+        s3 = has_fuzzer_go(group, kind)
+        s2 = has_identity_ref_go(group, version, kind)
+        s1 = has_types_go(group, version, kind)
+        
+        # Populate steps based on actual filesystem status for accuracy
+        if "steps" not in d:
+            d["steps"] = {}
+        d["steps"]["gen-types"] = s1 or s2 or s3 or s4 or s5
+        d["steps"]["identity-reference"] = s2 or s3 or s4 or s5
+        d["steps"]["mapper-fuzzer"] = s3 or s4 or s5
+        d["steps"]["mocks"] = s4 or s5
+        d["steps"]["controller"] = s5
+        d["steps"]["tests"] = s4 or s5 # typically if mocks/fixtures are there, tests are there
+        
+        if s5:
+            d["state"] = "In Progress"
+            d["stage"] = "Stage 5 (Controller Implemented)"
+        elif s4:
+            d["state"] = "In Progress"
+            d["stage"] = "Stage 4 (MockGCP/E2E Fixtures)"
+        elif s3:
+            d["state"] = "In Progress"
+            d["stage"] = "Stage 3 (KRM Fuzzer)"
+        elif s2:
+            d["state"] = "In Progress"
+            d["stage"] = "Stage 2 (Identity & Reference Types)"
+        elif s1:
+            d["state"] = "In Progress"
+            d["stage"] = "Stage 1 (Direct KRM Types)"
         else:
-            res['steps']['gen-types'] = False
-            
-        res['steps']['identity-reference'] = has_id_ref
-        res['steps']['mapper-fuzzer'] = has_fuzzer
-        
-        possible_controller_names = [
-            f"{kind.lower()}_controller.go",
-            f"{group.lower()}{kind.lower()}_controller.go",
-            f"{prefix}_controller.go"
-        ]
-        for ctrl_name in possible_controller_names:
-            if ctrl_name in implemented_controllers:
-                has_ctrl = True
-                break
+            d["stage"] = "Investigation/Setup"
+            # If no files exist, and there is no active tracking issue or external work, revert to Not Started
+            has_active_work = bool(d.get("trackingIssue")) or bool(ext_works)
+            if not has_active_work:
+                d["state"] = "Not Started"
                 
-        res['steps']['controller'] = has_ctrl
-        
-        has_mock = os.path.exists(f"../../mockgcp/mock{group}")
-        res['steps']['mocks'] = has_mock
-        
-        # Check active tracking issue
-        tracking_issue = kind_to_overseer_issue.get(kind)
-        tracking_issue_url = ""
-        assignee_login = ""
-        anomaly_note = ""
-        
-        if tracking_issue:
-            issue_state = tracking_issue.get("state")
-            issue_num = tracking_issue.get("number")
-            issue_url = tracking_issue.get("url")
-            
-            if issue_state == "OPEN":
-                if not is_direct_registered:
-                    tracking_issue_url = issue_url
-                    assignees = tracking_issue.get("assignees", [])
-                    if assignees:
-                        assignee_login = assignees[0].get("login", "")
-            else:  # CLOSED
-                if not is_direct_registered:
-                    anomaly_note = f"Tracking issue #{issue_num} is closed but direct controller is not registered in code"
-
-        res['trackingIssue'] = tracking_issue_url
-        res['assignee'] = assignee_login
-        
-        # Find external work (SET 2)
-        external_mentions = []
-        for item in external_issues_and_prs:
-            item_title = item.get("title", "")
-            item_url = item.get("url", "")
-            item_num = item.get("number")
-            
-            # Avoid attributing the same tracking issue as external work
-            if tracking_issue and item_num == tracking_issue.get("number"):
-                continue
-                
-            if matches_kind(kind, item_title):
-                is_pr = "pull" in item_url
-                label = f"#{item_num}"
-                external_mentions.append(label)
-                
-        # Build Notes
-        notes_parts = []
-        if not has_id_ref and has_types:
-            notes_parts.append("Missing _reference.go or _identity.go")
-            
-        if anomaly_note:
-            notes_parts.append(anomaly_note)
-            
-        if external_mentions:
-            for mention in sorted(list(set(external_mentions))):
-                notes_parts.append(f"External Work: {mention}")
-                
-        res['notes'] = ", ".join(notes_parts)
-        
-        # Determine State
-        if is_direct_registered:
-            res['state'] = "Completed"
-            res['steps']['tests'] = True
-            res['steps']['mocks'] = True
-            res['steps']['controller'] = True
-            res['steps']['mapper-fuzzer'] = True
-            res['steps']['identity-reference'] = True
-            res['steps']['gen-types'] = True
-        else:
-            has_fixtures = False
-            fixture_dir = f"../../pkg/test/resourcefixture/testdata/basic/{group}/{version}/{kind.lower()}"
-            if os.path.exists(fixture_dir):
-                has_fixtures = True
-            else:
-                basic_dir = "../../pkg/test/resourcefixture/testdata/basic"
-                if os.path.exists(basic_dir):
-                    for r, dirs, files in os.walk(basic_dir):
-                        for d in dirs:
-                            if d.lower() == kind.lower():
-                                has_fixtures = True
-                                break
-                        if has_fixtures:
-                            break
-                            
-            has_direct_tests = False
-            g_dir = f"../../pkg/controller/direct/{group}"
-            if os.path.exists(g_dir):
-                for f in os.listdir(g_dir):
-                    if f.endswith("_test.go"):
-                        has_direct_tests = True
-                        break
-                        
-            has_work = has_types or has_id_ref or has_fuzzer or has_ctrl or has_mock or has_fixtures or has_direct_tests or tracking_issue_url or external_mentions
-            
-            if has_work:
-                res['state'] = "In Progress"
-            else:
-                res['state'] = "Not Started"
-                
-        # Determine Stage
-        if res['state'] == "Completed":
-            res['stage'] = "Stage 5 (Controller Implemented)"
-        elif res['state'] == "In Progress":
-            if has_ctrl:
-                res['stage'] = "Stage 5 (Controller Implemented)"
-            elif has_mock or has_fixtures or has_direct_tests:
-                res['stage'] = "Stage 4 (MockGCP/E2E Fixtures)"
-            elif has_fuzzer:
-                res['stage'] = "Stage 3 (KRM Fuzzer)"
-            elif has_id_ref:
-                res['stage'] = "Stage 2 (Identity & Reference Types)"
-            elif has_types:
-                res['stage'] = "Stage 1 (Direct KRM Types)"
-            else:
-                inferred = False
-                for mention in external_mentions + ([tracking_issue.get("title", "")] if tracking_issue else []):
-                    mention_lower = mention.lower()
-                    if "types.go" in mention_lower:
-                        res['stage'] = "Stage 1 (Direct KRM Types)"
-                        inferred = True
-                        break
-                    elif "identity" in mention_lower or "reference" in mention_lower:
-                        res['stage'] = "Stage 2 (Identity & Reference Types)"
-                        inferred = True
-                        break
-                    elif "fuzzer" in mention_lower:
-                        res['stage'] = "Stage 3 (KRM Fuzzer)"
-                        inferred = True
-                        break
-                if not inferred:
-                    res['stage'] = "Investigation/Setup"
-        else:
-            res['stage'] = "Investigation/Setup"
-
-    # Sort resources by Kind alphabetically
-    resources = sorted(resources, key=lambda x: x['kind'])
+    # Step 5: Identify Next Pending Resources
+    completed_kinds = set(d["kind"] for d in data if d.get("state") == "Completed")
     
-    # 7. Write data.json
-    with open(data_json_path, 'w') as f:
-        json.dump(resources, f, indent=2)
-    print(f"Saved {len(resources)} resources to {data_json_path}")
+    pending_unblocked = []
+    for d in data:
+        if d.get("state") == "Not Started":
+            if d.get("defaultController") in ["Terraform", "DCL"]:
+                deps = d.get("dependencies", [])
+                if all(dep in completed_kinds for dep in deps):
+                    pending_unblocked.append(d)
+                    
+    pending_unblocked.sort(key=lambda x: x.get("sortOrder", 999))
     
-    # 8. Generate Summary and update Github
-    summary_body = generate_summary(resources)
-    update_comment_on_github(summary_body)
+    # Step 6: Save Local Tracking Data
+    with open(data_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    print(f"Successfully saved updated local tracking data to {data_path}.")
+    
+    # Step 7: Construct Progress Summary Comment
+    completed_count = sum(1 for d in data if d.get("state") == "Completed")
+    in_progress_count = sum(1 for d in data if d.get("state") == "In Progress")
+    pending_count = sum(1 for d in data if d.get("state") == "Not Started")
+    total_count = len(data)
+    
+    # In Progress Resources Table
+    in_progress_rows = []
+    in_progress_data = [d for d in data if d.get("state") == "In Progress"]
+    in_progress_data.sort(key=lambda x: x["kind"])
+    
+    for d in in_progress_data:
+        kind = d["kind"]
+        stage = d.get("stage", "Investigation/Setup")
+        ti_url = d.get("trackingIssue", "")
+        if ti_url:
+            # Extract issue number from URL
+            m = re.search(r'/issues/(\d+)', ti_url)
+            num = m.group(1) if m else "Link"
+            ti_str = f"[#{num}]({ti_url})"
+        else:
+            ti_str = "N/A"
+        assignee = d.get("assignee", "")
+        notes = d.get("notes", "")
+        in_progress_rows.append(f"| {kind} | {stage} | {ti_str} | {assignee} | {notes} |")
+        
+    # Pending/Unblocked Resources Table
+    pending_rows = []
+    for d in pending_unblocked:
+        kind = d["kind"]
+        so = d.get("sortOrder", "")
+        ctrl = d.get("defaultController", "")
+        deps = ", ".join(d.get("dependencies", []))
+        notes = d.get("notes", "")
+        pending_rows.append(f"| {kind} | {so} | {ctrl} | {deps} | {notes} |")
+        
+    # Completed Resources Table
+    completed_rows = []
+    completed_data = [d for d in data if d.get("state") == "Completed"]
+    completed_data.sort(key=lambda x: x["kind"])
+    for d in completed_data:
+        kind = d["kind"]
+        ctrl = d.get("defaultController", "")
+        notes = d.get("notes", "")
+        if not notes:
+            notes = "Registered in code"
+        completed_rows.append(f"| {kind} | {ctrl} | {notes} |")
+        
+    summary_body = f"""### Migration Progress Tracker Summary
+
+## High-Level Status
+| State | Count |
+|-------|-------|
+| Completed | {completed_count} |
+| In Progress | {in_progress_count} |
+| Pending | {pending_count} |
+| Total | {total_count} |
+
+## In Progress Resources
+| Kind | Current Stage | Tracking Issue/PR | Assignee | Notes |
+|------|---------------|-------------------|----------|-------|
+""" + "\n".join(in_progress_rows) + """
+
+## Next Resources (Pending & Unblocked)
+| Kind | Sort Order | Default Controller | Dependencies | Notes |
+|------|------------|--------------------|--------------|-------|
+""" + "\n".join(pending_rows) + """
+
+## Completed Resources
+| Kind | Default Controller | Date Completed / Notes |
+|------|--------------------|------------------------|
+""" + "\n".join(completed_rows) + "\n"
+
+    # Write summary body to a temp file for safety with gh cli
+    with open("summary_comment.md", "w", encoding="utf-8") as f:
+        f.write(summary_body)
+        
+    # Find existing comments to see if we should edit or create
+    comments_json = run_command(["gh", "issue", "view", str(COORDINATOR_ISSUE_NUMBER), "--json", "comments"])
+    issue_data = json.loads(comments_json)
+    comments = issue_data.get("comments", [])
+    
+    target_comment_id = None
+    for comment in comments:
+        if "### Migration Progress Tracker Summary" in comment.get("body", ""):
+            target_comment_id = comment.get("id")
+            break
+            
+    if target_comment_id:
+        print(f"Found existing tracker summary comment with ID: {target_comment_id}. Editing it...")
+        run_command(["gh", "issue", "comment", "edit", target_comment_id, "--body-file", "summary_comment.md"])
+    else:
+        print(f"No existing comment found. Creating a new tracker summary comment on issue {COORDINATOR_ISSUE_NUMBER}...")
+        run_command(["gh", "issue", "comment", "create", str(COORDINATOR_ISSUE_NUMBER), "--body-file", "summary_comment.md"])
+        
+    # Cleanup temp file
+    if os.path.exists("summary_comment.md"):
+        os.remove("summary_comment.md")
+        
+    print("Done!")
 
 if __name__ == "__main__":
     main()

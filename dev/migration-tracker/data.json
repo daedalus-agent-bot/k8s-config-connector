@@ -13,12 +13,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #7286, External Work: #7290",
@@ -26,7 +26,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigateway",
@@ -42,12 +42,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -55,7 +55,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apikeys",
@@ -80,7 +80,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6637, External Work: #7623",
+    "notes": "",
     "sortOrder": 133,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -104,13 +104,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6814, External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "External Work: #6814",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -131,9 +131,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -160,10 +160,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #4820, External Work: #4821, External Work: #6821",
@@ -185,9 +185,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -219,13 +219,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #6992, External Work: #8951, External Work: #8952",
+    "notes": "External Work: #8951",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -246,7 +246,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -275,9 +275,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -286,7 +286,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "alloydb",
@@ -313,7 +313,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10968, External Work: #10969, External Work: #11625, External Work: #11626, External Work: #6375, External Work: #7252, External Work: #7676, External Work: #8652",
+    "notes": "",
     "sortOrder": 47,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -336,9 +336,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -347,7 +347,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -361,11 +361,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -374,7 +374,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -392,9 +392,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -403,7 +403,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -417,12 +417,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -430,7 +430,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -449,9 +449,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -460,7 +460,7 @@
     "downstreamCount": 7,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apigee",
@@ -474,12 +474,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -487,7 +487,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "appengine",
@@ -501,10 +501,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -651,7 +651,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3720",
+    "notes": "",
     "sortOrder": 163,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -672,11 +672,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -685,7 +685,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "beyondcorp",
@@ -701,11 +701,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -714,7 +714,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "beyondcorp",
@@ -730,11 +730,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -743,7 +743,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigquerydatapolicy",
@@ -759,10 +759,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -798,7 +798,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #465, External Work: #4936, External Work: #534, External Work: #6382, External Work: #7936, External Work: #9767",
+    "notes": "",
     "sortOrder": 30,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -820,11 +820,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -832,7 +832,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigquery",
@@ -850,11 +850,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -863,7 +863,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigqueryreservation",
@@ -881,9 +881,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -892,7 +892,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigquery",
@@ -909,11 +909,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -922,7 +922,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigquery",
@@ -948,7 +948,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11664, External Work: #11669, External Work: #4614, External Work: #5068, External Work: #520, External Work: #534, External Work: #7321",
+    "notes": "",
     "sortOrder": 82,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -1009,7 +1009,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7385, External Work: #9616",
+    "notes": "",
     "sortOrder": 194,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1032,18 +1032,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #774, External Work: #786",
+    "notes": "",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "bigtable",
@@ -1061,9 +1061,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1072,7 +1072,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "billingbudgets",
@@ -1090,13 +1090,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11596, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #723",
+    "notes": "External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1117,11 +1117,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1130,7 +1130,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "binaryauthorization",
@@ -1146,20 +1146,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4760",
+    "notes": "",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1184,7 +1184,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10972, External Work: #10973, External Work: #11198, External Work: #4602, External Work: #5678, External Work: #8480",
+    "notes": "",
     "sortOrder": 206,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1353,19 +1353,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #370, External Work: #731, External Work: #796",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "cloudfunctions2",
@@ -1411,15 +1411,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #886",
+    "notes": "",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1441,9 +1441,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1495,10 +1495,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -1524,15 +1524,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #956",
+    "notes": "",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1563,7 +1563,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11602",
+    "notes": "",
     "sortOrder": 53,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -1614,20 +1614,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1644,12 +1644,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
@@ -1657,7 +1657,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1678,20 +1678,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11605, External Work: #6975, External Work: #7736, External Work: #8857",
+    "notes": "External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1800,11 +1800,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1813,7 +1813,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1831,18 +1831,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5440, External Work: #570",
+    "notes": "",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1860,18 +1860,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: #5440",
+    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code",
     "sortOrder": 31,
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1887,11 +1887,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1900,7 +1900,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1935,7 +1935,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4767, External Work: #754, External Work: #8898",
+    "notes": "",
     "sortOrder": 88,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -1956,20 +1956,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4541, External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "External Work: #7316, External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1985,12 +1985,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #9980",
@@ -1998,7 +1998,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2040,11 +2040,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2053,7 +2053,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2068,10 +2068,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2080,7 +2080,7 @@
     "downstreamCount": 12,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2140,7 +2140,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #293, External Work: #5958, External Work: #6168, External Work: #9988, External Work: #9989",
+    "notes": "",
     "sortOrder": 32,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2170,7 +2170,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9988",
+    "notes": "",
     "sortOrder": 15,
     "downstreamCount": 10,
     "trackingIssue": "",
@@ -2194,11 +2194,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2207,7 +2207,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2223,12 +2223,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #9988",
@@ -2236,7 +2236,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2255,11 +2255,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2268,7 +2268,7 @@
     "downstreamCount": 7,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2284,11 +2284,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2297,7 +2297,7 @@
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2313,11 +2313,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2326,7 +2326,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2342,11 +2342,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2355,7 +2355,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2378,7 +2378,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10002, External Work: #10938, External Work: #383, External Work: #4942, External Work: #5608, External Work: #6132, External Work: #9998, External Work: #9999",
+    "notes": "",
     "sortOrder": 4,
     "downstreamCount": 126,
     "trackingIssue": "",
@@ -2401,20 +2401,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6132",
+    "notes": "",
     "sortOrder": 250,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2431,20 +2431,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6132",
+    "notes": "",
     "sortOrder": 14,
     "downstreamCount": 11,
-    "trackingIssue": "",
-    "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759",
+    "assignee": "daedalus-agent-bot",
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2460,20 +2460,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4942, External Work: #9998, External Work: #9999",
+    "notes": "",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2490,11 +2490,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2503,7 +2503,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2520,11 +2520,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2533,7 +2533,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2550,19 +2550,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10002, External Work: #5608",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2579,20 +2579,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10002, External Work: #5608",
+    "notes": "External Work: #5608, External Work: #10002",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2611,9 +2611,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2622,7 +2622,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2638,9 +2638,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2649,7 +2649,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2664,19 +2664,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10007, External Work: #10010",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2690,12 +2690,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10007",
@@ -2703,7 +2703,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2717,12 +2717,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10010",
@@ -2730,7 +2730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2746,11 +2746,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2759,7 +2759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2776,12 +2776,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10012",
@@ -2789,7 +2789,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2803,11 +2803,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2816,7 +2816,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2834,10 +2834,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -2862,11 +2862,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2875,7 +2875,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2893,11 +2893,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -2906,7 +2906,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2923,11 +2923,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2935,7 +2935,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2951,12 +2951,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -2964,7 +2964,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3010,9 +3010,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3021,7 +3021,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3039,18 +3039,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #10029",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3075,7 +3075,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10029",
+    "notes": "",
     "sortOrder": 24,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -3101,9 +3101,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3112,7 +3112,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3129,11 +3129,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3142,7 +3142,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3159,11 +3159,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3172,7 +3172,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3186,20 +3186,20 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #476, External Work: #505, External Work: #803",
+    "notes": "",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3222,7 +3222,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4779",
+    "notes": "",
     "sortOrder": 34,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -3250,7 +3250,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6486",
+    "notes": "",
     "sortOrder": 11,
     "downstreamCount": 13,
     "trackingIssue": "",
@@ -3271,11 +3271,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3284,7 +3284,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3298,11 +3298,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3311,7 +3311,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3327,20 +3327,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #402, External Work: #687",
+    "notes": "",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3358,9 +3358,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3369,7 +3369,7 @@
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3387,9 +3387,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3398,7 +3398,7 @@
     "downstreamCount": 23,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
     "assignee": "walle-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3414,11 +3414,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3427,7 +3427,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3443,11 +3443,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3456,7 +3456,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3475,18 +3475,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #11198, External Work: #11678, External Work: #4602, External Work: #5399, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #5399, External Work: #6788, External Work: #8480, External Work: #11198, External Work: #11678",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3504,11 +3504,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3517,7 +3517,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3534,11 +3534,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3547,7 +3547,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3564,11 +3564,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3577,7 +3577,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3623,11 +3623,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3636,7 +3636,7 @@
     "downstreamCount": 5,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3662,7 +3662,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11641, External Work: #5713",
+    "notes": "",
     "sortOrder": 27,
     "downstreamCount": 5,
     "trackingIssue": "",
@@ -3684,11 +3684,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3697,7 +3697,7 @@
     "downstreamCount": 3,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3715,11 +3715,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3728,7 +3728,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "configcontroller",
@@ -3745,10 +3745,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -3772,9 +3772,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -3801,12 +3801,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3831,9 +3831,9 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -3863,13 +3863,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10458, External Work: #10459, External Work: #11321, External Work: #11647, External Work: #1792, External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #576, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #699, External Work: #7495, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813",
+    "notes": "External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813, External Work: #10458, External Work: #10459, External Work: #11321, External Work: #11647",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3895,13 +3895,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #2775, External Work: #3570, External Work: #3798, External Work: #479, External Work: #7682, External Work: #8362",
+    "notes": "External Work: #7682, External Work: #10410, External Work: #10534",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -3923,11 +3923,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dlp",
@@ -3952,11 +3952,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dlp",
@@ -3983,11 +3983,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3996,7 +3996,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dlp",
@@ -4012,11 +4012,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dns",
@@ -4080,7 +4080,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5356",
+    "notes": "",
     "sortOrder": 292,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4105,18 +4105,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #837, External Work: #844, External Work: #9777",
+    "notes": "External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dns",
@@ -4164,10 +4164,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4175,7 +4175,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "datacatalog",
@@ -4193,9 +4193,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4204,7 +4204,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "datacatalog",
@@ -4222,9 +4222,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4233,7 +4233,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "datafusion",
@@ -4250,10 +4250,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -4290,7 +4290,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2571, External Work: #5587",
+    "notes": "",
     "sortOrder": 308,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4322,7 +4322,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6803, External Work: #9410",
+    "notes": "",
     "sortOrder": 309,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4379,18 +4379,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #5609, External Work: #6989, External Work: #8023, External Work: #814, External Work: #9000",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #6989, External Work: #8023, External Work: #9000, External Work: #10461",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "dataproc",
@@ -4410,11 +4410,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4423,7 +4423,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "datastore",
@@ -4468,20 +4468,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1476",
+    "notes": "",
     "sortOrder": 330,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "deploymentmanager",
@@ -4497,10 +4497,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -4717,10 +4717,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -4746,10 +4746,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -4775,10 +4775,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -4802,12 +4802,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4815,7 +4815,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "edgecontainer",
@@ -4832,9 +4832,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4863,9 +4863,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4893,9 +4893,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4922,9 +4922,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4952,9 +4952,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4984,11 +4984,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -4997,7 +4997,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "filestore",
@@ -5013,9 +5013,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5045,13 +5045,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2291, External Work: #691",
+    "notes": "",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
@@ -5072,12 +5072,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5101,10 +5101,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5130,10 +5130,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5186,10 +5186,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5213,10 +5213,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5305,7 +5305,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11443, External Work: #5319, External Work: #5570, External Work: #7656",
+    "notes": "",
     "sortOrder": 380,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5326,18 +5326,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #405, External Work: #9481",
+    "notes": "External Work: #9481",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -5353,20 +5353,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1078, External Work: #2553, External Work: #4597, External Work: #5788, External Work: #5801, External Work: #6471",
+    "notes": "",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "gkehub",
@@ -5380,11 +5380,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5393,7 +5393,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "healthcare",
@@ -5463,10 +5463,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5546,11 +5546,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5559,7 +5559,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5574,11 +5574,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #7649",
@@ -5586,7 +5586,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5600,11 +5600,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5613,7 +5613,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5639,7 +5639,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #766",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 396,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5659,14 +5659,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1082, External Work: #2873, External Work: #384, External Work: #404, External Work: #5739, External Work: #6027, External Work: #709, External Work: #7650, External Work: #772, External Work: #793, External Work: #855",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7650",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5689,19 +5689,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1082, External Work: #384, External Work: #404, External Work: #6027, External Work: #709, External Work: #772, External Work: #793, External Work: #855",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6027",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5716,19 +5716,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #3338, External Work: #384, External Work: #425, External Work: #6675, External Work: #760",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
     "assignee": "feynman-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5746,18 +5746,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #425, External Work: #6675",
+    "notes": "External Work: #6675",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5771,11 +5771,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5784,7 +5784,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5800,11 +5800,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5813,7 +5813,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5829,20 +5829,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1839",
+    "notes": "",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5859,11 +5859,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5872,7 +5872,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iap",
@@ -5888,9 +5888,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5899,7 +5899,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iap",
@@ -5915,11 +5915,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -5928,7 +5928,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "identityplatform",
@@ -5944,10 +5944,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -5973,10 +5973,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6002,10 +6002,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6029,10 +6029,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6085,10 +6085,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6172,10 +6172,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6231,10 +6231,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6242,7 +6242,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "kms",
@@ -6265,7 +6265,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10170, External Work: #10682",
+    "notes": "",
     "sortOrder": 5,
     "downstreamCount": 126,
     "trackingIssue": "",
@@ -6286,10 +6286,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10682",
@@ -6297,7 +6297,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "kms",
@@ -6313,10 +6313,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10681",
@@ -6324,7 +6324,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "logging",
@@ -6350,7 +6350,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #665, External Work: #9423",
+    "notes": "",
     "sortOrder": 44,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -6416,7 +6416,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11574, External Work: #2188, External Work: #4715, External Work: #665, External Work: #676",
+    "notes": "",
     "sortOrder": 421,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6448,7 +6448,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2873",
+    "notes": "",
     "sortOrder": 422,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6469,10 +6469,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -6498,9 +6498,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6527,18 +6527,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5641, External Work: #589, External Work: #648, External Work: #656, External Work: #6991",
+    "notes": "External Work: #5641, External Work: #6991",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6556,9 +6556,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6567,7 +6567,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6585,9 +6585,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6596,7 +6596,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6612,9 +6612,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6623,7 +6623,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6639,18 +6639,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7684",
+    "notes": "",
     "sortOrder": 434,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6668,18 +6668,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10147, External Work: #5559",
+    "notes": "",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6696,20 +6696,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10147, External Work: #5559",
+    "notes": "External Work: #5559, External Work: #10147",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "monitoring",
@@ -6728,18 +6728,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2469, External Work: #5714, External Work: #9566",
+    "notes": "External Work: #5714, External Work: #9566",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkconnectivity",
@@ -6755,11 +6755,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6768,7 +6768,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkconnectivity",
@@ -6785,11 +6785,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6798,7 +6798,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networksecurity",
@@ -6816,9 +6816,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6827,7 +6827,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networksecurity",
@@ -6845,9 +6845,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6856,7 +6856,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networksecurity",
@@ -6872,11 +6872,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6885,7 +6885,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -6901,11 +6901,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6914,7 +6914,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -6930,11 +6930,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -6943,7 +6943,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -6961,10 +6961,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #7277",
@@ -6972,7 +6972,7 @@
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
     "assignee": "walle-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -6988,11 +6988,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7001,7 +7001,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -7018,20 +7018,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3520",
+    "notes": "",
     "sortOrder": 459,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -7078,11 +7078,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7091,7 +7091,7 @@
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -7107,20 +7107,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #602",
+    "notes": "",
     "sortOrder": 463,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -7137,11 +7137,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7150,7 +7150,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "networkservices",
@@ -7167,11 +7167,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7180,7 +7180,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "osconfig",
@@ -7196,10 +7196,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -7227,8 +7227,8 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -7254,10 +7254,10 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -7281,10 +7281,10 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
@@ -7319,7 +7319,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5859",
+    "notes": "",
     "sortOrder": 69,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -7343,20 +7343,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363, External Work: #11613",
+    "notes": "External Work: #11613",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7376,10 +7376,10 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7388,7 +7388,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7436,13 +7436,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1734, External Work: #2188, External Work: #388, External Work: #402, External Work: #505, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #654, External Work: #6849, External Work: #720, External Work: #818",
+    "notes": "External Work: #5240",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7463,9 +7463,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7492,15 +7492,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5700",
+    "notes": "",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7521,9 +7521,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7559,7 +7559,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #697",
+    "notes": "",
     "sortOrder": 19,
     "downstreamCount": 8,
     "trackingIssue": "",
@@ -7590,7 +7590,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2606",
+    "notes": "",
     "sortOrder": 70,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -7621,7 +7621,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #698",
+    "notes": "",
     "sortOrder": 23,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -7681,7 +7681,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11674, External Work: #11675, External Work: #11681, External Work: #622, External Work: #802, External Work: #8448",
+    "notes": "",
     "sortOrder": 486,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7702,9 +7702,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7732,15 +7732,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #566",
+    "notes": "",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7773,7 +7773,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5546, External Work: #5552, External Work: #5572, External Work: #6686, External Work: #9387, External Work: #9388, External Work: #9714",
+    "notes": "",
     "sortOrder": 489,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7796,20 +7796,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5554, External Work: #6686, External Work: #772, External Work: #813, External Work: #9714",
+    "notes": "External Work: #5554, External Work: #6686, External Work: #9714",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sql",
@@ -7823,11 +7823,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7836,7 +7836,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sql",
@@ -7850,11 +7850,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -7863,7 +7863,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sql",
@@ -7877,20 +7877,20 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2416, External Work: #548, External Work: #7148, External Work: #8796",
+    "notes": "External Work: #7148, External Work: #8796",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "secretmanager",
@@ -7915,7 +7915,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1081, External Work: #1124, External Work: #11445, External Work: #1734, External Work: #5725, External Work: #5730, External Work: #6651",
+    "notes": "",
     "sortOrder": 71,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -7962,14 +7962,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -7977,7 +7977,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "securitycenter",
@@ -7991,11 +7991,11 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "serviceusage",
@@ -8029,7 +8029,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1003, External Work: #1007, External Work: #3338, External Work: #388, External Work: #5031, External Work: #5033, External Work: #526, External Work: #6027, External Work: #6941, External Work: #764, External Work: #7897",
+    "notes": "",
     "sortOrder": 10,
     "downstreamCount": 15,
     "trackingIssue": "",
@@ -8143,9 +8143,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8154,7 +8154,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "servicenetworking",
@@ -8170,11 +8170,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8183,7 +8183,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "serviceusage",
@@ -8199,12 +8199,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -8212,7 +8212,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "sourcerepo",
@@ -8228,9 +8228,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8258,11 +8258,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8271,7 +8271,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "spanner",
@@ -8294,7 +8294,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11498, External Work: #5494",
+    "notes": "",
     "sortOrder": 73,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8318,18 +8318,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11322, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #681, External Work: #9779",
+    "notes": "External Work: #5553, External Work: #5556, External Work: #9779, External Work: #11322",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
     "assignee": "walle-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -8345,20 +8345,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #681",
+    "notes": "",
     "sortOrder": 513,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -8374,11 +8374,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8387,7 +8387,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -8403,12 +8403,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -8416,7 +8416,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storage",
@@ -8432,20 +8432,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #444",
+    "notes": "",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "storagetransfer",
@@ -8490,15 +8490,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #681",
+    "notes": "",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8519,9 +8519,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8557,7 +8557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2894, External Work: #6256, External Work: #8710",
+    "notes": "",
     "sortOrder": 523,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8587,7 +8587,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5160, External Work: #5515, External Work: #5634, External Work: #6032, External Work: #6251",
+    "notes": "",
     "sortOrder": 524,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8643,7 +8643,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5613",
+    "notes": "",
     "sortOrder": 74,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8665,9 +8665,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8697,18 +8697,18 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11137, External Work: #7985, External Work: #9698",
+    "notes": "External Work: #7985, External Work: #9698, External Work: #11137",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8726,11 +8726,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8739,7 +8739,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8753,12 +8753,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -8766,7 +8766,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8780,12 +8780,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -8793,7 +8793,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8809,20 +8809,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11702, External Work: #8390",
+    "notes": "External Work: #11702",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8838,12 +8838,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #8390",
@@ -8851,7 +8851,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "vertexai",
@@ -8867,11 +8867,11 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -8880,6 +8880,6 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   }
 ]
