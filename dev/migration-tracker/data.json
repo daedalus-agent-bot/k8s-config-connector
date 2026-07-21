@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6814",
+    "notes": "",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -139,7 +139,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "External Work: #7285, External Work: #9601",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -193,7 +193,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8950",
+    "notes": "",
     "sortOrder": 137,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8951",
+    "notes": "",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -252,7 +252,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6992, External Work: #8952",
+    "notes": "External Work: #6992",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596",
+    "notes": "External Work: #5944, External Work: #4994",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1652,7 +1652,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "External Work: #7578, External Work: #7330",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1686,7 +1686,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
+    "notes": "External Work: #8857, External Work: #6975, External Work: #7736",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
@@ -1866,7 +1866,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: #5440",
     "sortOrder": 31,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7316, External Work: #9978",
+    "notes": "External Work: #7316",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1993,7 +1993,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9980",
+    "notes": "",
     "sortOrder": 242,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2231,7 +2231,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9988",
+    "notes": "",
     "sortOrder": 244,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2263,7 +2263,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5958, External Work: #6168, External Work: #9989",
+    "notes": "External Work: #6168, External Work: #5958",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -2350,7 +2350,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9992",
+    "notes": "",
     "sortOrder": 247,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2498,7 +2498,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9998",
+    "notes": "",
     "sortOrder": 252,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2528,7 +2528,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4942, External Work: #9999",
+    "notes": "External Work: #4942",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2587,7 +2587,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5608, External Work: #10002",
+    "notes": "External Work: #5608",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2617,7 +2617,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10003",
+    "notes": "",
     "sortOrder": 256,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2698,7 +2698,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10007",
+    "notes": "",
     "sortOrder": 258,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2725,7 +2725,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10010",
+    "notes": "",
     "sortOrder": 259,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2784,7 +2784,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10012",
+    "notes": "",
     "sortOrder": 261,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2870,7 +2870,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10015",
+    "notes": "",
     "sortOrder": 553,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2901,7 +2901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10017",
+    "notes": "",
     "sortOrder": 264,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3167,7 +3167,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10029",
+    "notes": "",
     "sortOrder": 271,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3306,7 +3306,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10037",
+    "notes": "",
     "sortOrder": 273,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3364,7 +3364,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11356",
+    "notes": "",
     "sortOrder": 35,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #5399, External Work: #6788, External Work: #8480, External Work: #11198, External Work: #11678",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #8480, External Work: #6788, External Work: #5399, External Work: #11198",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #7605, External Work: #8135, External Work: #8362, External Work: #8960, External Work: #9813, External Work: #10458, External Work: #10459, External Work: #11321, External Work: #11647",
+    "notes": "External Work: #10459, External Work: #10458, External Work: #8960, External Work: #7605, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #5901, External Work: #5514, External Work: #11321, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7682, External Work: #8362, External Work: #10410, External Work: #10534",
+    "notes": "External Work: #10410, External Work: #8362, External Work: #7682",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415",
+    "notes": "External Work: #10415, External Work: #5355, External Work: #4982",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #6989, External Work: #8023, External Work: #9000, External Work: #10461",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #6989, External Work: #5609",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9481",
+    "notes": "External Work: #11341, External Work: #11677, External Work: #5474, External Work: #5434, External Work: #5008",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5952,7 +5952,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9416",
+    "notes": "",
     "sortOrder": 404,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6292,7 +6292,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10682",
+    "notes": "",
     "sortOrder": 416,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6319,7 +6319,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10681",
+    "notes": "",
     "sortOrder": 417,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5641, External Work: #6991",
+    "notes": "External Work: #6991, External Work: #5641",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6562,7 +6562,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10867",
+    "notes": "",
     "sortOrder": 108,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6645,7 +6645,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #7684",
     "sortOrder": 434,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6704,7 +6704,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5559, External Work: #10147",
+    "notes": "External Work: #5559",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5714, External Work: #9566",
+    "notes": "External Work: #5714",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11613",
+    "notes": "",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849",
+    "notes": "External Work: #11369, External Work: #11133, External Work: #11035, External Work: #11034, External Work: #11497, External Work: #5240",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7500,7 +7500,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5700",
+    "notes": "",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5554, External Work: #6686, External Work: #9714",
+    "notes": "External Work: #9714, External Work: #6686, External Work: #5554",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7885,7 +7885,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7148, External Work: #8796",
+    "notes": "External Work: #8796, External Work: #7148",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8149,7 +8149,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11599",
+    "notes": "",
     "sortOrder": 72,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8236,7 +8236,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6319",
+    "notes": "",
     "sortOrder": 506,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #11322",
+    "notes": "External Work: #5556, External Work: #5553, External Work: #11322, External Work: #5572, External Work: #5546",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
@@ -8703,7 +8703,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7985, External Work: #9698, External Work: #11137",
+    "notes": "External Work: #11137, External Work: #7985",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8766,7 +8766,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8793,7 +8793,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8817,7 +8817,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11702",
+    "notes": "",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8851,7 +8851,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
