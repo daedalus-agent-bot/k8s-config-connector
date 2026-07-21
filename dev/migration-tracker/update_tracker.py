@@ -452,9 +452,8 @@ def main():
         f.write(summary_body)
         
     # Find existing comments to see if we should edit or create
-    comments_json = run_command(["gh", "issue", "view", str(COORDINATOR_ISSUE_NUMBER), "--json", "comments"])
-    issue_data = json.loads(comments_json)
-    comments = issue_data.get("comments", [])
+    comments_json = run_command(["gh", "api", f"repos/GoogleCloudPlatform/k8s-config-connector/issues/{COORDINATOR_ISSUE_NUMBER}/comments"])
+    comments = json.loads(comments_json)
     
     target_comment_id = None
     for comment in comments:
@@ -464,10 +463,10 @@ def main():
             
     if target_comment_id:
         print(f"Found existing tracker summary comment with ID: {target_comment_id}. Editing it...")
-        run_command(["gh", "issue", "comment", "edit", target_comment_id, "--body-file", "summary_comment.md"])
+        run_command(["gh", "api", "-X", "PATCH", f"repos/GoogleCloudPlatform/k8s-config-connector/issues/comments/{target_comment_id}", "-F", "body=@summary_comment.md"])
     else:
         print(f"No existing comment found. Creating a new tracker summary comment on issue {COORDINATOR_ISSUE_NUMBER}...")
-        run_command(["gh", "issue", "comment", "create", str(COORDINATOR_ISSUE_NUMBER), "--body-file", "summary_comment.md"])
+        run_command(["gh", "issue", "comment", str(COORDINATOR_ISSUE_NUMBER), "--body-file", "summary_comment.md"])
         
     # Cleanup temp file
     if os.path.exists("summary_comment.md"):
