@@ -12,6 +12,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-22**: Re-verified PR #11724; confirmed all 199/199 CI checks have successfully completed and are 100% green with zero failures. Step 1 is fully validated and remains open, awaiting human OWNER review and merge before we can proceed to Step 2.
 - **2026-07-22**: Re-verified PR #11724 checks status on the latest commit (`7623e23`); confirmed that the `unit-tests` check-run has successfully completed and passed. Some E2E fixture check-runs are currently running/pending, so the PR remains open on standby awaiting CI completion.
 - **2026-07-22**: Checked PR #11724 checks status; confirmed that the `unit-tests` check-run has failed on the latest commit (`3734d4b`) specifically in `TestRegisteredTemplatesMatchCAI` due to template mismatches with CAI for `contexts/{experiment}` and `contexts/{experimentRun}`. The PR requires `ada-coder-bot` to add the normalized URL template `"//aiplatform.googleapis.com/projects/{}/locations/{}/metadataStores/{}/contexts/{}"` to `ignoredTemplates` in `pkg/gcpurls/registry_test.go`.
 - **2026-07-21**: Checked PR #11724 checks status; confirmed some CI check-runs are currently running/pending on the latest commit (`3734d4b`). The PR remains open, fully validated, and on standby awaiting human OWNER review and merge to complete Step 1 before we can proceed to Step 2.
