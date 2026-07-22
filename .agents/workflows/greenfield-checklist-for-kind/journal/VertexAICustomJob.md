@@ -12,7 +12,7 @@ Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
-- **2026-07-22**: Checked PR #11724 checks status; found that the `unit-tests` check-run has failed on the latest commit. Assigned the PR back to `ada-coder-bot` to resolve the test failure.
+- **2026-07-22**: Checked PR #11724 checks status; confirmed that the `unit-tests` check-run has failed on the latest commit (`3734d4b`) specifically in `TestRegisteredTemplatesMatchCAI` due to template mismatches with CAI for `contexts/{experiment}` and `contexts/{experimentRun}`. Assigned the PR back to `ada-coder-bot` to resolve the test failure.
 - **2026-07-21**: Checked PR #11724 checks status; confirmed some CI check-runs are currently running/pending on the latest commit (`3734d4b`). The PR remains open, fully validated, and on standby awaiting human OWNER review and merge to complete Step 1 before we can proceed to Step 2.
 - **2026-07-21**: Checked PR #11724 checks status; found that the `unit-tests` check-run has failed on the latest commit (`b950ec9`). Assigned the PR back to `ada-coder-bot` to resolve the test failure.
 - **2026-07-21**: Checked PR #11724 status; confirmed that some CI check-runs are currently running/pending on the latest commit (`64f94c3`). Step 1 remains open, fully validated, and on standby awaiting human OWNER review and merge to complete before we can proceed to Step 2.
