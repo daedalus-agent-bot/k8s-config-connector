@@ -10,12 +10,13 @@
 | Step 1: Direct API Types | [#9995](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995) | [#10056](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10056) | Completed | 2026-06-13 | 2026-06-13 |
 | Step 2: Identity and Reference Types Pattern | - | [d8ce3817e5](https://github.com/GoogleCloudPlatform/k8s-config-connector/commit/d8ce3817e549aa62e8e2fbd50745b092f9ae316a) | Completed | 2026-06-28 | 2026-06-28 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#9995](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995) | [#10056](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10056) | Completed | 2026-06-13 | 2026-06-13 |
-| Step 4: Ensure MockGCP matches real gcp behavior | [#11761](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11761) | [#11763](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11763) | PR Created | 2026-07-20 | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | [#11761](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11761) | - | In Progress | 2026-07-20 | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Log of Status Updates
 
+*   **2026-07-22**: Verified that Pull Request #11763 could not be resolved or was deleted. Successfully assigned open GitHub issue #11761 to `hopper-coder-bot` to begin/resume implementing MockGCP and alignment for ComputeNetworkEndpointGroup zonal resource.
 *   **2026-07-22**: Detected that the `tests-e2e-fixtures-compute` and `presubmit-gatekeeper` CI check-runs failed on Pull Request #11763. Assigned the Pull Request back to the author bot (`lovelace-coder-bot`) via GitHub REST API to investigate and resolve the failures.
 *   **2026-07-21**: Detected that the `test-mockgcp` CI check-run failed on Pull Request #11763. Assigned the Pull Request back to the author bot (`lovelace-coder-bot`) via GitHub REST API to investigate and resolve the failure.
 *   **2026-07-21**: Detected review feedback on Pull Request #11763 from collaborator `gemmahou` requesting that `allowSubnetCidrRoutesOverlap` and `enableFlowLogs` default fields be handled correctly in the mock subnet service (`mockcompute/subnetsv1.go`) rather than bypassed in the golden alignment test. Assigned the Pull Request back to the author bot (`lovelace-coder-bot`) to address this feedback.
