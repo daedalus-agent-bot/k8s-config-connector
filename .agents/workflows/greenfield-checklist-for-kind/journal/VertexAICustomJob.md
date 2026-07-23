@@ -1,17 +1,18 @@
 # Greenfield Migration Journal: VertexAICustomJob
 
-Current Step: Step 1: Direct API Types and Identity and Reference Types Pattern
+Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Migration Progress
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1 | Direct API Types and Identity | [Issue #11715](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11715) | [PR #11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) | Open | 2026-07-18 | - |
-| 2 | Direct Controller & E2E | - | - | Pending | - | - |
+| 1 | Direct API Types and Identity | [Issue #11715](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11715) | [PR #11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) | Completed | 2026-07-18 | 2026-07-23 |
+| 2 | Direct Controller & E2E | [Issue #11866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11866) | - | Open | 2026-07-23 | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-23**: Confirmed PR #11724 is successfully merged. Progressed to Step 2 and created Issue #11866 for implementing the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-23**: Re-verified PR #11724 status via paginated REST API; confirmed that 100% of all CI checks have completed successfully with zero failures (all checks green). The PR is fully APPROVED, and we remain on standby monitoring the PR, awaiting final merge by human code owners to complete Step 1.
 - **2026-07-23**: Re-verified PR #11724 checks status; confirmed all CI checks have successfully passed cleanly. The PR remains APPROVED and OPEN. We are on standby, awaiting a human code owner to merge the PR to complete Step 1 before we can proceed to Step 2.
 - **2026-07-23**: Re-verified PR #11724 checks and merge status; confirmed all 202+ CI check-runs have successfully passed (100% green) and the PR remains OPEN and APPROVED by `acpana`. We continue to monitor the PR on standby, awaiting the final merge by human code owners to complete Step 1.
