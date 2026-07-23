@@ -1,18 +1,19 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently **Open** and assigned to `lovelace-coder-bot`. We assigned `lovelace-coder-bot` (who recently successfully implemented the `BeyondCorpClientGateway` controller) to trigger a fresh and high-quality implementation run.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently in **PR Created** status (PR #11830).
 
 ## Migration Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity/Reference | [#8403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8403), [#8836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8836) | [#8407](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8407), [#8837](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8837) | Completed | - | 2026-05-28 |
-| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#8795](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8795) (Closed) | Open | 2026-05-28 | - |
+| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#11830](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11830) | PR Created | 2026-05-28 | - |
 | 3 | mockGCP Generation | Pending | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-23 07:49 UTC**: Monitored the progress of Step 2. Detected that `codebot-robot` has successfully opened a new Pull Request #11830 ("Implement direct controller for BeyondCorpClientConnectorService") with all currently triggered CI checks passing. Updated the progress tracking table and journal to track PR #11830. We will continue monitoring the pull request for merging.
 - **2026-07-23 06:45 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `codebot-robot`, with no active Pull Request. Re-triggered the implementation by unassigning and reassigning `codebot-robot` on the issue to wake up the bot and ensure a fresh implementation run.
 - **2026-07-10 03:10 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `lovelace-coder-bot`. No Pull Request has been opened yet. Since `lovelace-coder-bot` is active on other concurrent pull requests (such as IAMServiceAccount and DeviceStreamingSession), we will continue to monitor the progress of the implementation.
 - **2026-07-10 02:50 UTC**: Monitored the progress of Step 2. Verified that Issue #8787 remains open and assigned to `lovelace-coder-bot`. No Pull Request has been opened yet. Since `lovelace-coder-bot` is highly active across other parts of the repository (such as DeviceStreamingSession and IAMServiceAccount), we will continue to monitor the progress of the implementation.
