@@ -12,6 +12,7 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-07-23**: Detailed inspection of the failed check-runs on PR #11874 reveals specific errors: (1) `fuzz-roundtrippers` and `unit-tests` fail in `TestSomeMappers` due to missing `f.Unimplemented_NotYetTriaged(".error.details")` in the fuzzer for `CustomJob`, (2) e2e golden files (`_identities.yaml`, `_http_mock.log`) are out of sync, (3) `alpha-missingfields.txt` needs alignment, and (4) `validate-generated-files` needs `static_config.go` regenerated via `dev/tasks/generate_static_config.py`. PR #11874 remains assigned to `ada-coder-bot` to address these failures.
 - **2026-07-23**: Identified newly opened PR #11874 for Step 2. Inspection of CI check-runs revealed failures in 'fuzz-roundtrippers' and 'tests-e2e-fixtures-vertexai'. Assigned PR #11874 to the author bot 'ada-coder-bot' to resolve these failures.
 - **2026-07-23**: Polled GitHub for Issue #11866. Verified the sandbox implementation is active and in progress, with no Pull Request opened yet. We remain on standby monitoring the issue and awaiting the PR creation for Step 2.
 - **2026-07-23**: Re-verified Issue #11866 status; confirmed that the AI Factory sandbox run remains in progress and no Pull Request has been opened yet. We remain on standby monitoring the issue and awaiting the PR creation for Step 2.
