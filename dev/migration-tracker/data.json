@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6814",
+    "notes": "External Work: #6814, External Work: [#9601](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601), External Work: [#8948](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948)",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #8951",
+    "notes": "External Work: #4754, External Work: #8951, External Work: [#8952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952)",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -514,7 +514,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "appengine",
@@ -541,7 +541,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -685,7 +685,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -714,7 +714,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -743,7 +743,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquerydatapolicy",
@@ -772,7 +772,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -1508,7 +1508,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudscheduler",
@@ -1622,7 +1622,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#7330](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330), External Work: [#9958](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958)",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4541, External Work: #7316, External Work: #9978",
+    "notes": "External Work: #4541, External Work: #7316, External Work: #9978, External Work: [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980)",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2409,10 +2409,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759), External Work: [#10938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938)",
     "sortOrder": 250,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
+    "trackingIssue": "[#10938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938)",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2439,10 +2439,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759)",
     "sortOrder": 14,
     "downstreamCount": 11,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759",
+    "trackingIssue": "[#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759)",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#11784](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11784), External Work: [#11783](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11783), External Work: [#9999](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999), External Work: [#9998](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998)",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2557,7 +2557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10002](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002)",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2671,7 +2671,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#10010](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010), External Work: [#10007](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007)",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3045,7 +3045,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: [#10029](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029)",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3393,10 +3393,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5953",
+    "notes": "External Work: #5953, External Work: [#11543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543)",
     "sortOrder": 9,
     "downstreamCount": 23,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
+    "trackingIssue": "[#11543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543)",
     "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -3901,10 +3901,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #479, External Work: #2775, External Work: #3570, External Work: #3798, External Work: #7682, External Work: #8362, External Work: #10410, External Work: #10534, External Work: #11777",
+    "notes": "External Work: #479, External Work: #2775, External Work: #3570, External Work: #3798, External Work: #7682, External Work: #8362, External Work: #10410, External Work: #10534, External Work: #11777, External Work: [#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886)",
     "sortOrder": 283,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
+    "trackingIssue": "[#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886)",
     "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -4510,7 +4510,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4730,7 +4730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4759,7 +4759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4788,7 +4788,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "documentai",
@@ -5051,10 +5051,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #691, External Work: #2291",
+    "notes": "External Work: #691, External Work: #2291, External Work: [#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731)",
     "sortOrder": 369,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
+    "trackingIssue": "[#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731)",
     "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5114,7 +5114,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasedatabase",
@@ -5143,7 +5143,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasehosting",
@@ -5199,7 +5199,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebase",
@@ -5226,7 +5226,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasestorage",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #405, External Work: #9481",
+    "notes": "External Work: #405, External Work: #9481, External Work: [#11677](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11677), External Work: [#11684](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11684), External Work: [#11341](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11341)",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5476,7 +5476,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -5723,10 +5723,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #760",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #760, External Work: [#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735)",
     "sortOrder": 7,
     "downstreamCount": 53,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
+    "trackingIssue": "[#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735)",
     "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5986,7 +5986,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6015,7 +6015,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6482,7 +6482,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "memcache",
@@ -6674,7 +6674,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#10147](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147)",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6967,10 +6967,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7277",
+    "notes": "External Work: #7277, External Work: [#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612)",
     "sortOrder": 457,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
+    "trackingIssue": "[#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612)",
     "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7086,10 +7086,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6207",
+    "notes": "External Work: #6207, External Work: [#11687](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687)",
     "sortOrder": 461,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687",
+    "trackingIssue": "[#11687](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687)",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7204,10 +7204,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939)",
     "sortOrder": 470,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
+    "trackingIssue": "[#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939)",
     "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7267,7 +7267,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "oslogin",
@@ -7294,7 +7294,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11613",
+    "notes": "External Work: #11613, External Work: [#10363](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363)",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849",
+    "notes": "External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: [#11369](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11369), External Work: [#11197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11197), External Work: [#11133](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11133), External Work: [#11035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11035), External Work: [#11034](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11034), External Work: [#10037](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037)",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "serviceusage",
@@ -8324,10 +8324,10 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #11322",
+    "notes": "External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #11322, External Work: [#11789](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11789), External Work: [#11770](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11770), External Work: [#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
     "sortOrder": 8,
     "downstreamCount": 40,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
+    "trackingIssue": "[#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
     "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
