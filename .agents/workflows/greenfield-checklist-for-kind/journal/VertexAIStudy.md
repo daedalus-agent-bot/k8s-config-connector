@@ -13,5 +13,6 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ## Status Updates
+- **2026-07-23**: Checked Issue [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) status. Confirmed `ada-coder-bot` has been assigned, and `argus-watcher-bot` started the implementation work in a sandbox. No Pull Request has been created yet.
 - **2026-07-23**: Step 1 (Direct API Types, Identity & Reference Types) confirmed completed and merged into master via commit `7cba73525e`. Initiating Step 2.
 - **2026-07-23**: Created GitHub issue [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) to implement the direct controller, E2E fixtures, and fuzzer for VertexAIStudy.
