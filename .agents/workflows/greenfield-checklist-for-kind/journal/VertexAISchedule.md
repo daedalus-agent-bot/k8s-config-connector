@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types & Identity | [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) | [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) | Completed | 2026-07-06 | 2026-07-24 |
-| 2 | Direct Controller & E2E | [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) | | Open | 2026-07-24 | |
+| 2 | Direct Controller & E2E | [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) | [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) | PR Created | 2026-07-24 | |
 | 3 | mockGCP generation | | | Planned | | |
 | 4 | MockGCP Alignment | | | Planned | | |
 
 ## Status Updates
+- **2026-07-24**: Pull Request [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) has been opened by `ada-coder-bot` for implementing the direct controller, E2E fixtures, and fuzzer. Assigned the PR to `ada-coder-bot` to monitor and handle CI checks, which are currently pending.
 - **2026-07-24**: Continuing to monitor the progress of Step 2. GitHub Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) is open and assigned to `ada-coder-bot`. The sandbox environment is currently working on the implementation of the controller, E2E fixtures, and fuzzer, and we are waiting for a Pull Request to be opened.
 - **2026-07-24**: Re-verified the status of Step 2. Confirmed that GitHub Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) is still open and assigned to `ada-coder-bot`. The sandbox environment is currently working on implementing the controller, E2E fixtures, and fuzzer, and we are continuing to wait for a Pull Request to be opened.
 - **2026-07-24**: Monitored the progress of Step 2. Confirmed that GitHub Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) is open and assigned to `ada-coder-bot`. The AI Factory sandbox has started working on the implementation, and we are waiting for a Pull Request to be opened.
