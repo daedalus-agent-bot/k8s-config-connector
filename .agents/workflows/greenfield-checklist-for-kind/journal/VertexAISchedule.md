@@ -13,6 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment | | | Planned | | |
 
 ## Status Updates
+- **2026-07-24**: Monitored the progress of Step 2. Confirmed that GitHub Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) is open and assigned to `ada-coder-bot`. The AI Factory sandbox has started working on the implementation, and we are waiting for a Pull Request to be opened.
 - **2026-07-24**: Step 1 (Direct API Types & Identity) has been successfully merged in PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388). Proceeding to Step 2. Opened GitHub Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) to coordinate the implementation of the direct controller, E2E fixtures, and fuzzer.
 - **2026-07-24**: Re-monitored PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388). Confirmed that all 204 CI check-runs have completed successfully and are 100% green and passing. The PR remains approved by `gemmahou`, open, and mergeable, awaiting final human OWNER review and merge of Step 1.
 - **2026-07-24**: Checked PR [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) status. Confirmed the PR is open, mergeable, and approved (`reviewDecision: APPROVED`). All major CI check-runs have passed (only `tests-preview` is pending). We continue to wait for human OWNER review and merge of Step 1.
