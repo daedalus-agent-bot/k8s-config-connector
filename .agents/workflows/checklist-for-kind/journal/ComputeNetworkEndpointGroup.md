@@ -10,12 +10,13 @@
 | Step 1: Direct API Types | [#9995](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995) | [#10056](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10056) | Completed | 2026-06-13 | 2026-06-13 |
 | Step 2: Identity and Reference Types Pattern | - | [d8ce3817e5](https://github.com/GoogleCloudPlatform/k8s-config-connector/commit/d8ce3817e549aa62e8e2fbd50745b092f9ae316a) | Completed | 2026-06-28 | 2026-06-28 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#9995](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9995) | [#10056](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10056) | Completed | 2026-06-13 | 2026-06-13 |
-| Step 4: Ensure MockGCP matches real gcp behavior | [#11761](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11761) | - | In Progress | 2026-07-20 | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | [#11761](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11761) | [#11763](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11763) | In Progress | 2026-07-20 | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Log of Status Updates
 
+*   **2026-07-25**: Performed status check on PR #11763. Detected that the `tests-e2e-fixtures-compute` GHA check-run failed due to a failure in the unrelated `networkipcomputeinstance` compute fixture. Assigned the Pull Request back to the author bot (`lovelace-coder-bot`) via GitHub REST API to investigate, resolve the failure, and re-trigger CI. Step 4 remains in progress.
 *   **2026-07-25**: Periodic status check of child issue #11761. Confirmed the issue remains open and assigned to `hopper-coder-bot`. The AI Factory sandbox run is still actively working on alignment and no Pull Request has been submitted yet. Step 4 remains in progress.
 *   **2026-07-25**: Monitored child issue #11761. Confirmed the issue remains open and assigned to `hopper-coder-bot` while the AI Factory continues to work in the sandbox. Verified that no Pull Request has been opened yet. Step 4 remains in progress.
 *   **2026-07-25**: Re-evaluated the progress of Step 4 on child issue #11761. Verified the issue remains open and assigned to `hopper-coder-bot`. Confirmed that no Pull Request has been opened yet, and the AI Factory sandbox is still active. Step 4 remains in progress.
