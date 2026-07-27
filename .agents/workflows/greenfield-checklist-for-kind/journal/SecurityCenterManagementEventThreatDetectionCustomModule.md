@@ -13,6 +13,8 @@
 
 ## Status Updates
 
+- **2026-07-27**: Monitored PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432). Confirmed that the PR remains open in a `CONFLICTING` (dirty) state and is failing the `zizmor-output` check. It remains assigned to its author `codebot-robot` to resolve the merge conflicts and linter failures.
+
 - **2026-07-27**: Monitored PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432). Confirmed that the PR is open and remains in a `CONFLICTING` (dirty) state with a failing `zizmor-output` check. It remains correctly assigned to its author `codebot-robot` to address the merge conflicts and linter failures.
 
 - **2026-07-27**: Monitored PR [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432). Confirmed that the PR is open, continues to be in a `CONFLICTING` (dirty) state with a failing `zizmor-output` check. It remains assigned to its author `codebot-robot` to address the conflict and test failures.
