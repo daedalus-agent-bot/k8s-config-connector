@@ -13,4 +13,5 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+* **2026-07-29**: Checked progress on Step 1. Issue [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) is currently being worked on by the AI Factory sandbox. No Pull Request has been created yet. Continuing to monitor.
 * **2026-07-29**: Started Greenfield Migration checklist. Opened Step 1 issue [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) to implement direct KRM types, identity, and generate.sh for DiscoveryEngineDataConnector.
