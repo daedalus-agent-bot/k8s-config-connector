@@ -13,15 +13,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7290](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7290)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#7286](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7286), External Work: [#7290](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7290)",
     "sortOrder": 125,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -46,7 +46,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -55,7 +55,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apikeys",
@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#9601](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601), External Work: [#8948](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948)",
+    "notes": "External Work: [#8948](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948), External Work: [#7285](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7285), External Work: [#6814](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6814), External Work: [#9601](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601)",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -131,15 +131,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#8948](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8948), External Work: [#7285](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7285), External Work: [#9601](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9601)",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -166,7 +166,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#6821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6821), External Work: [#4821](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4821), External Work: [#4820](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4820)",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -185,15 +185,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#8950](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8950)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#8950](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8950)",
     "sortOrder": 137,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -219,13 +219,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#8952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952), External Work: [#8951](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8951)",
+    "notes": "External Work: [#8952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952), External Work: [#8951](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8951), External Work: [#6992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6992), External Work: [#4754](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4754)",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -244,15 +244,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#8952](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8952), External Work: [#6992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6992)",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -275,7 +275,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -336,7 +336,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -361,15 +361,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 145,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -392,9 +392,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -403,7 +403,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -417,15 +417,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 149,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -449,9 +449,9 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -460,7 +460,7 @@
     "downstreamCount": 7,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apigee",
@@ -474,15 +474,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 153,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -501,20 +501,20 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5705](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5705)",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -526,7 +526,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -536,7 +536,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5706](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5706)",
     "sortOrder": 155,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -670,14 +670,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -685,7 +685,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -699,14 +699,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -714,7 +714,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "beyondcorp",
@@ -728,14 +728,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -743,7 +743,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "bigquerydatapolicy",
@@ -759,12 +759,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -772,7 +772,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "bigquery",
@@ -819,15 +819,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 185,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -850,15 +850,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 186,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -879,19 +879,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11197)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#11197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11197)",
     "sortOrder": 189,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100",
+    "assignee": "factorybot-robot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -909,15 +909,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 190,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1032,13 +1032,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#786](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/786), External Work: [#774](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/774)",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "",
@@ -1063,7 +1063,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1072,7 +1072,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "billingbudgets",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11596](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11596)",
+    "notes": "External Work: [#11596](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11596), External Work: [#5011](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5011), External Work: [#723](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/723), External Work: [#5944](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5944), External Work: [#4994](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/4994)",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1115,14 +1115,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -1130,7 +1130,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "binaryauthorization",
@@ -1146,20 +1146,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
-      "controller": false,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#4760](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4760)",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: [#796](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/796), External Work: [#731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/731)",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1411,15 +1411,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/886)",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1441,15 +1441,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 225,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1493,14 +1493,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -1508,7 +1508,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudscheduler",
@@ -1524,20 +1524,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#956](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/956)",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "compute",
@@ -1614,15 +1614,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7330](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330), External Work: [#9958](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9958](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958), External Work: [#7578](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7578), External Work: [#7330](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330)",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1644,15 +1644,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9958](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9958), External Work: [#7578](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7578), External Work: [#7330](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7330)",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1678,7 +1678,7 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
@@ -1686,7 +1686,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10608 is closed but direct controller is not registered in code, External Work: [#7736](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7736), External Work: [#11605](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11605), External Work: [#8857](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8857)",
+    "notes": "External Work: [#11605](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11605), External Work: [#8857](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8857), External Work: [#6975](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6975), External Work: [#7736](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7736)",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
@@ -1800,15 +1800,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 236,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1837,7 +1837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code",
+    "notes": "External Work: [#570](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/570), External Work: [#5440](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5440)",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1866,7 +1866,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: [#5440](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5440)",
     "sortOrder": 31,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -1887,15 +1887,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 238,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1956,15 +1956,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7316](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7316), External Work: [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980), External Work: [#9978](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9978)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980), External Work: [#9978](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9978), External Work: [#4541](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4541), External Work: [#7316](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7316)",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1985,15 +1985,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9980](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9980)",
     "sortOrder": 242,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2040,15 +2040,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10923 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #10923 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go",
     "sortOrder": 243,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2071,16 +2071,16 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 12,
     "downstreamCount": 12,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2194,20 +2194,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #10924 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go",
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2223,15 +2223,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9988](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9988)",
     "sortOrder": 244,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2255,15 +2255,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9989](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9989), External Work: [#6168](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6168), External Work: [#5958](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5958)",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -2284,15 +2284,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 33,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2313,15 +2313,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 246,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2342,15 +2342,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992)",
     "sortOrder": 247,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2401,19 +2401,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759), External Work: [#6132](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6132)",
     "sortOrder": 250,
     "downstreamCount": 0,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2431,19 +2431,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#6132](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6132)",
     "sortOrder": 14,
     "downstreamCount": 11,
-    "trackingIssue": "",
-    "assignee": "",
+    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2460,15 +2460,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#11783](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11783), External Work: [#9999](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999), External Work: [#9998](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998), External Work: [#4942](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4942), External Work: [#11784](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11784)",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2490,15 +2490,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#9998](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9998)",
     "sortOrder": 252,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2520,15 +2520,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#11783](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11783), External Work: [#9999](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9999), External Work: [#4942](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4942), External Work: [#11784](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11784)",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2550,14 +2550,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10002](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002), External Work: [#5608](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5608)",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2579,15 +2579,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10002](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10002), External Work: [#5608](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5608)",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2663,15 +2663,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10010](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010), External Work: [#10007](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10010](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010), External Work: [#10007](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007)",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2690,15 +2690,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10007](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10007)",
     "sortOrder": 258,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2717,15 +2717,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10010](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10010)",
     "sortOrder": 259,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2746,15 +2746,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 260,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2776,15 +2776,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10012](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10012)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10012](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10012)",
     "sortOrder": 261,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2803,15 +2803,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 262,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2832,15 +2832,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 263,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2862,15 +2862,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10015](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10015)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10015](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10015)",
     "sortOrder": 553,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2893,15 +2893,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10017)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10017](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10017)",
     "sortOrder": 264,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2922,15 +2922,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 265,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2951,15 +2951,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 266,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3012,7 +3012,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3021,7 +3021,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3045,7 +3045,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, Tracking issue #10749 is closed but direct controller is not registered in code, Tracking issue #10746 is closed but direct controller is not registered in code, Tracking issue #10551 is closed but direct controller is not registered in code, External Work: [#10029](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029)",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: [#10029](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029)",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3107,7 +3107,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #10749 is closed but direct controller is not registered in code",
     "sortOrder": 91,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -3129,15 +3129,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go",
     "sortOrder": 270,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3159,15 +3159,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10029](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10029)",
     "sortOrder": 271,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3186,15 +3186,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#803](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/803), External Work: [#505](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/505), External Work: [#476](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/476)",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3271,15 +3271,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 54,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3298,15 +3298,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10037](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10037](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037)",
     "sortOrder": 273,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3327,15 +3327,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#687](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/687)",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3360,7 +3360,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -3369,7 +3369,7 @@
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5953](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5953)",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
@@ -3414,15 +3414,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 55,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3443,15 +3443,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 56,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: [#11678](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11678), External Work: [#8480](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8480)",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: [#8480](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8480), External Work: [#6788](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6788), External Work: [#5399](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5399), External Work: [#4602](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4602)",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3504,15 +3504,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 275,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3534,15 +3534,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 276,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3564,15 +3564,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 58,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3623,15 +3623,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 26,
     "downstreamCount": 5,
     "trackingIssue": "",
@@ -3684,15 +3684,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 39,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -3715,15 +3715,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 60,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3743,14 +3743,14 @@
       "ComputeNetwork",
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3758,7 +3758,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "containeranalysis",
@@ -3772,15 +3772,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 280,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3801,15 +3801,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 281,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3831,19 +3831,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 282,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 1 (Direct KRM Types)"
   },
   {
     "group": "container",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11777](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11777), External Work: [#8135](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8135), External Work: [#6831](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6831), External Work: [#11785](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11785), External Work: [#11647](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11647), External Work: [#10459](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10459), External Work: [#10458](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10458), External Work: [#9813](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9813), External Work: [#8960](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8960)",
+    "notes": "External Work: [#11911](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11911), External Work: [#11785](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11785), External Work: [#11647](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11647), External Work: [#10459](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10459), External Work: [#10458](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10458), External Work: [#9813](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9813), External Work: [#8960](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8960), External Work: [#7495](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7495), External Work: [#6655](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6655), External Work: [#6654](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6654), External Work: [#6652](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6652), External Work: [#5901](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5901), External Work: [#5514](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5514), External Work: [#1792](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1792), External Work: [#699](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/699), External Work: [#576](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/576), External Work: [#477](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/477), External Work: [#468](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/468), External Work: [#441](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/441), External Work: [#11914](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11914), External Work: [#8135](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8135), External Work: [#6831](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6831), External Work: [#5086](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5086), External Work: [#5085](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5085), External Work: [#4987](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/4987)",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10534](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10534), External Work: [#10410](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10410)",
+    "notes": "External Work: [#10534](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10534), External Work: [#10410](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10410), External Work: [#7682](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7682), External Work: [#3798](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3798), External Work: [#2775](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2775), External Work: [#479](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/479)",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -3921,14 +3921,14 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3950,14 +3950,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3983,20 +3983,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#7417](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7417)",
     "sortOrder": 290,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -4010,14 +4010,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dns",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415), External Work: [#9777](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9777)",
+    "notes": "External Work: [#10415](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10415), External Work: [#9777](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9777), External Work: [#5355](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5355), External Work: [#4982](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4982), External Work: [#3287](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3287), External Work: [#844](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/844), External Work: [#837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/837)",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4162,15 +4162,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 295,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4193,7 +4193,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4248,14 +4248,14 @@
       "ComputeNetwork",
       "IAMServiceAccount"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4263,7 +4263,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dataflow",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: [#10461](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10461), External Work: [#9000](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9000)",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: [#10461](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10461), External Work: [#9000](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9000), External Work: [#8023](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8023), External Work: [#6989](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6989), External Work: [#814](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/814), External Work: [#5609](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5609)",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -4410,15 +4410,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 326,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4468,20 +4468,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#1476](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1476)",
     "sortOrder": 330,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "deploymentmanager",
@@ -4495,14 +4495,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4510,7 +4510,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4715,14 +4715,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4730,7 +4730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4744,14 +4744,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4759,7 +4759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dialogflow",
@@ -4773,14 +4773,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4788,7 +4788,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "documentai",
@@ -4802,15 +4802,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 356,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4832,15 +4832,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 65,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -4863,15 +4863,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 359,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4893,15 +4893,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 360,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4922,15 +4922,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 98,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -4952,15 +4952,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 361,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4984,15 +4984,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 367,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5013,9 +5013,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5045,13 +5045,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#2291](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2291), External Work: [#691](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/691)",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
@@ -5072,15 +5072,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 370,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5099,14 +5099,14 @@
     "dependencies": [
       "FirebaseProject"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5114,7 +5114,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasedatabase",
@@ -5128,14 +5128,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5143,7 +5143,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasehosting",
@@ -5184,14 +5184,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5199,7 +5199,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebase",
@@ -5211,14 +5211,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5226,7 +5226,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "firebasestorage",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11677](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11677), External Work: [#11684](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11684), External Work: [#11341](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11341), External Work: [#9481](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9481)",
+    "notes": "External Work: [#11684](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11684), External Work: [#11341](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11341), External Work: [#9481](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9481), External Work: [#5007](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5007), External Work: [#11677](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11677), External Work: [#5474](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5474), External Work: [#5434](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5434), External Work: [#5008](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5008)",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5354,14 +5354,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#4597](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/4597), External Work: [#1078](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1078)",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5461,14 +5461,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5476,7 +5476,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "healthcare",
@@ -5546,15 +5546,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 392,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5574,14 +5574,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7649](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7649)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#7649](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7649)",
     "sortOrder": 393,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5600,15 +5600,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 394,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5659,14 +5659,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7650](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7650)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#6027](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6027), External Work: [#2873](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2873), External Work: [#1082](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1082), External Work: [#855](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/855), External Work: [#793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/793), External Work: [#772](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/772), External Work: [#709](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/709), External Work: [#7650](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7650)",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5689,14 +5689,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#6027](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6027), External Work: [#1082](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1082), External Work: [#855](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/855), External Work: [#793](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/793), External Work: [#772](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/772), External Work: [#709](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/709)",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5717,13 +5717,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: [#11409](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11409)",
+    "notes": "External Work: [#6675](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6675), External Work: [#3338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3338), External Work: [#760](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/760), External Work: [#425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/425)",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5746,13 +5746,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#6675](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6675), External Work: [#3338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3338), External Work: [#425](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/425)",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5771,15 +5771,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 103,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5800,15 +5800,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 400,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5829,15 +5829,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#1839](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/1839)",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5859,15 +5859,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 401,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5915,15 +5915,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 402,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5944,12 +5944,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: [#9416](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9416)",
@@ -5957,7 +5957,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -5971,14 +5971,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5986,7 +5986,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6000,14 +6000,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6015,7 +6015,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6027,14 +6027,14 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6042,7 +6042,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6083,14 +6083,14 @@
       "DCL"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6098,7 +6098,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "identityplatform",
@@ -6170,14 +6170,14 @@
     "dependencies": [
       "IdentityPlatformTenant"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6185,7 +6185,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "kms",
@@ -6229,15 +6229,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 413,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6284,15 +6284,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10682](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10682)",
     "sortOrder": 416,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6311,15 +6311,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10681](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10681)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10681](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10681)",
     "sortOrder": 417,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6467,14 +6467,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6482,7 +6482,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "memcache",
@@ -6498,15 +6498,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 426,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#6991](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6991), External Work: [#656](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/656), External Work: [#648](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/648), External Work: [#589](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/589), External Work: [#5641](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5641)",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6585,7 +6585,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6618,7 +6618,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5721)",
     "sortOrder": 433,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6645,7 +6645,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#7684](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7684)",
     "sortOrder": 434,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6674,7 +6674,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#10147](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147)",
+    "notes": "External Work: [#10147](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147), External Work: [#5559](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5559)",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6696,15 +6696,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10147](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10147), External Work: [#5559](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5559)",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#9566](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9566)",
+    "notes": "External Work: [#9566](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9566), External Work: [#5714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5714), External Work: [#2469](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2469)",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6755,15 +6755,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6785,15 +6785,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 442,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6822,7 +6822,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5077](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5077)",
     "sortOrder": 445,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6845,7 +6845,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6872,9 +6872,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6901,15 +6901,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 455,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6930,15 +6930,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 456,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6959,15 +6959,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
+      "gen-types": false,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#7277](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7277)",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
@@ -6988,15 +6988,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 458,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7018,15 +7018,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#3520](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/3520)",
     "sortOrder": 459,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7078,19 +7078,19 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #11687 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go, External Work: [#6207](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6207)",
     "sortOrder": 461,
     "downstreamCount": 0,
-    "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11687",
-    "assignee": "daedalus-agent-bot",
+    "trackingIssue": "",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -7107,15 +7107,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#602](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/602)",
     "sortOrder": 463,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7137,15 +7137,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 465,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7167,15 +7167,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 466,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7196,12 +7196,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -7209,7 +7209,7 @@
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "osconfig",
@@ -7227,10 +7227,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -7238,7 +7238,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 2 (Identity & Reference Types)"
   },
   {
     "group": "osconfig",
@@ -7252,14 +7252,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -7267,7 +7267,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "oslogin",
@@ -7279,14 +7279,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -7294,7 +7294,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "privateca",
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #9738 is closed but direct controller is not registered in code, External Work: [#11613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11613), External Work: [#10363](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363)",
+    "notes": "External Work: [#11613](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11613), External Work: [#10363](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363)",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7376,14 +7376,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#10363](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10363)",
     "sortOrder": 115,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#6968](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6968), External Work: [#6849](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/6849), External Work: [#11369](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11369), External Work: [#11133](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11133), External Work: [#11035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11035), External Work: [#11034](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11034)",
+    "notes": "External Work: [#11197](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11197), External Work: [#11133](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11133), External Work: [#11034](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11034), External Work: [#10037](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10037), External Work: [#5721](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5721), External Work: [#2188](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2188), External Work: [#818](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/818), External Work: [#740](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/740), External Work: [#687](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/687), External Work: [#654](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/654), External Work: [#5240](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5240)",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7463,15 +7463,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#5702](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5702)",
     "sortOrder": 479,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7492,15 +7492,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7521,15 +7521,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#5701](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5701)",
     "sortOrder": 481,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7702,15 +7702,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 487,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7732,15 +7732,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#566](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/566)",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7796,15 +7796,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#9714](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9714), External Work: [#6686](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6686), External Work: [#5554](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5554), External Work: [#813](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/813), External Work: [#772](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/772)",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7823,15 +7823,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 492,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7850,15 +7850,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 493,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7877,15 +7877,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#7148](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7148), External Work: [#8796](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8796)",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#11862](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11862), External Work: [#8796](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8796), External Work: [#2416](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/2416), External Work: [#548](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/548), External Work: [#11863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11863), External Work: [#7148](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/7148)",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7989,14 +7989,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "serviceusage",
@@ -8149,7 +8149,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#11599](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11599)",
     "sortOrder": 72,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8170,15 +8170,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 503,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8199,15 +8199,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 505,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8228,15 +8228,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#6319](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6319)",
     "sortOrder": 506,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8258,20 +8258,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#5359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5359)",
     "sortOrder": 119,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "spanner",
@@ -8320,16 +8320,16 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11789](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11789), External Work: [#11322](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11322), External Work: [#11770](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11770), External Work: [#9779](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9779)",
+    "notes": "External Work: [#11770](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11770), External Work: [#9779](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9779), External Work: [#6207](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/6207), External Work: [#5556](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5556), External Work: [#5553](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/5553), External Work: [#681](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/681), External Work: [#11322](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11322), External Work: [#5572](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5572), External Work: [#5546](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/5546)",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
     "assignee": "walle-agent-bot",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "storage",
@@ -8345,15 +8345,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#681](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/681)",
     "sortOrder": 513,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8374,15 +8374,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 514,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8403,15 +8403,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 516,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8432,15 +8432,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#444](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/444)",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8490,20 +8490,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
-      "mocks": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
+      "mocks": false,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: [#681](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/681)",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "tpu",
@@ -8519,15 +8519,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 521,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8665,9 +8665,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": true,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8703,7 +8703,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: [#11137](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11137), External Work: [#9698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698)",
+    "notes": "External Work: [#11137](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11137), External Work: [#9698](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9698), External Work: [#7985](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7985)",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8726,15 +8726,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#7987](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/7987)",
     "sortOrder": 534,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8751,22 +8751,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 539,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8778,22 +8778,22 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 540,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8809,15 +8809,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#8390](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8390)",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8836,22 +8836,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": false,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#8390](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8390)",
     "sortOrder": 542,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8867,15 +8867,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: [#12010](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12010), External Work: [#12009](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12009), External Work: [#12008](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12008)",
     "sortOrder": 545,
     "downstreamCount": 0,
     "trackingIssue": "",
