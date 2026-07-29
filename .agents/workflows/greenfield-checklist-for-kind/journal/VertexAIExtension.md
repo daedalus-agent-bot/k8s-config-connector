@@ -12,6 +12,7 @@
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-29**: Identified `unit-tests` failure (`TestMissingRefs`) on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036), where several spec fields under `vertexaiextensions` were flagged as missing references. Assigned PR back to `neumann-coder-bot` to resolve the test failure.
 * **2026-07-29**: Analyzed CI failures on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036) and identified OpenAPI schema validation issues due to the recursive `Schema` type in `types.generated.go`. AI Factory has automatically started investigation.
 * **2026-07-29**: Step 1 PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036) created by neumann-coder-bot. Assigned the PR to neumann-coder-bot to investigate failing checks.
 * **2026-07-29**: Started Greenfield migration for VertexAIExtension. Created Step 1 GitHub issue [#12027](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12027) to coordinate implementing direct KRM types, identity, and generation.
