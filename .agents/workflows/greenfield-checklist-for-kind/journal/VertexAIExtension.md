@@ -12,6 +12,7 @@
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-07-29**: Verified that all core CI check-runs (including `unit-tests`, `validate-generated-files`, and `validations`) have passed successfully on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036). The PR is now ready and waiting for human review and approval to merge.
 * **2026-07-29**: Analyzed `unit-tests` failure on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036) and identified failing api-checks: `TestCRDFieldPresenceInTestsForAlpha`, `TestSpecShouldNotContainEtag`, and `TestMissingRefs`. Assigned PR #12036 back to `neumann-coder-bot` to add the necessary exception listings under `tests/apichecks/testdata/exceptions/`.
 * **2026-07-29**: Identified `unit-tests` failure (`TestMissingRefs`) on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036), where several spec fields under `vertexaiextensions` were flagged as missing references. Assigned PR back to `neumann-coder-bot` to resolve the test failure.
 * **2026-07-29**: Analyzed CI failures on PR [#12036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12036) and identified OpenAPI schema validation issues due to the recursive `Schema` type in `types.generated.go`. AI Factory has automatically started investigation.
