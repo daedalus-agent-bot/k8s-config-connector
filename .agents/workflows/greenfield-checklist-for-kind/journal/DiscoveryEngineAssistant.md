@@ -12,5 +12,6 @@
 | Step 4: MockGCP Alignment with RealGCP | - | - | Planned | - | - |
 
 ## Status Updates
+- **2026-07-29**: Verified PR [#12046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12046) checks. All completed checks are passing. Only `tests-e2e-fixtures-dataplex` is pending. Waiting for PR to be merged.
 - **2026-07-29**: PR [#12046](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12046) has been created by hopper-coder-bot. Resolved empty `ObservedState` struct and alpha field exceptions. Active CI checks are currently in progress.
 - **2026-07-29**: Started Step 1. Created GitHub Issue [#12021](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12021) to implement KRM types and identity for DiscoveryEngineAssistant.
