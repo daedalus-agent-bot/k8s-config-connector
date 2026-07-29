@@ -7,10 +7,11 @@
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity and Reference Types Pattern | [Issue #12031](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12031) | - | Open | 2026-07-29 | - |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [Issue #12031](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12031) | [PR #12034](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12034) | PR Created | 2026-07-29 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-07-29**: Identified open PR #12034 for Step 1 with failing checks. Assigned the PR to the author bot `lovelace-coder-bot` to investigate and fix the CI failures.
 - **2026-07-29**: Started migration of `VertexAIModel`. Created the tracking journal, opened the GitHub issue for Step 1 ([Issue #12031](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12031)), and verified that the coder bot is currently working on generating the types in a sandbox.
