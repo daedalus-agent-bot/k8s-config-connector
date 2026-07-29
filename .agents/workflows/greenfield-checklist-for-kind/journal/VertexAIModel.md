@@ -13,4 +13,4 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
-- **2026-07-29**: Started migration of `VertexAIModel`. Created the tracking journal and opened the GitHub issue for Step 1 ([Issue #12031](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12031)).
+- **2026-07-29**: Started migration of `VertexAIModel`. Created the tracking journal, opened the GitHub issue for Step 1 ([Issue #12031](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12031)), and verified that the coder bot is currently working on generating the types in a sandbox.
