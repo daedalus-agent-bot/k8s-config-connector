@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | PR Created | 2026-07-29 | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | PR Created (CI Failing) | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | | |
 | 3 | mockGCP generation | N/A | N/A | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+* **2026-07-29**: Monitored Step 1 progress. PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) completed with CI check-run failures (`presubmit-gatekeeper`, `validate-generated-files`, `unit-tests`). Assigned the PR back to the author `lovelace-coder-bot` to resolve the failures.
 * **2026-07-29**: Monitored Step 1 progress. Pull Request [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) has been created by lovelace-coder-bot and is currently undergoing CI check-runs.
 * **2026-07-29**: Checked Step 1 progress. Issue [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) remains open and assigned to `lovelace-coder-bot`; sandbox execution is still in progress with no pull request opened yet.
 * **2026-07-29**: Checked Step 1 progress again. Issue [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) is still open and sandbox execution remains active; no Pull Request has been generated yet.
