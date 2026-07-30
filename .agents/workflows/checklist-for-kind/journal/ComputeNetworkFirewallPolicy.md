@@ -15,4 +15,5 @@ Current Step: Step 2: Identity and Reference Types Pattern
 
 ## Updates Log
 
+* **2026-07-30**: Verified progress. Issue [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) remains open and is assigned to `ada-coder-bot` who is currently working on implementing the identity and reference types pattern. No PR has been submitted yet.
 * **2026-07-29**: Started Step 2. Created GitHub Issue [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) to move `ComputeNetworkFirewallPolicy` to the identity and reference types pattern.
