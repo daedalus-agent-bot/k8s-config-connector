@@ -15,4 +15,5 @@ Current Step: Step 6 - Validate Direct Promotion
 
 ## Notes
 
+- **2026-07-30**: Sandbox environment started by `argus-watcher-bot` for `lovelace-coder-bot` to begin working on the validation of direct promotion for `ComputeImage` under issue [#12073](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12073).
 - **2026-07-29**: Initialized the migration checklist journal for `ComputeImage`. Steps 1 through 5 have already been successfully completed and merged. Created the issue [#12073](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12073) to initiate Step 6 (Validate Direct Promotion).
