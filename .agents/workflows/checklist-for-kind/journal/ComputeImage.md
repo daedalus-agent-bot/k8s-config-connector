@@ -15,6 +15,7 @@ Current Step: Step 6 - Validate Direct Promotion
 
 ## Notes
 
+- **2026-07-30**: All CI checks on Pull Request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) have successfully passed. The PR is now fully green and awaiting human OWNER review and merge.
 - **2026-07-30**: Pull request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) is open but has failing `tests-e2e-fixtures-compute` CI checks. Assigning the PR back to the author bot `lovelace-coder-bot` to investigate and resolve the failures.
 - **2026-07-30**: Sandbox environment started by `argus-watcher-bot` for `lovelace-coder-bot` to begin working on the validation of direct promotion for `ComputeImage` under issue [#12073](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12073).
 - **2026-07-29**: Initialized the migration checklist journal for `ComputeImage`. Steps 1 through 5 have already been successfully completed and merged. Created the issue [#12073](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12073) to initiate Step 6 (Validate Direct Promotion).
