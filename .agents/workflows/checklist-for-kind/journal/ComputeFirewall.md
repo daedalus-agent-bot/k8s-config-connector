@@ -17,6 +17,7 @@
 | 6 | Validate Direct Promotion | [#12071](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12071) | [#12102](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12102) | Under Review | 2026-07-29 | In Progress |
 
 ## Status Update Notes
+- **2026-07-30:** Re-evaluated migration status. PR #12102 remains OPEN and awaiting human OWNER review/approval. Confirmed that all 114 CI checks are successfully passing.
 - **2026-07-30:** PR #12102 was opened by `ada-coder-bot` for Step 6 (Validate Direct Promotion). All CI check-runs have successfully passed. The PR is currently blocked awaiting human OWNER review and approval.
 - **2026-07-30:** Monitored progress of Step 6 (Validate Direct Promotion). Coder bot `ada-coder-bot` is assigned to issue #12071 and working in the sandbox. No pull request has been opened yet.
 - **2026-07-29:** Initiating Step 6 (Validate Direct Promotion) of the ComputeFirewall migration. Checked previous steps: Step 1, Step 2, Step 3, Step 4, and Step 5 are all fully merged and completed. Created a new tracking issue #12071 for Step 6.
