@@ -15,6 +15,7 @@
 | 6 | Validate Direct Promotion | Pending | Pending | Pending | | |
 
 ### Recent Status Updates
+* **2026-07-30**: Re-verified that PR #10001 remains open, fully green (all CI checks passing), and is awaiting human OWNER review and merge to resolve Step 1.
 * **2026-07-30**: Re-verified that all 202 CI checks for PR #10001 have successfully completed and passed (all green). The PR remains open under a `/hold` from Justin, awaiting human/OWNER review, `/hold` removal, and merge.
 * **2026-07-30**: Verified that all CI checks for PR #10001 have successfully passed (all green). The PR remains open, awaiting human/OWNER review, hold removal, and merge.
 * **2026-07-30**: Verified that the author bot `codebot-robot` has successfully resolved the previous validation and file generation check failures. All completed CI checks are now green, and the PR is mergeable (not in a dirty state). We are currently waiting for the final remaining in-progress check (`tests-e2e-fixtures-bigquery`) to complete, and then for human/OWNER review and merge.
