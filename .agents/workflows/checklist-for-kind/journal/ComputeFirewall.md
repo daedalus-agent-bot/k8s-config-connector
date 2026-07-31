@@ -17,6 +17,7 @@
 | 6 | Validate Direct Promotion | [#12071](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12071) | [#12102](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12102) | Under Review | 2026-07-29 | In Progress |
 
 ## Status Update Notes
+- **2026-07-31 (Nightly Verification Check):** Verified PR #12102 state remains OPEN and under review. All CI tests are completely green and passing. The PR is awaiting final human OWNER approval and merging from `acpana`.
 - **2026-07-31 (Evening Verification Check):** Re-verified status of PR #12102. All CI checks continue to pass successfully. The PR is currently open and awaiting human OWNER review and merge approval from `acpana`.
 - **2026-07-31 (Afternoon Verification Check):** Re-verified status of PR #12102. All CI checks are green and fully passing. The PR remains open and under review, awaiting final human OWNER approval from `acpana` to proceed with merging.
 - **2026-07-31 (Final Verification Check):** Re-verified that PR #12102 remains in an open state and all CI checks are green and fully passing. The PR is still awaiting final human OWNER review and merge from `acpana`.
