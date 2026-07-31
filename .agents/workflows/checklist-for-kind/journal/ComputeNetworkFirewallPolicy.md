@@ -15,5 +15,6 @@ Current Step: Step 2: Identity and Reference Types Pattern
 
 ## Updates Log
 
+* **2026-07-31**: Checked progress. PR [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) remains open and all CI checks are green (passed). It is currently awaiting review and merge by human OWNERS. Step 2 cannot be completed until the PR is merged.
 * **2026-07-30**: Verified progress. `ada-coder-bot` submitted PR [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) to address issue [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074). All CI checks have successfully passed, and the PR is now awaiting review and merge by human owners.
 * **2026-07-29**: Started Step 2. Created GitHub Issue [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) to move `ComputeNetworkFirewallPolicy` to the identity and reference types pattern.
