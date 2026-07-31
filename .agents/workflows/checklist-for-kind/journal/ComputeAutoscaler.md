@@ -15,6 +15,7 @@
 | 6 | Validate Direct Promotion | [#12069](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12069) | [#12095](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12095) | PR Created | 2026-07-29 | |
 
 ## Status Updates
+* **2026-07-31**: Verified that all CI checks on PR #12095 have successfully completed and passed without failures. The PR is healthy and mergeable, currently awaiting human OWNER review and merge to complete the migration.
 * **2026-07-31**: Monitored Step 6 PR #12095. All CI checks are completed and passing. Still awaiting human review and merge.
 * **2026-07-30**: Verified status of Step 6 PR #12095. All CI checks (including e2e fixtures and unit tests) have now completed and successfully passed. Awaiting human review and merge.
 * **2026-07-30**: Checked status of Step 6. Coder bot `neumann-coder-bot` created PR #12095 ("Validate direct promotion for ComputeAutoscaler") to resolve issue #12069. All completed CI checks are passing, with some integration checks currently in progress.
