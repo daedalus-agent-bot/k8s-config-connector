@@ -1,0 +1,7 @@
+Using the skill workflow, please complete creation of direct controller for ComputeBackendServiceSignedURLKey
+
+https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
+
+
+
+
