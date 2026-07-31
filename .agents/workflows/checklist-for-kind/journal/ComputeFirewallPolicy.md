@@ -15,6 +15,7 @@
 
 ## Recent Status Update Notes
 
+- **2026-07-31**: Checked PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) status. All CI checks are still fully green and passing. The PR remains open, awaiting human OWNER review and merge.
 - **2026-07-30**: Verified that all 120+ CI checks for PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) are fully green and passing. The PR is ready for human OWNER review and merge.
 - **2026-07-30**: PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) has been created for Step 6 (Validate Direct Promotion) and all CI checks have successfully passed. Awaiting human OWNER review and merge.
 - **2026-07-30**: Initialized `ComputeFirewallPolicy` migration journal. Identified that Steps 1 through 5 are fully completed and merged.
