@@ -15,6 +15,7 @@
 
 ## Recent Status Update Notes
 
+- **2026-08-01**: Verified all 120+ CI checks are completed and green for PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091). The PR remains open, awaiting final human review and merge.
 - **2026-07-31**: Verified that PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) is open with all CI checks passing successfully. Awaiting human review and merge.
 - **2026-07-31**: Checked PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) status. Re-confirmed that all 120+ CI check suites have completed successfully with green passes. The PR is still OPEN and awaiting human OWNER approval and merge.
 - **2026-07-31**: Monitored PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) status. The PR remains OPEN with all 120+ CI checks passing. Awaiting human OWNER review, approval, and merge.
