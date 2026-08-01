@@ -6,7 +6,7 @@ Current Step: Step 1: Direct API Types
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types | [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992) | [#10063](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10063) | PR Created (CI Failures; Assigned to Bot) | 2026-07-29 | - |
+| Step 1: Direct API Types | [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992) | [#10063](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10063) | PR Created (Checks Passing) | 2026-07-29 | - |
 | Step 2: Identity and Reference Types Pattern | - | - | Pending | - | - |
 | Step 3: Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | Step 4: Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -14,6 +14,7 @@ Current Step: Step 1: Direct API Types
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-08-01 (Checks Passing)**: Verified PR #10063 is open, mergeable, and all CI checks are passing successfully. Awaiting human OWNER review and merge before proceeding to Step 2.
 - **2026-08-01 (CI Failures; Assigned to Bot)**: Verified PR #10063 has resolved its merge conflicts and is MERGEABLE, but has active CI check failures (such as `crd-equivalence-check` and `validate-resource-docs`). Successfully assigned it back to its author bot `codebot-robot` via the GitHub REST API to resolve the failures.
 - **2026-08-01**: Verified PR #10063 remains OPEN and CONFLICTING with no active assignees. Successfully re-assigned it to its author bot `codebot-robot` via the GitHub REST API to trigger merge conflict resolution and validation checks.
 - **2026-07-31 (23:50 UTC)**: Verified PR #10063 remains OPEN and CONFLICTING with no active assignees. Successfully assigned it to its author bot `codebot-robot` via the GitHub REST API to trigger merge conflict resolution.
