@@ -13,7 +13,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ### Status Updates
-- **2026-08-01**: Checked Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) CI status today. Confirmed that all 238/238 checks are passing cleanly (100% green). The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge to complete Step 2.
+- **2026-08-01**: Checked Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) CI status today. Confirmed that all 239/239 checks are passing cleanly (100% green). The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-01**: Re-verified Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) CI status today. Confirmed that all 202/202 CI checks continue to pass successfully (100% green). The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge to complete Step 2.
 - **2026-07-31**: Re-monitored and verified Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) CI status today. Confirmed all 196/196 check-runs are successfully completed with 100% green status. The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge.
 - **2026-07-31**: Re-verified open Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) CI checks status today. Confirmed that all 239/239 CI checks continue to pass successfully (100% green). The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge to complete Step 2.
