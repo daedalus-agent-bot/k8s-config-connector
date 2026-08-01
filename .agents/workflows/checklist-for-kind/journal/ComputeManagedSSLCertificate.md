@@ -14,6 +14,7 @@ Current Step: Step 1: Direct API Types
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-08-01 (Checks Passing - Re-verified)**: Re-verified PR #10063 is open, mergeable, and all CI checks are passing successfully. Still awaiting human OWNER review and merge.
 - **2026-08-01 (Checks Passing)**: Verified PR #10063 is open, mergeable, and all CI checks are passing successfully. Awaiting human OWNER review and merge before proceeding to Step 2.
 - **2026-08-01 (CI Failures; Assigned to Bot)**: Verified PR #10063 has resolved its merge conflicts and is MERGEABLE, but has active CI check failures (such as `crd-equivalence-check` and `validate-resource-docs`). Successfully assigned it back to its author bot `codebot-robot` via the GitHub REST API to resolve the failures.
 - **2026-08-01**: Verified PR #10063 remains OPEN and CONFLICTING with no active assignees. Successfully re-assigned it to its author bot `codebot-robot` via the GitHub REST API to trigger merge conflict resolution and validation checks.
