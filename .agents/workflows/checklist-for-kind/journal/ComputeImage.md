@@ -15,6 +15,7 @@ Current Step: Step 6 - Validate Direct Promotion
 
 ## Notes
 
+- **2026-08-02**: Monitored the status of the migration. Re-verified that all CI checks on Pull Request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) are fully green and passing successfully. The PR is awaiting human OWNER review and merge.
 - **2026-08-01**: Monitored the status of the migration. Verified that all CI checks on Pull Request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) are passing successfully. The PR is awaiting human OWNER review and merge.
 - **2026-07-31**: Verified that all CI checks on Pull Request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) continue to pass. The PR is fully green and awaiting human OWNER review and merge.
 - **2026-07-30**: All CI checks on Pull Request [#12098](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12098) have successfully passed. The PR is now fully green and awaiting human OWNER review and merge.
