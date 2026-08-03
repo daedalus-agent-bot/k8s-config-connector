@@ -357,5 +357,31 @@ def main():
     with open("summary_comment.md", "w") as f:
         f.write(summary_body)
 
+    # Post or Edit the comment on GitHub
+    print("Fetching comments from coordinator issue...")
+    cmd = ["gh", "issue", "view", str(COORDINATOR_ISSUE_NUMBER), "--json", "comments"]
+    res = subprocess.run(cmd, capture_output=True, text=True, check=True)
+    comments_data = json.loads(res.stdout) if res.stdout else {}
+    comments_list = comments_data.get("comments", [])
+    
+    existing_comment_db_id = None
+    for c in reversed(comments_list):
+        if "### Migration Progress Tracker Summary" in c.get("body", ""):
+            url = c.get("url", "")
+            m = re.search(r'#issuecomment-(\d+)', url)
+            if m:
+                existing_comment_db_id = m.group(1)
+            break
+            
+    if existing_comment_db_id:
+        print(f"Found existing comment with DB ID {existing_comment_db_id}. Editing via gh issue comment...")
+        comment_url = f"https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/{COORDINATOR_ISSUE_NUMBER}#issuecomment-{existing_comment_db_id}"
+        subprocess.run(["gh", "issue", "comment", comment_url, "-F", "summary_comment.md"], check=True)
+        print("Comment edited successfully!")
+    else:
+        print("No existing comment found. Creating new comment...")
+        subprocess.run(["gh", "issue", "comment", str(COORDINATOR_ISSUE_NUMBER), "-F", "summary_comment.md"], check=True)
+        print("Comment created successfully!")
+
 if __name__ == "__main__":
     main()

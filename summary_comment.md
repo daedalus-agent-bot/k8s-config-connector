@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 187 |
-| Pending | 56 |
+| In Progress | 196 |
+| Pending | 47 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -35,6 +35,7 @@
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #786, External Work: #774 |
 | BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11596, External Work: #5011, External Work: #723, External Work: #5944, External Work: #4994 |
+| BinaryAuthorizationAttestor | Investigation/Setup | N/A |  |  |
 | BinaryAuthorizationPolicy | Investigation/Setup | N/A |  | External Work: #4760 |
 | CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #796 |
 | CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12111, External Work: #12112 |
@@ -98,16 +99,21 @@
 | ComputeTargetVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNTunnel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| ConfigControllerInstance | Investigation/Setup | N/A |  |  |
 | ContainerAnalysisNote | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAnalysisOccurrence | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAttachedCluster | Stage 1 (Direct KRM Types) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #12144, External Work: #11911, External Work: #11785, External Work: #11647, External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #6496, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #699, External Work: #576, External Work: #477, External Work: #468, External Work: #441, External Work: #437, External Work: #401, External Work: #11914, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987 |
 | ContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | [#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886) | feynman-agent-bot | External Work: #10534, External Work: #10410, External Work: #7682, External Work: #3798, External Work: #2775, External Work: #479 |
+| DLPDeidentifyTemplate | Investigation/Setup | N/A |  |  |
+| DLPInspectTemplate | Investigation/Setup | N/A |  |  |
 | DLPJobTrigger | Investigation/Setup | N/A |  | External Work: #7417 |
+| DLPStoredInfoType | Investigation/Setup | N/A |  |  |
 | DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #844 |
 | DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| DataFusionInstance | Investigation/Setup | N/A |  |  |
 | DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #6989, External Work: #814 |
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
@@ -138,6 +144,9 @@
 | IAPBrand | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | IAPIdentityAwareProxyClient | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformConfig | Investigation/Setup | N/A |  | External Work: #9416 |
+| IdentityPlatformOAuthIDPConfig | Investigation/Setup | N/A |  |  |
+| IdentityPlatformTenant | Investigation/Setup | N/A |  |  |
+| IdentityPlatformTenantOAuthIDPConfig | Investigation/Setup | N/A |  |  |
 | KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10682 |
 | KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10681 |
@@ -203,7 +212,6 @@
 | Kind | Sort Order | Default Controller | Dependencies | Notes |
 |------|------------|--------------------|--------------|-------|
 | FirebaseProject | 99 | Terraform |  |  |
-| IdentityPlatformTenant | 106 | DCL |  |  |
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service |  |
 | AppEngineServiceSplitTraffic | 157 | Terraform |  |  |
 | AppEngineStandardAppVersion | 158 | Terraform | Service |  |
@@ -222,7 +230,6 @@
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
 | HealthcareHL7V2Store | 391 | Terraform |  |  |
-| IdentityPlatformOAuthIDPConfig | 407 | DCL |  |  |
 | OSLoginSSHPublicKey | 473 | Terraform |  |  |
 | SecurityCenterNotificationConfig | 499 | Terraform |  |  |
 | SecurityCenterSource | 500 | Terraform |  |  |
