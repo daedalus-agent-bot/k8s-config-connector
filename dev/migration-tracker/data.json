@@ -21,7 +21,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7286, External Work: #7290",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7286, External Work: #7290",
     "sortOrder": 125,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -40,7 +40,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -50,7 +50,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 126,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10451, External Work: #6825",
+    "notes": "External Work: #6814",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -139,7 +139,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7285, External Work: #9601",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -166,7 +166,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10451, External Work: #4820, External Work: #4821, External Work: #6821",
+    "notes": "External Work: #4820, External Work: #4821, External Work: #6821",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -193,7 +193,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10451",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8950",
     "sortOrder": 137,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10451, External Work: #4754",
+    "notes": "External Work: #4754, External Work: #8951",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -252,7 +252,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6992",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -359,7 +359,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -369,7 +369,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 145,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -415,7 +415,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -425,7 +425,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 149,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -472,7 +472,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -482,7 +482,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 153,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -509,12 +509,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5705, External Work: #5706",
+    "notes": "External Work: #5705",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -541,7 +541,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -817,7 +817,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -827,7 +827,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 185,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -858,7 +858,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #671",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 186,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -887,7 +887,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11197",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11197",
     "sortOrder": 189,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100",
@@ -917,7 +917,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 190,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1038,7 +1038,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #371, External Work: #6971, External Work: #7112, External Work: #766, External Work: #774, External Work: #786",
+    "notes": "External Work: #774, External Work: #786",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "",
@@ -1067,7 +1067,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6971, External Work: #8799",
+    "notes": "External Work: #8799",
     "sortOrder": 51,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4994, External Work: #5944, External Work: #723",
+    "notes": "External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1125,7 +1125,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 198,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1154,7 +1154,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4760",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4760",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #370, External Work: #6869, External Work: #731, External Work: #796",
+    "notes": "Missing _reference.go or _identity.go, External Work: #370, External Work: #796",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1419,7 +1419,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1082, External Work: #3429, External Work: #718, External Work: #793, External Work: #886",
+    "notes": "Missing _reference.go or _identity.go, External Work: #886",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1449,7 +1449,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 225,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1532,7 +1532,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #695, External Work: #956",
+    "notes": "Missing _reference.go or _identity.go, External Work: #956",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1622,7 +1622,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1652,7 +1652,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7330, External Work: #7578",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1686,7 +1686,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3194, External Work: #3520, External Work: #505, External Work: #6975, External Work: #7736, External Work: #8857",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
@@ -1808,7 +1808,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 236,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1837,7 +1837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #383, External Work: #570, External Work: #671",
+    "notes": "External Work: #570",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1895,7 +1895,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 238,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1964,7 +1964,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4541, External Work: #7316",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1993,7 +1993,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4541",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9980",
     "sortOrder": 242,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2048,7 +2048,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10923 is closed but direct controller is not registered in code, External Work: #671",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #10923 is closed but direct controller is not registered in code",
     "sortOrder": 243,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2075,7 +2075,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #505, External Work: #671",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 12,
     "downstreamCount": 12,
     "trackingIssue": "",
@@ -2202,7 +2202,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10924 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #10924 is closed but direct controller is not registered in code",
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -2231,7 +2231,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9988",
     "sortOrder": 244,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2263,7 +2263,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5958, External Work: #6168, External Work: #671",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5958, External Work: #6168, External Work: #9989",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -2292,7 +2292,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 33,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -2311,7 +2311,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -2321,7 +2321,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 246,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2350,7 +2350,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9992",
     "sortOrder": 247,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2406,10 +2406,10 @@
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
-      "tests": true
+      "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 250,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938",
@@ -2439,7 +2439,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6132",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6132",
     "sortOrder": 14,
     "downstreamCount": 11,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759",
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2498,7 +2498,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9998",
     "sortOrder": 252,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2528,7 +2528,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11783, External Work: #11784, External Work: #4942",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999, External Work: #11783, External Work: #11784",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2557,7 +2557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2587,7 +2587,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5608",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5608, External Work: #10002",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2617,7 +2617,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #10003",
     "sortOrder": 256,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2671,7 +2671,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2698,7 +2698,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10007",
     "sortOrder": 258,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2725,7 +2725,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10010",
     "sortOrder": 259,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2754,7 +2754,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 260,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2784,7 +2784,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10012",
     "sortOrder": 261,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2811,7 +2811,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 262,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2840,7 +2840,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 263,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2870,7 +2870,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10015",
     "sortOrder": 553,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2901,7 +2901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7736",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10017",
     "sortOrder": 264,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2920,7 +2920,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -2930,7 +2930,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 265,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2949,7 +2949,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -2959,7 +2959,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 266,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3137,7 +3137,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #10846 is closed but direct controller is not registered in code",
     "sortOrder": 270,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3167,7 +3167,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10029",
     "sortOrder": 271,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3194,7 +3194,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #476, External Work: #505, External Work: #803",
+    "notes": "Missing _reference.go or _identity.go, External Work: #476, External Work: #505, External Work: #803",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3279,7 +3279,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 54,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3306,7 +3306,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #402",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10037",
     "sortOrder": 273,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3335,7 +3335,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #402, External Work: #687",
+    "notes": "Missing _reference.go or _identity.go, External Work: #402, External Work: #687",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3364,7 +3364,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #11356",
     "sortOrder": 35,
     "downstreamCount": 4,
     "trackingIssue": "",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #571, External Work: #5953, External Work: #678, External Work: #7112",
+    "notes": "External Work: #5953",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543",
@@ -3422,7 +3422,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 55,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3451,7 +3451,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #671",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 56,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #476, External Work: #505, External Work: #5399, External Work: #671, External Work: #6788, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #5399, External Work: #6788, External Work: #8480",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3512,7 +3512,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #671",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 275,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3542,7 +3542,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 276,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3572,7 +3572,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 58,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3631,7 +3631,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 26,
     "downstreamCount": 5,
     "trackingIssue": "",
@@ -3692,7 +3692,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 39,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -3723,7 +3723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 60,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3753,7 +3753,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 277,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3780,7 +3780,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 280,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3799,7 +3799,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3809,7 +3809,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 281,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3838,7 +3838,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1508",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 282,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #1792, External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #571, External Work: #576, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #699, External Work: #7009, External Work: #7284, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000",
+    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #10458, External Work: #10459, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #11322, External Work: #11620, External Work: #2775, External Work: #3798, External Work: #479, External Work: #5529, External Work: #619, External Work: #7262, External Work: #7682, External Work: #9000",
+    "notes": "External Work: #479, External Work: #2775, External Work: #3798, External Work: #7682, External Work: #10410, External Work: #10534",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -3931,7 +3931,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 288,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3960,7 +3960,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 93,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -3991,7 +3991,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7417",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7417",
     "sortOrder": 290,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4020,7 +4020,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 291,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #837, External Work: #844",
+    "notes": "External Work: #844, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4160,7 +4160,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4170,7 +4170,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 295,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4258,7 +4258,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 299,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #5093, External Work: #6989, External Work: #8022, External Work: #8023, External Work: #814, External Work: #9000",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #6989, External Work: #8023, External Work: #9000, External Work: #10461",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -4418,7 +4418,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 326,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4476,7 +4476,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1476, External Work: #1507",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1476",
     "sortOrder": 330,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4659,7 +4659,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4669,7 +4669,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #882",
+    "notes": "",
     "sortOrder": 341,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4800,7 +4800,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4810,7 +4810,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 356,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4840,7 +4840,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 65,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -4871,7 +4871,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 359,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4901,7 +4901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 360,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4930,7 +4930,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 98,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -4960,7 +4960,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 361,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4992,7 +4992,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 367,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5051,7 +5051,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2291, External Work: #691",
+    "notes": "External Work: #691, External Work: #2291",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731",
@@ -5070,7 +5070,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5080,7 +5080,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 370,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5267,7 +5267,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #882",
+    "notes": "",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11648, External Work: #402, External Work: #405, External Work: #465, External Work: #4724, External Work: #5542, External Work: #5572, External Work: #6349, External Work: #6419, External Work: #7006, External Work: #7009, External Work: #7745, External Work: #9604",
+    "notes": "External Work: #405, External Work: #9481",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5361,7 +5361,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1078, External Work: #11505, External Work: #6471",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5388,7 +5388,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1078, External Work: #2553, External Work: #6471, External Work: #8960",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 67,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -5554,7 +5554,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 392,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5581,7 +5581,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7649",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7649",
     "sortOrder": 393,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5608,7 +5608,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #338",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 394,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5666,7 +5666,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2697, External Work: #2873, External Work: #4666, External Work: #709, External Work: #7650, External Work: #766, External Work: #821",
+    "notes": "Missing _reference.go or _identity.go, External Work: #2873, External Work: #7650",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5696,7 +5696,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1082, External Work: #2873, External Work: #383, External Work: #384, External Work: #404, External Work: #541, External Work: #543, External Work: #5825, External Work: #6027, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #9714",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #6027",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #384, External Work: #425, External Work: #4754, External Work: #5377, External Work: #543, External Work: #6027, External Work: #709, External Work: #760, External Work: #772, External Work: #8533",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #760",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5752,7 +5752,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #425, External Work: #6675, External Work: #8533",
+    "notes": "External Work: #425, External Work: #3338, External Work: #6675",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5779,7 +5779,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 103,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5808,7 +5808,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 400,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5837,7 +5837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1839",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1839",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5867,7 +5867,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7737",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 401,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5923,7 +5923,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 402,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5952,7 +5952,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9416",
     "sortOrder": 404,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6037,7 +6037,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 407,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6093,7 +6093,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 106,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6180,7 +6180,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 411,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6237,7 +6237,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 413,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6292,7 +6292,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10682",
     "sortOrder": 416,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6319,7 +6319,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10681",
     "sortOrder": 417,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6506,7 +6506,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 426,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5641, External Work: #589, External Work: #648, External Work: #656, External Work: #6991",
+    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6562,7 +6562,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6154",
+    "notes": "External Work: #10867",
     "sortOrder": 108,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6645,7 +6645,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7684, External Work: #8653",
+    "notes": "",
     "sortOrder": 434,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6674,7 +6674,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5559, External Work: #699",
+    "notes": "",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6704,7 +6704,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5559, External Work: #764",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5559, External Work: #10147",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2469, External Work: #5714",
+    "notes": "External Work: #2469, External Work: #5714, External Work: #9566",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6763,7 +6763,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10450",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6793,7 +6793,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10450",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 442,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6822,7 +6822,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4980, External Work: #5077",
+    "notes": "External Work: #5077",
     "sortOrder": 445,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6880,7 +6880,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 454,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6899,7 +6899,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6909,7 +6909,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 455,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6928,7 +6928,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -6938,7 +6938,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 456,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6967,7 +6967,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7277",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7277",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612",
@@ -6996,7 +6996,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 458,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7026,7 +7026,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3520, External Work: #602, External Work: #603",
+    "notes": "Missing _reference.go or _identity.go, External Work: #3520",
     "sortOrder": 459,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7086,7 +7086,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #603, External Work: #6207",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #6207",
     "sortOrder": 461,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7115,7 +7115,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #602, External Work: #603",
+    "notes": "Missing _reference.go or _identity.go, External Work: #602",
     "sortOrder": 463,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7145,7 +7145,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 465,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7175,7 +7175,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 466,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7204,7 +7204,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 470,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
@@ -7351,7 +7351,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11613",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7383,7 +7383,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10363",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10363",
     "sortOrder": 115,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1022, External Work: #10457, External Work: #1078, External Work: #1124, External Work: #11505, External Work: #11550, External Work: #11641, External Work: #11689, External Work: #11760, External Work: #11911, External Work: #12038, External Work: #12111, External Work: #12112, External Work: #12174, External Work: #1408, External Work: #1734, External Work: #1839, External Work: #1876, External Work: #2188, External Work: #2416, External Work: #2606, External Work: #2737, External Work: #2894, External Work: #321, External Work: #3338, External Work: #338, External Work: #3520, External Work: #362, External Work: #383, External Work: #388, External Work: #402, External Work: #404, External Work: #425, External Work: #437, External Work: #4460, External Work: #4541, External Work: #4597, External Work: #4615, External Work: #4666, External Work: #4715, External Work: #4753, External Work: #4757, External Work: #4833, External Work: #4842, External Work: #4982, External Work: #505, External Work: #5091, External Work: #5098, External Work: #5183, External Work: #5240, External Work: #5260, External Work: #5399, External Work: #5424, External Work: #5478, External Work: #548, External Work: #5494, External Work: #5502, External Work: #5572, External Work: #564, External Work: #566, External Work: #570, External Work: #5713, External Work: #5721, External Work: #5825, External Work: #5888, External Work: #589, External Work: #5983, External Work: #602, External Work: #6027, External Work: #603, External Work: #6060, External Work: #6063, External Work: #6069, External Work: #6073, External Work: #6154, External Work: #619, External Work: #6412, External Work: #6442, External Work: #6486, External Work: #6515, External Work: #654, External Work: #665, External Work: #6686, External Work: #671, External Work: #678, External Work: #681, External Work: #6842, External Work: #6849, External Work: #687, External Work: #691, External Work: #6968, External Work: #697, External Work: #698, External Work: #700, External Work: #7009, External Work: #707, External Work: #709, External Work: #7112, External Work: #714, External Work: #720, External Work: #740, External Work: #754, External Work: #7656, External Work: #7684, External Work: #7700, External Work: #772, External Work: #7737, External Work: #786, External Work: #793, External Work: #802, External Work: #8063, External Work: #8065, External Work: #8067, External Work: #808, External Work: #814, External Work: #818, External Work: #831, External Work: #837, External Work: #8386, External Work: #8390, External Work: #8391, External Work: #8397, External Work: #8398, External Work: #844, External Work: #8480, External Work: #855, External Work: #8653, External Work: #8664, External Work: #8671, External Work: #8678, External Work: #8708, External Work: #8710, External Work: #8717, External Work: #8718, External Work: #8719, External Work: #8721, External Work: #8727, External Work: #8729, External Work: #8797, External Work: #8802, External Work: #8857, External Work: #886, External Work: #8960, External Work: #9247, External Work: #9380",
+    "notes": "External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7471,7 +7471,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5702, External Work: #5705, External Work: #5706",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5702",
     "sortOrder": 479,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7500,7 +7500,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5700, External Work: #5701, External Work: #5702, External Work: #5705, External Work: #5706",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5700",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7529,7 +7529,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5701, External Work: #5702, External Work: #5705, External Work: #5706",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5701",
     "sortOrder": 481,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7710,7 +7710,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 487,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7740,7 +7740,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #566, External Work: #6984",
+    "notes": "Missing _reference.go or _identity.go, External Work: #566",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3072, External Work: #5554, External Work: #6686, External Work: #772, External Work: #813, External Work: #8710, External Work: #9714",
+    "notes": "External Work: #772, External Work: #813, External Work: #5554, External Work: #6686, External Work: #9714",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7831,7 +7831,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #403, External Work: #548",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 492,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7858,7 +7858,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 493,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7885,7 +7885,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11862, External Work: #11863, External Work: #2416, External Work: #548, External Work: #7148, External Work: #803, External Work: #8796",
+    "notes": "Missing _reference.go or _identity.go, External Work: #548, External Work: #2416, External Work: #7148, External Work: #8796, External Work: #11862, External Work: #11863",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7962,7 +7962,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7972,7 +7972,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10449",
+    "notes": "",
     "sortOrder": 499,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7989,7 +7989,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -7999,7 +7999,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10449",
+    "notes": "",
     "sortOrder": 500,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8149,7 +8149,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11550, External Work: #4753",
+    "notes": "External Work: #11599",
     "sortOrder": 72,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -8178,7 +8178,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4924",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 503,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8197,7 +8197,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8207,7 +8207,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 505,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8236,7 +8236,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #796",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6319",
     "sortOrder": 506,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8266,7 +8266,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4617, External Work: #5359",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5359",
     "sortOrder": 119,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11322, External Work: #11550, External Work: #11677, External Work: #2894, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #5888, External Work: #6073, External Work: #6207, External Work: #710, External Work: #7112, External Work: #750, External Work: #8710, External Work: #886, External Work: #9714",
+    "notes": "External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #11322",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
@@ -8353,7 +8353,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #681",
+    "notes": "Missing _reference.go or _identity.go, External Work: #681",
     "sortOrder": 513,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8382,7 +8382,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 514,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8401,7 +8401,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8411,7 +8411,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 516,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8440,7 +8440,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #444",
+    "notes": "Missing _reference.go or _identity.go, External Work: #444",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8498,7 +8498,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1344, External Work: #681",
+    "notes": "Missing _reference.go or _identity.go, External Work: #681",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8517,7 +8517,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8527,7 +8527,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 521,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8673,7 +8673,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 529,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8703,7 +8703,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7985",
+    "notes": "External Work: #7985, External Work: #9698, External Work: #11137",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8734,7 +8734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7987",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7987",
     "sortOrder": 534,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8817,7 +8817,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12111, External Work: #12112",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8875,7 +8875,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12176",
+    "notes": "External Work: #12008, External Work: #12176",
     "sortOrder": 545,
     "downstreamCount": 0,
     "trackingIssue": "",
