@@ -50,12 +50,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 126,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "apikeys",
@@ -514,7 +514,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "appengine",
@@ -541,7 +541,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -685,7 +685,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -714,7 +714,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -743,7 +743,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquerydatapolicy",
@@ -772,7 +772,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -1072,7 +1072,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "billingbudgets",
@@ -1159,7 +1159,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "certificatemanager",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #796, External Work: #731, External Work: #370",
+    "notes": "Missing _reference.go or _identity.go, External Work: #796, External Work: #731, External Work: #370",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1508,7 +1508,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudscheduler",
@@ -1686,12 +1686,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11605, External Work: #8857, External Work: #6975, External Work: #7736",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11605, External Work: #8857, External Work: #6975, External Work: #7736",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1842,7 +1842,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1871,7 +1871,7 @@
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -2075,12 +2075,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 12,
     "downstreamCount": 12,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3021,7 +3021,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3050,7 +3050,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3194,7 +3194,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #803, External Work: #505, External Work: #476",
+    "notes": "Missing _reference.go or _identity.go, External Work: #803, External Work: #505, External Work: #476",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3843,7 +3843,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 1 (Direct KRM Types)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "container",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12174, External Work: #12144, External Work: #11911, External Work: #11647, External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #699, External Work: #576, External Work: #477, External Work: #468, External Work: #441, External Work: #401, External Work: #361, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
+    "notes": "External Work: #12174, External Work: #12144, External Work: #11911, External Work: #11647, External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #6496, External Work: #6429, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #699, External Work: #576, External Work: #477, External Work: #468, External Work: #441, External Work: #437, External Work: #401, External Work: #361, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -3996,7 +3996,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dns",
@@ -4481,7 +4481,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "deploymentmanager",
@@ -4510,7 +4510,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4730,7 +4730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4759,7 +4759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4788,7 +4788,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "documentai",
@@ -5114,7 +5114,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasedatabase",
@@ -5143,7 +5143,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasehosting",
@@ -5199,7 +5199,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebase",
@@ -5226,7 +5226,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasestorage",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11684, External Work: #11341, External Work: #9481, External Work: #5007, External Work: #11677, External Work: #5474, External Work: #5434, External Work: #5008",
+    "notes": "External Work: #11684, External Work: #11341, External Work: #9481, External Work: #5007, External Work: #405, External Work: #11677, External Work: #6018, External Work: #6017, External Work: #5474, External Work: #5434, External Work: #5008",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5361,12 +5361,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #4597, External Work: #1078",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6471, External Work: #4597, External Work: #2553, External Work: #1078, External Work: #5801, External Work: #5788",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -5388,12 +5388,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 67,
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -5476,7 +5476,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -5666,12 +5666,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6027, External Work: #2873, External Work: #1082, External Work: #855, External Work: #793, External Work: #772, External Work: #709, External Work: #404, External Work: #384, External Work: #7650",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6027, External Work: #2873, External Work: #1082, External Work: #855, External Work: #793, External Work: #772, External Work: #709, External Work: #404, External Work: #384, External Work: #7650, External Work: #5739",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "iam",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6675, External Work: #3338, External Work: #760, External Work: #425, External Work: #384",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #6675, External Work: #3338, External Work: #760, External Work: #425, External Work: #384",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5986,7 +5986,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6015,7 +6015,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6482,7 +6482,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "memcache",
@@ -6880,7 +6880,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 454,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7238,7 +7238,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 2 (Identity & Reference Types)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -7267,7 +7267,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "oslogin",
@@ -7294,7 +7294,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -7351,12 +7351,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11613, External Work: #10363",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11613, External Work: #10363",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11197, External Work: #11133, External Work: #11034, External Work: #10037, External Work: #5721, External Work: #2188, External Work: #818, External Work: #740, External Work: #687, External Work: #654, External Work: #402, External Work: #388, External Work: #5240",
+    "notes": "External Work: #11197, External Work: #11133, External Work: #11034, External Work: #10037, External Work: #5888, External Work: #5721, External Work: #5098, External Work: #4715, External Work: #2188, External Work: #1734, External Work: #1408, External Work: #818, External Work: #740, External Work: #720, External Work: #687, External Work: #654, External Work: #526, External Work: #505, External Work: #402, External Work: #388, External Work: #6968, External Work: #6849, External Work: #5240",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7500,7 +7500,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5700",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "serviceusage",
@@ -8266,7 +8266,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5359",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5359",
     "sortOrder": 119,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -8673,7 +8673,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 529,
     "downstreamCount": 0,
     "trackingIssue": "",
