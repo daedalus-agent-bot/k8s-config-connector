@@ -13,15 +13,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7286, External Work: #7290",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 125,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -40,22 +40,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 126,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "apikeys",
@@ -107,10 +107,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "External Work: #8948, External Work: #7285, External Work: #9601",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -131,15 +131,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8948, External Work: #7285, External Work: #9601",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -163,10 +163,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4820, External Work: #4821",
+    "notes": "External Work: #4821, External Work: #4820",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "",
@@ -185,12 +185,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #8950",
@@ -219,13 +219,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #6992, External Work: #8951, External Work: #8952",
+    "notes": "External Work: #8952, External Work: #8951, External Work: #6992, External Work: #4754",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -244,15 +244,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8952, External Work: #6992",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -275,10 +275,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -336,10 +336,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -359,14 +359,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -392,10 +392,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -415,14 +415,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -449,10 +449,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -472,14 +472,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -509,12 +509,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5705",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5705",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -536,12 +536,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5706",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5706",
     "sortOrder": 155,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "appengine",
@@ -565,7 +565,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 156,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -592,7 +592,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 157,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -621,7 +621,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 158,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -680,7 +680,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 173,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -709,7 +709,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 174,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -738,7 +738,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 175,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -757,22 +757,22 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": false,
       "controller": false,
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 183,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "bigquery",
@@ -820,8 +820,8 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -850,9 +850,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -884,7 +884,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #11197",
@@ -909,9 +909,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -1032,13 +1032,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #774, External Work: #786",
+    "notes": "External Work: #786, External Work: #774",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "",
@@ -1063,7 +1063,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1072,7 +1072,7 @@
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "billingbudgets",
@@ -1093,10 +1093,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11596, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #723",
+    "notes": "External Work: #11596, External Work: #5011, External Work: #723, External Work: #5944, External Work: #4994",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1117,12 +1117,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -1146,12 +1146,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
-      "controller": false,
-      "tests": false
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #4760",
@@ -1159,7 +1159,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "certificatemanager",
@@ -1273,7 +1273,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 211,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1300,7 +1300,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 212,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1329,7 +1329,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 213,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1353,14 +1353,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #370, External Work: #731, External Work: #796",
+    "notes": "External Work: #796, External Work: #731, External Work: #370",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1389,7 +1389,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12111, External Work: #12112",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12192, External Work: #12111, External Work: #12112",
     "sortOrder": 223,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1411,12 +1411,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #886",
@@ -1441,12 +1441,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -1476,7 +1476,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 226,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1503,7 +1503,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 227,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1524,12 +1524,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #956",
@@ -1614,15 +1614,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9958, External Work: #7578, External Work: #7330",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -1644,15 +1644,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9958, External Work: #7578, External Work: #7330",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1678,20 +1678,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11605, External Work: #6975, External Work: #7736, External Work: #8857",
+    "notes": "External Work: #11605, External Work: #8857, External Work: #6975, External Work: #7736",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1800,12 +1800,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -1833,16 +1833,16 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5440, External Work: #570",
+    "notes": "External Work: #570, External Work: #5440",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1862,8 +1862,8 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Tracking issue #10884 is closed but direct controller is not registered in code, External Work: #5440",
@@ -1871,7 +1871,7 @@
     "downstreamCount": 4,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -1887,12 +1887,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -1956,15 +1956,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9980, External Work: #9978, External Work: #4541, External Work: #7316",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -1985,12 +1985,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #9980",
@@ -2040,12 +2040,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, Tracking issue #10923 is closed but direct controller is not registered in code",
@@ -2068,19 +2068,19 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 12,
     "downstreamCount": 12,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -2194,12 +2194,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, Tracking issue #10924 is closed but direct controller is not registered in code",
@@ -2223,12 +2223,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #9988",
@@ -2255,15 +2255,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5958, External Work: #6168, External Work: #9989",
+    "notes": "Missing _reference.go or _identity.go, External Work: #9989, External Work: #6168, External Work: #5958",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "",
@@ -2284,12 +2284,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2311,14 +2311,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2342,12 +2342,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #9992",
@@ -2401,12 +2401,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #11759, External Work: #6132",
@@ -2431,12 +2431,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #6132",
@@ -2460,15 +2460,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11783, External Work: #11784, External Work: #4942, External Work: #9998, External Work: #9999",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11783, External Work: #9999, External Work: #9998, External Work: #4942, External Work: #11784",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2490,12 +2490,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #9998",
@@ -2520,15 +2520,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11783, External Work: #11784, External Work: #4942, External Work: #9999",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11783, External Work: #9999, External Work: #4942, External Work: #11784",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2550,11 +2550,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10002, External Work: #5608",
@@ -2579,12 +2579,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10002, External Work: #5608",
@@ -2614,7 +2614,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #10003",
@@ -2641,7 +2641,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Tracking issue #10944 is closed but direct controller is not registered in code",
@@ -2664,14 +2664,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10007, External Work: #10010",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10010, External Work: #10007",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -2690,12 +2690,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10007",
@@ -2717,12 +2717,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10010",
@@ -2746,12 +2746,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2776,12 +2776,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10012",
@@ -2803,12 +2803,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2832,12 +2832,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
+      "gen-types": true,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2862,12 +2862,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10015",
@@ -2893,12 +2893,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10017",
@@ -2923,11 +2923,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -2949,14 +2949,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3012,8 +3012,8 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -3021,7 +3021,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3041,8 +3041,8 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #10029",
@@ -3050,7 +3050,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "compute",
@@ -3104,7 +3104,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Tracking issue #10749 is closed but direct controller is not registered in code",
@@ -3129,12 +3129,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, Tracking issue #10846 is closed but direct controller is not registered in code",
@@ -3159,12 +3159,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10029",
@@ -3186,15 +3186,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #476, External Work: #505, External Work: #803",
+    "notes": "External Work: #803, External Work: #505, External Work: #476",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3271,12 +3271,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3298,12 +3298,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10037",
@@ -3327,15 +3327,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #402, External Work: #687",
+    "notes": "Missing _reference.go or _identity.go, External Work: #687, External Work: #402",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -3361,7 +3361,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #11356",
@@ -3390,7 +3390,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #5953",
@@ -3414,12 +3414,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3443,12 +3443,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3475,13 +3475,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #5399, External Work: #6788, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #8480, External Work: #6788, External Work: #5399, External Work: #4602",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3504,12 +3504,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3534,12 +3534,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3564,12 +3564,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3623,12 +3623,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3684,12 +3684,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3715,12 +3715,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3745,12 +3745,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3772,12 +3772,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3799,14 +3799,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10458, External Work: #10459, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #1792, External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #576, External Work: #5901, External Work: #6429, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #699, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813",
+    "notes": "External Work: #12174, External Work: #12144, External Work: #11911, External Work: #11647, External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #699, External Work: #576, External Work: #477, External Work: #468, External Work: #441, External Work: #401, External Work: #361, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10410, External Work: #10534, External Work: #2775, External Work: #3798, External Work: #479, External Work: #7682",
+    "notes": "External Work: #10534, External Work: #10410, External Work: #7682, External Work: #3798, External Work: #2775, External Work: #479",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886",
@@ -3921,7 +3921,7 @@
       "KMSCryptoKey",
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3950,7 +3950,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -3996,7 +3996,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dlp",
@@ -4010,7 +4010,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "dns",
@@ -4105,13 +4105,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #837, External Work: #844, External Work: #9777",
+    "notes": "External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #844, External Work: #837",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4164,10 +4164,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4193,10 +4193,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4225,7 +4225,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -4250,12 +4250,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #5609, External Work: #8023, External Work: #814, External Work: #9000",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #5609",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -4410,9 +4410,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -4447,7 +4447,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 327,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4468,12 +4468,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #1476",
@@ -4481,7 +4481,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "deploymentmanager",
@@ -4505,7 +4505,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 331,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4532,7 +4532,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 336,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4561,7 +4561,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 337,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4588,7 +4588,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 338,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4615,7 +4615,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 339,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4642,7 +4642,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 340,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4669,7 +4669,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 341,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4696,7 +4696,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 342,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4725,7 +4725,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 344,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4754,7 +4754,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 345,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4783,7 +4783,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 347,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -4800,14 +4800,14 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4832,12 +4832,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4863,12 +4863,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4893,12 +4893,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4922,12 +4922,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4952,12 +4952,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -4984,12 +4984,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -5013,12 +5013,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5045,10 +5045,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #2291, External Work: #691",
@@ -5070,14 +5070,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -5109,7 +5109,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 371,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5138,7 +5138,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 372,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5165,7 +5165,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 373,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5194,7 +5194,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 374,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5221,7 +5221,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 99,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -5250,7 +5250,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 375,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5329,10 +5329,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9481",
+    "notes": "External Work: #11684, External Work: #11341, External Work: #9481, External Work: #5007, External Work: #11677, External Work: #5474, External Work: #5434, External Work: #5008",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "",
@@ -5353,20 +5353,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1078, External Work: #2553, External Work: #4597, External Work: #5788, External Work: #5801, External Work: #6471",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4597, External Work: #1078",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "gkehub",
@@ -5380,20 +5380,20 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 67,
     "downstreamCount": 2,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "healthcare",
@@ -5415,7 +5415,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 387,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5442,7 +5442,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 388,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5471,7 +5471,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 389,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5498,7 +5498,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 390,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5525,7 +5525,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 391,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5546,9 +5546,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5573,9 +5573,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5600,9 +5600,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5658,20 +5658,20 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
+      "controller": true,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1082, External Work: #2873, External Work: #384, External Work: #404, External Work: #5739, External Work: #6027, External Work: #709, External Work: #7650, External Work: #772, External Work: #793, External Work: #855",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6027, External Work: #2873, External Work: #1082, External Work: #855, External Work: #793, External Work: #772, External Work: #709, External Work: #404, External Work: #384, External Work: #7650",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "iam",
@@ -5688,15 +5688,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1082, External Work: #384, External Work: #404, External Work: #6027, External Work: #709, External Work: #772, External Work: #793, External Work: #855",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6027, External Work: #1082, External Work: #855, External Work: #793, External Work: #772, External Work: #709, External Work: #404, External Work: #384",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5716,14 +5716,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11409, External Work: #3338, External Work: #384, External Work: #425, External Work: #6675, External Work: #760",
+    "notes": "External Work: #6675, External Work: #3338, External Work: #760, External Work: #425, External Work: #384",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735",
@@ -5746,13 +5746,13 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #3338, External Work: #425, External Work: #6675",
+    "notes": "External Work: #6675, External Work: #3338, External Work: #425",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -5771,9 +5771,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5800,9 +5800,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5829,9 +5829,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5859,9 +5859,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -5891,7 +5891,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -5915,12 +5915,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -5944,12 +5944,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #9416",
@@ -5957,7 +5957,7 @@
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 2 (Identity & Reference Types)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5981,7 +5981,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 405,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6010,7 +6010,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 406,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6029,12 +6029,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6066,7 +6066,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 408,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6085,12 +6085,12 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6122,7 +6122,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 409,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6151,7 +6151,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 410,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6172,12 +6172,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6234,7 +6234,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6286,10 +6286,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10682",
@@ -6313,10 +6313,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10681",
@@ -6477,7 +6477,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 423,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6498,12 +6498,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5641, External Work: #589, External Work: #648, External Work: #656, External Work: #6991",
+    "notes": "External Work: #6991, External Work: #656, External Work: #648, External Work: #589, External Work: #5641",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -6585,7 +6585,7 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6696,9 +6696,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2469, External Work: #5714, External Work: #9566",
+    "notes": "External Work: #9566, External Work: #5714, External Work: #2469",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6755,12 +6755,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6785,12 +6785,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6819,7 +6819,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #5077",
@@ -6845,10 +6845,10 @@
     "steps": {
       "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "",
@@ -6872,15 +6872,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 454,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -6899,14 +6899,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6928,14 +6928,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -6964,7 +6964,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #7277",
@@ -6988,12 +6988,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -7018,12 +7018,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #3520",
@@ -7078,12 +7078,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #6207",
@@ -7107,12 +7107,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #602",
@@ -7137,12 +7137,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -7167,12 +7167,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -7196,12 +7196,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -7209,7 +7209,7 @@
     "downstreamCount": 0,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939",
     "assignee": "daedalus-agent-bot",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -7262,7 +7262,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 472,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7289,7 +7289,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 473,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7343,20 +7343,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
-      "controller": false,
-      "tests": false
+      "controller": true,
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10363, External Work: #11613",
+    "notes": "External Work: #11613, External Work: #10363",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Stage 5 (Controller Implemented)"
   },
   {
     "group": "privateca",
@@ -7376,11 +7376,11 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": false,
+      "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #10363",
@@ -7439,10 +7439,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #2188, External Work: #388, External Work: #402, External Work: #5240, External Work: #654, External Work: #818",
+    "notes": "External Work: #11197, External Work: #11133, External Work: #11034, External Work: #10037, External Work: #5721, External Work: #2188, External Work: #818, External Work: #740, External Work: #687, External Work: #654, External Work: #402, External Work: #388, External Work: #5240",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "",
@@ -7463,12 +7463,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #5702",
@@ -7492,15 +7492,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5700",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7521,12 +7521,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #5701",
@@ -7702,12 +7702,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -7732,12 +7732,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #566",
@@ -7796,15 +7796,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5554, External Work: #6686, External Work: #772, External Work: #813, External Work: #9714",
+    "notes": "External Work: #9714, External Work: #6686, External Work: #5554, External Work: #813, External Work: #772",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7823,9 +7823,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7850,9 +7850,9 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -7877,15 +7877,15 @@
     "dependencies": [],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11862, External Work: #11863, External Work: #2416, External Work: #548, External Work: #7148, External Work: #8796",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11862, External Work: #8796, External Work: #2416, External Work: #548, External Work: #11863, External Work: #7148",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7972,7 +7972,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 499,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -7999,7 +7999,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 500,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8146,7 +8146,7 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "External Work: #11599",
@@ -8170,12 +8170,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -8197,14 +8197,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -8228,12 +8228,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #6319",
@@ -8258,15 +8258,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5359",
+    "notes": "External Work: #5359",
     "sortOrder": 119,
     "downstreamCount": 1,
     "trackingIssue": "",
@@ -8321,10 +8321,10 @@
       "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11322, External Work: #11770, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6207, External Work: #681, External Work: #9779",
+    "notes": "External Work: #11770, External Work: #9779, External Work: #6207, External Work: #5556, External Work: #5553, External Work: #681, External Work: #11322, External Work: #5572, External Work: #5546",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525",
@@ -8345,12 +8345,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #681",
@@ -8374,12 +8374,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -8401,14 +8401,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -8432,12 +8432,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #444",
@@ -8469,7 +8469,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 519,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8490,12 +8490,12 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go, External Work: #681",
@@ -8517,14 +8517,14 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
     "notes": "Missing _reference.go or _identity.go",
@@ -8665,15 +8665,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 529,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8703,7 +8703,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11137, External Work: #7985, External Work: #9698",
+    "notes": "External Work: #11137, External Work: #9698, External Work: #7985",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8726,9 +8726,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8751,17 +8751,17 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 539,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8778,17 +8778,17 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
-      "mocks": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
+      "mocks": true,
       "controller": false,
-      "tests": false
+      "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 540,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8809,9 +8809,9 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
@@ -8838,15 +8838,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
-      "identity-reference": false,
-      "mapper-fuzzer": false,
+      "gen-types": true,
+      "identity-reference": true,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8390",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8390",
     "sortOrder": 542,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8867,15 +8867,15 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": false,
+      "gen-types": true,
       "identity-reference": true,
-      "mapper-fuzzer": false,
+      "mapper-fuzzer": true,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12008, External Work: #12009, External Work: #12010, External Work: #12176",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12176, External Work: #12010, External Work: #12009, External Work: #12008",
     "sortOrder": 545,
     "downstreamCount": 0,
     "trackingIssue": "",
