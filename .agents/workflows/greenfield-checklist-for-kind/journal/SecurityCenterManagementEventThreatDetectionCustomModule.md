@@ -7,12 +7,13 @@
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) | Completed | 2026-07-07 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | PR Created | 2026-08-04 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Changes Requested | 2026-08-04 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates
 
+- **2026-08-06**: Monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188). Checked and confirmed that reviewer `anhdle-sso` requested changes. Successfully assigned the PR back to its author `ada-coder-bot` via the GitHub REST API to address the review feedback and resolve comments.
 - **2026-08-06**: Re-monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188). Verified that all 240+ CI checks continue to pass successfully and the PR is open, healthy, and mergeable, continuing to await human OWNER review and approval before transitioning to Step 3.
 - **2026-08-06**: Re-checked and monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188). Confirmed that the PR remains open and fully healthy, with all 240+ CI checks successfully passing. The PR continues to await human OWNER review and approval before transitioning to Step 3.
 - **2026-08-05**: Re-monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Verified that the PR remains open, healthy, and fully mergeable, and all 240+ CI checks continue to pass successfully. The PR is currently unassigned and awaits human OWNER review and approval.
