@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Changes Requested | 2026-07-29 | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Awaiting OWNER Review | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | | |
 | 3 | mockGCP generation | N/A | N/A | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
