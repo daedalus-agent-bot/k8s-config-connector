@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | CI Passed | 2026-07-29 | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Changes Requested | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | | |
 | 3 | mockGCP generation | N/A | N/A | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+* **2026-08-06**: Monitored Step 1 progress. Identified an unaddressed auto-review request from `walle-agent-bot` (recommending `KMSKeyRef` reference type instead of raw `KmsKeyName` string pointer). Re-assigned the PR back to the author `lovelace-coder-bot` to resolve the review feedback.
 * **2026-08-06**: Checked Step 1 progress. PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open with all CI checks fully passing. Continuing to wait for human OWNER review and merging.
 * **2026-07-29**: Monitored Step 1 progress. Checked all check-runs for the PR commit. All CI checks are still fully passing. PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open, awaiting human OWNER review and merging.
 * **2026-07-29**: Checked Step 1 progress. Pull Request [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open with all CI checks fully passing. Awaiting human OWNER review and merging.
