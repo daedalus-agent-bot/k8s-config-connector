@@ -1067,7 +1067,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8799",
+    "notes": "External Work: #8799, External Work: #12214",
     "sortOrder": 51,
     "downstreamCount": 2,
     "trackingIssue": "",
@@ -4385,7 +4385,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12207, External Work: #12195",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "",
@@ -8817,7 +8817,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12210, External Work: #12216",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "",
@@ -8846,7 +8846,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #8390",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12210, External Work: #8390, External Work: #12216",
     "sortOrder": 542,
     "downstreamCount": 0,
     "trackingIssue": "",

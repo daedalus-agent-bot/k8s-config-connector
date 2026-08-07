@@ -34,7 +34,7 @@
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot | Missing _reference.go or _identity.go, External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #786, External Work: #774 |
-| BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799 |
+| BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799, External Work: #12214 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11596, External Work: #5011, External Work: #723, External Work: #5944, External Work: #4994 |
 | BinaryAuthorizationAttestor | Investigation/Setup | N/A |  |  |
 | BinaryAuthorizationPolicy | Investigation/Setup | N/A |  | External Work: #4760 |
@@ -112,7 +112,7 @@
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataFusionInstance | Investigation/Setup | N/A |  |  |
-| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814 |
+| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12207, External Work: #12195 |
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
 | DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -202,8 +202,8 @@
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
 | VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
+| VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12210, External Work: #12216 |
+| VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12210, External Work: #8390, External Work: #12216 |
 | VertexAITensorboard | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12176, External Work: #12008 |
 
 ## Next Resources (Pending & Unblocked)
