@@ -7,12 +7,13 @@
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) | Completed | 2026-07-07 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Changes Requested | 2026-08-04 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Awaiting Review | 2026-08-04 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates
 
+- **2026-08-07**: Monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188). Confirmed that all 244 CI checks are passing successfully and the PR is open and fully mergeable. Verified that author `ada-coder-bot` previously pushed commit `6a42ecc82c0091f455aa6bec5081221ede8da6f1` to resolve the collaborator review feedback from `anhdle-sso`. The PR remains unassigned and is waiting for a human OWNER review and approval before transitioning to Step 3.
 - **2026-08-07**: Re-checked PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed that all 244 CI checks are successfully passing and the PR is open and fully mergeable, but the review decision remains `CHANGES_REQUESTED` with an empty assignees list. Successfully assigned the PR back to its author `ada-coder-bot` via the GitHub REST API to address the outstanding change requests and review feedback from reviewer `anhdle-sso`.
 - **2026-08-07**: Re-monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Verified that all 244 CI checks have completed successfully and are passing. The PR remains healthy, open, and fully mergeable, continuing to await human OWNER review and approval before transitioning to Step 3.
 - **2026-08-07**: Monitored PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed the PR is open, healthy, and mergeable, but the review decision is `CHANGES_REQUESTED` and assignees were empty. Successfully assigned the PR back to its author `ada-coder-bot` via the GitHub REST API to address outstanding review feedback and resolve change requests.
