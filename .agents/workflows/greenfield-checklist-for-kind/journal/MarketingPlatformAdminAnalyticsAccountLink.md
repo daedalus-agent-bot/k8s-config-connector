@@ -1,0 +1,18 @@
+## Migration Progress: MarketingPlatformAdminAnalyticsAccountLink
+
+### Current Step
+**Step 1: Direct API Types and Identity and Reference Types Pattern**
+
+### Progress Tracking Table
+
+| Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Direct API Types and Identity | [#10286](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10286) | [#11247](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11247) | PR Created | 2026-07-02 | - |
+| 2 | Direct Controller & E2E | - | - | Pending | - | - |
+| 3 | mockGCP Generation | - | - | Pending | - | - |
+| 4 | mockGCP Alignment | - | - | Pending | - | - |
+
+### Status Update Notes
+* **2026-08-08 (04:18)**: Checked PR #11247. State remains OPEN. All CI checks are completed and passing with 100% green status. However, the PR is currently in a dirty state due to merge conflicts. Assigned the PR back to the author bot @lovelace-coder-bot to resolve conflicts and update the branch.
+* **2026-07-10 (03:19)**: Checked PR #11247. State remains OPEN. Re-verified all CI checks are completed and passing with 100% green status. We continue to await human repository OWNER review, approval, and merge before transitioning to Step 2.
+* **2026-07-10 (02:43)**: Checked PR #11247. State remains OPEN. Re-verified all CI checks continue to pass successfully with 100% green status. Still awaiting repository OWNER review and merge.
