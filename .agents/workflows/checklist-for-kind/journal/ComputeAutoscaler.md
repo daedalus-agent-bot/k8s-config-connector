@@ -15,6 +15,7 @@
 | 6 | Validate Direct Promotion | [#12069](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12069) | [#12095](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12095) | PR Created | 2026-07-29 | |
 
 ## Status Updates
+* **2026-08-08** (18:05 UTC): Verified the status of Step 6 PR #12095 on GitHub. All CI checks continue to pass successfully (100% green). The PR remains healthy, open, fully mergeable, and is awaiting final human OWNER review and merge to finalize the ComputeAutoscaler migration.
 * **2026-08-08** (14:42 UTC): Checked the status of Step 6 PR #12095 on GitHub. Verified all 140+ CI checks continue to successfully pass with 100% success (all green). The PR remains healthy, open, and fully mergeable, awaiting final human OWNER review and merge to complete the migration of ComputeAutoscaler.
 * **2026-08-08** (11:00 UTC): Re-verified all CI checks on Step 6 PR #12095 on GitHub. Confirmed they are 100% green and successfully passing. The PR remains healthy, open, and fully mergeable, awaiting final human OWNER review and merge to complete the ComputeAutoscaler migration.
 * **2026-08-08** (06:45 UTC): Re-verified all CI checks on Step 6 PR #12095 on GitHub. Confirmed they are 100% green and successfully passing. The PR remains healthy, open, and fully mergeable, awaiting final human OWNER review and merge to complete the ComputeAutoscaler migration.
