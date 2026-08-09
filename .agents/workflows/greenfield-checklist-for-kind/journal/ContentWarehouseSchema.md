@@ -1,0 +1,17 @@
+# Migration Progress for ContentWarehouseSchema
+
+## Current Step
+Step 2: Direct Controller, E2E fixtures and Fuzzer
+
+## Progress Tracking Table
+| Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|
+| Step 1: Direct API Types and Identity and Reference Types Pattern | [#8667](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8667) | [#8686](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8686) | Completed | 2026-05-26 | 2026-06-09 |
+| Step 2: Direct Controller, E2E fixtures and Fuzzer | [#11429](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11429) | [#11433](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11433) | PR Created | 2026-07-07 | — |
+| Step 3: MockGCP Generation | Pending | — | Pending | — | — |
+| Step 4: MockGCP Alignment with RealGCP | Pending | — | Pending | — | — |
+
+## Status Update Notes
+- **2026-08-09**: Initialized the migration tracking journal. Checked PR #11433 and found that the automated investigation is paused with `overseer/stop` due to unrelated pre-existing fuzzer and mapper flakes on the master branch (`SslPolicy` and `Repository`). The PR itself has passed all custom checks for `ContentWarehouseSchema` successfully. Awaiting human OWNER review/approval to merge the PR and unblock the migration.
+- **2026-07-07**: Step 2 issue #11429 was opened, and PR #11433 was created by the developer bot implementing the direct controller and E2E fixtures.
+- **2026-06-09**: Step 1 PR #8686 was successfully merged, promoting the KRM types, identity files, and generate.sh.
