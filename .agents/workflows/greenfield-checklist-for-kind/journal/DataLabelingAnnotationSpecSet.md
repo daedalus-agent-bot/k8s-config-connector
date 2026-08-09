@@ -1,0 +1,22 @@
+# Greenfield Migration Journal: DataLabelingAnnotationSpecSet
+
+## Current Step
+Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Created - Awaiting approval & merge)
+
+## Progress Tracking
+
+| Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
+|---|---|---|---|---|---|
+| Step 1: Direct API Types, Identity & Reference Types | [#9267](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9267) | [#9318](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9318) | Completed | 2026-06-05 | 2026-06-10 |
+| Step 2: Direct Controller, E2E fixtures & Fuzzer | [#11478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11478) | [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) | PR Created | 2026-07-08 | - |
+| Step 3: mockGCP generation | - | - | Not Started | - | - |
+| Step 4: MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
+
+## Status Update Notes
+
+### 2026-08-09
+- Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
+- Pull Request [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) is currently OPEN.
+- All CI check-runs on the PR have completed and successfully passed.
+- The PR has `do-not-merge/hold` and `overseer/stop` labels attached and was placed on `/hold` by human owner `acpana`.
+- Because the PR is still open and not yet merged, we remain at Step 2. We will wait for the PR to be merged before starting Step 3.
