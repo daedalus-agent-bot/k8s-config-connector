@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 194 |
-| Pending | 49 |
+| In Progress | 187 |
+| Pending | 56 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -28,7 +28,6 @@
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | AppEngineDomainMapping | Investigation/Setup | N/A |  | External Work: #5705 |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | External Work: #5706 |
-| BigQueryDataPolicyDataPolicy | Investigation/Setup | N/A |  |  |
 | BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot | Missing _reference.go or _identity.go, External Work: #11197 |
@@ -36,10 +35,9 @@
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #786, External Work: #774 |
 | BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799, External Work: #12214 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11596, External Work: #5011, External Work: #723, External Work: #5944, External Work: #4994 |
-| BinaryAuthorizationAttestor | Investigation/Setup | N/A |  |  |
 | BinaryAuthorizationPolicy | Investigation/Setup | N/A |  | External Work: #4760 |
 | CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #796, External Work: #370 |
-| CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12192, External Work: #12111, External Work: #12112 |
+| CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12192 |
 | CloudFunctionsFunction | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #886 |
 | CloudIDSEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | CloudSchedulerJob | Investigation/Setup | N/A |  | External Work: #956 |
@@ -100,7 +98,6 @@
 | ComputeTargetVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNTunnel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ConfigControllerInstance | Investigation/Setup | N/A |  |  |
 | ContainerAnalysisNote | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAnalysisOccurrence | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAttachedCluster | Stage 1 (Direct KRM Types) | N/A |  | Missing _reference.go or _identity.go |
@@ -111,8 +108,7 @@
 | DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| DataFusionInstance | Investigation/Setup | N/A |  |  |
-| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12207, External Work: #12195 |
+| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #12241, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12233, External Work: #12207, External Work: #12195 |
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
 | DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -142,9 +138,6 @@
 | IAPBrand | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | IAPIdentityAwareProxyClient | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformConfig | Investigation/Setup | N/A |  | External Work: #9416 |
-| IdentityPlatformOAuthIDPConfig | Investigation/Setup | N/A |  |  |
-| IdentityPlatformTenant | Investigation/Setup | N/A |  |  |
-| IdentityPlatformTenantOAuthIDPConfig | Investigation/Setup | N/A |  |  |
 | KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10682 |
 | KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10681 |
@@ -190,7 +183,7 @@
 | ServiceUsageConsumerQuotaOverride | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | SourceRepoRepository | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6319 |
 | SpannerDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #5359 |
-| StorageBucket | Stage 4 (MockGCP/E2E Fixtures) | [#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525) | walle-agent-bot | External Work: #9779, External Work: #6207, External Work: #5556, External Work: #5553, External Work: #11322 |
+| StorageBucket | Stage 4 (MockGCP/E2E Fixtures) | [#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525) | walle-agent-bot | External Work: #9779, External Work: #6207, External Work: #5556, External Work: #5553 |
 | StorageBucketAccessControl | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #681 |
 | StorageDefaultObjectAccessControl | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | StorageHMACKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -202,14 +195,15 @@
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
 | VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12210, External Work: #12216 |
-| VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12210, External Work: #8390, External Work: #12216 |
+| VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
 | VertexAITensorboard | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12176, External Work: #12008 |
 
 ## Next Resources (Pending & Unblocked)
 | Kind | Sort Order | Default Controller | Dependencies | Notes |
 |------|------------|--------------------|--------------|-------|
 | FirebaseProject | 99 | Terraform |  |  |
+| IdentityPlatformTenant | 106 | DCL |  |  |
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service |  |
 | AppEngineServiceSplitTraffic | 157 | Terraform |  |  |
 | AppEngineStandardAppVersion | 158 | Terraform | Service |  |
@@ -228,6 +222,7 @@
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
 | HealthcareHL7V2Store | 391 | Terraform |  |  |
+| IdentityPlatformOAuthIDPConfig | 407 | DCL |  |  |
 | OSLoginSSHPublicKey | 473 | Terraform |  |  |
 | SecurityCenterNotificationConfig | 499 | Terraform |  |  |
 | SecurityCenterSource | 500 | Terraform |  |  |
