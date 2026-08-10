@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #8951, External Work: #10451",
+    "notes": "External Work: #4754, External Work: #8951, External Work: #10451, External Work: #12315",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1067,7 +1067,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6971, External Work: #8799, External Work: #12214",
+    "notes": "External Work: #6971, External Work: #8799, External Work: #12214, External Work: #12317",
     "sortOrder": 51,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
