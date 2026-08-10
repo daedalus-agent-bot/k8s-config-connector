@@ -1419,7 +1419,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #718, External Work: #793, External Work: #886, External Work: #1082, External Work: #3429",
+    "notes": "Missing _reference.go or _identity.go, External Work: #718, External Work: #793, External Work: #886, External Work: #1082, External Work: #3429, External Work: #12312",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1532,7 +1532,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #695, External Work: #956",
+    "notes": "External Work: #695, External Work: #956, External Work: #12312",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
