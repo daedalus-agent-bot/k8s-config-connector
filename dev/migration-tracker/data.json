@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #10461, External Work: #12195, External Work: #12207, External Work: #12233, External Work: #12241",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #10461, External Work: #12195, External Work: #12207, External Work: #12241",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "N/A",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #405, External Work: #465, External Work: #5007, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5572, External Work: #6148, External Work: #9000, External Work: #9481, External Work: #11341, External Work: #11677, External Work: #11684",
+    "notes": "External Work: #405, External Work: #465, External Work: #5007, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5572, External Work: #6148, External Work: #9000, External Work: #9481, External Work: #11677, External Work: #11684",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "N/A",
