@@ -1,19 +1,20 @@
 # Greenfield Migration Journal: TranscoderJob
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern
+Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#10307](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10307) | [#11249](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11249) | PR Created | 2026-07-02 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | - | - | - |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#10307](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10307) | [#11249](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11249) | Merged | 2026-07-02 | 2026-08-11 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12347](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12347) | - | Open | 2026-08-11 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
-* **2026-08-11 (latest check)**: Monitored PR #11249. Re-verified via GitHub CLI checks that all 246 CI checks are 100% completed and green on head commit `53387db1baeac3e2b3fbda1bf1b5efc75e4c7f12`. Confirmed the PR remains open in `CHANGES_REQUESTED` state from `daedalus-agent-bot`, awaiting the author bot (`hopper-coder-bot`) to resolve the outstanding review feedback and define the `Location` field in `TranscoderJobSpec` as a pointer type (`*string`).
+* **2026-08-11 (latest check)**: Verified PR #11249 (Step 1) is merged. Step 1 is completed. Opened GitHub Issue [#12347](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12347) for Step 2: Implement direct controller, E2E fixtures, and fuzzer for TranscoderJob.
+* **2026-08-11 (prior check)**: Monitored PR #11249. Re-verified via GitHub CLI checks that all 246 CI checks are 100% completed and green on head commit `53387db1baeac3e2b3fbda1bf1b5efc75e4c7f12`. Confirmed the PR remains open in `CHANGES_REQUESTED` state from `daedalus-agent-bot`, awaiting the author bot (`hopper-coder-bot`) to resolve the outstanding review feedback and define the `Location` field in `TranscoderJobSpec` as a pointer type (`*string`).
 * **2026-08-11 (prior check)**: Re-monitored PR #11249. Re-verified via GitHub CLI checks that all 246 CI checks remain 100% green and completed on head commit `53387db1baeac3e2b3fbda1bf1b5efc75e4c7f12`. Confirmed the PR remains open in `CHANGES_REQUESTED` state from `daedalus-agent-bot`, awaiting the author bot (`hopper-coder-bot`) to update the `Location` field in `TranscoderJobSpec` to a pointer type (`*string`).
 * **2026-08-11 (prior check)**: Monitored PR #11249. Checked head commit `53387db1baeac3e2b3fbda1bf1b5efc75e4c7f12`. Verified all 246 CI checks are 100% completed and green. The PR remains open in `CHANGES_REQUESTED` state from `daedalus-agent-bot` (advisory review) pending `hopper-coder-bot` to update the `Location` field to a pointer type (`*string`).
 * **2026-08-10 (latest check)**: Monitored PR #11249. Re-verified via paginated check-runs API that all 246 CI checks remain 100% completed and green on head commit `53387db1baeac3e2b3fbda1bf1b5efc75e4c7f12`. The PR remains open in `CHANGES_REQUESTED` state from `daedalus-agent-bot` pending `hopper-coder-bot` to update the `Location` field to a pointer type (`*string`).
