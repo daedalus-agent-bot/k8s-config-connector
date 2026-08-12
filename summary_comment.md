@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 187 |
-| Pending | 56 |
+| In Progress | 219 |
+| Pending | 24 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -15,9 +15,9 @@
 | APIGatewayGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | AccessContextManagerAccessLevel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AccessContextManagerAccessLevelCondition | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8948, External Work: #7285, External Work: #9601 |
-| AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4821, External Work: #4820 |
+| AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #12332, External Work: #4821, External Work: #4820 |
 | AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8950 |
-| AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8951, External Work: #4754 |
+| AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8951, External Work: #4754, External Work: #12315 |
 | AccessContextManagerServicePerimeterResource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8952, External Work: #6992 |
 | AlloyDBBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AlloyDBUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -28,6 +28,10 @@
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | AppEngineDomainMapping | Investigation/Setup | N/A |  | External Work: #5705 |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | External Work: #5706 |
+| BeyondCorpAppConnection | Investigation/Setup | N/A |  |  |
+| BeyondCorpAppConnector | Investigation/Setup | N/A |  |  |
+| BeyondCorpAppGateway | Investigation/Setup | N/A |  |  |
+| BigQueryDataPolicyDataPolicy | Investigation/Setup | N/A |  |  |
 | BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot | Missing _reference.go or _identity.go, External Work: #11197 |
@@ -35,11 +39,13 @@
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #786, External Work: #774 |
 | BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799, External Work: #12214 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11596, External Work: #5011, External Work: #723, External Work: #5944, External Work: #4994 |
+| BinaryAuthorizationAttestor | Investigation/Setup | N/A |  |  |
 | BinaryAuthorizationPolicy | Investigation/Setup | N/A |  | External Work: #4760 |
 | CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #796, External Work: #370 |
 | CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12192 |
-| CloudFunctionsFunction | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #886 |
+| CloudFunctionsFunction | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12312, External Work: #886 |
 | CloudIDSEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| CloudIOTDeviceRegistry | Investigation/Setup | N/A |  |  |
 | CloudSchedulerJob | Investigation/Setup | N/A |  | External Work: #956 |
 | ComputeBackendBucket | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9958, External Work: #7578, External Work: #7330 |
@@ -98,19 +104,29 @@
 | ComputeTargetVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeVPNTunnel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| ConfigControllerInstance | Investigation/Setup | N/A |  |  |
 | ContainerAnalysisNote | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAnalysisOccurrence | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAttachedCluster | Stage 1 (Direct KRM Types) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #12174, External Work: #12144, External Work: #11911, External Work: #11647, External Work: #10459, External Work: #10458, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #6496, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #699, External Work: #576, External Work: #477, External Work: #468, External Work: #441, External Work: #437, External Work: #401, External Work: #361, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987 |
 | ContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | [#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886) | feynman-agent-bot | External Work: #10534, External Work: #10410, External Work: #7682, External Work: #3798, External Work: #2775, External Work: #479 |
+| DLPDeidentifyTemplate | Investigation/Setup | N/A |  |  |
+| DLPInspectTemplate | Investigation/Setup | N/A |  |  |
 | DLPJobTrigger | Investigation/Setup | N/A |  | External Work: #7417 |
+| DLPStoredInfoType | Investigation/Setup | N/A |  |  |
 | DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #844 |
 | DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #12241, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12233, External Work: #12207, External Work: #12195 |
+| DataFusionInstance | Investigation/Setup | N/A |  |  |
+| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #12241, External Work: #10461, External Work: #9000, External Work: #8023, External Work: #814, External Work: #12207 |
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
+| DeploymentManagerDeployment | Investigation/Setup | N/A |  |  |
+| DialogflowCXPage | Investigation/Setup | N/A |  |  |
+| DialogflowEntityType | Investigation/Setup | N/A |  |  |
+| DialogflowFulfillment | Investigation/Setup | N/A |  |  |
+| DialogflowIntent | Investigation/Setup | N/A |  |  |
 | DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -121,9 +137,15 @@
 | FilestoreBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FilestoreInstance | Stage 4 (MockGCP/E2E Fixtures) | [#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731) | feynman-agent-bot | External Work: #2291, External Work: #691 |
 | FilestoreSnapshot | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| FirebaseAndroidApp | Investigation/Setup | N/A |  |  |
+| FirebaseDatabaseInstance | Investigation/Setup | N/A |  |  |
+| FirebaseHostingSite | Investigation/Setup | N/A |  |  |
+| FirebaseProject | Investigation/Setup | N/A |  |  |
+| FirebaseWebApp | Investigation/Setup | N/A |  |  |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #9481, External Work: #405 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| HealthcareDataset | Investigation/Setup | N/A |  |  |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
 | IAMCustomRole | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -138,9 +160,15 @@
 | IAPBrand | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | IAPIdentityAwareProxyClient | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformConfig | Investigation/Setup | N/A |  | External Work: #9416 |
+| IdentityPlatformDefaultSupportedIDPConfig | Investigation/Setup | N/A |  |  |
+| IdentityPlatformInboundSAMLConfig | Investigation/Setup | N/A |  |  |
+| IdentityPlatformOAuthIDPConfig | Investigation/Setup | N/A |  |  |
+| IdentityPlatformTenant | Investigation/Setup | N/A |  |  |
+| IdentityPlatformTenantOAuthIDPConfig | Investigation/Setup | N/A |  |  |
 | KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10682 |
 | KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10681 |
+| MLEngineModel | Investigation/Setup | N/A |  |  |
 | MemcacheInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MonitoringAlertPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6991, External Work: #656, External Work: #648, External Work: #589, External Work: #5641 |
 | MonitoringGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10867 |
@@ -166,6 +194,8 @@
 | NetworkServicesTLSRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | OSConfigGuestPolicy | Investigation/Setup | [#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939) | daedalus-agent-bot |  |
 | OSConfigOSPolicyAssignment | Stage 2 (Identity & Reference Types) | N/A |  |  |
+| OSConfigPatchDeployment | Investigation/Setup | N/A |  |  |
+| OSLoginSSHPublicKey | Investigation/Setup | N/A |  |  |
 | PrivateCACertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #11613 |
 | PrivateCACertificateAuthority | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10363 |
 | Project | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #5888, External Work: #5098, External Work: #2188, External Work: #1734, External Work: #818, External Work: #720, External Work: #654, External Work: #505, External Work: #402, External Work: #388, External Work: #6849, External Work: #5240 |
@@ -178,6 +208,8 @@
 | SQLDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | SQLSSLCert | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | SQLUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #11862, External Work: #8796, External Work: #2416, External Work: #548, External Work: #11863, External Work: #7148 |
+| SecurityCenterNotificationConfig | Investigation/Setup | N/A |  |  |
+| SecurityCenterSource | Investigation/Setup | N/A |  |  |
 | ServiceIdentity | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11599 |
 | ServiceNetworkingConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ServiceUsageConsumerQuotaOverride | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -202,30 +234,21 @@
 ## Next Resources (Pending & Unblocked)
 | Kind | Sort Order | Default Controller | Dependencies | Notes |
 |------|------------|--------------------|--------------|-------|
-| FirebaseProject | 99 | Terraform |  |  |
-| IdentityPlatformTenant | 106 | DCL |  |  |
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service |  |
 | AppEngineServiceSplitTraffic | 157 | Terraform |  |  |
 | AppEngineStandardAppVersion | 158 | Terraform | Service |  |
 | CloudAssetOrganizationFeed | 212 | Terraform |  |  |
 | CloudIOTDevice | 226 | Terraform |  |  |
-| CloudIOTDeviceRegistry | 227 | Terraform |  |  |
 | DialogflowAgent | 336 | Terraform |  |  |
 | DialogflowCXEntityType | 338 | Terraform |  |  |
 | DialogflowCXFlow | 339 | Terraform |  |  |
 | DialogflowCXIntent | 340 | Terraform |  |  |
-| DialogflowCXPage | 341 | Terraform |  |  |
 | DialogflowCXWebhook | 342 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
-| FirebaseWebApp | 376 | Terraform |  |  |
 | HealthcareConsentStore | 387 | Terraform |  |  |
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
 | HealthcareHL7V2Store | 391 | Terraform |  |  |
-| IdentityPlatformOAuthIDPConfig | 407 | DCL |  |  |
-| OSLoginSSHPublicKey | 473 | Terraform |  |  |
-| SecurityCenterNotificationConfig | 499 | Terraform |  |  |
-| SecurityCenterSource | 500 | Terraform |  |  |
 
 ## Completed Resources
 | Kind | Default Controller | Date Completed / Notes |
