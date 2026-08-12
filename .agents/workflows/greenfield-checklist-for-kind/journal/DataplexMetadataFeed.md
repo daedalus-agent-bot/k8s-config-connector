@@ -14,6 +14,7 @@ Restarted the migration from the beginning per instructions from barney-s. Creat
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-08-12 (23:36 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-12 (21:05 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-12 (18:14 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-12 (15:38 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox, but no Pull Request has been submitted yet. We continue to await the creation of the types-only PR.
