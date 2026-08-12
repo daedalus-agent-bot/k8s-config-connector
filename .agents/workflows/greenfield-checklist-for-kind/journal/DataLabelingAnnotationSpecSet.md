@@ -1,14 +1,14 @@
 # Greenfield Migration Journal: DataLabelingAnnotationSpecSet
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Created - Awaiting approval & merge)
+Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Conflicting - Assigned to hopper-coder-bot for conflict resolution)
 
 ## Progress Tracking
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types, Identity & Reference Types | [#9267](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9267) | [#9318](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9318) | Completed | 2026-06-05 | 2026-06-10 |
-| Step 2: Direct Controller, E2E fixtures & Fuzzer | [#11478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11478) | [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) | PR Created | 2026-07-08 | - |
+| Step 2: Direct Controller, E2E fixtures & Fuzzer | [#11478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11478) | [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) | In Conflict | 2026-07-08 | - |
 | Step 3: mockGCP generation | - | - | Not Started | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
@@ -17,9 +17,10 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Created - Awaiting approv
 ### 2026-08-12
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
 - Pull Request [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) remains OPEN.
-- All CI check-runs are successfully passing.
-- The PR remains on hold with the `do-not-merge/hold` and `overseer/stop` labels, awaiting human owner review and merge.
-- Since the PR is still open and not yet merged, we remain at Step 2.
+- All CI check-runs are successfully passing (100% green).
+- However, the PR is currently conflicting (`mergeStateStatus: DIRTY`).
+- Since the PR is in conflict, we have assigned it back to `hopper-coder-bot` for conflict resolution.
+- We remain at Step 2 until the conflict is resolved and the PR is merged.
 
 ### 2026-08-11
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
