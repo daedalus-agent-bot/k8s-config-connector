@@ -6,7 +6,7 @@ Current Step: Step 1: Direct API Types
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
-| Step 1: Direct API Types | [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992) | [#10063](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10063) | PR Created (Checks Passing) | 2026-07-29 | - |
+| Step 1: Direct API Types | [#9992](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9992) | [#10063](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10063) | PR Conflicting / Assigned to Bot | 2026-07-29 | - |
 | Step 2: Identity and Reference Types Pattern | - | - | Pending | - | - |
 | Step 3: Create a Round-Trip KRM Fuzzer | - | - | Pending | - | - |
 | Step 4: Ensure MockGCP matches real gcp behavior | - | - | Pending | - | - |
@@ -14,6 +14,7 @@ Current Step: Step 1: Direct API Types
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-08-12 (00:47 UTC - PR Conflicting; Assigned to Bot)**: Verified PR #10063 is OPEN but has merge conflicts (`CONFLICTING` state). Successfully assigned it back to its author bot `codebot-robot` via the GitHub REST API to trigger merge conflict resolution and verification.
 - **2026-08-11 (20:47 UTC - All CI Checks Green - Awaiting OWNER Review/Merge)**: Re-verified PR #10063. It remains OPEN, MERGEABLE, and all 100+ CI checks continue to pass successfully (100% green). No automated actions are required; awaiting human OWNER review and merge of Step 1 before proceeding to Step 2.
 - **2026-08-11 (17:26 UTC - All CI Checks Green - Awaiting OWNER Review/Merge)**: Re-verified PR #10063. It remains OPEN, MERGEABLE, and all 100+ CI checks continue to pass successfully (100% green). No automated actions are required; awaiting human OWNER review and merge of Step 1 before proceeding to Step 2.
 - **2026-08-11 (14:14 UTC - All CI Checks Green - Awaiting OWNER Review/Merge)**: Re-verified PR #10063. It remains OPEN, MERGEABLE, and all 100+ CI checks continue to pass successfully (100% green). No automated actions are required; awaiting human OWNER review and merge of Step 1 before proceeding to Step 2.
