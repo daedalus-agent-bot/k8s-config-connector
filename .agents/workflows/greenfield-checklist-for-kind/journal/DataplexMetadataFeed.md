@@ -14,6 +14,7 @@ Restarted the migration from the beginning per instructions from barney-s. Creat
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-08-12 (18:14 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-12 (15:38 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` is actively working on it in a sandbox, but no Pull Request has been submitted yet. We continue to await the creation of the types-only PR.
 * **2026-08-12 (12:32 UTC)**: Checked the status of Step 1. Issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) is OPEN and `argus-watcher-bot` has started working on it, but no Pull Request has been submitted yet. We are awaiting the creation of the types-only PR.
 * **2026-08-12 (10:05 UTC)**: Restarted the migration from the beginning per request from barney-s. Created a new GitHub issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) to track Step 1 (Direct API Types & Identity). Currently awaiting implementation of direct API types, identity, and reference types.
