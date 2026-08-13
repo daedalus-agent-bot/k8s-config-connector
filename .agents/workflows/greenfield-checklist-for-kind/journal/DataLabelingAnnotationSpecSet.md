@@ -1,14 +1,14 @@
 # Greenfield Migration Journal: DataLabelingAnnotationSpecSet
 
 ## Current Step
-Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Conflicting - Assigned to hopper-coder-bot for conflict resolution)
+Step 2: Direct Controller, E2E fixtures and Fuzzer (Awaiting human owner review and merge)
 
 ## Progress Tracking
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1: Direct API Types, Identity & Reference Types | [#9267](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9267) | [#9318](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9318) | Completed | 2026-06-05 | 2026-06-10 |
-| Step 2: Direct Controller, E2E fixtures & Fuzzer | [#11478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11478) | [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) | In Conflict | 2026-07-08 | - |
+| Step 2: Direct Controller, E2E fixtures & Fuzzer | [#11478](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11478) | [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) | Awaiting Merge | 2026-07-08 | - |
 | Step 3: mockGCP generation | - | - | Not Started | - | - |
 | Step 4: MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
@@ -18,9 +18,9 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Conflicting - Assigned to
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
 - Pull Request [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) remains OPEN.
 - All CI check-runs are successfully passing (100% green).
-- However, the PR is currently conflicting (`mergeStateStatus: DIRTY`).
-- Since the PR is in conflict, we have assigned it back to `hopper-coder-bot` for conflict resolution.
-- We remain at Step 2 until the conflict is resolved and the PR is merged.
+- The previously reported merge conflict has been successfully resolved, and the PR is now fully mergeable.
+- The PR is currently on hold with the `do-not-merge/hold` label, awaiting human owner review, approval, and merge.
+- Since the PR is still open and not yet merged, we remain at Step 2.
 
 ### 2026-08-12
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
