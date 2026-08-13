@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #361, External Work: #401, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174",
+    "notes": "External Work: #361, External Work: #401, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -6763,7 +6763,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10450",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10450, External Work: #12368",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6793,7 +6793,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10450",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10450, External Work: #12368",
     "sortOrder": 442,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6822,7 +6822,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4980, External Work: #5077",
+    "notes": "External Work: #4980, External Work: #5077, External Work: #12373",
     "sortOrder": 445,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6880,7 +6880,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12369",
     "sortOrder": 454,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6967,7 +6967,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6042, External Work: #6043, External Work: #7277",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6042, External Work: #6043, External Work: #7277, External Work: #12366",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "[#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612)",
