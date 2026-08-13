@@ -14,6 +14,14 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR Conflicting - Assigned to
 
 ## Status Update Notes
 
+### 2026-08-13
+- Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
+- Pull Request [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) remains OPEN.
+- All CI check-runs are successfully passing (100% green).
+- However, the PR is currently conflicting (`mergeStateStatus: DIRTY`).
+- Since the PR is in conflict, we have assigned it back to `hopper-coder-bot` for conflict resolution.
+- We remain at Step 2 until the conflict is resolved and the PR is merged.
+
 ### 2026-08-12
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
 - Pull Request [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) remains OPEN.
