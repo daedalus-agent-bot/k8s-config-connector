@@ -1,17 +1,19 @@
 # Greenfield Migration Journal: SecurityCenterManagementEventThreatDetectionCustomModule
 
-**Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
+**Current Step:** Step 3: mockGCP generation
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) | Completed | 2026-07-07 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Approved | 2026-08-04 | - |
-| 3 | mockGCP generation | - | - | - | - | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Completed | 2026-08-04 | 2026-08-13 |
+| 3 | mockGCP generation | [#12379](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12379) | - | Open | 2026-08-13 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates
+
+- **2026-08-13**: Step 2 direct controller implementation and E2E fixtures PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) was successfully merged! Transitioned to Step 3 and created issue [#12379](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12379) for mockGCP generation.
 
 - **2026-08-13**: Monitored and verified PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed that collaborator `anhdle-sso` has approved the PR with `/lgtm` and all 240+ CI checks continue to pass successfully with no failures. The PR is open, fully mergeable, and currently awaiting OWNER (`acpana`) approval and merge.
 - **2026-08-13**: Monitored and verified PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed all 240+ CI checks continue to pass successfully with no failures on the latest commit (`c212d1663572632a6ed39d7847852426b67d1b68`). The PR remains open, healthy, fully mergeable, and currently unassigned, awaiting collaborator `anhdle-sso`'s re-review and approval to merge.
