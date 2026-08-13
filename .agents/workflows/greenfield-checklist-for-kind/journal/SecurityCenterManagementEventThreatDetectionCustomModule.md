@@ -7,12 +7,13 @@
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity and Reference Types Pattern | [#8716](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8716) | [#11432](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11432) | Completed | 2026-07-07 | 2026-08-04 |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Awaiting Review | 2026-08-04 | - |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#12186](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12186) | [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) | Approved | 2026-08-04 | - |
 | 3 | mockGCP generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates
 
+- **2026-08-13**: Monitored and verified PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed that collaborator `anhdle-sso` has approved the PR with `/lgtm` and all 240+ CI checks continue to pass successfully with no failures. The PR is open, fully mergeable, and currently awaiting OWNER (`acpana`) approval and merge.
 - **2026-08-13**: Monitored and verified PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed all 240+ CI checks continue to pass successfully with no failures on the latest commit (`c212d1663572632a6ed39d7847852426b67d1b68`). The PR remains open, healthy, fully mergeable, and currently unassigned, awaiting collaborator `anhdle-sso`'s re-review and approval to merge.
 - **2026-08-13**: Monitored and verified PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed all 240+ CI checks continue to pass successfully with no failures. Author `ada-coder-bot` has successfully addressed reviewer `anhdle-sso`'s latest feedback by reverting the dynamic initialization block in `static_config.go` and directly registering the resource in the static map as requested. The PR remains open, healthy, fully mergeable, and currently unassigned, awaiting collaborator review and approval to merge.
 - **2026-08-13**: Checked PR [#12188](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12188) status. Confirmed the PR is open and all CI checks are successfully passing on the latest commit (`c212d1663572632a6ed39d7847852426b67d1b68`). However, its review decision remains `CHANGES_REQUESTED` with new feedback provided by collaborator `anhdle-sso` on August 13, 2026. Since the PR is unassigned, successfully assigned the PR back to its author `ada-coder-bot` via the GitHub REST API to address the requested code changes and static config adjustments.
