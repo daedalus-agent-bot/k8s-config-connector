@@ -4,13 +4,14 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types, Identity & Reference Types | [#9022](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9022) | [#11391](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11391) | Changes Requested (AI Factory addressing feedback) | 2026-07-06 | - |
+| 1. Direct API Types, Identity & Reference Types | [#9022](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9022) | [#11391](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11391) | Awaiting Review (All CI checks passing) | 2026-07-06 | - |
 | 2. Direct Controller, E2E fixtures & Fuzzer | - | - | Pending | - | - |
 | 3. mockGCP Generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
 
+- **2026-08-14 (05:54 UTC)**: Monitored Step 1 PR #11391. Verified that `hopper-coder-bot` successfully addressed the `Location` field pointer type feedback by converting it to `*string` and regenerated all DeepCopy and typed client files. All 246 CI checks are 100% green and successful. The PR is open and awaiting final human OWNER review and merge.
 - **2026-08-14 (01:47 UTC)**: Monitored Step 1 PR #11391. Verified that `argus-watcher-bot` has automatically detected the pointer type feedback and initiated a background sandbox run to update the `Location` field to a `*string` pointer and regenerate the schemas. The background run is currently in progress. All 240+ CI checks remain 100% green and successful.
 - **2026-08-14 (00:59 UTC)**: Monitored Step 1 PR #11391. Received review comment from `reviewbot-robot` noting that the `Location` field must be a `*string` pointer in `BigQueryReservationReservationGroupSpec` to comply with direct types scalar pointer rules.
 - **2026-08-13 (16:56 UTC)**: Monitored Step 1 PR #11391. Verified all 240+ CI checks remain 100% green and passing. The PR remains open in `Changes Requested` state. Because the assignee list was empty, successfully re-assigned the PR back to `hopper-coder-bot` via the GitHub REST API to trigger the `Location` pointer type fix.
