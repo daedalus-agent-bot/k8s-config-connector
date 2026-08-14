@@ -14,6 +14,7 @@ Direct API Types and Identity PR [#12378](https://github.com/GoogleCloudPlatform
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-08-14 (14:48 UTC)**: Checked the status of Step 1. Verified that types PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains open and has successfully passed all active CI checks (100% green). We continue to await human OWNER review and merge of this types-only PR before proceeding to Step 2.
 * **2026-08-14 (11:10 UTC)**: Checked the status of Step 1. Verified that types PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has successfully passed all active CI checks (100% green) and has been marked as PASS by `reviewbot-robot` in the auto-review. We continue to await human OWNER review and merge of this types-only PR before proceeding to Step 2.
 * **2026-08-14 (07:05 UTC)**: Checked the status of Step 1. Direct API Types PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has been successfully created and all active CI checks are completed and passing successfully (100% green). We are currently awaiting human OWNER review and merge of this types-only PR before proceeding to Step 2.
 * **2026-08-13 (20:46 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN, and `argus-watcher-bot` continues working in the sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
