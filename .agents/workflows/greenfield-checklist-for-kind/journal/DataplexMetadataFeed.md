@@ -2,18 +2,19 @@
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-Restarted the migration from the beginning per instructions from barney-s. Created a new GitHub issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) to track Step 1. Currently awaiting implementation of direct API types, identity, and reference types.
+Direct API Types and Identity PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has been created and has passed all active CI checks successfully (100% green). We are currently awaiting human OWNER review and merge of this types-only PR before proceeding to Step 2.
 
 ## Progress Tracking Table
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) | - | Open | 2026-08-12 | - |
+| 1 | Direct API Types & Identity | [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) | [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) | PR Created | 2026-08-12 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-08-14 (07:05 UTC)**: Checked the status of Step 1. Direct API Types PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has been successfully created and all active CI checks are completed and passing successfully (100% green). We are currently awaiting human OWNER review and merge of this types-only PR before proceeding to Step 2.
 * **2026-08-13 (20:46 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN, and `argus-watcher-bot` continues working in the sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-13 (16:24 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN, and `argus-watcher-bot` continues working in the sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
 * **2026-08-13 (13:33 UTC)**: Checked the status of Step 1. Child issue [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) remains OPEN and is assigned to `hopper-coder-bot`. `argus-watcher-bot` continues working on it in a sandbox. No Pull Request has been submitted yet; we continue to await the types-only PR.
