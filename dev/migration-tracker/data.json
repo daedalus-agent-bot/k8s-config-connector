@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #362, External Work: #388, External Work: #402, External Work: #404, External Work: #654, External Work: #709, External Work: #740, External Work: #818, External Work: #855, External Work: #1408, External Work: #2188, External Work: #4597, External Work: #5011, External Work: #5098, External Work: #5240, External Work: #5572, External Work: #5613, External Work: #5983, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6148, External Work: #6515, External Work: #6637, External Work: #6968, External Work: #7316, External Work: #7982, External Work: #7983, External Work: #7985, External Work: #7987, External Work: #9000, External Work: #10457, External Work: #11034, External Work: #11133, External Work: #11197, External Work: #11550, External Work: #12246, External Work: #12332",
+    "notes": "External Work: #362, External Work: #388, External Work: #402, External Work: #404, External Work: #654, External Work: #709, External Work: #740, External Work: #818, External Work: #855, External Work: #1408, External Work: #2188, External Work: #4597, External Work: #5011, External Work: #5098, External Work: #5240, External Work: #5572, External Work: #5613, External Work: #5983, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6148, External Work: #6515, External Work: #6637, External Work: #6968, External Work: #7316, External Work: #7982, External Work: #7983, External Work: #7987, External Work: #9000, External Work: #10457, External Work: #11034, External Work: #11133, External Work: #11197, External Work: #11550, External Work: #12246, External Work: #12332, External Work: #12374",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "N/A",
@@ -8703,7 +8703,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7985, External Work: #9698, External Work: #11137",
+    "notes": "External Work: #9698, External Work: #11137",
     "sortOrder": 532,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
