@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Changes Requested | 2026-07-29 | |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Awaiting Review | 2026-07-29 | |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started | | |
 | 3 | mockGCP generation | N/A | N/A | Not Started | | |
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started | | |
 
 ## Status Updates
+* **2026-08-14**: Monitored Step 1 progress. Verified that all CI checks successfully pass on PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) after `lovelace-coder-bot` addressed the feedback (refactored `KmsKeyName` to the reference field `KMSKeyNameRef`). The PR remains open and is currently awaiting review and merging.
 * **2026-08-13 (16:51 UTC)**: Monitored Step 1 progress. Verified PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open and still blocked by `CHANGES_REQUESTED` from `walle-agent-bot` requiring the `KMSKeyRef` reference type. Confirmed all 180+ CI checks successfully pass. Since the previous notification has not yet been acted upon, successfully unassigned and re-assigned the author `lovelace-coder-bot` via the GitHub REST API to raise priority and trigger active resolution of the feedback.
 * **2026-08-13 (04:04 UTC)**: Checked Step 1 progress. Confirmed PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) is still open and blocked by the active `CHANGES_REQUESTED` review from `walle-agent-bot` requiring the `KMSKeyRef` reference type. Verified all 180+ CI checks continue to pass successfully. Successfully unassigned and re-assigned `lovelace-coder-bot` via the REST API to trigger active attention and prompt resolution of the feedback.
 * **2026-08-12**: Monitored Step 1 progress. Confirmed PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open and blocked by the active `CHANGES_REQUESTED` review from `walle-agent-bot` requiring `KMSKeyRef` reference type, despite all 180+ CI checks passing successfully. Re-assigned/notified `lovelace-coder-bot` via the REST API to trigger active resolution of the outstanding feedback.
