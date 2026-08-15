@@ -17,6 +17,7 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 | 6 | Validate direct promotion | N/A | N/A | Pending | N/A | N/A |
 
 ## History of Updates
+- **2026-08-15 06:25 UTC**: Checked PR #12084. All CI checks are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-15 02:24 UTC**: Checked PR #12084. All CI checks are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-14 22:42 UTC**: Checked PR #12084. All CI checks are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-14 19:12 UTC**: Checked PR #12084. All 136 CI check-runs remain fully green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
@@ -50,7 +51,7 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 - **2026-08-10 11:40 UTC**: Checked PR #12084. All 136 CI check-runs are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-10 08:18 UTC**: Checked PR #12084. All 136 CI check-runs are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-10 05:00 UTC**: Checked PR #12084. All 136 CI check-runs are verified green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
-- **2026-08-10 01:45 UTC**: Verified PR #12084. All 136 CI check-runs remain green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
+- **2026-08-10 01:45**: Verified PR #12084. All 136 CI check-runs remain green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-09 23:01 UTC**: Checked PR #12084. All 136 CI check-runs remain green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-09 19:50 UTC**: Re-verified PR #12084. All 136 CI check-runs remain green (passing) and the PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-09 15:46 UTC**: Re-verified PR #12084. All 136 CI check-runs remain green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
@@ -95,9 +96,9 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 - **2026-08-03 10:13 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed and are completely green. The PR remains open, awaiting human OWNER review and merge. Progress remains at Step 2.
 - **2026-08-03 07:22 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed and are completely green. The PR remains open, awaiting human OWNER review and merge. Progress remains at Step 2.
 - **2026-08-03 04:39 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed and are completely green. The PR remains open, awaiting human OWNER review and merge. Progress remains at Step 2.
-- **2026-08-03 02:03 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed and are completely green. The PR remains open, awaiting human OWNER review and merge. Progress remains at Step 2.
-- **2026-08-02 23:23 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed and are completely green. The PR is open, awaiting human OWNER review and merge. Progress remains at Step 2.
-- **2026-08-02 20:47 UTC**: Re-verified PR #12084. All 136 CI check runs have successfully passed. The PR is open, awaiting human OWNER review and merge. Progress remains at Step 2.
+- **2026-08-03 02:03 UTC**: Re-verified PR #12084. All 136 CI check-runs have successfully passed and are completely green. The PR remains open, awaiting human OWNER review and merge. Progress remains at Step 2.
+- **2026-08-02 23:23 UTC**: Re-verified PR #12084. All 136 CI check-runs have successfully passed and are completely green. The PR is open, awaiting human OWNER review and merge. Progress remains at Step 2.
+- **2026-08-02 20:47 UTC**: Re-verified PR #12084. All 136 CI check-runs have successfully passed. The PR is open, awaiting human OWNER review and merge. Progress remains at Step 2.
 - **2026-08-02 18:08 UTC**: Re-verified PR #12084. All CI checks are green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-02 15:34 UTC**: Re-verified PR #12084. All CI checks are green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
 - **2026-08-02 12:58 UTC**: Re-verified PR #12084. All CI checks are green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2.
