@@ -15,6 +15,7 @@
 
 ## Recent Status Update Notes
 
+- **2026-08-15**: Monitored direct promotion PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091). Verified that all 120+ CI check suites (including E2E fixtures and CRD equivalence) continue to be 100% green and passing successfully. The PR remains OPEN, pending final human OWNER review, approval, and merge.
 - **2026-08-14**: Verified via GitHub CLI that all 120+ CI check suites for the direct promotion PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) are 100% completed and green/passing successfully. The PR remains OPEN, pending final human OWNER review, approval, and merge.
 - **2026-08-14**: Re-monitored direct promotion PR [#12091](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12091) status. Verified that all 120+ CI check suites (including E2E fixtures and CRD equivalence) continue to be 100% green and passing successfully. The PR is OPEN and awaiting human OWNER review, approval, and merge.
 
