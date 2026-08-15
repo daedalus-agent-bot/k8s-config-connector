@@ -2,7 +2,7 @@
 
 ## Current Step
 **Step 1: Direct API Types and Identity and Reference Types Pattern**
-Direct API Types and Identity PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has been created and has passed all active CI checks successfully (100% green). We are currently awaiting human OWNER review and merge of this types-only PR before proceeding to Step 2.
+Direct API Types and Identity PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all active CI checks are completed and passing successfully (100% green). We are currently awaiting human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 
 ## Progress Tracking Table
 
@@ -14,6 +14,7 @@ Direct API Types and Identity PR [#12378](https://github.com/GoogleCloudPlatform
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ## Status Updates
+* **2026-08-15 (22:55 UTC)**: Checked the status of Step 1. Verified that types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all 245 active CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-08-15 (19:41 UTC)**: Checked the status of Step 1. Verified that types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all 245 active CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-08-15 (16:32 UTC)**: Checked the status of Step 1. Verified that types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all 245 active CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-08-15 (11:22 UTC)**: Checked the status of Step 1. Verified that types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN, is fully MERGEABLE, and all 245 active CI checks are completed and passing successfully (100% green). We continue to await human OWNER review and merge of this types-only PR before we can proceed to Step 2 (Direct Controller & E2E Fixtures).
