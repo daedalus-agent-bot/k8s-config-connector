@@ -7,11 +7,12 @@ Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | [Issue #11715](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11715) | [PR #11724](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11724) | Completed | 2026-07-18 | 2026-07-23 |
-| 2 | Direct Controller & E2E | [Issue #11866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11866) | [PR #11874](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11874) | PR Created | 2026-07-23 | - |
+| 2 | Direct Controller & E2E | [Issue #11866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11866) | [PR #11874](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11874) (Closed) | Open | 2026-07-23 | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
 
 ### Status Updates
+- **2026-08-16 (Step 2 PR Closed & Retriggered)**: Observed that PR #11874 was closed by a collaborator to allow regenerating a new PR with updated instructions. Removed the `overseer/stop` label from Issue #11866 to retrigger a new PR creation for the direct controller and E2E fixtures.
 - **2026-08-16 (Greenfield Standby Audit & Periodic Health Check)**: Verified PR #11874 checks on Sunday, August 16, 2026. All 245 continuous integration checks are successfully completed and remain 100% green with zero failures. Currently on standby, awaiting human OWNER review and merge of PR #11874 to conclude Step 2.
 - **2026-08-15 (Greenfield Standby Audit & Periodic Health Check)**: Verified PR #11874 checks on Saturday, August 15, 2026. All 245 continuous integration checks are successfully completed and remain 100% green with zero failures. Currently on standby, awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-15 (Greenfield Standby Monitoring & Health Audit)**: Re-polled PR #11874 checks on Saturday, August 15, 2026. Verified all 245 continuous integration check-runs are successfully completed and 100% green with zero failures. Currently on standby, awaiting human OWNER review and merge of PR #11874 to complete Step 2.
