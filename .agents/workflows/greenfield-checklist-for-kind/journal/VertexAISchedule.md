@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|-----------|--------------|---------------------|--------|--------------|----------------|
 | 1 | Direct API Types & Identity | [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) | [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) | Completed | 2026-07-06 | 2026-07-24 |
-| 2 | Direct Controller & E2E | [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) | [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) | PR Created | 2026-07-24 | |
+| 2 | Direct Controller & E2E | [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) | [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) | Retriggering | 2026-07-24 | |
 | 3 | mockGCP generation | | | Planned | | |
 | 4 | MockGCP Alignment | | | Planned | | |
 
 ## Status Updates
+- **2026-08-16 (03:00 UTC)**: Monitored PR [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) status and found it was closed by barney-s on 2026-08-16 to allow regenerating a new PR. Removed the `overseer/stop` label from Issue [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) to retrigger the creation of a new, updated PR for Step 2.
 - **2026-08-15 (18:05 UTC)**: Monitored PR [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) status. Confirmed all 245 CI checks successfully completed and remain 100% green with zero failures (100% pass rate). The PR remains open, fully mergeable, and currently awaiting final human OWNER review and merge of Step 2.
 - **2026-08-15 (15:29 UTC)**: Monitored PR [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) status. Confirmed all 245 CI checks successfully completed and remain 100% green with zero failures (100% pass rate). The PR is open, fully mergeable, and currently awaiting final human OWNER review and merge of Step 2 before we can progress to Step 3.
 - **2026-08-15 (12:56 UTC)**: Monitored PR [#11923](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11923) status. Confirmed all 245 CI checks successfully completed and remain 100% green with zero failures (100% pass rate). The PR is open, fully mergeable, and currently awaiting final human OWNER review and merge of Step 2 before we can progress to Step 3.
