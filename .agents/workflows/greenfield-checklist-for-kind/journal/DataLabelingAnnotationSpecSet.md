@@ -16,10 +16,10 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR created, awaiting review/
 
 ### 2026-08-16
 - Monitored the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
-- Earlier today, verified that the system was awaiting regeneration after PR [#11487](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11487) was closed.
-- Subsequently, Pull Request [#12439](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12439) has been successfully created to replace the closed PR.
-- Verified that all CI checks are successfully passing (100% green).
-- The PR is now awaiting human owner review, approval, and merge.
+- Pull Request [#12439](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12439) is currently OPEN and mergeable, and all CI check-runs are successfully passing (100% green).
+- However, we detected a pending review from `reviewbot-robot` pointing out that custom manual field comparison is used instead of standard `common.CompareProtoMessage`, and `structuredreporting.ReportDiff` is not called.
+- Since the PR was unassigned, we assigned the PR back to `hopper-coder-bot` via the REST API to address this review feedback.
+- Because the PR is still open and undergoing review, we remain at Step 2.
 
 ### 2026-08-15
 - Checked the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
