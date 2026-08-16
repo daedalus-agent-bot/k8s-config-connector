@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | :-: |
 | 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | Completed | 2026-06-05 | 2026-07-14 |
-| 2. Direct Controller, E2E Fixtures & Fuzzer | [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) | [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) | Checks Passing | 2026-07-23 | |
+| 2. Direct Controller, E2E Fixtures & Fuzzer | [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) | [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) | Retriggering | 2026-07-23 | |
 | 3. mockGCP Generation | TBD | TBD | Not Started | | |
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ### Status Updates
+- **2026-08-16**: Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) was closed by collaborator `barney-s` to allow the system to regenerate a new PR with updated instructions. As requested, removed the `overseer/stop` label from issue [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) to retrigger a new PR creation.
 - **2026-08-15**: Re-verified all 245/245 CI checks on open Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) are successfully completed and 100% green. The PR remains OPEN, fully mergeable, and awaiting human OWNER review/merge to complete Step 2.
 - **2026-08-15**: Checked open Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) again today. All 245/245 CI checks successfully completed and continue to pass cleanly with 100% green status. The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge before we can proceed to Step 3.
 - **2026-08-15**: Checked the status of open Pull Request [#11843](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11843) again. Verified that all 245/245 checks have completed successfully and continue to pass cleanly with 100% green status. The PR is fully mergeable but remains OPEN, awaiting human OWNER review and merge to complete Step 2 before starting Step 3 (mockGCP Generation).
