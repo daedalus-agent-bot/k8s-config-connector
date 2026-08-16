@@ -1,18 +1,19 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently in **PR Closed (Pending Retrigger)** status (PR #11830).
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently in **Assigned (Pending PR Creation)** status (PR #11830).
 
 ## Migration Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity/Reference | [#8403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8403), [#8836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8836) | [#8407](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8407), [#8837](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8837) | Completed | - | 2026-05-28 |
-| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#11830](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11830) | PR Closed | 2026-05-28 | - |
+| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#11830](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11830) | In Progress | 2026-05-28 | - |
 | 3 | mockGCP Generation | Pending | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-16 11:45 UTC**: Monitored the progress of Step 2. No new pull request has been generated yet by `codebot-robot` since PR #11830 was closed. Noticed that `codebot-robot` is no longer active in recent overseer issues, so updated the assignee on Issue #8787 to `lovelace-coder-bot` (and removed `codebot-robot`) to trigger a fresh and active implementation run. We will monitor for the new PR from `lovelace-coder-bot`.
 - **2026-08-16 08:34 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Issue #8787 is open and does not have the `overseer/stop` label. Re-triggered the implementation run by unassigning and reassigning `codebot-robot` on Issue #8787 to wake up the bot and ensure a new PR is created. We will monitor for the new PR.
 - **2026-08-16 02:30 UTC**: Monitored the progress of Step 2. Detected that Pull Request #11830 was closed by collaborator `barney-s` to trigger the creation of a new pull request with updated instructions. As requested, removed the `overseer/stop` label from Issue #8787 to allow the automation to re-trigger a new PR creation. We will monitor for the new PR.
 - **2026-08-15 23:14 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No assignee or new reviewer feedback is present. We will continue monitoring the pull request for merging.
