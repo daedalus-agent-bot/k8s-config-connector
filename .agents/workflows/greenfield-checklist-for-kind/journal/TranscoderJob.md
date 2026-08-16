@@ -13,7 +13,8 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
-* **2026-08-16 (latest check)**: Monitored Step 2. Verified that all CI check-runs on PR #12429 have successfully passed and are 100% green. The PR remains open, has no active assignees, and is awaiting human OWNER review, approval, and merge.
+* **2026-08-16 (latest check)**: Monitored Step 2. Found that PR #12429 has passing CI check-runs (100% green), but an outstanding review finding exists from `reviewbot-robot` regarding empty `ResourceID` and `metadata.name` during `Export` when `k8sName` is empty. Assigned `hopper-coder-bot` to the PR via REST API to address this review feedback.
+* **2026-08-16 (prior check)**: Monitored Step 2. Verified that all CI check-runs on PR #12429 have successfully passed and are 100% green. The PR remains open, has no active assignees, and is awaiting human OWNER review, approval, and merge.
 * **2026-08-16 (prior check)**: Monitored Step 2. Verified that PR #12429 is open and has failing CI check-runs (presubmit-gatekeeper, unit-tests-3-of-4). Assigned `hopper-coder-bot` to the PR via REST API to investigate and resolve the failures.
 * **2026-08-16 (prior check)**: Monitored Step 2. Found open PR #12429 with some failing CI check-runs. Assigned `hopper-coder-bot` to the PR to investigate and resolve the failures.
 * **2026-08-16 (prior check)**: Monitored Step 2 (Issue [#12347](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12347)). Found the issue had the `overseer/stop` label applied, which blocked further PR generation. Removed the `overseer/stop` label from Issue #12347 to re-trigger a new PR creation as requested.
