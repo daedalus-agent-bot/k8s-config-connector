@@ -1,18 +1,19 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently in **PR Created** status (PR #11830).
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently in **PR Closed (Pending Retrigger)** status (PR #11830).
 
 ## Migration Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity/Reference | [#8403](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8403), [#8836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8836) | [#8407](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8407), [#8837](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8837) | Completed | - | 2026-05-28 |
-| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#11830](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11830) | PR Created | 2026-05-28 | - |
+| 2 | Direct Controller, E2E Fixtures & Fuzzer | [#8787](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8787) | [#11830](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11830) | PR Closed | 2026-05-28 | - |
 | 3 | mockGCP Generation | Pending | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-16 02:30 UTC**: Monitored the progress of Step 2. Detected that Pull Request #11830 was closed by collaborator `barney-s` to trigger the creation of a new pull request with updated instructions. As requested, removed the `overseer/stop` label from Issue #8787 to allow the automation to re-trigger a new PR creation. We will monitor for the new PR.
 - **2026-08-15 23:14 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No assignee or new reviewer feedback is present. We will continue monitoring the pull request for merging.
 - **2026-08-15 20:30 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No assignee or new reviewer feedback is present. We will continue monitoring the pull request for merging.
 - **2026-08-15 17:58 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No assignee or new reviewer feedback is present. We will continue monitoring the pull request for merging.
