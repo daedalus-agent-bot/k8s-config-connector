@@ -8,11 +8,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | :-: |
 | 1. Direct API Types, Identity & Reference Types | [#9250](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9250) | [#11412](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11412) | Completed | 2026-06-05 | 2026-07-14 |
-| 2. Direct Controller, E2E Fixtures & Fuzzer | [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) | [#12442](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12442) | Checks Running | 2026-07-23 | |
+| 2. Direct Controller, E2E Fixtures & Fuzzer | [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) | [#12442](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12442) | Checks Passing | 2026-07-23 | |
 | 3. mockGCP Generation | TBD | TBD | Not Started | | |
 | 4. MockGCP Alignment with RealGCP | TBD | TBD | Not Started | | |
 
 ### Status Updates
+- **2026-08-17**: Verified that all 245/245 CI checks on open Pull Request [#12442](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12442) successfully completed and are 100% green. The PR remains OPEN, fully mergeable, and is awaiting human OWNER review and merge to complete Step 2.
 - **2026-08-17**: Pull Request [#12442](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12442) is undergoing CI checks. Previously, `ada-coder-bot` resolved several e2e test failures by restricting normalization of `.status.observedState.name` in `normalize.go` specifically to the `VertexAIStudy` resource. `ada-coder-bot` also addressed identity validation review feedback. So far, all completed CI checks are passing cleanly.
 - **2026-08-16**: Pull Request [#12442](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12442) was successfully published by `ada-coder-bot`. Some CI checks (specifically `tests-e2e-fixtures-vertexai`) failed. Assigned the PR back to `ada-coder-bot` to trigger the triage and automatic fixing of CI checks.
 - **2026-08-16**: Checked progress of issue [#11822](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11822) at 17:24 UTC. Verified that the AI Factory has started another sandbox run at 15:47 UTC to regenerate the Step 2 Pull Request. No new PR has been published yet. Awaiting the new Step 2 Pull Request.
