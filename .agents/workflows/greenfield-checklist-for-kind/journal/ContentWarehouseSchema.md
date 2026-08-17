@@ -12,6 +12,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 | Step 4: MockGCP Alignment with RealGCP | Pending | — | Pending | — | — |
 
 ## Status Update Notes
+- **2026-08-17**: Monitored issue #11429. The AI Factory sandbox remains active, and we are awaiting the creation of the regenerated direct controller pull request.
 - **2026-08-16**: No new pull request has been created yet. The AI Factory sandbox for issue #11429 remains active (re-triggered about 17 hours ago). We will continue to monitor the sandbox's progress.
 - **2026-08-16**: Monitored the issue again. The AI Factory sandbox is still active and regenerating the direct controller and E2E fixtures. No new pull request has been opened yet. We will continue to await the creation of the fresh PR.
 - **2026-08-16**: Monitored issue #11429. The AI Factory has successfully picked up the issue after the `overseer/stop` label was removed, starting a new sandbox to regenerate the direct controller and E2E fixtures with updated instructions. No new PR has been submitted yet. We are awaiting the creation of the fresh PR.
