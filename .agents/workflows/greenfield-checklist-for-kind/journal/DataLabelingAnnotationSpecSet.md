@@ -14,6 +14,12 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer (PR created, awaiting review/
 
 ## Status Update Notes
 
+### 2026-08-18
+- Monitored the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
+- Pull Request [#12439](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12439) remains OPEN and mergeable, and all CI check-runs are successfully passing (100% green).
+- The PR is awaiting human OWNER review, approval, and merge.
+- Since the PR is still open, we remain at Step 2.
+
 ### 2026-08-17
 - Monitored the status of Step 2 (Direct Controller, E2E fixtures & Fuzzer).
 - Pull Request [#12439](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12439) is currently OPEN and mergeable, and all CI check-runs are successfully passing (100% green).
