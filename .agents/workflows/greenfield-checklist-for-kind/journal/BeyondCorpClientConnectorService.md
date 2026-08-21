@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **hopper-coder-bot**.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **neumann-coder-bot**.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-21 16:09 UTC**: Checked the status of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `hopper-coder-bot` is heavily loaded carrying 30 open PRs and has not started the run, and `neumann-coder-bot` is currently the least loaded active coder bot with only 19 open PRs, unassigned `hopper-coder-bot` and assigned `neumann-coder-bot` to Issue #8787 to trigger a fresh and successful controller implementation run. Added a comment instructing the bot on the correct skill path. We will monitor the progress of the run.
 - **2026-08-21 13:41 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Checked Issue #8787 and verified it remains open and assigned to `hopper-coder-bot`. We will continue to monitor the progress of the implementation run.
 - **2026-08-21 10:44 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Checked Issue #8787 and verified it remains open and assigned to `hopper-coder-bot`. We will continue to monitor the progress of the implementation run.
 - **2026-08-21 07:44 UTC**: Checked the status of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since no action was taken on Issue #8787 by `ada-coder-bot` since the last assignment and `hopper-coder-bot` is currently the most active coder bot with several recent successful PRs, unassigned `ada-coder-bot` and assigned `hopper-coder-bot` to trigger a fresh controller implementation run. Added a comment instructing the bot on the correct skill path. We will monitor the progress of the run.
