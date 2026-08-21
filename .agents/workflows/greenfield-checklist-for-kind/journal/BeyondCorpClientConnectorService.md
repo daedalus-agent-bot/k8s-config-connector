@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **ada-coder-bot**.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **hopper-coder-bot**.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-21 07:44 UTC**: Checked the status of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since no action was taken on Issue #8787 by `ada-coder-bot` since the last assignment and `hopper-coder-bot` is currently the most active coder bot with several recent successful PRs, unassigned `ada-coder-bot` and assigned `hopper-coder-bot` to trigger a fresh controller implementation run. Added a comment instructing the bot on the correct skill path. We will monitor the progress of the run.
 - **2026-08-21 01:57 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Issue #8787 remains open. Since no action was taken on Issue #8787 since reassignment, unassigned `neumann-coder-bot` and assigned `ada-coder-bot` to wake up the automation and trigger a fresh controller implementation run. Added a comment instructing the bot on the correct skill path. We will monitor the progress of the run.
 - **2026-08-20 22:48 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Discovered that Issue #8787 was missing the crucial `overseer/review` label required by the automation. Added the `overseer/review` label to Issue #8787, and unassigned/reassigned `neumann-coder-bot` to wake up the bot and trigger a fresh controller implementation run. We will monitor the progress of the run.
 - **2026-08-20 19:33 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been generated yet. Issue #8787 remains open and assigned to `neumann-coder-bot`. To trigger a fresh implementation run and wake up the automation, unassigned and reassigned `neumann-coder-bot` on Issue #8787. We will monitor the progress of the implementation run.
