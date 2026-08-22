@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-08-22**: Re-monitored Step 2. Confirmed that PR [#12427](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12427) is OPEN but has merge conflicts (`CONFLICTING` status). Verified that all 245+ CI check-runs successfully completed and are completely green. The PR remains correctly assigned to its author bot `hopper-coder-bot` to resolve the conflicts.
 * **2026-08-21**: Re-monitored Step 2. Confirmed that PR [#12427](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12427) is OPEN but has merge conflicts (`CONFLICTING` status). Re-verified all 245+ CI checks are 100% green and successfully passing. The PR remains correctly assigned to its author bot `hopper-coder-bot` to resolve the conflicts.
 * **2026-08-21**: Detected that PR [#12427](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12427) has merge conflicts (`CONFLICTING` status). Assigned the PR back to its author bot `hopper-coder-bot` to resolve the conflicts.
 * **2026-08-21**: Checked PR [#12427](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12427) status again. Confirmed all 245+ CI check-runs remain completely green and successfully passing with zero merge conflicts. The PR is fully mergeable, and we continue to wait for a human OWNER to review, approve, and merge Step 2 before we can progress to Step 3.
