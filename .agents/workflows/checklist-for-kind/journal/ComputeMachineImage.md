@@ -17,6 +17,7 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 | 6 | Validate direct promotion | N/A | N/A | Pending | N/A | N/A |
 
 ## History of Updates
+- **2026-08-23 09:46 UTC**: Checked PR #12084. All 202 CI checks remain fully green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2. (Note: Labeled 'overseer/stop' due to inactivity by argus-watcher-bot)
 - **2026-08-23 07:23 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2. (Note: Automated processing is paused due to inactivity, labeled 'overseer/stop' by argus-watcher-bot)
 - **2026-08-23 05:11 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2. (Note: Automated processing is paused due to inactivity, labeled 'overseer/stop' by argus-watcher-bot)
 - **2026-08-23 03:00 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing). The PR remains open, awaiting manual review and merge from a human OWNER. Progress remains at Step 2. (Note: Automated processing is paused due to inactivity, labeled 'overseer/stop' by argus-watcher-bot)
