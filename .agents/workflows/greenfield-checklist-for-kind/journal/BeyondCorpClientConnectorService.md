@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **neumann-coder-bot**.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **lovelace-coder-bot**.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-24 05:36 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` has remained assigned for several hours since last wake-up action without starting a new run, we unassigned `neumann-coder-bot` and assigned `lovelace-coder-bot` (the next least loaded active coder bot with only 30 open issues) on Issue #8787, and posted a trigger comment to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
 - **2026-08-24 03:25 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` remains the least loaded active coder bot with only 19 open issues (all other coder bots are heavily loaded with 30 or more open issues each), and has been assigned for over 2 hours since the last wake-up action without starting a new run, we unassigned, reassigned, and posted a trigger comment for `neumann-coder-bot` on Issue #8787 to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
 - **2026-08-24 01:20 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` remains the least loaded active coder bot with only 19 open issues (all other coder bots are heavily loaded with 30 open issues each), and has been assigned for over 2 hours since the last wake-up action without starting a new run, we unassigned, reassigned, and posted a trigger comment for `neumann-coder-bot` on Issue #8787 to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
 - **2026-08-23 22:12 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` is the least loaded active coder bot with only 12 open PRs and 28 open issues, and has been assigned for over 2 hours since the last wake-up action without starting a new run, we unassigned, reassigned, and posted a trigger comment for `neumann-coder-bot` on Issue #8787 to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
