@@ -1,7 +1,7 @@
 # BeyondCorpClientConnectorService Migration Journal
 
 ## Current Step
-- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **lovelace-coder-bot**.
+- **Step 2: Direct Controller, E2E fixtures and Fuzzer** (Issue #8787) is currently assigned to **neumann-coder-bot**.
 
 ## Migration Progress Tracking
 
@@ -13,6 +13,7 @@
 | 4 | MockGCP Alignment with RealGCP | Pending | - | Pending | - | - |
 
 ### Status Update Notes
+- **2026-08-24 07:52 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `lovelace-coder-bot` has remained assigned for over 2 hours without starting a new run, and `neumann-coder-bot` is currently the least loaded active coder bot with only 18 open issues (all other coder bots are heavily loaded with over 30 open issues each), we unassigned `lovelace-coder-bot` and assigned `neumann-coder-bot` on Issue #8787, and posted a trigger comment to wake up the automation and trigger a fresh controller implementation run. We will continue to monitor the progress.
 - **2026-08-24 05:36 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` has remained assigned for several hours since last wake-up action without starting a new run, we unassigned `neumann-coder-bot` and assigned `lovelace-coder-bot` (the next least loaded active coder bot with only 30 open issues) on Issue #8787, and posted a trigger comment to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
 - **2026-08-24 03:25 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` remains the least loaded active coder bot with only 19 open issues (all other coder bots are heavily loaded with 30 or more open issues each), and has been assigned for over 2 hours since the last wake-up action without starting a new run, we unassigned, reassigned, and posted a trigger comment for `neumann-coder-bot` on Issue #8787 to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
 - **2026-08-24 01:20 UTC**: Monitored the progress of Step 2. Pull Request #11830 remains closed, and no new pull request has been opened yet. Since `neumann-coder-bot` remains the least loaded active coder bot with only 19 open issues (all other coder bots are heavily loaded with 30 open issues each), and has been assigned for over 2 hours since the last wake-up action without starting a new run, we unassigned, reassigned, and posted a trigger comment for `neumann-coder-bot` on Issue #8787 to wake up the automation and trigger a fresh implementation run. We will continue to monitor the progress.
@@ -141,7 +142,7 @@
 - **2026-08-07 18:30 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
 - **2026-08-07 17:17 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
 - **2026-08-07 16:05 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
-- **2026-08-07 15:20 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
+- **2026-08-07 15:20**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
 - **2026-08-07 13:43 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
 - **2026-08-07 12:50 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
 - **2026-08-07 11:15 UTC**: Monitored the progress of Step 2. Verified that Pull Request #11830 remains open with all CI checks passing successfully. The PR is awaiting human OWNER review and approval. No reviewer feedback or change requests have been posted yet. We will continue monitoring the pull request for merging.
@@ -580,19 +581,19 @@
 - **2026-07-07 22:48 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
 - **2026-07-07 22:34 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
 - **2026-07-07 22:11 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 21:57 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 21:38 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 21:16 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 20:56 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 20:39 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 20:22 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 20:00 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 19:43 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 19:24 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. We will continue monitoring Step 2.
-- **2026-07-07 19:05 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. We will continue monitoring Step 2.
-- **2026-07-07 18:45 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 18:19 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
-- **2026-07-07 18:05 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new Pull Request has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 21:57 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 21:38 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 21:16 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 20:56 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 20:39 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 20:22 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 20:00 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 19:43 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 19:24 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. We will continue monitoring Step 2.
+- **2026-07-07 19:05 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. We will continue monitoring Step 2.
+- **2026-07-07 18:45 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 18:19 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
+- **2026-07-07 18:05 UTC**: Checked Issue #8787 and verified it remains open and assigned to `codebot-robot`. No new PR has been opened yet. Continuing to monitor Step 2.
 - **2026-07-07 17:46**: Verified that Issue #8787 remains open and assigned to `codebot-robot`. A new Pull Request is pending creation. Continuing to monitor Step 2.
 - **2026-07-07 17:25 UTC**: Detected that the previous PR #8795 was closed without being merged. Re-triggered Step 2 by unassigning and reassigning `codebot-robot` on Issue #8787 to initiate a fresh implementation run.
 - **2026-07-07 06:31 UTC**: Verified that Issue #8787 remains assigned to `codebot-robot` with no new Pull Request opened yet. Continuing to monitor Step 2.
