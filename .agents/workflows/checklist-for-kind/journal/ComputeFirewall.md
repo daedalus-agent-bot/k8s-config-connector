@@ -2,7 +2,7 @@
 
 ## Current Status
 - **Current Step:** Step 6: Validate Direct Promotion
-- **Status:** Under Review (All CI checks passing, processing resumed)
+- **Status:** Under Review (All 200+ CI checks passing perfectly, overseer/stop label removed via REST API to resume processing)
 - **Last Updated:** 2026-08-26
 
 ## Migration Progress Tracking Table
