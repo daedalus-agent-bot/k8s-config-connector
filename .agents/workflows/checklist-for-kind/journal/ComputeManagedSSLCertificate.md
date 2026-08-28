@@ -14,6 +14,7 @@ Current Step: Step 1: Direct API Types
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-08-28 (22:28 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063. It remains OPEN and has merge conflicts (`CONFLICTING` / `dirty` state). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. All 239 CI checks are successfully passing (all green). Awaiting resolution.
 - **2026-08-28 (20:03 UTC - PR Conflicting; Assigned to Bot)**: Re-verified PR #10063 remains OPEN and in the `CONFLICTING` / `dirty` state. It remains assigned to its author bot `codebot-robot` for merge conflict resolution. All CI checks are successfully passing (all green). Awaiting resolution.
 - **2026-08-28 (17:54 UTC - PR Conflicting; Assigned to Bot)**: Re-verified PR #10063 remains OPEN and in the `CONFLICTING` / `dirty` state. It remains assigned to its author bot `codebot-robot` for merge conflict resolution. All CI checks are successfully passing (all green). Awaiting resolution.
 - **2026-08-28 (15:41 UTC - PR Conflicting; Assigned to Bot)**: Re-verified PR #10063 remains OPEN and in the `CONFLICTING` / `dirty` state. It remains assigned to its author bot `codebot-robot` for merge conflict resolution. All CI checks are successfully passing (all green). Awaiting resolution.
