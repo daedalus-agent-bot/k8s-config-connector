@@ -17,6 +17,7 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 | 6 | Validate direct promotion | N/A | N/A | Pending | N/A | N/A |
 
 ## History of Updates
+- **2026-08-29 09:23 UTC**: Verified PR #12084 remains open with the 'overseer/stop' label applied. Automated processing remains paused in accordance with safety guidelines, awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
 - **2026-08-29 07:15 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing) and successfully completed. The PR remains open with the 'overseer/stop' label applied; automated processing remains paused in accordance with safety guidelines. Awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
 - **2026-08-29 05:01 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing) and successfully completed. The PR remains open with the 'overseer/stop' label applied; automated processing remains paused in accordance with safety guidelines. Awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
 - **2026-08-29 00:39 UTC**: Checked PR #12084. Verified all 202 CI check-runs remain fully green (passing) and successfully completed. The PR remains open with the 'overseer/stop' label applied; automated processing remains paused in accordance with safety guidelines. Awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
