@@ -110,7 +110,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6825, External Work: #7285, External Work: #8948, External Work: #9601, External Work: #10451",
+    "notes": "External Work: #10451",
     "sortOrder": 46,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4754, External Work: #6992, External Work: #8951, External Work: #8952, External Work: #10451, External Work: #12391",
+    "notes": "External Work: #4754, External Work: #8951, External Work: #10451, External Work: #12391",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -281,7 +281,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12345",
+    "notes": "",
     "sortOrder": 140,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -504,7 +504,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -541,7 +541,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 3 (KRM Fuzzer)"
   },
   {
     "group": "appengine",
@@ -675,7 +675,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -704,7 +704,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -733,7 +733,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -762,7 +762,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -890,8 +890,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #11197",
     "sortOrder": 189,
     "downstreamCount": 0,
-    "trackingIssue": "[#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100)",
-    "assignee": "factorybot-robot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1120,7 +1120,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1149,7 +1149,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1498,7 +1498,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1527,7 +1527,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -1622,7 +1622,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578",
     "sortOrder": 21,
     "downstreamCount": 7,
     "trackingIssue": "N/A",
@@ -1680,18 +1680,18 @@
     "steps": {
       "gen-types": false,
       "identity-reference": false,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10608 is closed but direct controller is not registered in code, External Work: #505, External Work: #3194, External Work: #3520, External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
+    "notes": "External Work: #505, External Work: #3520, External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1833,16 +1833,16 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #383, External Work: #570, External Work: #671, External Work: #5440, External Work: #6154",
+    "notes": "External Work: #383, External Work: #570, External Work: #671",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1862,7 +1862,7 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
@@ -1871,7 +1871,7 @@
     "downstreamCount": 4,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978, External Work: #9980",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2409,11 +2409,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6132, External Work: #10938, External Work: #11759",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 250,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938)",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2439,11 +2439,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6132, External Work: #11759",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6132",
     "sortOrder": 14,
     "downstreamCount": 11,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759)",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #4942, External Work: #9998, External Work: #9999, External Work: #11783, External Work: #11784",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2557,7 +2557,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5608, External Work: #10002",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2671,7 +2671,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10007, External Work: #10010",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3041,16 +3041,16 @@
       "identity-reference": true,
       "mapper-fuzzer": true,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, Tracking issue #10846 is closed but direct controller is not registered in code, External Work: #10029, External Work: #12361",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -3137,11 +3137,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10846 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go, External Work: #12361",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12361",
     "sortOrder": 270,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700)",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #571, External Work: #678, External Work: #5953, External Work: #7112",
+    "notes": "External Work: #678, External Work: #5953, External Work: #7112",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "[#11543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543)",
@@ -3748,7 +3748,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -3833,7 +3833,7 @@
       "gen-types": true,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #571, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6429, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7009, External Work: #7284, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12569, External Work: #12631",
+    "notes": "External Work: #361, External Work: #401, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12569, External Work: #12631",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -3901,11 +3901,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #321, External Work: #479, External Work: #619, External Work: #2775, External Work: #3798, External Work: #5529, External Work: #7262, External Work: #9000, External Work: #10410, External Work: #10534, External Work: #11620, External Work: #12658",
+    "notes": "External Work: #479, External Work: #619, External Work: #2775, External Work: #3798, External Work: #5529, External Work: #7262, External Work: #9000, External Work: #10410, External Work: #10534, External Work: #11620, External Work: #12658",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "[#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886)",
-    "assignee": "feynman-agent-bot",
+    "assignee": "barney-s",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -3926,7 +3926,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -3955,7 +3955,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -3986,7 +3986,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4015,7 +4015,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4253,7 +4253,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5093, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #12239, External Work: #12241",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #12241",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "N/A",
@@ -4418,7 +4418,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #536",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 326,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4500,7 +4500,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4720,7 +4720,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4749,7 +4749,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -4778,7 +4778,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5104,7 +5104,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5133,7 +5133,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5189,7 +5189,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5216,7 +5216,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #402, External Work: #405, External Work: #465, External Work: #808, External Work: #818, External Work: #4715, External Work: #4724, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5542, External Work: #5572, External Work: #5982, External Work: #6017, External Work: #6018, External Work: #6055, External Work: #6148, External Work: #6349, External Work: #6419, External Work: #7006, External Work: #7009, External Work: #7745, External Work: #8063, External Work: #8390, External Work: #8402, External Work: #8664, External Work: #8678, External Work: #8717, External Work: #8719, External Work: #8721, External Work: #8727, External Work: #8729, External Work: #8733, External Work: #9000, External Work: #9277, External Work: #9481, External Work: #9603, External Work: #9604, External Work: #11648, External Work: #11666, External Work: #11677, External Work: #12332",
+    "notes": "External Work: #405, External Work: #465, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5572, External Work: #6148, External Work: #9000, External Work: #9481, External Work: #11677, External Work: #12332, External Work: #12682, External Work: #12738",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "N/A",
@@ -5353,20 +5353,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
+      "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1078, External Work: #2301, External Work: #2553, External Work: #4597, External Work: #5788, External Work: #5801, External Work: #6471, External Work: #8960, External Work: #11505",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1078, External Work: #4597, External Work: #5620, External Work: #6471, External Work: #8960, External Work: #11505",
     "sortOrder": 102,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "gkehub",
@@ -5382,18 +5382,18 @@
     "steps": {
       "gen-types": false,
       "identity-reference": false,
-      "mapper-fuzzer": true,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #1078, External Work: #2553, External Work: #6428, External Work: #6471, External Work: #8960, External Work: #11506",
+    "notes": "External Work: #1078, External Work: #2553, External Work: #6471, External Work: #8960, External Work: #11506",
     "sortOrder": 67,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -5466,7 +5466,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -5581,7 +5581,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6428, External Work: #7649",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7649",
     "sortOrder": 393,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5608,7 +5608,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #338, External Work: #6428",
+    "notes": "Missing _reference.go or _identity.go, External Work: #338",
     "sortOrder": 394,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5666,7 +5666,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #383, External Work: #384, External Work: #404, External Work: #541, External Work: #543, External Work: #709, External Work: #766, External Work: #772, External Work: #793, External Work: #821, External Work: #855, External Work: #1082, External Work: #2697, External Work: #2873, External Work: #4666, External Work: #5739, External Work: #5825, External Work: #5887, External Work: #6027, External Work: #6428, External Work: #7650, External Work: #9714, External Work: #12569",
+    "notes": "Missing _reference.go or _identity.go, External Work: #709, External Work: #821, External Work: #2697, External Work: #2873, External Work: #4666, External Work: #7650, External Work: #12569, External Work: #12699",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5696,7 +5696,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #383, External Work: #384, External Work: #404, External Work: #541, External Work: #543, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #2873, External Work: #5825, External Work: #6027, External Work: #6428, External Work: #9714",
+    "notes": "Missing _reference.go or _identity.go, External Work: #383, External Work: #384, External Work: #404, External Work: #543, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #5825, External Work: #6027, External Work: #9714",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5716,14 +5716,14 @@
     "state": "In Progress",
     "steps": {
       "gen-types": true,
-      "identity-reference": true,
+      "identity-reference": false,
       "mapper-fuzzer": false,
       "mocks": true,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #425, External Work: #543, External Work: #709, External Work: #760, External Work: #772, External Work: #3338, External Work: #4754, External Work: #5377, External Work: #6027, External Work: #6428, External Work: #6675, External Work: #8533, External Work: #11409",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #425, External Work: #543, External Work: #709, External Work: #760, External Work: #772, External Work: #3338, External Work: #4754, External Work: #5377, External Work: #6027, External Work: #8533, External Work: #11409",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "[#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735)",
@@ -5752,7 +5752,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #425, External Work: #3338, External Work: #6428, External Work: #6675, External Work: #8533",
+    "notes": "External Work: #425, External Work: #3338, External Work: #6675, External Work: #8533",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5779,7 +5779,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6428",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 103,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -5808,7 +5808,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6428",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 400,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5837,7 +5837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1839, External Work: #6428, External Work: #7737, External Work: #11506",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1839, External Work: #11506",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -5867,7 +5867,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6428, External Work: #7737",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7737",
     "sortOrder": 401,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5894,7 +5894,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6428",
+    "notes": "",
     "sortOrder": 105,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -5923,7 +5923,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #6428",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 402,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5947,12 +5947,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6428, External Work: #9416",
+    "notes": "External Work: #9416",
     "sortOrder": 404,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5976,7 +5976,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6005,7 +6005,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6032,12 +6032,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6428",
+    "notes": "",
     "sortOrder": 407,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6088,12 +6088,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6428",
+    "notes": "",
     "sortOrder": 106,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6175,12 +6175,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6428",
+    "notes": "",
     "sortOrder": 411,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6472,7 +6472,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -6562,7 +6562,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6154, External Work: #10867",
+    "notes": "External Work: #10867",
     "sortOrder": 108,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6674,7 +6674,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #699, External Work: #764, External Work: #5559, External Work: #10147",
+    "notes": "External Work: #5559",
     "sortOrder": 109,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -7199,7 +7199,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7228,7 +7228,7 @@
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7257,7 +7257,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7284,7 +7284,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -7343,20 +7343,20 @@
     ],
     "state": "In Progress",
     "steps": {
-      "gen-types": true,
-      "identity-reference": true,
-      "mapper-fuzzer": true,
+      "gen-types": false,
+      "identity-reference": false,
+      "mapper-fuzzer": false,
       "mocks": true,
-      "controller": true,
+      "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #9738 is closed but direct controller is not registered in code, External Work: #10363, External Work: #11613",
+    "notes": "Missing _reference.go or _identity.go, External Work: #11613",
     "sortOrder": 477,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 5 (Controller Implemented)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #293, External Work: #321, External Work: #338, External Work: #361, External Work: #362, External Work: #371, External Work: #383, External Work: #388, External Work: #392, External Work: #401, External Work: #402, External Work: #403, External Work: #404, External Work: #405, External Work: #425, External Work: #437, External Work: #444, External Work: #479, External Work: #505, External Work: #526, External Work: #541, External Work: #548, External Work: #564, External Work: #566, External Work: #570, External Work: #577, External Work: #589, External Work: #602, External Work: #603, External Work: #619, External Work: #654, External Work: #665, External Work: #671, External Work: #676, External Work: #678, External Work: #681, External Work: #687, External Work: #691, External Work: #697, External Work: #698, External Work: #699, External Work: #700, External Work: #707, External Work: #709, External Work: #714, External Work: #718, External Work: #720, External Work: #723, External Work: #735, External Work: #740, External Work: #754, External Work: #760, External Work: #764, External Work: #766, External Work: #772, External Work: #786, External Work: #793, External Work: #802, External Work: #808, External Work: #814, External Work: #818, External Work: #829, External Work: #831, External Work: #837, External Work: #844, External Work: #855, External Work: #886, External Work: #1003, External Work: #1007, External Work: #1022, External Work: #1078, External Work: #1082, External Work: #1124, External Work: #1408, External Work: #1507, External Work: #1734, External Work: #1792, External Work: #1839, External Work: #1876, External Work: #1898, External Work: #2188, External Work: #2291, External Work: #2416, External Work: #2469, External Work: #2606, External Work: #2737, External Work: #2894, External Work: #3072, External Work: #3338, External Work: #3429, External Work: #3520, External Work: #4349, External Work: #4460, External Work: #4541, External Work: #4597, External Work: #4614, External Work: #4615, External Work: #4666, External Work: #4715, External Work: #4753, External Work: #4757, External Work: #4833, External Work: #4842, External Work: #4852, External Work: #4982, External Work: #5011, External Work: #5091, External Work: #5098, External Work: #5104, External Work: #5183, External Work: #5205, External Work: #5240, External Work: #5260, External Work: #5292, External Work: #5316, External Work: #5317, External Work: #5318, External Work: #5377, External Work: #5399, External Work: #5424, External Work: #5478, External Work: #5494, External Work: #5502, External Work: #5524, External Work: #5529, External Work: #5559, External Work: #5572, External Work: #5589, External Work: #5613, External Work: #5713, External Work: #5714, External Work: #5721, External Work: #5730, External Work: #5739, External Work: #5825, External Work: #5887, External Work: #5888, External Work: #5944, External Work: #5953, External Work: #5983, External Work: #6004, External Work: #6027, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6073, External Work: #6148, External Work: #6154, External Work: #6167, External Work: #6323, External Work: #6429, External Work: #6442, External Work: #6486, External Work: #6515, External Work: #6637, External Work: #6651, External Work: #6686, External Work: #6800, External Work: #6842, External Work: #6849, External Work: #6968, External Work: #7009, External Work: #7090, External Work: #7112, External Work: #7316, External Work: #7449, External Work: #7495, External Work: #7578, External Work: #7599, External Work: #7656, External Work: #7684, External Work: #7700, External Work: #7737, External Work: #7982, External Work: #7983, External Work: #7987, External Work: #8063, External Work: #8390, External Work: #8402, External Work: #8430, External Work: #8480, External Work: #8652, External Work: #8653, External Work: #8664, External Work: #8678, External Work: #8708, External Work: #8710, External Work: #8717, External Work: #8719, External Work: #8721, External Work: #8727, External Work: #8729, External Work: #8733, External Work: #8797, External Work: #8799, External Work: #8802, External Work: #8857, External Work: #8898, External Work: #8960, External Work: #9000, External Work: #9277, External Work: #9380, External Work: #10037, External Work: #10268, External Work: #10269, External Work: #10285, External Work: #10286, External Work: #10293, External Work: #10300, External Work: #10306, External Work: #10318, External Work: #10322, External Work: #10401, External Work: #10457, External Work: #10997, External Work: #11034, External Work: #11079, External Work: #11080, External Work: #11133, External Work: #11197, External Work: #11445, External Work: #11498, External Work: #11500, External Work: #11505, External Work: #11506, External Work: #11550, External Work: #11641, External Work: #11689, External Work: #11760, External Work: #11911, External Work: #12038, External Work: #12144, External Work: #12174, External Work: #12192, External Work: #12241, External Work: #12312, External Work: #12332, External Work: #12344, External Work: #12346, External Work: #12361, External Work: #12368, External Work: #12369, External Work: #12370, External Work: #12373, External Work: #12374, External Work: #12382, External Work: #12383, External Work: #12385, External Work: #12405, External Work: #12446, External Work: #12458, External Work: #12483, External Work: #12501, External Work: #12555, External Work: #12557, External Work: #12640, External Work: #12649",
+    "notes": "External Work: #362, External Work: #388, External Work: #402, External Work: #404, External Work: #654, External Work: #709, External Work: #740, External Work: #818, External Work: #855, External Work: #1408, External Work: #2188, External Work: #4597, External Work: #5011, External Work: #5098, External Work: #5240, External Work: #5572, External Work: #5613, External Work: #5983, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6148, External Work: #6515, External Work: #6637, External Work: #6968, External Work: #7316, External Work: #7982, External Work: #7983, External Work: #7987, External Work: #9000, External Work: #10457, External Work: #11034, External Work: #11133, External Work: #11197, External Work: #11550, External Work: #12332, External Work: #12374, External Work: #12382, External Work: #12383, External Work: #12501, External Work: #12640, External Work: #12682",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "N/A",
@@ -7500,7 +7500,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #5700, External Work: #5701, External Work: #5702, External Work: #5705, External Work: #5706",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #772, External Work: #813, External Work: #3072, External Work: #5554, External Work: #6686, External Work: #8710, External Work: #9714",
+    "notes": "External Work: #772, External Work: #813, External Work: #3072, External Work: #5554, External Work: #6686, External Work: #8710, External Work: #9714, External Work: #12710",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7831,7 +7831,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #403, External Work: #548, External Work: #12569",
+    "notes": "Missing _reference.go or _identity.go, External Work: #403, External Work: #12569",
     "sortOrder": 492,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7994,7 +7994,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -8149,7 +8149,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4753, External Work: #6055, External Work: #11550, External Work: #11599",
+    "notes": "External Work: #4753, External Work: #11550, External Work: #11599",
     "sortOrder": 72,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #676, External Work: #681, External Work: #710, External Work: #750, External Work: #886, External Work: #2188, External Work: #2894, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #5888, External Work: #6073, External Work: #6207, External Work: #7112, External Work: #8710, External Work: #9000, External Work: #9714, External Work: #9779, External Work: #11550, External Work: #11677, External Work: #12344, External Work: #12346, External Work: #12569, External Work: #12634",
+    "notes": "External Work: #681, External Work: #710, External Work: #750, External Work: #886, External Work: #2188, External Work: #2894, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6073, External Work: #6207, External Work: #7112, External Work: #8710, External Work: #9714, External Work: #9779, External Work: #11550, External Work: #11677, External Work: #12344, External Work: #12346, External Work: #12569, External Work: #12745",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "[#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
@@ -8440,7 +8440,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #444, External Work: #841",
+    "notes": "Missing _reference.go or _identity.go, External Work: #444",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8493,12 +8493,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #626, External Work: #681, External Work: #841, External Work: #1344",
+    "notes": "External Work: #681, External Work: #1344",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8673,7 +8673,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #626, External Work: #841",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 529,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8698,7 +8698,7 @@
       "gen-types": true,
       "identity-reference": true,
       "mapper-fuzzer": true,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -8729,7 +8729,7 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
@@ -8751,7 +8751,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8766,7 +8766,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8778,7 +8778,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -8793,7 +8793,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8812,12 +8812,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #8390",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 541,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8851,7 +8851,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8870,12 +8870,12 @@
       "gen-types": false,
       "identity-reference": false,
       "mapper-fuzzer": false,
-      "mocks": true,
+      "mocks": false,
       "controller": false,
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #12010, External Work: #12176",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12010, External Work: #12176, External Work: #12738",
     "sortOrder": 545,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
