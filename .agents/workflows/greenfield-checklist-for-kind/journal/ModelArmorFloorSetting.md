@@ -13,6 +13,9 @@ Current Step: **Step 1: Direct KRM Types & Identity**
 
 ## Status Update Notes
 
+### 2026-09-04
+- Monitored PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752). Confirmed that all CI checks (including the previously pending `tests-e2e-fixtures-cloudidentity` and `tests-e2e-fixtures-sql-1-of-2`) have now successfully passed. The PR is fully green and awaiting human review and merge.
+
 ### 2026-09-03
 - Initiated Greenfield Migration tracking for `ModelArmorFloorSetting`.
 - Created Step 1 tracking issue [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748).
