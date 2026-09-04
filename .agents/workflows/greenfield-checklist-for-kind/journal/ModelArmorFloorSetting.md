@@ -14,7 +14,7 @@ Current Step: **Step 1: Direct KRM Types & Identity**
 ## Status Update Notes
 
 ### 2026-09-04
-- Verified PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752). Confirmed that all CI checks (including the previously pending `tests-e2e-fixtures-cloudidentity` and `tests-e2e-fixtures-sql-1-of-2`) are fully passing (100% green). The PR is currently open and awaiting review and merge from the human OWNERS.
+- Verified PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752). Confirmed that all CI checks (including the previously pending `tests-e2e-fixtures-cloudidentity` and `tests-e2e-fixtures-sql-1-of-2`) are fully passing (100% green). The automated KCC review has also passed, and the PR is currently open and awaiting review and merge from the human OWNERS.
 - Updated progress tracking.
 
 ### 2026-09-03
