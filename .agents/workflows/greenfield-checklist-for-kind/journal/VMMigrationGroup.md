@@ -1,18 +1,19 @@
 # Greenfield Migration Journal: VMMigrationGroup
 
 ## Current Step
-**Step 1: Direct API Types and Identity and Reference Types Pattern**
+**Step 2: Direct Controller, E2E fixtures and Fuzzer**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | [#10314](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10314) | [#11250](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11250) | PR Created | 2026-07-02 | |
-| 2 | Direct Controller, E2E & Fuzzer | | | Pending | | |
+| 1 | Direct API Types and Identity | [#10314](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10314) | [#11250](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11250) | Merged | 2026-07-02 | 2026-09-04 |
+| 2 | Direct Controller, E2E & Fuzzer | [#12766](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12766) | | Open | 2026-09-04 | |
 | 3 | mockGCP generation | | | Pending | | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-09-04**: Step 1 PR #11250 has been successfully merged! Transitioned VMMigrationGroup to Step 2, and opened child issue #12766 for implementing the direct controller, E2E fixtures, and fuzzer.
 * **2026-09-04**: Re-verified the status of Step 1 PR #11250 on GitHub. Checked all continuous integration check-runs via GitHub CLI and confirmed that 100% of the checks are green and successfully completed with zero failures. Since the PR is open, unassigned, and carries the 'overseer/stop' label, we continue to strictly respect this stop label and leave the PR completely untouched, awaiting human OWNER review and merge of this Step 1 PR before proceeding to Step 2.
 * **2026-09-03**: Re-verified the status of VMMigrationGroup migration. Checked all continuous integration check-runs for PR #11250 with full pagination and confirmed that 100% of the checks are green and successfully completed. Since the PR continues to carry the 'overseer/stop' label, we strictly respect the pause label and leave the PR untouched, continuing to await human OWNER review and merge before transitioning to Step 2.
 * **2026-09-03**: Checked PR #11250 again and paginated all checks. Verified that 100% of the continuous integration checks are green and successfully completed with zero failures. The PR remains open and carries the 'overseer/stop' label, which we strictly respect by leaving the PR completely untouched while awaiting human OWNER review and merge.
