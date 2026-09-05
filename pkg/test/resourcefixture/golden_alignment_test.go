@@ -59,6 +59,9 @@ var realGCPSkipFixtures = map[string]bool{
 	// NetworkSecurity BackendAuthenticationConfig requires invitation-only early access allowlist.
 	"networksecurity/v1alpha1/networksecuritybackendauthenticationconfig/backendauthconfig-maximal": true,
 	"networksecurity/v1alpha1/networksecuritybackendauthenticationconfig/backendauthconfig-minimal": true,
+	// SQLAdminBackup tests are rate-limited on real GCP, so we must skip real GCP testing.
+	"sqladmin/v1alpha1/sqladminbackup/sqladminbackup-maximal": true,
+	"sqladmin/v1alpha1/sqladminbackup/sqladminbackup-minimal": true,
 }
 
 func TestGoldenLogAlignment(t *testing.T) {
