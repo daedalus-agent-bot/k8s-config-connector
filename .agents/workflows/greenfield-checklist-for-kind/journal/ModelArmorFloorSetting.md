@@ -13,6 +13,12 @@ Current Step: **Step 1: Direct KRM Types & Identity**
 
 ## Status Update Notes
 
+### 2026-09-06
+- Monitored PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752). Confirmed that all 111 CI check-runs remain 100% green and successfully passing.
+- Checked PR reviews. Confirmed that the automated KCC review from `reviewbot-robot` has successfully passed.
+- The PR is still OPEN and awaiting human OWNER review and merge to complete Step 1.
+- Updated progress tracking.
+
 ### 2026-09-05
 - Monitored PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752). Checked all CI check runs and confirmed they remain 100% green with all 111 check-runs successfully passing.
 - Checked PR reviews and labels. Confirmed that the KCC Auto-Review has successfully passed and is fully green. The PR is labeled with `overseer/ready-for-human`.
