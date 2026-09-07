@@ -1,7 +1,3 @@
-Using the skill workflow, please complete creation of direct controller for ComputeBackendServiceSignedURLKey
-
-https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/refs/heads/main/.agents/workflows/kcc-example.txt
-
 ## Migration Progress
 
 Current Step: Step 6: Validate Direct Promotion
@@ -18,6 +14,6 @@ Current Step: Step 6: Validate Direct Promotion
 | Step 6: Validate Direct Promotion | [#12103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12103) | [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) | PR Created (CI Passing) | 2026-07-30 | |
 
 ## Recent Status Updates
-- **2026-09-03 (19:35 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 260 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
-- **2026-09-03 (15:19 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 260 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
-- **2026-09-03 (13:03 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 260 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
+- **2026-09-07 (10:25 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 260 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
+- **2026-09-07 (08:04 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 260 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
+- **2026-09-07 (05:49 UTC)**: Periodic recheck completed by the overseer. Re-verified that all 245 CI check-runs on PR [#12108](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12108) remain completely green, healthy, and passing. The PR remains open, fully verified, and is awaiting final human OWNER review and merge to complete the direct controller migration. (Automated processing remains paused due to the active `overseer/stop` label on the PR).
