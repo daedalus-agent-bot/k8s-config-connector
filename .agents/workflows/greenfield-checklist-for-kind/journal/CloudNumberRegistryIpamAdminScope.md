@@ -14,3 +14,4 @@
 ### 2026-09-09
 - Initialized greenfield migration for `CloudNumberRegistryIpamAdminScope`.
 - Created GitHub issue [#12854](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12854) for Step 1.
+- Checked status of Step 1. Issue [#12854](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12854) is open, and AI Factory sandbox development has started. No Pull Request has been created yet.
