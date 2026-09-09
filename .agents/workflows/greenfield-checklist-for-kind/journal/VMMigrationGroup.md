@@ -1,18 +1,20 @@
 # Greenfield Migration Journal: VMMigrationGroup
 
 ## Current Step
-**Step 2: Direct Controller, E2E fixtures and Fuzzer**
+**Step 3: mockGCP generation**
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types and Identity | [#10314](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10314) | [#11250](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11250) | Merged | 2026-07-02 | 2026-09-04 |
-| 2 | Direct Controller, E2E & Fuzzer | [#12766](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12766) | [#12768](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12768) | PR Created | 2026-09-04 | |
-| 3 | mockGCP generation | | | Pending | | |
+| 2 | Direct Controller, E2E & Fuzzer | [#12766](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12766) | [#12768](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12768) | Merged | 2026-09-04 | 2026-09-08 |
+| 3 | mockGCP generation | [#12810](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12810) | [#12815](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12815) | PR Created | 2026-09-08 | |
 | 4 | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Update Notes
+* **2026-09-09**: Verified Step 3 PR #12815 is open for MockGCP generation. Some CI check failures are present, and the AI Factory watcher has started investigating them. We continue to monitor the PR and await human OWNER review and merge.
+* **2026-09-08**: Step 2 PR #12768 has been successfully merged! Transitioned VMMigrationGroup to Step 3, and opened child issue #12810 for implementing MockGCP and Alignment.
 * **2026-09-08**: Monitored and verified Step 2 PR #12768 on GitHub. Confirmed that all 240+ active checks continue to pass successfully with 100% green status and no failures. The PR remains open and unassigned with the 'overseer/ready-for-human' label. In accordance with safety guardrails, we respect this state and await human OWNER review and merge before transitioning to Step 3.
 * **2026-09-08**: Monitored and verified Step 2 PR #12768 on GitHub. All 240+ continuous integration checks are 100% green and successfully completed with zero failures. Since the PR is open, unassigned, and carries the 'overseer/ready-for-human' label, we strictly respect safety guardrails and continue to await human OWNER review and merge of this Step 2 PR before starting Step 3.
 * **2026-09-08**: Re-verified Step 2 PR #12768 CI checks. Confirmed that 100% of the active checks continue to pass successfully with zero failures and the PR remains in a healthy, mergeable state. Since the PR carries the 'overseer/ready-for-human' label, we strictly respect safety guardrails and continue to await human OWNER review and merge before transitioning to Step 3.
