@@ -12,6 +12,11 @@
 ## Updates
 
 ### 2026-09-10
+- All 200+ CI checks are now fully passing on PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870).
+- The PR remains in `REVIEW_REQUIRED` state. `argus-watcher-bot` has addressed the initial feedback from `reviewbot-robot` and recently resolved merge conflicts.
+- We are waiting for a human approver to review and merge the PR before moving to Step 2 (Direct Controller).
+
+### 2026-09-10
 - Checked PR status: PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) remains OPEN in the `REVIEW_REQUIRED` state, but has been marked with `overseer/ready-for-human`. We remain in Step 1, waiting for it to be merged before starting Step 2.
 - Verified CI check status on the latest commit (`74026f8`): All 200+ checks are now fully passing.
 - Reviewed latest feedback from `reviewbot-robot`: Detailed three findings (making `Location` a pointer `*string`, correcting copyright years to 2026, and correcting a typo in identity error handling).
