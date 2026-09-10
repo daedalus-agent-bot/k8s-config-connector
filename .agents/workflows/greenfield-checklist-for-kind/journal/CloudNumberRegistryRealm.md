@@ -6,12 +6,13 @@ Current Step: Step 1 (Direct API Types and Identity)
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
-| 1 | Direct API Types and Identity | [#12849](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12849) | [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867) | PR Created | 2026-09-09 | - |
+| 1 | Direct API Types and Identity | [#12849](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12849) | [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867) | Pending Merge | 2026-09-09 | - |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
+- **2026-09-10**: Verified that all CI checks on PR [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867) have successfully passed, and the automated reviewbot-robot has fully approved the changes. The PR is now ready and waiting for a human OWNER review and approval (`/approve`).
 - **2026-09-10**: Verified that all CI checks for PR [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867) have now successfully passed. The automated review tool (reviewbot-robot) requested minor style/correctness adjustments (using Go pointer types for `Location` and simplifying references to use `refs.Normalize`), which the coder bot is currently addressing.
 - **2026-09-10**: Analyzed the CI check failures for PR [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867). Identified that `validate-generated-files` is failing with `failed to find the proto message google.cloud.numberregistry.v1alpha.Realm: proto: not found`. This occurs because the new `numberregistry` proto files are located under `mockgcp/apis/google/cloud/numberregistry/v1alpha/` but are not included in the `PROTO_FILES` list in `dev/tools/controllerbuilder/generate-proto.sh`. Adding `${REPO_ROOT}/mockgcp/apis/google/cloud/numberregistry/*/*.proto` to `PROTO_FILES` will compile the protos into `.build/googleapis.pb` and fix the build.
 - **2026-09-10**: Verified the progress of Step 1. Pull Request [#12867](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12867) has been created by the coder bot and is currently open, waiting for review and CI checks resolution.
