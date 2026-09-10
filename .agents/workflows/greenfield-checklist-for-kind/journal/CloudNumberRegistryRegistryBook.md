@@ -13,6 +13,7 @@
 
 ## Status Updates
 
+- **2026-09-10**: Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864) has been officially approved by reviewer `anhdle-sso`. It is currently awaiting final merge by a human OWNER before we can transition to Step 2.
 - **2026-09-10**: Verified that all CI checks have fully passed for Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864). The PR is fully green and now awaiting human review, approval, and merging by the human OWNER.
 - **2026-09-10**: Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864) has successfully resolved all auto-reviewer feedback (including refactoring `.spec.claimedScopes` to `.spec.claimedScopeRefs` as a slice of project references). The PR has passed all CI presubmits, has been fully approved by the auto-reviewer, and is now awaiting human OWNER review and merging.
 - **2026-09-10**: Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864) has successfully passed all CI presubmits and the `Location` field issue flagged by the auto-reviewer has been resolved (changed to a pointer `*string`). The PR is fully green and now awaiting human review/approval and merging.
