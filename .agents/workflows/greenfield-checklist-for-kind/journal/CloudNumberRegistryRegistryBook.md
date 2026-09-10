@@ -13,6 +13,7 @@
 
 ## Status Updates
 
+- **2026-09-10**: Child issue [#12890](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12890) is currently being worked on by the AI Factory. Awaiting Pull Request creation.
 - **2026-09-10**: Step 1 (Direct KRM Types & Identity) has been successfully merged. Transitioning to Step 2: Direct Controller, E2E fixtures and Fuzzer. Created child issue [#12890](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12890).
 - **2026-09-10**: Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864) has been officially approved by reviewer `anhdle-sso`. It is currently awaiting final merge by a human OWNER before we can transition to Step 2.
 - **2026-09-10**: Verified that all CI checks have fully passed for Pull Request [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864). The PR is fully green and now awaiting human review, approval, and merging by the human OWNER.
