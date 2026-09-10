@@ -14,6 +14,7 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 ## Status Update Notes
 
 ### 2026-09-10
+- Checked Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) at 22:31 UTC. Verified that the issue is open, assigned to `lovelace-coder-bot`, and `argus-watcher-bot` has started a sandbox run to resolve the issue (latest run started at 22:11 UTC). No Pull Request has been created yet.
 - Verified that Step 1 Pull Request [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) has been successfully merged and issue [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) is closed.
 - Formally completed Step 1 and initiated Step 2.
 - Created Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) to implement the direct controller, E2E fixtures, and fuzzer for `ModelArmorFloorSetting`.
