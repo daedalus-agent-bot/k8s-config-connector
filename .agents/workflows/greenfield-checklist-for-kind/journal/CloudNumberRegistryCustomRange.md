@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types, Identity, and generate.sh | [#9633](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9633) | [#9634](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9634) | PR Created | 2026-09-09 | - |
+| 1 | Direct API Types, Identity, and generate.sh | [#9633](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9633) | [#9634](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9634) | PR Created (Conflicting) | 2026-09-09 | - |
 | 2 | Direct Controller, E2E fixtures, and Fuzzer | - | - | - | - | - |
 | 3 | MockGCP Generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
