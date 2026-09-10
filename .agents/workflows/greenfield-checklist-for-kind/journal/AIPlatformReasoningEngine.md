@@ -14,3 +14,4 @@
 ## Status Updates
 * **2026-09-09:** Initialized migration journal. Created Step 1 child issue [#12842](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12842) to implement direct KRM types, identity, and generate.sh.
 * **2026-09-09:** Step 1 Pull Request [#12855](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12855) was created. Currently investigating CI check status.
+* **2026-09-10:** Investigated CI check status of PR [#12855](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12855). Found `unit-tests-1-of-4` (`tests/apichecks`) is failing due to unexercised fields in alpha CRD checks, `.spec.etag` containing etag, and `.spec.spec.serviceAccount` requiring a reference exception. Coder/watcher bots are active on resolving these failures.
