@@ -14,6 +14,12 @@
 
 ## Status Update Notes
 
+### 2026-09-10
+- Re-evaluated the status of `AgentRegistryService` Greenfield migration.
+- Confirmed that Step 1 Pull Request [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015) is still open and paused under the `overseer/stop` label.
+- Verified that the CI checks (`presubmit-gatekeeper`, `tests-e2e-fixtures`, `validate-generated-files`, `validations`) are still failing.
+- Respecting the `overseer/stop` label as mandated by safety guardrails. No new actions or subsequent step issues will be triggered until the block is resolved and the PR is successfully merged.
+
 ### 2026-09-09
 - Initialized greenfield migration checklist and journal tracking for `AgentRegistryService`.
 - Identified that Step 1 GitHub Issue [#11475](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11475) and Pull Request [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015) already exist.
