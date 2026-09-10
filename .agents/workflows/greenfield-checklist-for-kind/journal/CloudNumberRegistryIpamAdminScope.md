@@ -14,6 +14,8 @@
 ### 2026-09-10
 - Verified that Pull Request [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) has been created for Step 1.
 - PR is currently open and CI checks are running. Some initial compilation issues were investigated and force-push resolved by `ada-coder-bot`.
+- Checked the CI check-run status for the latest commit (`00fc3faf08f20f66476eac38f333d81a3b64a9aa`). While most of the 200+ checks passed, `unit-tests-operator` and `unit-tests-2-of-4` failed.
+- Observed that `argus-watcher-bot` has automatically launched an investigation into these failures. We will wait for the CI checks to be resolved and the PR to be merged before starting Step 2.
 
 ### 2026-09-09
 - Initialized greenfield migration for `CloudNumberRegistryIpamAdminScope`.
