@@ -1,19 +1,22 @@
 # Migration Journal: ModelArmorFloorSetting
 
-Current Step: **Step 1: Direct KRM Types & Identity**
+Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 
 ## Progress Tracking
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
-| 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | PR Created | 2026-09-03 | |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | | | | | |
+| 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | Completed | 2026-09-03 | 2026-09-10 |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | | Open | 2026-09-10 | |
 | 3    | MockGCP generation | | | | | |
 | 4    | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
 
 ### 2026-09-10
+- Verified that Step 1 Pull Request [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) has been successfully merged and issue [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) is closed.
+- Formally completed Step 1 and initiated Step 2.
+- Created Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) to implement the direct controller, E2E fixtures, and fuzzer for `ModelArmorFloorSetting`.
 - Conducted an orchestrator check on PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) at 18:04 UTC. Re-verified that all 247 CI check-runs are fully completed and successfully passing (100% green). Labeled with `overseer/ready-for-human`, the PR has been approved by human reviewer `gemmahou` and remains open with zero conflicts, awaiting human OWNER review and merge to complete Step 1.
 - Updated the local journal and GitHub progress tracking comment.
 - Conducted an orchestrator check on PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) at 16:42 UTC. Re-verified that all 247 CI check-runs are fully completed and successfully passing (100% green). The PR remains open with zero conflicts, labeled with `overseer/ready-for-human`, awaiting human OWNER review and merge to complete Step 1.
