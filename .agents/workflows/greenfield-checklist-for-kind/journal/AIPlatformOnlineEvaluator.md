@@ -14,4 +14,4 @@ Current Step: Step 1 - Direct API Types, Identity, and generate.sh
 ## Log / History
 - **2026-09-09**: Initialized the greenfield migration checklist and journal for `AIPlatformOnlineEvaluator`. Created Step 1 GitHub issue [#12834](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12834).
 - **2026-09-09**: Pull Request [#12861](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12861) was created for Step 1. Currently investigating CI check failures.
-- **2026-09-10**: PR [#12861](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12861) is open. CI checks (`unit-tests-2-of-4` and `unit-tests-4-of-4`) are currently failing, and `argus-watcher-bot` is actively investigating.
+- **2026-09-10**: PR [#12861](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12861) remains open. Monitored the CI checks; currently, `validate-fmt` has failed while other checks are pending or completing. The workflow remains in Step 1.
