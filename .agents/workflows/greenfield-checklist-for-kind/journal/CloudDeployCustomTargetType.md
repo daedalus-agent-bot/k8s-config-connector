@@ -15,6 +15,6 @@ This journal tracks the progress of the Greenfield migration for `CloudDeployCus
 | 4    | MockGCP Alignment with RealGCP | N/A | N/A | `Pending` | | |
 
 ## Status Update Notes
-- **2026-09-10**: Checked PR [#12866](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12866) status. The PR remains open. The specific test suite `tests-e2e-fixtures-clouddeploy` has passed successfully. However, the overall CI run has failed due to a transient network flake in `tests-e2e-fixtures-netapp`. Waiting for the PR to be merged before starting Step 3.
+- **2026-09-10**: Re-checked PR [#12866](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12866) status. The previously failed transient CI flake in `tests-e2e-fixtures-netapp` has been successfully re-run and passed. All currently completed checks are green, with a few remaining checks in a pending state. The PR remains open, awaiting final CI completion and human owner review/approval before merge. We will continue monitoring the PR before starting Step 3.
 - **2026-09-09**: Verified that the pull request [#12866](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12866) has been opened for Step 2. CI checks are currently running.
 - **2026-09-09**: Initialized the greenfield migration journal. Checked prior step status: Step 1 (API types, identity, reference, fuzzer) was completed and merged in PRs #5245 and #6905. Created GitHub issue #12851 for Step 2 (Implement direct controller, E2E fixtures, and fuzzer) and marked it as `Open`.
