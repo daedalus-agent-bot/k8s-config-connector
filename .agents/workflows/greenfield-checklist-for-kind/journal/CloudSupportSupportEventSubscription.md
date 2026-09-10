@@ -6,7 +6,7 @@ Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity | #12853 | #12865 | PR Created | 2026-09-09 | - |
+| 1 | Direct API Types & Identity | #12853 | #12865 | Awaiting Merge | 2026-09-09 | - |
 | 2 | Direct Controller & E2E | - | - | Pending | - | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
