@@ -13,6 +13,13 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 
 ## Status Update Notes
 
+### 2026-09-11 (20:07 UTC)
+- Conducted an orchestrator check on the Greenfield migration progress of ModelArmorFloorSetting.
+- Verified that Step 2 Pull Request [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) remains OPEN and labeled with `overseer/stop`.
+- Confirmed that although all logic and test-related CI checks are passing (100% green), a lingering failure in the `Validate PR Release Note` check from a previous run is preventing a successful status rollup.
+- As the PR is stopped and not yet merged, the migration remains at Step 2. Awaiting human OWNER review and merge to resolve the status glitch and proceed to Step 3.
+- Updated the local journal and GitHub progress tracking comment.
+
 ### 2026-09-11 (18:00 UTC)
 - Conducted an orchestrator check on the Greenfield migration progress of ModelArmorFloorSetting.
 - Identified that a newer Pull Request [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) has been created to address the test fixture failures in the previous PR.
