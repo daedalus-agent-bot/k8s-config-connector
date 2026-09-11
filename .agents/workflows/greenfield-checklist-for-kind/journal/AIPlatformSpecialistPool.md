@@ -14,6 +14,7 @@ Currently on **Step 1**: Implement direct KRM types, identity, and generate.sh f
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Notes & Updates
+- **2026-09-11**: Monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). All CI checks continue to pass. The PR is awaiting human maintainer review and merge before we can proceed to Step 2 (Direct Controller and E2E fixtures).
 - **2026-09-10**: Verified PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857) and confirmed that all 150+ GitHub Actions CI checks have successfully passed. The PR is healthy, compile-clean, and fully verified. Awaiting human maintainer review and merge to complete Step 1 and proceed to Step 2.
 - **2026-09-10**: Monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). Confirmed that all 150+ GitHub Actions CI checks are passing. The PR remains open and is awaiting human maintainer review and merge before we can proceed to Step 2 (Direct Controller and E2E fixtures).
 - **2026-09-10**: Addressed PR review feedback regarding Go Type Pointers. Hopper-coder-bot converted `Location` and `DisplayName` fields in `AIPlatformSpecialistPoolSpec` to pointer types (`*string`), deleted the redundant custom mapper, and successfully regenerated all clientsets and manifests. All GitHub Actions CI checks have successfully passed on the latest commit. The PR is open and awaiting maintainer review/merge.
