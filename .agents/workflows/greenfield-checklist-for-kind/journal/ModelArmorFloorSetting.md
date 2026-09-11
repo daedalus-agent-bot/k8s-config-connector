@@ -13,6 +13,13 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 
 ## Status Update Notes
 
+### 2026-09-11 (22:04 UTC)
+- Conducted an orchestrator check on the Greenfield migration progress of ModelArmorFloorSetting.
+- Verified that Step 2 Pull Requests remain OPEN (PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) and PR [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903)).
+- PR [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) remains paused with the `overseer/stop` label, while PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) remains open and labeled `overseer/ready-for-human`.
+- Since neither PR has been merged, the migration remains at Step 2. Awaiting human OWNER review and merge to complete the step.
+- Updated the local journal and GitHub progress tracking comment.
+
 ### 2026-09-11 (20:07 UTC)
 - Conducted an orchestrator check on the Greenfield migration progress of ModelArmorFloorSetting.
 - Verified that Step 2 Pull Request [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) remains OPEN and labeled with `overseer/stop`.
