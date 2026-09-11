@@ -7,12 +7,13 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types, Identity, and generate.sh | [#9633](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9633) | [#9634](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9634), [#12905](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12905) | PR Created (Success) | 2026-09-09 | - |
+| 1 | Direct API Types, Identity, and generate.sh | [#9633](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9633) | [#9634](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/9634), [#12905](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12905) | PR Created (Paused) | 2026-09-09 | - |
 | 2 | Direct Controller, E2E fixtures, and Fuzzer | - | - | - | - | - |
 | 3 | MockGCP Generation | - | - | - | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Update Notes
+* **2026-09-11**: PR [#12905](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12905) has been paused with the `overseer/stop` label. Awaiting human intervention to unpause and review.
 * **2026-09-11**: Verified that the release-note check failure on PR [#12905](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12905) was resolved by `lovelace-coder-bot`. All CI checks are passing successfully. Still awaiting human owner review and merge to proceed to Step 2.
 * **2026-09-11**: Conflict-resolution PR [#12905](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12905) created and all CI checks are now passing. Still awaiting human owner review and merge to proceed to Step 2.
 * **2026-09-11**: Created issue [#12904](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12904) to delegate resolving merge conflicts on PR #9634 to a coder bot.
