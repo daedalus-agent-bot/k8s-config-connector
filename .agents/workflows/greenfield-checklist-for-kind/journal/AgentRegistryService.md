@@ -14,6 +14,11 @@
 
 ## Status Update Notes
 
+### 2026-09-11
+- Checked status of Step 1 PR [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015).
+- PR remains OPEN and paused with the `overseer/stop` label due to repeated CI failures (`validations`, `presubmit-gatekeeper`).
+- Safety guardrails prevent any automated action while the stop label is present. Awaiting manual resolution or a new commit to unblock the migration.
+
 ### 2026-09-10
 - Re-evaluated the status of `AgentRegistryService` Greenfield migration.
 - Confirmed that Step 1 Pull Request [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015) is still open and paused under the `overseer/stop` label.
