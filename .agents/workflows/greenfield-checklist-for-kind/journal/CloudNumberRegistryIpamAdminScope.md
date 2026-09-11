@@ -11,6 +11,11 @@
 
 ## Updates
 
+### 2026-09-11
+- Checked PR status: PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) remains OPEN. All 200+ CI checks are fully passing.
+- Checked review status: `reviewbot-robot` submitted a new review comment on the latest commit (`7a5ee3cd61a0ce63efdf03f3756f8652155d0ec4`) identifying remaining minor issues (non-pointer primitive `Location` field and an error message typo).
+- The automated system `argus-watcher-bot` is active and started addressing feedback and resolving conflicts on 2026-09-11. We are monitoring the progress and waiting for the PR to be merged before starting Step 2.
+
 ### 2026-09-10
 - Verified Step 1 PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) has all CI checks passing. The PR has been marked `overseer/ready-for-human`. Proceeding to monitor for merge.
 - Checked PR status: PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) remains OPEN in the `REVIEW_REQUIRED` state.
