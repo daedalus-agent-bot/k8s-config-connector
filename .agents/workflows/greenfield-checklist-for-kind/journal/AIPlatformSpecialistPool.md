@@ -14,6 +14,7 @@ Currently on **Step 1**: Implement direct KRM types, identity, and generate.sh f
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Notes & Updates
+- **2026-09-11**: Re-verified Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). All 150+ GitHub Actions CI checks are passing. The PR has the `overseer/ready-for-human` label and is awaiting maintainer review and merge.
 - **2026-09-11**: Monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). All CI checks continue to pass. The PR is awaiting human maintainer review and merge before we can proceed to Step 2 (Direct Controller and E2E fixtures).
 - **2026-09-10**: Verified PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857) and confirmed that all 150+ GitHub Actions CI checks have successfully passed. The PR is healthy, compile-clean, and fully verified. Awaiting human maintainer review and merge to complete Step 1 and proceed to Step 2.
 - **2026-09-10**: Monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). Confirmed that all 150+ GitHub Actions CI checks are passing. The PR remains open and is awaiting human maintainer review and merge before we can proceed to Step 2 (Direct Controller and E2E fixtures).
