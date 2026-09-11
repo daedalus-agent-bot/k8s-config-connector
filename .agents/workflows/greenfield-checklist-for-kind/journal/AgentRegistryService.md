@@ -16,7 +16,8 @@
 
 ### 2026-09-11
 - Checked status of Step 1 PR [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015).
-- PR remains OPEN and paused with the `overseer/stop` label due to repeated CI failures (`validations`, `presubmit-gatekeeper`).
+- PR remains OPEN and paused with the `overseer/stop` label.
+- Verified the current CI check-runs via paginated API checks: the tests `presubmit-gatekeeper`, `tests-e2e-fixtures`, `validate-generated-files`, and `validations` are still failing on the head commit.
 - Safety guardrails prevent any automated action while the stop label is present. Awaiting manual resolution or a new commit to unblock the migration.
 
 ### 2026-09-10
