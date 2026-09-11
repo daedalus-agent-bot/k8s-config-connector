@@ -7,11 +7,17 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | Completed | 2026-09-03 | 2026-09-10 |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | | Open | 2026-09-10 | |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | PR Created | 2026-09-10 | |
 | 3    | MockGCP generation | | | | | |
 | 4    | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+
+### 2026-09-11 (05:15 UTC)
+- Conducted an orchestrator check at 05:15 UTC. Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) is in progress.
+- Pull Request [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) has been created by `lovelace-coder-bot` to implement the direct controller, E2E fixtures, and fuzzer.
+- PR CI checks show failures in `presubmit-gatekeeper`, `validate-generated-files`, and `validate-manifests`. `argus-watcher-bot` is currently investigating and fixing these failures.
+- Updated the local journal and GitHub progress tracking comment.
 
 ### 2026-09-11
 - Conducted an orchestrator check at 03:03 UTC. Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) remains open and assigned to `lovelace-coder-bot`. `argus-watcher-bot` has started a new sandbox run at 01:36 UTC. No Pull Request has been created yet.
