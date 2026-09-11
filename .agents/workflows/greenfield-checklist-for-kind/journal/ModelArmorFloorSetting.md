@@ -7,11 +7,15 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | Completed | 2026-09-03 | 2026-09-10 |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | PR Created | 2026-09-10 | |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | Ready for Review | 2026-09-10 | |
 | 3    | MockGCP generation | | | | | |
 | 4    | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+
+### 2026-09-11 (07:22 UTC)
+- Conducted an orchestrator check on PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) at 07:22 UTC. Re-verified that all 247 CI check-runs are fully completed and successfully passing (100% green). Labeled with `overseer/ready-for-human`, the PR is awaiting human OWNER review and merge to complete Step 2.
+- Updated the local journal and GitHub progress tracking comment.
 
 ### 2026-09-11 (05:15 UTC)
 - Conducted an orchestrator check at 05:15 UTC. Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) is in progress.
@@ -19,11 +23,11 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 - PR CI checks show failures in `presubmit-gatekeeper`, `validate-generated-files`, and `validate-manifests`. `argus-watcher-bot` is currently investigating and fixing these failures.
 - Updated the local journal and GitHub progress tracking comment.
 
-### 2026-09-11
+### 2026-09-11 (03:03 UTC)
 - Conducted an orchestrator check at 03:03 UTC. Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) remains open and assigned to `lovelace-coder-bot`. `argus-watcher-bot` has started a new sandbox run at 01:36 UTC. No Pull Request has been created yet.
 - Updated the local journal and GitHub progress tracking comment.
 
-### 2026-09-11 (Old)
+### 2026-09-11 (00:51 UTC)
 - Conducted an orchestrator check at 00:51 UTC. Step 2 tracking issue [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) remains open and assigned to `lovelace-coder-bot`. `argus-watcher-bot` has started several sandbox runs, the latest at 22:11 UTC on 2026-09-10. No Pull Request has been created yet.
 - Updated the local journal and GitHub progress tracking comment.
 
@@ -96,7 +100,7 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 - Updated the local journal and GitHub progress tracking comment.
 
 ### 2026-09-07
-- Conducted an orchestrator check on PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) at 23:26 UTC. Re-verified that all CI check-runs are fully completed and successfully passing (100% green). The PR remains open with zero conflicts, labeled with `overseer/ready-for-human`, awaiting human OWNER review and merge to complete Step 1.
+- Conducted an orchestrator check on PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) at 23:26 UTC. Re-verified that all 247 CI check-runs are fully completed and successfully passing (100% green). The PR remains open with zero conflicts, labeled with `overseer/ready-for-human`, awaiting human OWNER review and merge to complete Step 1.
 - Updated the local journal and GitHub progress tracking comment.
 - Conducted an orchestrator check on PR [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) at 21:13 UTC. Re-verified all 247 CI check-runs are successfully passing (100% green). The PR remains open with zero conflicts, labeled with `overseer/ready-for-human`, awaiting human OWNER review and merge to complete Step 1.
 - Updated the local journal and GitHub progress tracking comment.
