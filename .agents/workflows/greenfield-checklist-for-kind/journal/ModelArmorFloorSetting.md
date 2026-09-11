@@ -7,11 +7,18 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | Completed | 2026-09-03 | 2026-09-10 |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | In Progress | 2026-09-10 | |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) | In Progress | 2026-09-10 | |
 | 3    | MockGCP generation | | | | | |
 | 4    | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+
+### 2026-09-11 (18:00 UTC)
+- Conducted an orchestrator check on the Greenfield migration progress of ModelArmorFloorSetting.
+- Identified that a newer Pull Request [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) has been created to address the test fixture failures in the previous PR.
+- Verified that all 247 CI check-runs for PR [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903) (including all fuzzers, e2e fixtures, and linters) are fully passing (100% green).
+- The `Validate PR Release Note` check completed with a successful run, but remains flagged in the GitHub status rollup due to a lingering failed check run on a previous trigger event. As a result, automated investigation has paused and attached the `overseer/stop` label.
+- Updated the local journal and GitHub progress tracking comment to reference the successful PR [#12903](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12903).
 
 ### 2026-09-11 (09:40 UTC)
 - Conducted an orchestrator check on PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897). While CI checks are passing, the automated KCC review (`reviewbot-robot`) reported a failure in the `modelarmorfloorsetting-maximal` test case. The recorded golden files show a 400 error from GCP because `integratedServices` was not specified when `aiPlatformFloorSetting` was configured.
