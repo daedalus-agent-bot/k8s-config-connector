@@ -7,11 +7,16 @@ Current Step: **Step 2: Direct Controller, E2E fixtures & Fuzzer**
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1    | Direct KRM Types, Identity & Reference | [#12748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12748) | [#12752](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12752) | Completed | 2026-09-03 | 2026-09-10 |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | Ready for Review | 2026-09-10 | |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12891](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12891) | [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) | In Progress | 2026-09-10 | |
 | 3    | MockGCP generation | | | | | |
 | 4    | MockGCP Alignment with RealGCP | | | | | |
 
 ## Status Update Notes
+
+### 2026-09-11 (09:40 UTC)
+- Conducted an orchestrator check on PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897). While CI checks are passing, the automated KCC review (`reviewbot-robot`) reported a failure in the `modelarmorfloorsetting-maximal` test case. The recorded golden files show a 400 error from GCP because `integratedServices` was not specified when `aiPlatformFloorSetting` was configured.
+- `lovelace-coder-bot` needs to fix the test fixture and regenerate golden files. The step status is reverted to `In Progress`.
+- Updated the local journal and GitHub progress tracking comment.
 
 ### 2026-09-11 (07:22 UTC)
 - Conducted an orchestrator check on PR [#12897](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12897) at 07:22 UTC. Re-verified that all 247 CI check-runs are fully completed and successfully passing (100% green). Labeled with `overseer/ready-for-human`, the PR is awaiting human OWNER review and merge to complete Step 2.
