@@ -1,17 +1,18 @@
 # Greenfield Migration Journal: CloudSupportSupportEventSubscription
 
-Current Step: Step 1 (Direct API Types and Identity and Reference Types Pattern)
+Current Step: Step 2 (Direct Controller, E2E fixtures and Fuzzer)
 
 ## Progress Tracking
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity | #12853 | #12865 | Awaiting Merge | 2026-09-09 | - |
-| 2 | Direct Controller & E2E | - | - | Pending | - | - |
+| 1 | Direct API Types & Identity | #12853 | #12865 | Merged | 2026-09-09 | 2026-09-13 |
+| 2 | Direct Controller & E2E | #12923 | - | Open | 2026-09-13 | - |
 | 3 | mockGCP Generation | - | - | Pending | - | - |
 | 4 | mockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+* **2026-09-13**: Verified PR #12865 was merged successfully, completing Step 1. Created Issue #12923 to start Step 2 (Direct Controller, E2E fixtures, and Fuzzer).
 * **2026-09-11**: Verified PR #12865 CI checks are all passing. The PR remains open, awaiting human review and merge.
 * **2026-09-11**: Monitored PR #12865. CI checks are fully green and successful. The pull request remains open and is awaiting human review and merge.
 * **2026-09-11**: Verified PR #12865 status. All CI checks are green, but the PR remains OPEN and is awaiting human review.
