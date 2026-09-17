@@ -1,17 +1,19 @@
 # Migration Journal: CloudNumberRegistryRegistryBook
 
-**Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
+**Current Step:** Step 4: mockGCP RealGCP Alignment
 
 ## Progress Tracking
 
 | Step | Name | Issue | PR | Status | Date Started | Date Completed |
 |------|------|-------|----|--------|--------------|----------------|
 | 1 | Direct KRM Types & Identity | [#12852](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12852) | [#12864](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12864) | Merged | 2026-09-09 | 2026-09-10 |
-| 2 | Direct Controller & E2E | [#12890](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12890) | [#12895](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12895) | Awaiting Merge | 2026-09-10 | - |
-| 3 | mockGCP Generation | - | - | Pending | - | - |
-| 4 | mockGCP RealGCP Alignment | - | - | Pending | - | - |
+| 2 | Direct Controller & E2E | [#12890](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12890) | [#12895](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12895) | Merged | 2026-09-10 | 2026-09-15 |
+| 3 | mockGCP Generation | [#12960](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12960) | [#13058](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13058) | Merged | 2026-09-15 | 2026-09-17 |
+| 4 | mockGCP RealGCP Alignment | [#13216](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13216) | - | Open | 2026-09-17 | - |
 
 ## Status Updates
+- **2026-09-17**: Step 3 (mockGCP Generation) has been successfully merged (PR [#13058](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13058)). Transitioning to Step 4: mockGCP RealGCP Alignment. Created child issue [#13216](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13216).
+- **2026-09-15**: Step 2 (Direct Controller & E2E) has been successfully merged. Transitioning to Step 3: mockGCP Generation. Created child issue [#12960](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12960).
 - **2026-09-11**: Verified all CI check-runs have fully passed on PR [#12895](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12895). The pull request is approved, green, and awaiting human OWNER review and merge before transitioning to Step 3.
 - **2026-09-11**: Pull Request [#12895](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12895) has successfully resolved all auto-reviewer feedback (including a missing `structuredreporting.ReportDiff` call). The PR has passed all CI presubmits, has been fully approved by the auto-reviewer, and is now awaiting human OWNER review and merging.
 - **2026-09-11**: Verified that all CI checks (including E2E fixture tests, unit tests, and linters) have successfully passed on Pull Request [#12895](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12895). The PR is fully green and now awaiting human OWNER review and approval to be merged.
