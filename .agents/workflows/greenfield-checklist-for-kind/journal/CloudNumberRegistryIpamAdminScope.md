@@ -1,15 +1,20 @@
 # CloudNumberRegistryIpamAdminScope Greenfield Migration Journal
 
-**Current Step:** Step 1: Direct API Types and Identity and Reference Types Pattern
+**Current Step:** Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12854](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12854) | [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) | PR Created | 2026-09-09 | - |
-| 2 | Direct Controller, E2E fixtures and Fuzzer | - | - | Pending | - | - |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12854](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12854) | [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) | Completed | 2026-09-09 | 2026-09-17 |
+| 2 | Direct Controller, E2E fixtures and Fuzzer | [#13218](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13218) | - | Open | 2026-09-17 | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Updates
+
+### 2026-09-17
+- Step 1 PR [#12870](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12870) has been merged successfully!
+- Created GitHub issue [#13218](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13218) for Step 2.
+- Transitioning migration checklist to Step 2: "Direct Controller, E2E fixtures and Fuzzer".
 
 ### 2026-09-11
 - Verified that PR #12870 remains OPEN and is awaiting human OWNER review. Checked all 200+ CI checks and they are 100% green and passing.
