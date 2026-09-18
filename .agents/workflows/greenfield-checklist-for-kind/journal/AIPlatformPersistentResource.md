@@ -1,17 +1,19 @@
 # Migration Progress Journal: AIPlatformPersistentResource
 
-Current Step: Step 1 - Direct API Types and Identity and Reference Types Pattern
+Current Step: Step 3 - mockGCP Generation
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |------|-----------|--------------|-----------|--------|--------------|----------------|
-| 1 | Direct API Types, Identity & Reference Types | #12833 | #12862 | PR Created | 2026-09-09 | |
-| 2 | Direct Controller, E2E fixtures & Fuzzer | | | Not Started | | |
-| 3 | mockGCP Generation | | | Not Started | | |
+| 1 | Direct API Types, Identity & Reference Types | #12833 | #12862 | Completed | 2026-09-09 | 2026-09-15 |
+| 2 | Direct Controller, E2E fixtures & Fuzzer | #13169 | #13201 | Completed | 2026-09-16 | 2026-09-17 |
+| 3 | mockGCP Generation | #13221 | | Open | 2026-09-18 | |
 | 4 | MockGCP Alignment with RealGCP | | | Not Started | | |
 
 ## Recent Status Updates:
+* **2026-09-18**: Step 2 PR #13201 was successfully merged (merged on 2026-09-17). Created Step 3 GitHub Issue #13221 to begin mockGCP generation and alignment for AIPlatformPersistentResource.
+* **2026-09-16**: Step 1 PR #12862 has been successfully merged (merged on 2026-09-15). Created Step 2 GitHub Issue #13169 to begin implementing the direct controller, E2E fixtures, and fuzzer.
 * **2026-09-11**: Monitored progress. Verified that all 110+ CI checks on Step 1 PR #12862 are still passing. The PR remains open, awaiting human review and merge before we can transition to Step 2.
 * **2026-09-11**: Monitored progress. Verified PR #12862 remains open with no failing checks. The PR continues to wait for human maintainers to review and merge before we can proceed to Step 2.
 * **2026-09-11**: Monitored progress. Verified PR #12862 is open and all 240+ CI checks are passing. The PR is labelled `overseer/ready-for-human` and is awaiting human maintainer review and merge before we can proceed to Step 2.
