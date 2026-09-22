@@ -193,7 +193,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #8950, External Work: #10451",
+    "notes": "Missing _reference.go or _identity.go, External Work: #8950, External Work: #10451, External Work: #13250",
     "sortOrder": 137,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1038,7 +1038,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #371, External Work: #766, External Work: #774, External Work: #786, External Work: #7112, External Work: #12569",
+    "notes": "External Work: #371, External Work: #766, External Work: #774, External Work: #786, External Work: #7112, External Work: #12569, External Work: #12943, External Work: #12945, External Work: #12946",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "N/A",
@@ -1154,7 +1154,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #4760",
+    "notes": "External Work: #4760, External Work: #13062",
     "sortOrder": 200,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1263,7 +1263,7 @@
     "dependencies": [
       "Folder"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1273,7 +1273,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #13347",
     "sortOrder": 211,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1290,7 +1290,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1300,7 +1300,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #13347",
     "sortOrder": 212,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1319,7 +1319,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1329,7 +1329,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #13347",
     "sortOrder": 213,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #370, External Work: #731, External Work: #796, External Work: #6869",
+    "notes": "External Work: #370, External Work: #731, External Work: #796, External Work: #6869, External Work: #13347",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1389,7 +1389,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12192",
+    "notes": "External Work: #12192, External Work: #13347",
     "sortOrder": 223,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1419,7 +1419,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #718, External Work: #793, External Work: #886, External Work: #1082, External Work: #3429, External Work: #12312",
+    "notes": "Missing _reference.go or _identity.go, External Work: #718, External Work: #793, External Work: #886, External Work: #1082, External Work: #3429, External Work: #12312, External Work: #13347",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1449,7 +1449,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #13347",
     "sortOrder": 225,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1466,7 +1466,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1476,7 +1476,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #13347",
     "sortOrder": 226,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1503,7 +1503,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #13347",
     "sortOrder": 227,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1532,7 +1532,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #695, External Work: #956, External Work: #12312",
+    "notes": "Missing _reference.go or _identity.go, External Work: #695, External Work: #956, External Work: #12312, External Work: #13347",
     "sortOrder": 229,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2202,7 +2202,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10924 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go",
+    "notes": "Tracking issue #10924 is closed but direct controller is not registered in code, Missing _reference.go or _identity.go, External Work: #13054, External Work: #13056, External Work: #13057",
     "sortOrder": 89,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -2468,7 +2468,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #13054, External Work: #13056",
     "sortOrder": 251,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2528,7 +2528,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999, External Work: #11783, External Work: #11784",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3279,7 +3279,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #13087, External Work: #13089",
     "sortOrder": 54,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #678, External Work: #5953, External Work: #7112",
+    "notes": "External Work: #678, External Work: #5953, External Work: #7112, External Work: #12952",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "[#11543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543)",
@@ -3780,7 +3780,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #13349",
     "sortOrder": 280,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #361, External Work: #401, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12569, External Work: #12631, External Work: #12883, External Work: #12906",
+    "notes": "External Work: #361, External Work: #401, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5529, External Work: #5901, External Work: #5902, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9000, External Work: #9813, External Work: #10410, External Work: #10458, External Work: #10459, External Work: #11505, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12569, External Work: #12631, External Work: #12883, External Work: #12906, External Work: #12949, External Work: #12953",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #12241",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #5609, External Work: #8022, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "N/A",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #405, External Work: #465, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5572, External Work: #6148, External Work: #9000, External Work: #9481, External Work: #11677, External Work: #12332, External Work: #12682, External Work: #12738",
+    "notes": "External Work: #405, External Work: #465, External Work: #5008, External Work: #5434, External Work: #5474, External Work: #5572, External Work: #6148, External Work: #9000, External Work: #9481, External Work: #11677, External Work: #12332, External Work: #12682, External Work: #12738, External Work: #13136, External Work: #13347",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "N/A",
@@ -5608,7 +5608,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #338",
+    "notes": "Missing _reference.go or _identity.go, External Work: #338, External Work: #12958, External Work: #12972",
     "sortOrder": 394,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5666,7 +5666,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #709, External Work: #821, External Work: #2697, External Work: #2873, External Work: #4666, External Work: #7650, External Work: #12569, External Work: #12699",
+    "notes": "External Work: #709, External Work: #821, External Work: #2697, External Work: #2873, External Work: #4666, External Work: #7650, External Work: #12569, External Work: #12699, External Work: #13356",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5696,7 +5696,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #383, External Work: #384, External Work: #404, External Work: #543, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #5825, External Work: #6027, External Work: #9714",
+    "notes": "External Work: #340, External Work: #383, External Work: #384, External Work: #404, External Work: #543, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #5825, External Work: #6027, External Work: #9714, External Work: #12950, External Work: #12954",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #384, External Work: #425, External Work: #543, External Work: #709, External Work: #760, External Work: #772, External Work: #3338, External Work: #4754, External Work: #5377, External Work: #6027, External Work: #8533, External Work: #11409",
+    "notes": "External Work: #384, External Work: #425, External Work: #543, External Work: #709, External Work: #760, External Work: #772, External Work: #3338, External Work: #4754, External Work: #5377, External Work: #6027, External Work: #8533, External Work: #11409, External Work: #12950",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "[#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735)",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991",
+    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991, External Work: #12962, External Work: #13088",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6763,7 +6763,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10450, External Work: #12368",
+    "notes": "Missing _reference.go or _identity.go, External Work: #10450, External Work: #12368, External Work: #12959",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6880,7 +6880,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12369",
+    "notes": "External Work: #12369, External Work: #12965",
     "sortOrder": 454,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #362, External Work: #388, External Work: #402, External Work: #404, External Work: #654, External Work: #709, External Work: #740, External Work: #818, External Work: #855, External Work: #1408, External Work: #2188, External Work: #4597, External Work: #5011, External Work: #5098, External Work: #5240, External Work: #5572, External Work: #5613, External Work: #5983, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6148, External Work: #6515, External Work: #6637, External Work: #6883, External Work: #6968, External Work: #7316, External Work: #7982, External Work: #7983, External Work: #7987, External Work: #9000, External Work: #10457, External Work: #11034, External Work: #11133, External Work: #11197, External Work: #11550, External Work: #12332, External Work: #12374, External Work: #12501, External Work: #12640, External Work: #12682, External Work: #12757, External Work: #12759, External Work: #12773, External Work: #12786, External Work: #12817, External Work: #12917",
+    "notes": "External Work: #340, External Work: #362, External Work: #388, External Work: #402, External Work: #404, External Work: #654, External Work: #709, External Work: #740, External Work: #818, External Work: #855, External Work: #1408, External Work: #2188, External Work: #4597, External Work: #5011, External Work: #5098, External Work: #5240, External Work: #5572, External Work: #5613, External Work: #5983, External Work: #6028, External Work: #6060, External Work: #6063, External Work: #6068, External Work: #6069, External Work: #6148, External Work: #6515, External Work: #6637, External Work: #6883, External Work: #6968, External Work: #7316, External Work: #7982, External Work: #7983, External Work: #7987, External Work: #9000, External Work: #10457, External Work: #11034, External Work: #11133, External Work: #11197, External Work: #11550, External Work: #12332, External Work: #12374, External Work: #12501, External Work: #12640, External Work: #12682, External Work: #12757, External Work: #12759, External Work: #12773, External Work: #12786, External Work: #12817, External Work: #12917, External Work: #12950, External Work: #12951, External Work: #12958, External Work: #12959, External Work: #12975, External Work: #13068, External Work: #13104, External Work: #13154, External Work: #13347",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "N/A",
@@ -7710,7 +7710,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #12964, External Work: #12974",
     "sortOrder": 487,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7740,7 +7740,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #566, External Work: #6984, External Work: #12755, External Work: #12756",
+    "notes": "Missing _reference.go or _identity.go, External Work: #566, External Work: #6984, External Work: #12755, External Work: #12756, External Work: #13070",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #772, External Work: #813, External Work: #3072, External Work: #5554, External Work: #6686, External Work: #8710, External Work: #9714, External Work: #12710",
+    "notes": "External Work: #772, External Work: #813, External Work: #3072, External Work: #5554, External Work: #6686, External Work: #8710, External Work: #9714, External Work: #12710, External Work: #12963",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #681, External Work: #710, External Work: #750, External Work: #886, External Work: #2188, External Work: #2894, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6073, External Work: #6207, External Work: #7112, External Work: #8710, External Work: #9714, External Work: #9779, External Work: #11550, External Work: #11677, External Work: #12344, External Work: #12346, External Work: #12569, External Work: #12745",
+    "notes": "External Work: #681, External Work: #710, External Work: #750, External Work: #886, External Work: #2188, External Work: #2894, External Work: #5546, External Work: #5553, External Work: #5556, External Work: #5572, External Work: #6073, External Work: #6207, External Work: #7112, External Work: #8710, External Work: #9714, External Work: #9779, External Work: #11550, External Work: #11677, External Work: #12344, External Work: #12346, External Work: #12569, External Work: #12745, External Work: #12929, External Work: #12944, External Work: #12949, External Work: #12953",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "[#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
