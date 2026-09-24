@@ -3,18 +3,19 @@
 This journal tracks the progress of migrating the `CloudBuildConnection` resource to a production-ready direct controller.
 
 ## Current Status
-- Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
+- Current Step: Step 3: mockGCP generation
 
 ## Migration Progress
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity | [#8676](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8676) | [#8700](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8700) | Completed | 2026-06-14 | 2026-06-15 |
-| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#12850](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12850) | [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) | PR Created | 2026-09-09 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct Controller, E2E fixtures, and Fuzzer | [#12850](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12850) | [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) | Completed | 2026-09-09 | 2026-09-24 |
+| 3 | mockGCP generation | [#13436](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13436) | - | Open | 2026-09-24 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-09-24**: PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) for Step 2 has been merged. Completed Step 2 and initiated Step 3 by creating issue [#13436](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13436) for MockGCP implementation.
 - **2026-09-11 21:57 UTC**: Periodic check of PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863). The pull request remains OPEN with all 133 CI checks passing perfectly. It is awaiting human OWNER (`fedebongio`) review, approval, and merge. No further automated actions are possible until the PR is merged.
 - **2026-09-11**: Re-verified PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) status. It is still OPEN with all CI checks passing successfully. The PR is waiting for human OWNER (`fedebongio`) review, approval, and merge. No further automated actions are possible until the PR is merged.
 - **2026-09-11**: Verified PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) status. It is still OPEN and all CI checks are passing. Awaiting human OWNER approval and merge. No further automated actions can be taken until merge.
