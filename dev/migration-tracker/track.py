@@ -388,13 +388,12 @@ def main():
             break
             
     if existing_comment_db_id:
-        print(f"Found existing comment with DB ID {existing_comment_db_id}. Editing via gh issue comment...")
-        comment_url = f"https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/{COORDINATOR_ISSUE_NUMBER}#issuecomment-{existing_comment_db_id}"
-        subprocess.run(["gh", "issue", "comment", comment_url, "-F", "summary_comment.md"], check=True)
+        print(f"Found existing comment with DB ID {existing_comment_db_id}. Editing via gh api PATCH...")
+        subprocess.run(["gh", "api", "--method", "PATCH", f"repos/:owner/:repo/issues/comments/{existing_comment_db_id}", "-F", "body=@summary_comment.md"], check=True)
         print("Comment edited successfully!")
     else:
         print("No existing comment found. Creating new comment...")
-        subprocess.run(["gh", "issue", "comment", str(COORDINATOR_ISSUE_NUMBER), "-F", "summary_comment.md"], check=True)
+        subprocess.run(["gh", "api", f"repos/:owner/:repo/issues/{COORDINATOR_ISSUE_NUMBER}/comments", "-F", "body=@summary_comment.md"], check=True)
         print("Comment created successfully!")
 
 if __name__ == "__main__":

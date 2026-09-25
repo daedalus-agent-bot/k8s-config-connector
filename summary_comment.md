@@ -118,7 +118,7 @@
 | DLPInspectTemplate | Investigation/Setup | N/A |  |  |
 | DLPJobTrigger | Investigation/Setup | N/A |  | External Work: #7417 |
 | DLPStoredInfoType | Investigation/Setup | N/A |  |  |
-| DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982 |
+| DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287 |
 | DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -156,7 +156,7 @@
 | IAMPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7650 |
 | IAMPolicyMember | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6027 |
 | IAMServiceAccount | Stage 4 (MockGCP/E2E Fixtures) | [#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735) | feynman-agent-bot | Missing _reference.go or _identity.go |
-| IAMServiceAccountKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6675 |
+| IAMServiceAccountKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6675, External Work: #3338 |
 | IAMWorkforcePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMWorkforcePoolProvider | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMWorkloadIdentityPool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
