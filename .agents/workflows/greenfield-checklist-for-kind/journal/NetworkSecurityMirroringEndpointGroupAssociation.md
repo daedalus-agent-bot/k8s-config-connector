@@ -6,7 +6,7 @@ Current Step: **Step 1: Direct API Types and Identity and Reference Types Patter
 
 | Step Number and Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
-| 1. Direct API Types & Identity | [#13454](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13454) | | Open | 2026-09-25 | |
+| 1. Direct API Types & Identity | [#13454](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13454) | [#13461](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13461) | PR Created | 2026-09-25 | |
 | 2. Direct Controller & Fuzzer | | | Not Started | | |
 | 3. mockGCP generation | | | Not Started | | |
 | 4. MockGCP Alignment | | | Not Started | | |
@@ -16,7 +16,7 @@ Current Step: **Step 1: Direct API Types and Identity and Reference Types Patter
 ### 2026-09-25
 - Regenerated Step 1 upon request (previous issue #8733 and PR #11523 were closed/stale).
 - Opened Step 1 child issue #13454 for direct API types, identity, reference types, and generate.sh.
-- Awaiting PR creation by coder bot.
+- PR #13461 created for Step 1 by coder bot. Watch daemon is actively monitoring CI checks.
 
 ### 2026-09-19
 - Tracking initiated.
