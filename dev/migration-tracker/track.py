@@ -133,14 +133,14 @@ def main():
         data = json.load(f)
 
     # Get migration tracker issues from GitHub
-    cmd = ["gh", "issue", "list", "--state", "all", "--label", "overseer,workflow/migrate", "--json", "number,title,state,url,assignees", "--limit", "1000"]
+    cmd = ["gh", "issue", "list", "--state", "all", "--label", "overseer,workflow/migrate", "--json", "number,title,state,url,assignees,createdAt", "--limit", "1000"]
     res = subprocess.run(cmd, capture_output=True, text=True, check=True)
     migration_issues = json.loads(res.stdout)
 
     migration_by_kind = {}
     for iss in migration_issues:
         title = iss["title"]
-        m = re.search(r'(?:Migrate|Migrating)\s+(\w+)\s+(?:to|from)', title, re.IGNORECASE)
+        m = re.search(r'(?:Migrate|Migrating)\s+(\w+)', title, re.IGNORECASE)
         if m:
             kind = m.group(1)
             is_migration = any(item["kind"] == kind for item in data)
@@ -148,19 +148,34 @@ def main():
                 assignee = ""
                 if iss.get("assignees"):
                     assignee = iss["assignees"][0]["login"]
-                migration_by_kind[kind] = {
+                issue_info = {
                     "number": iss["number"],
                     "url": iss["url"],
                     "state": iss["state"].upper(),
-                    "assignee": assignee
+                    "assignee": assignee,
+                    "createdAt": iss.get("createdAt", "")
                 }
+                if kind not in migration_by_kind:
+                    migration_by_kind[kind] = []
+                migration_by_kind[kind].append(issue_info)
+
+    selected_migration_issue = {}
+    all_tracking_issue_numbers = set()
+    for kind, iss_list in migration_by_kind.items():
+        open_list = [i for i in iss_list if i["state"] == "OPEN"]
+        if open_list:
+            selected_migration_issue[kind] = open_list[0]
+        else:
+            selected_migration_issue[kind] = iss_list[0]
+        for i in iss_list:
+            all_tracking_issue_numbers.add(i["number"])
 
     # Get all open issues and PRs (excluding bots)
-    cmd_iss = ["gh", "issue", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,author,state"]
+    cmd_iss = ["gh", "issue", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,author,state"]
     res_iss = subprocess.run(cmd_iss, capture_output=True, text=True, check=True)
     issues = json.loads(res_iss.stdout)
     
-    cmd_pr = ["gh", "pr", "list", "--state", "open", "--limit", "1000", "--json", "number,title,url,author,state"]
+    cmd_pr = ["gh", "pr", "list", "--state", "open", "--limit", "2000", "--json", "number,title,url,author,state"]
     res_pr = subprocess.run(cmd_pr, capture_output=True, text=True, check=True)
     prs = json.loads(res_pr.stdout)
     
@@ -230,7 +245,7 @@ def main():
                 item["steps"] = {"gen-types": False, "identity-reference": False, "mapper-fuzzer": False, "mocks": False, "controller": False, "tests": False}
                 
             # Process tracking issue (SET 1)
-            tracking_iss = migration_by_kind.get(kind)
+            tracking_iss = selected_migration_issue.get(kind)
             if tracking_iss:
                 if tracking_iss["state"] == "OPEN":
                     item["state"] = "In Progress"
@@ -272,7 +287,7 @@ def main():
                 if ext.get("author", {}).get("is_bot") or "bot" in author_login.lower() or "robot" in author_login.lower():
                     continue
                 # Skip if already tracked
-                if tracking_iss and ext["number"] == tracking_iss["number"]:
+                if ext["number"] in all_tracking_issue_numbers:
                     continue
                 # Check for kind in title
                 if re.search(r'\b' + re.escape(kind) + r'\b', ext["title"], re.IGNORECASE):
