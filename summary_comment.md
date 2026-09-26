@@ -34,14 +34,14 @@
 | BigQueryDataPolicyDataPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot, walle-agent-bot | Missing _reference.go or _identity.go, External Work: #11197 |
+| BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot, walle-agent-bot | External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #774, External Work: #786, External Work: #12946 |
 | BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596 |
 | BinaryAuthorizationAttestor | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BinaryAuthorizationPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4760 |
-| CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #370, External Work: #796 |
+| CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #370, External Work: #796 |
 | CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12192 |
 | CloudFunctionsFunction | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #886, External Work: #12312 |
 | CloudIDSEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -49,7 +49,7 @@
 | CloudSchedulerJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #956 |
 | ComputeBackendBucket | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958 |
-| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
+| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
 | ComputeExternalVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #570 |
 | ComputeFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10884 is closed but direct controller is not registered in code |
@@ -87,7 +87,7 @@
 | ComputeResourcePolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ComputeRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10746 is closed but direct controller is not registered in code |
 | ComputeRouterInterface | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10749 is closed but direct controller is not registered in code |
-| ComputeRouterNAT | Stage 4 (MockGCP/E2E Fixtures) | [#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #12361 |
+| ComputeRouterNAT | Stage 4 (MockGCP/E2E Fixtures) | [#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #12361, External Work: #13466 |
 | ComputeRouterPeer | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10029 |
 | ComputeSSLCertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #476, External Work: #505, External Work: #803 |
 | ComputeServiceAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -115,7 +115,7 @@
 | DLPJobTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7417 |
 | DLPStoredInfoType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #844, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415 |
-| DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataFusionInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -133,7 +133,7 @@
 | EdgeNetworkNetwork | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeNetworkSubnet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EventarcTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| FilestoreBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| FilestoreBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FilestoreInstance | Stage 4 (MockGCP/E2E Fixtures) | [#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731) | walle-agent-bot, feynman-agent-bot | External Work: #691, External Work: #2291 |
 | FilestoreSnapshot | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -142,7 +142,7 @@
 | FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | HealthcareDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
@@ -163,9 +163,9 @@
 | IdentityPlatformOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenant | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenantOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10682 |
-| KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10681 |
+| KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10682 |
+| KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10681 |
 | MLEngineModel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MemcacheInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MonitoringAlertPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991 |
@@ -183,11 +183,11 @@
 | NetworkSecurityServerTLSPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12369 |
 | NetworkServicesEdgeCacheKeyset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | NetworkServicesEdgeCacheOrigin | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| NetworkServicesEdgeCacheService | Stage 4 (MockGCP/E2E Fixtures) | [#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #7277 |
+| NetworkServicesEdgeCacheService | Stage 4 (MockGCP/E2E Fixtures) | [#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612) | walle-agent-bot | External Work: #7277 |
 | NetworkServicesEndpointPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | NetworkServicesGRPCRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #3520 |
 | NetworkServicesHTTPRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #6207 |
-| NetworkServicesMesh | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #602 |
+| NetworkServicesMesh | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #602 |
 | NetworkServicesTCPRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | NetworkServicesTLSRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | OSConfigGuestPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939) | daedalus-agent-bot | Missing _reference.go or _identity.go |
@@ -211,8 +211,8 @@
 | ServiceNetworkingConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ServiceUsageConsumerQuotaOverride | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | SourceRepoRepository | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6319 |
-| SpannerDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5359 |
-| StorageBucket | Stage 4 (MockGCP/E2E Fixtures) | [#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525) | walle-agent-bot, daedalus-agent-bot | External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #12745, External Work: #12929, External Work: #12944, External Work: #13464 |
+| SpannerDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #5359 |
+| StorageBucket | Stage 4 (MockGCP/E2E Fixtures) | [#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525) | walle-agent-bot, daedalus-agent-bot | External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #12745, External Work: #12929, External Work: #12944 |
 | StorageBucketAccessControl | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #681 |
 | StorageDefaultObjectAccessControl | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | StorageHMACKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |

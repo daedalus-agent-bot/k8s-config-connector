@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import glob
 import json
 import os
 import re
@@ -141,62 +142,75 @@ def main():
 
     # Helper function to determine stage, steps, and identity/ref presence
     def determine_stage_and_steps(service, kind, version):
+        service_lower = service.lower()
         kind_lower = kind.lower()
+        suffix = kind_lower
+        if kind_lower.startswith(service_lower) and len(kind_lower) > len(service_lower):
+            suffix = kind_lower[len(service_lower):]
 
         # Stage 5 (Controller Implemented)
-        stage5_files = [
-            f"pkg/controller/direct/{service}/{kind_lower}_controller.go",
-            f"pkg/controller/direct/{service}/{kind}_controller.go",
-            f"pkg/controller/direct/{service}/adapter.go"
+        stage5_patterns = [
+            f"pkg/controller/direct/{service_lower}/{kind_lower}_controller.go",
+            f"pkg/controller/direct/{service_lower}/{suffix}_controller.go",
+            f"pkg/controller/direct/{service_lower}/{kind}_controller.go",
+            f"pkg/controller/direct/{service_lower}/adapter.go",
+            f"pkg/controller/direct/{kind_lower}/adapter.go",
+            f"pkg/controller/direct/{kind_lower}/{kind_lower}_controller.go",
         ]
-        is_stage5 = any(os.path.exists(f) for f in stage5_files)
+        is_stage5 = any(os.path.exists(f) for f in stage5_patterns)
 
         # Stage 4 (MockGCP / E2E Fixtures)
         is_stage4 = False
-        if os.path.exists(f"mockgcp/mock{service}"):
+        if os.path.exists(f"mockgcp/mock{service_lower}") or os.path.exists(f"mockgcp/mock{kind_lower}"):
             is_stage4 = True
-        if os.path.exists(f"pkg/controller/direct/{service}"):
-            for f in os.listdir(f"pkg/controller/direct/{service}"):
+        if os.path.exists(f"pkg/controller/direct/{service_lower}"):
+            for f in os.listdir(f"pkg/controller/direct/{service_lower}"):
                 if "test" in f.lower() or "fixture" in f.lower():
                     is_stage4 = True
                     break
-        basic_dir = f"pkg/test/resourcefixture/testdata/basic/{service}"
+        basic_dir = f"pkg/test/resourcefixture/testdata/basic/{service_lower}"
         if os.path.exists(basic_dir):
             for root, dirs, files in os.walk(basic_dir):
                 for d in dirs:
-                    if d.lower() == kind_lower:
+                    if d.lower() in (kind_lower, suffix):
                         is_stage4 = True
                         break
 
         # Stage 3 (KRM Fuzzer)
-        is_stage3 = os.path.exists(f"pkg/controller/direct/{service}/{kind_lower}_fuzzer.go") or \
-                    os.path.exists(f"pkg/controller/direct/{service}/{kind}_fuzzer.go")
+        stage3_patterns = [
+            f"pkg/controller/direct/{service_lower}/{kind_lower}_fuzzer.go",
+            f"pkg/controller/direct/{service_lower}/{suffix}_fuzzer.go",
+            f"pkg/controller/direct/{service_lower}/{kind}_fuzzer.go",
+            f"pkg/controller/direct/{kind_lower}/{kind_lower}_fuzzer.go",
+        ]
+        is_stage3 = any(os.path.exists(f) for f in stage3_patterns)
 
-        # Stage 2 (Identity & Reference Types)
-        is_stage2 = os.path.exists(f"apis/{service}/{version}/{kind_lower}_identity.go") or \
-                    os.path.exists(f"apis/{service}/{version}/{kind_lower}_reference.go") or \
-                    os.path.exists(f"apis/{service}/{version}/{kind}_identity.go") or \
-                    os.path.exists(f"apis/{service}/{version}/{kind}_reference.go")
+        # Check identity & reference files across all versions
+        identities = glob.glob(f"apis/{service_lower}/*/{kind_lower}_identity.go") + \
+                     glob.glob(f"apis/{service_lower}/*/{suffix}_identity.go") + \
+                     glob.glob(f"apis/{kind_lower}/*/{kind_lower}_identity.go")
+        references = glob.glob(f"apis/{service_lower}/*/{kind_lower}_reference.go") + \
+                     glob.glob(f"apis/{service_lower}/*/{suffix}_reference.go") + \
+                     glob.glob(f"apis/{kind_lower}/*/{kind_lower}_reference.go")
+
+        has_identity = bool(identities)
+        has_reference = bool(references)
+        has_both_id_ref = has_identity and has_reference
+        is_stage2 = has_identity or has_reference
 
         # Stage 1 (Direct KRM Types)
-        is_stage1 = os.path.exists(f"apis/{service}/{version}/{kind_lower}_types.go") or \
-                    os.path.exists(f"apis/{service}/{version}/{kind}_types.go")
+        types = glob.glob(f"apis/{service_lower}/*/{kind_lower}_types.go") + \
+                glob.glob(f"apis/{service_lower}/*/{suffix}_types.go") + \
+                glob.glob(f"apis/{service_lower}/*/{kind}_types.go") + \
+                glob.glob(f"apis/{kind_lower}/*/{kind_lower}_types.go")
+        is_stage1 = bool(types)
 
         stage = "Investigation/Setup"
-        steps = {
-            "gen-types": False,
-            "identity-reference": False,
-            "mapper-fuzzer": False,
-            "mocks": os.path.exists(f"mockgcp/mock{service}"),
-            "controller": False,
-            "tests": False
-        }
-
         if is_stage5:
             stage = "Stage 5 (Controller Implemented)"
             steps = {
                 "gen-types": True,
-                "identity-reference": is_stage2,
+                "identity-reference": has_both_id_ref,
                 "mapper-fuzzer": is_stage3,
                 "mocks": is_stage4,
                 "controller": True,
@@ -206,7 +220,7 @@ def main():
             stage = "Stage 4 (MockGCP/E2E Fixtures)"
             steps = {
                 "gen-types": True,
-                "identity-reference": is_stage2,
+                "identity-reference": has_both_id_ref,
                 "mapper-fuzzer": is_stage3,
                 "mocks": True,
                 "controller": False,
@@ -216,7 +230,7 @@ def main():
             stage = "Stage 3 (KRM Fuzzer)"
             steps = {
                 "gen-types": True,
-                "identity-reference": is_stage2,
+                "identity-reference": has_both_id_ref,
                 "mapper-fuzzer": True,
                 "mocks": is_stage4,
                 "controller": False,
@@ -226,7 +240,7 @@ def main():
             stage = "Stage 2 (Identity & Reference Types)"
             steps = {
                 "gen-types": True,
-                "identity-reference": True,
+                "identity-reference": has_both_id_ref,
                 "mapper-fuzzer": False,
                 "mocks": is_stage4,
                 "controller": False,
@@ -242,8 +256,17 @@ def main():
                 "controller": False,
                 "tests": False
             }
+        else:
+            steps = {
+                "gen-types": False,
+                "identity-reference": False,
+                "mapper-fuzzer": False,
+                "mocks": os.path.exists(f"mockgcp/mock{service_lower}"),
+                "controller": False,
+                "tests": False
+            }
 
-        return stage, steps, is_stage2
+        return stage, steps, has_both_id_ref
 
     # Helper function to generate notes
     def generate_notes(existing_notes, is_missing_ref_id, closed_tracking_issue_anomaly=None, external_works=None):
@@ -278,12 +301,12 @@ def main():
         version = item["version"]
         is_direct = (gp, kd) in direct_registered or kd in direct_registered
 
-        stage, steps, is_stage2 = determine_stage_and_steps(gp, kd, version)
+        stage, steps, has_both_id_ref = determine_stage_and_steps(gp, kd, version)
         ext_works = external_works_by_kind.get(kd, None)
         overseer_issue = overseer_issues_by_kind.get(kd, None)
 
         is_missing_ref_id = False
-        if stage != "Investigation/Setup" and not is_stage2:
+        if stage != "Investigation/Setup" and not has_both_id_ref:
             is_missing_ref_id = True
 
         if is_direct:
@@ -315,7 +338,7 @@ def main():
                     item["state"] = "In Progress"
                     item["trackingIssue"] = f"[#{overseer_issue['number']}]({overseer_issue['url']})"
                     item["assignee"] = ", ".join(a["login"] for a in overseer_issue.get("assignees", []))
-                else: # CLOSED
+                else:  # CLOSED
                     item["trackingIssue"] = "N/A"
                     item["assignee"] = ""
                     closed_tracking_issue_anomaly = f"Tracking issue #{overseer_issue['number']} is closed but direct controller is not registered in code"
@@ -422,7 +445,7 @@ def main():
         print(f"Updating existing comment ID: {comment_db_id}...")
         run_command([
             "gh", "api", "--method", "PATCH",
-            f"repos/{{owner}}/{{repo}}/issues/comments/{comment_db_id}",
+            f"repos/:owner/:repo/issues/comments/{comment_db_id}",
             "-F", "body=@summary_comment.md"
         ])
         print("Successfully updated coordinator issue comment.")
