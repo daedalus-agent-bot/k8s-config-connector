@@ -6,11 +6,12 @@ Current Step: **Step 1: Direct API Types and Identity and Reference Types Patter
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types and Identity | #13173 | - | Open | 2026-09-16 | - |
+| 1 | Direct API Types and Identity | #13173 | #13186 | PR Created | 2026-09-16 | - |
 | 2 | Direct Controller, E2E & Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
 
+- **2026-09-28**: Step 1 child issue #13173 has PR #13186 created and currently open. Status updated to `PR Created`.
 - **2026-09-16**: Initialized the ConfigDeployment greenfield migration checklist and created the first child issue #13173 for implementing types, identity, and generate.sh.
