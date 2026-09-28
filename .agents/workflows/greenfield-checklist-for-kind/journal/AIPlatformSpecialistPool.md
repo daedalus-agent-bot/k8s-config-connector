@@ -8,12 +8,13 @@ Currently on **Step 1**: Implement direct KRM types, identity, and generate.sh f
 ## Progress Table
 | Step | Description | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct KRM types, identity, and generate.sh | [#12846](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12846) | [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857) | Awaiting Review | 2026-09-09 | - |
+| 1 | Direct KRM types, identity, and generate.sh | [#12846](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12846) | [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210) | PR Created | 2026-09-09 | - |
 | 2 | Direct controller, E2E fixtures, and fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Notes & Updates
+- **2026-09-28**: Monitored Step 1. Noted that previous PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857) was closed and replaced by PR [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210). Verified that PR [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210) has passed all CI check-runs, has the `overseer/ready-for-human` label, and is awaiting maintainer review and merge to complete Step 1.
 - **2026-09-11**: Verified and monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). Re-confirmed that all 150+ GitHub Actions CI check-runs are completely green and passing. The PR has the `overseer/ready-for-human` label and remains open, awaiting human maintainer review and merge to complete Step 1.
 - **2026-09-11**: Monitored Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). All CI checks are completely green and passing. The PR remains healthy and open, awaiting human maintainer review and merge.
 - **2026-09-11**: Re-verified Step 1 PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857). All 240+ GitHub Actions CI checks are successfully passing and green. The PR remains healthy and continues to await human maintainer review and merge.
