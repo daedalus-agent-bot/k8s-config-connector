@@ -2,18 +2,19 @@
 
 ## Current Step
 **Step 2: Direct Controller, E2E fixtures and Fuzzer**
-Step 1 PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has been merged. Step 2 child issue [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467) has been opened to track the direct controller, E2E fixtures, and fuzzer implementation for DataplexMetadataFeed.
+The controller PR [#13479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13479) has been created for issue [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467), is fully MERGEABLE, and all active CI checks are completed and passing successfully (100% green). It is awaiting human OWNER review and merge before proceeding to Step 3 (MockGCP Generation & Alignment).
 
 ## Progress Tracking Table
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Direct API Types & Identity | [#12359](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12359) | [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) | Merged | 2026-08-12 | 2026-09-26 |
-| 2 | Direct Controller & E2E Fixtures | [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467) | - | Open | 2026-09-26 | - |
+| 2 | Direct Controller & E2E Fixtures | [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467) | [#13479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13479) | PR Created | 2026-09-26 | - |
 | 3 | MockGCP Generation & Alignment | - | - | Not Started | - | - |
 | 4 | MockGCP Log Alignment | - | - | Not Started | - | - |
 
 ### Recent Status Updates
+* **2026-09-28 (19:31 UTC)**: Step 2 PR [#13479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13479) has been created for issue [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467), is fully MERGEABLE, and all active CI checks are completed and passing successfully (100% green). Awaiting human OWNER review and merge before proceeding to Step 3 (MockGCP Generation & Alignment).
 * **2026-09-26 (03:32 UTC)**: Step 1 PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) has merged. Step 2 child issue [#13467](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13467) has been opened to track the direct controller, E2E fixtures, and fuzzer implementation for DataplexMetadataFeed. Awaiting coder agent to pick up issue #13467 and create Step 2 PR.
 * **2026-09-11 (12:31 UTC)**: Checked the status of Step 1. Verified that the types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all active CI checks are completed and passing successfully (100% green). Since the PR continues to have the `overseer/stop` label applied, we respect the safety guardrails, leave it untouched, and continue to await human OWNER review and merge of this types-only PR before proceeding to Step 2 (Direct Controller & E2E Fixtures).
 * **2026-09-11 (10:19 UTC)**: Checked the status of Step 1. Verified that the types-only PR [#12378](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12378) remains OPEN and is fully MERGEABLE, and all active CI checks are completed and passing successfully (100% green). Since the PR continues to have the `overseer/stop` label applied, we respect the safety guardrails, leave it untouched, and continue to await human OWNER review and merge of this types-only PR before proceeding to Step 2 (Direct Controller & E2E Fixtures).
