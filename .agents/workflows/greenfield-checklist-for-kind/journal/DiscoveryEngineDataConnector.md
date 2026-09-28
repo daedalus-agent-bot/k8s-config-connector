@@ -1,18 +1,19 @@
 # Migration Journal: DiscoveryEngineDataConnector
 
 ## Current Step
-Step 1: Direct API Types and Identity and Reference Types Pattern (PAUSED)
+Step 1: Direct API Types and Identity and Reference Types Pattern
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) | Changes Requested | 2026-07-29 |  |
+| 1 | Direct API Types and Identity and Reference Types Pattern | [#12018](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12018) | [#13065](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13065) | PR Created | 2026-07-29 |  |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | N/A | N/A | Not Started |  |  |
 | 3 | mockGCP generation | N/A | N/A | Not Started |  |  |
 | 4 | MockGCP Alignment with RealGCP | N/A | N/A | Not Started |  |  |
 
 ## Status Updates
+* **2026-09-28**: Monitored Step 1 progress. Confirmed previous PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) was closed and replaced by active PR [#13065](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13065). PR [#13065](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13065) is open, all CI checks pass, automated reviews have passed, and it is marked `overseer/ready-for-human` awaiting human owner review and merge.
 * **2026-09-11 (20:11 UTC)**: Monitored Step 1 progress. Confirmed PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) remains open but paused with the active `overseer/stop` label on GitHub. In strict compliance with system safety guidelines and stop labels, we leave all elements (PR, labels, assignee) completely untouched, treating this task as paused while awaiting manual maintainer/OWNER intervention to resume.
 * **2026-09-11 (18:01 UTC)**: Monitored Step 1 progress. Checked PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) on GitHub and verified that the active `overseer/stop` label remains present and the pull request mergeability state is `CONFLICTING`. In strict compliance with system safety guidelines and stop labels, we continue to treat this task as paused and leave all elements (PR, labels, assignee) completely untouched, awaiting manual maintainer/OWNER intervention to resume.
 * **2026-09-11 (03:04 UTC)**: Monitored Step 1 progress. Checked PR [#12050](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12050) on GitHub and verified that the active `overseer/stop` label remains present and the pull request mergeability state is UNKNOWN / CONFLICTING. In strict compliance with system safety guidelines and stop labels, we continue to treat this task as paused and leave all elements (PR, labels, assignee) completely untouched, awaiting manual maintainer/OWNER intervention to resume.
