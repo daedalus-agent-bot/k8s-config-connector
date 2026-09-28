@@ -7,12 +7,17 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
-| 1 | Direct API Types & Identity | [#11475](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11475) | [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015) | Open (Failing CI, Paused with `overseer/stop`) | 2026-07-29 | - |
+| 1 | Direct API Types & Identity | [#11475](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11475) | [#13167](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13167) | PR Created | 2026-07-29 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 3 | mockGCP Generation | - | - | Not Started | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Not Started | - | - |
 
 ## Status Update Notes
+
+### 2026-09-28
+- Updated Step 1 tracking with the active Pull Request [#13167](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13167) which replaces previous closed PR [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015).
+- PR [#13167](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13167) is open and all CI checks have passed successfully.
+- The PR is labeled with `overseer/ready-for-human` awaiting maintainer review and merge. Step 2 will be started after this PR merges.
 
 ### 2026-09-11
 - Checked status of Step 1 PR [#12015](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12015).
