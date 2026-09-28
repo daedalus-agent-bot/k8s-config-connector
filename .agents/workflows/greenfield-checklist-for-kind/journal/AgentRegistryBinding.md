@@ -9,9 +9,10 @@
 | 1 | Direct API Types and Identity | [#11271](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11271) | [#11386](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11386) | Completed | 2026-07-03 | 2026-09-18 |
 | 2 | Direct Controller, E2E & Fuzzer | [#13222](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13222) | [#13225](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13225) | Completed | 2026-09-18 | 2026-09-21 |
 | 3 | mockGCP generation | [#13348](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13348) | [#13353](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13353) | Completed | 2026-09-21 | 2026-09-22 |
-| 4 | MockGCP Alignment with RealGCP | [#13427](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13427) | - | Open | 2026-09-24 | - |
+| 4 | MockGCP Alignment with RealGCP | [#13427](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13427) | [#13430](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13430) | PR Created | 2026-09-24 | - |
 
 ## Status Update History
+- **2026-09-28**: Verified Step 4 PR #13430 is open with all CI checks passing. Awaiting review and merge.
 - **2026-09-24**: Verified Step 3 PR #13353 successfully merged. Opened Step 4 issue #13427 to align MockGCP logs with RealGCP.
 - **2026-09-21**: Verified Step 2 PR #13225 successfully merged. Opened Step 3 issue #13348 to implement MockGCP and alignment.
 - **2026-09-18**: Verified Step 1 PR #11386 successfully merged. Opened Step 2 issue #13222 to implement the direct controller, E2E fixtures, and fuzzer.
