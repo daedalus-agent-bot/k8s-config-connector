@@ -14,6 +14,7 @@ Step 2: Direct Controller, E2E fixtures and Fuzzer
 
 ## Status Update Log
 
+- **2026-09-29**: Pull Request [#13376](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13376) for Step 2 passed all CI checks and is labeled `overseer/ready-for-human`, awaiting review and merge.
 - **2026-09-28**: Pull Request [#13376](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13376) created for Step 2 (Direct Controller, E2E fixtures, and Fuzzer). Monitoring PR progress.
 - **2026-09-23**: Step 1 completed with the merging of PR [#13339](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13339). Created GitHub Issue [#13370](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13370) for Step 2 (Direct Controller, E2E fixtures, and Fuzzer).
 - **2026-09-19**: Initiated the Greenfield migration orchestration. Created GitHub Issue [#13321](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13321) for Step 1 (Direct API Types, Identity, and generate.sh).
