@@ -87,7 +87,7 @@
 | ComputeResourcePolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ComputeRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10746 is closed but direct controller is not registered in code |
 | ComputeRouterInterface | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10749 is closed but direct controller is not registered in code |
-| ComputeRouterNAT | Stage 4 (MockGCP/E2E Fixtures) | [#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #12361 |
+| ComputeRouterNAT | Stage 4 (MockGCP/E2E Fixtures) | [#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #12361, External Work: #13550 |
 | ComputeRouterPeer | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10029 |
 | ComputeSSLCertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #476, External Work: #505, External Work: #803 |
 | ComputeServiceAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
