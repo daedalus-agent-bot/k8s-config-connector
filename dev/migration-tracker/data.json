@@ -3045,7 +3045,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #13581",
     "sortOrder": 269,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #479, External Work: #2775, External Work: #3798, External Work: #10410, External Work: #10534, External Work: #13420, External Work: #13421, External Work: #13462",
+    "notes": "External Work: #479, External Work: #2775, External Work: #3798, External Work: #10410, External Work: #10534, External Work: #13420, External Work: #13421",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "[#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886)",

@@ -85,7 +85,7 @@
 | ComputeRegionPerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeRegionSSLPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeResourcePolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| ComputeRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10746 is closed but direct controller is not registered in code |
+| ComputeRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #13581 |
 | ComputeRouterInterface | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10749 is closed but direct controller is not registered in code |
 | ComputeRouterNAT | Stage 4 (MockGCP/E2E Fixtures) | [#12700](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12700) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #12361, External Work: #13550 |
 | ComputeRouterPeer | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10029 |
@@ -109,7 +109,7 @@
 | ContainerAnalysisOccurrence | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerAttachedCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #10458, External Work: #10459, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12631, External Work: #12883, External Work: #12906, External Work: #13421 |
-| ContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | [#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886) | barney-s, feynman-agent-bot | External Work: #479, External Work: #2775, External Work: #3798, External Work: #10410, External Work: #10534, External Work: #13420, External Work: #13421, External Work: #13462 |
+| ContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | [#10886](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10886) | barney-s, feynman-agent-bot | External Work: #479, External Work: #2775, External Work: #3798, External Work: #10410, External Work: #10534, External Work: #13420, External Work: #13421 |
 | DLPDeidentifyTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DLPInspectTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DLPJobTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7417 |
