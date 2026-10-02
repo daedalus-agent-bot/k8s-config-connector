@@ -7,12 +7,13 @@
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Direct API Types & Identity | [#11717](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11717) | [#13451](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13451) (formerly #12126, #11734) | `PR Created` | 2026-07-18 | - |
+| 1 | Direct API Types & Identity | [#11717](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11717) | [#13636](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13636) (formerly #13451, #12126, #11734) | `PR Created` | 2026-07-18 | - |
 | 2 | Direct Controller & E2E Fixtures | - | - | `Not Started` | - | - |
 | 3 | mockGCP Generation | - | - | `Not Started` | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | `Not Started` | - | - |
 
 ## Status Update Notes
+- **2026-10-02**: Monitored Step 1 progress on Friday, October 2, 2026. Verified via GitHub CLI that a new Pull Request [#13636](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13636) was created for Step 1 (replacing closed PR #13451). Confirmed that PR #13636 is OPEN and MERGEABLE, with 100% of its CI check-runs passing cleanly with zero failures (100% green). The PR has the `overseer/ready-for-human` label and is actively awaiting human repository OWNER review and merge to complete Step 1 before we can transition to Step 2.
 - **2026-09-28**: Monitored Step 1 progress on Monday, September 28, 2026. Verified via GitHub CLI that Pull Request #13451 (replacing closed PR #12126) remains OPEN and MERGEABLE, with 100% of its CI check-runs passing cleanly with zero failures (100% green). The PR has the `overseer/ready-for-human` label and is actively awaiting human repository OWNER review and merge to complete Step 1 before we can transition to Step 2.
 - **2026-09-11**: Re-verified Step 1 progress at 14:24:13 UTC on Friday, September 11, 2026. Confirmed via the GitHub checks CLI and REST API that Pull Request #12126 remains OPEN and fully mergeable, with 100% of its 240/240 automated checks successfully completed with zero failures (all checks green). Since the `overseer/stop` label remains active on the PR, we continue to respect the pause/stop label and wait for human repository OWNER review and merge of Step 1 before transitioning to Step 2.
 - **2026-09-11**: Re-verified Step 1 progress at 12:14:31 UTC on Friday, September 11, 2026. Confirmed via the GitHub checks CLI and REST API that Pull Request #12126 remains OPEN and fully mergeable, with 100% of its 240/240 automated checks successfully completed with zero failures (all checks green). Since the `overseer/stop` label remains active on the PR, we continue to respect the pause label and wait for human repository OWNER review and merge of Step 1 before transitioning to Step 2.
