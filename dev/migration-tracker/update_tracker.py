@@ -23,7 +23,7 @@ import sys
 # Constants
 STATIC_CONFIG_PATH = "pkg/controller/resourceconfig/static_config.go"
 DATA_JSON_PATH = "dev/migration-tracker/data.json"
-COORDINATOR_ISSUE_NUMBER = "10588"
+COORDINATOR_ISSUE_NUMBER = os.environ.get("SESSION_ID", "issue-10588").replace("issue-", "")
 TRACKING_COMMENT_HEADER = "### Migration Progress Tracker Summary"
 
 def run_command(cmd, check=True):
