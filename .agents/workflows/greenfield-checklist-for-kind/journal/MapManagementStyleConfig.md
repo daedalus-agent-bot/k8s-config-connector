@@ -9,7 +9,7 @@ Current Step: **Step 4: MockGCP Alignment with RealGCP**
 | 1 | Direct API Types, Identity & generate.sh | [#13263](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13263) | [#13304](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13304) | Completed | 2026-09-18 | 2026-09-25 |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | [#13455](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13455) | [#13460](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13460) | Completed | 2026-09-25 | 2026-10-01 |
 | 3 | mockGCP Generation & Integration | [#13577](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13577) | [#13583](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13583) | Completed | 2026-10-01 | 2026-10-02 |
-| 4 | MockGCP Alignment with RealGCP | [#13624](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13624) | - | Open | 2026-10-02 | - |
+| 4 | MockGCP Alignment with RealGCP | [#13624](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13624) | [#13638](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13638) | PR Created | 2026-10-02 | - |
 
 ## Status Updates
 - **2026-09-18**: Initialized migration tracking journal. Created GitHub child issue [#13263](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13263) for Step 1.
@@ -18,3 +18,4 @@ Current Step: **Step 4: MockGCP Alignment with RealGCP**
 - **2026-10-01**: Step 2 completed. Pull Request [#13460](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13460) merged and issue [#13455](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13455) closed. Created GitHub child issue [#13577](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13577) for Step 3.
 - **2026-10-01**: Pull Request [#13583](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13583) created for Step 3. Presubmit CI checks running and waiting for review/merge.
 - **2026-10-02**: Step 3 completed. Pull Request [#13583](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13583) merged and issue [#13577](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13577) closed. Created GitHub child issue [#13624](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13624) for Step 4.
+- **2026-10-02**: Pull Request [#13638](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13638) created for Step 4. Waiting for CI checks and review/merge.
