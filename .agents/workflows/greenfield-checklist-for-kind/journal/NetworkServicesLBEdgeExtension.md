@@ -9,10 +9,11 @@
 |------|-----------|--------------|-----------|--------|--------------|----------------|
 | 1 | Direct KRM types, identity, and generate.sh | [#13309](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13309) | [#13314](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13314) | Completed | 2026-09-19 | 2026-09-22 |
 | 2 | Direct controller, E2E fixtures, and fuzzer | [#13372](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13372) | [#13374](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13374) | Completed | 2026-09-23 | 2026-10-06 |
-| 3 | mockGCP generation | [#13748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13748) | - | Open | 2026-10-06 | - |
+| 3 | mockGCP generation | [#13748](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13748) | [#13749](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13749) | PR Created | 2026-10-06 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Notes & Status Updates
+- **2026-10-06**: PR #13749 created for Step 3 and awaiting review/merge.
 - **2026-10-06**: Step 2 successfully merged in PR #13374. Created Step 3 issue #13748 to implement MockGCP and Alignment.
 - **2026-09-28**: PR #13374 created for Step 2 and awaiting review/merge.
 - **2026-09-23**: Step 1 successfully merged in PR #13314. Created Step 2 issue #13372 to implement direct controller, E2E fixtures, and fuzzer.
