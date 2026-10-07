@@ -37,7 +37,7 @@
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot, walle-agent-bot | External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #774, External Work: #786, External Work: #12946 |
-| BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799 |
+| BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799, External Work: #13758 |
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596 |
 | BinaryAuthorizationAttestor | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BinaryAuthorizationPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4760 |
