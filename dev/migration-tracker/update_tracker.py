@@ -427,6 +427,8 @@ def main():
     # Write summary body to file
     with open("summary_comment.md", "w") as f:
         f.write(summary_body)
+    with open("dev/migration-tracker/comment_body.md", "w") as f:
+        f.write(summary_body)
 
     # Find existing tracker comment on coordinator issue
     comments_res = json.loads(run_command(["gh", "issue", "view", COORDINATOR_ISSUE_NUMBER, "--json", "comments"]))
