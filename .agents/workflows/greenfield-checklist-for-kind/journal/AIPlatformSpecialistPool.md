@@ -3,17 +3,18 @@
 Parent Issue: [#12838](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12838)
 
 ## Current Status
-Currently on **Step 2**: Implement direct controller, E2E fixtures, and fuzzer for AIPlatformSpecialistPool.
+Currently on **Step 3**: Implement MockGCP and Alignment for AIPlatformSpecialistPool.
 
 ## Progress Table
 | Step | Description | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Direct KRM types, identity, and generate.sh | [#12846](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12846) | [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210) | Completed | 2026-09-09 | 2026-10-03 |
-| 2 | Direct controller, E2E fixtures, and fuzzer | [#13683](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13683) | [#13687](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13687) | PR Created | 2026-10-03 | - |
-| 3 | mockGCP generation | - | - | Pending | - | - |
+| 2 | Direct controller, E2E fixtures, and fuzzer | [#13683](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13683) | [#13687](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13687) | Completed | 2026-10-03 | 2026-10-08 |
+| 3 | mockGCP generation | [#13835](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13835) | - | Open | 2026-10-08 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Step Notes & Updates
+- **2026-10-08**: Step 2 completed. PR [#13687](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13687) was merged and issue [#13683](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13683) closed. Opened Step 3 issue [#13835](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13835) to implement MockGCP and Alignment for AIPlatformSpecialistPool.
 - **2026-10-03**: Step 2 PR [#13687](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13687) opened to implement direct controller, E2E fixtures, and fuzzer for AIPlatformSpecialistPool. Status updated to `PR Created`.
 - **2026-10-03**: Step 1 completed. PR [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210) has been merged and issue [#12846](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12846) closed. Opened Step 2 issue [#13683](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13683) to implement direct controller, E2E fixtures, and fuzzer.
 - **2026-09-28**: Monitored Step 1. Noted that previous PR [#12857](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12857) was closed and replaced by PR [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210). Verified that PR [#13210](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13210) has passed all CI check-runs, has the `overseer/ready-for-human` label, and is awaiting maintainer review and merge to complete Step 1.
