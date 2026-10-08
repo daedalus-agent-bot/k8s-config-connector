@@ -1067,7 +1067,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #8799, External Work: #13758",
+    "notes": "External Work: #8799",
     "sortOrder": 51,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -2471,8 +2471,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 251,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10122)",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2814,7 +2814,7 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 262,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
+    "trackingIssue": "[#13812](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13812)",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -5197,7 +5197,7 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 374,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
+    "trackingIssue": "[#13811](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13811)",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7292,7 +7292,7 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 473,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
+    "trackingIssue": "[#13813](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13813)",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
@@ -7861,7 +7861,7 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 493,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
+    "trackingIssue": "[#13814](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13814)",
     "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
