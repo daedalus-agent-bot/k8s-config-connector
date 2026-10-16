@@ -1,6 +1,6 @@
 # ComputeNetworkFirewallPolicy Direct Migration Journal
 
-Current Step: Step 3: Create a Round-Trip KRM Fuzzer
+Current Step: Step 4: Ensure MockGCP matches real gcp behavior
 
 ## Migration Progress
 
@@ -8,13 +8,14 @@ Current Step: Step 3: Create a Round-Trip KRM Fuzzer
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#9997](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9997) | [#10054](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10054) | Merged | 2026-07-28 | 2026-07-28 |
 | 2 | Identity and Reference Types Pattern | [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) | [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) | Merged | 2026-07-29 | 2026-10-16 |
-| 3 | Create a Round-Trip KRM Fuzzer | [#14035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14035) | - | Open | 2026-10-16 | - |
-| 4 | Ensure MockGCP matches real gcp behavior | - | - | Not Started | - | - |
+| 3 | Create a Round-Trip KRM Fuzzer | [#14035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14035) | [#14036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14036) | Merged | 2026-10-16 | 2026-10-16 |
+| 4 | Ensure MockGCP matches real gcp behavior | [#14040](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14040) | - | Open | 2026-10-16 | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 6 | Validate Direct Promotion | - | - | Not Started | - | - |
 
 ## Updates Log
 
+* **2026-10-16 (Step 4 initiation)**: Step 3 completed: PR [#14036](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14036) merged. Initiated Step 4 by opening GitHub issue [#14040](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14040) assigned to `factorybot-robot` to implement or match MockGCP behavior with real GCP for ComputeNetworkFirewallPolicy.
 * **2026-10-16**: Step 2 completed: PR [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) merged. Initiated Step 3 by opening GitHub issue [#14035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14035) for implementing the round-trip KRM fuzzer for ComputeNetworkFirewallPolicy.
 * **2026-09-11 (active status check - final check-in)**: Re-verified progress for Step 2 today. Pull Request [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) is open and all CI checks are completely green and passing (100% green). Since the active `overseer/stop` label is present on the PR, automated processing remains paused, respecting the stop label and awaiting human OWNER review and merge. Step 2 remains in progress.
 * **2026-09-11 (active overseer status check - current)**: Re-verified progress for Step 2. Pull Request [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) remains open with all 245+ CI check-runs passing successfully. The active `overseer/stop` label is present, so automated processing remains paused, respecting the stop label and awaiting human OWNER review and merge. Step 2 remains in progress.
