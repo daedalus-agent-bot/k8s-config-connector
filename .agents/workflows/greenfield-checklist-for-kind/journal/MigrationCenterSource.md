@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1. Direct API Types and Identity | [#13320](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13320) | [#13325](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13325) | Completed | 2026-09-19 | 2026-10-14 |
 | 2. Direct Controller, E2E fixtures & Fuzzer | [#13975](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13975) | [#14001](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14001) | Completed | 2026-10-14 | 2026-10-16 |
-| 3. mockGCP generation | [#14041](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14041) | - | Open | 2026-10-16 | - |
+| 3. mockGCP generation | [#14041](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14041) | [#14048](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14048) | PR Created | 2026-10-16 | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ### Status Updates:
@@ -18,3 +18,4 @@
 - **2026-10-15**: Step 2 PR [#13977](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13977) was closed; recorded new open PR [#14001](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14001).
 - **2026-10-16**: Step 2 PR merged: [#14001](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14001).
 - **2026-10-16**: Step 3 issue created: [#14041](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14041).
+- **2026-10-16**: Step 3 PR recorded: [#14048](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14048).
