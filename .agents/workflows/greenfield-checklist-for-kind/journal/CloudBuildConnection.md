@@ -3,7 +3,7 @@
 This journal tracks the progress of migrating the `CloudBuildConnection` resource to a production-ready direct controller.
 
 ## Current Status
-- Current Step: Step 3: mockGCP generation
+- Current Step: Step 4: MockGCP Alignment with RealGCP
 
 ## Migration Progress
 
@@ -11,10 +11,11 @@ This journal tracks the progress of migrating the `CloudBuildConnection` resourc
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types and Identity | [#8676](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/8676) | [#8700](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/8700) | Completed | 2026-06-14 | 2026-06-15 |
 | 2 | Direct Controller, E2E fixtures, and Fuzzer | [#12850](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12850) | [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) | Completed | 2026-09-09 | 2026-09-24 |
-| 3 | mockGCP generation | [#13436](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13436) | [#13443](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13443) | PR Created | 2026-09-24 | - |
-| 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
+| 3 | mockGCP generation | [#13436](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13436) | [#13443](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13443) | Completed | 2026-09-24 | 2026-10-16 |
+| 4 | MockGCP Alignment with RealGCP | [#14053](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14053) | - | Open | 2026-10-16 | - |
 
 ## Status Update Notes
+- **2026-10-16**: Pull Request [#13443](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13443) for Step 3 has been merged. Completed Step 3 and initiated Step 4 by creating issue [#14053](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14053) for MockGCP alignment with RealGCP.
 - **2026-09-28**: Pull Request [#13443](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13443) has been created for Step 3 by `lovelace-coder-bot`. All presubmit CI checks are passing. The PR is currently open and awaiting review and merge.
 - **2026-09-24**: PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863) for Step 2 has been merged. Completed Step 2 and initiated Step 3 by creating issue [#13436](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13436) for MockGCP implementation.
 - **2026-09-11 21:57 UTC**: Periodic check of PR [#12863](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12863). The pull request remains OPEN with all 133 CI checks passing perfectly. It is awaiting human OWNER (`fedebongio`) review, approval, and merge. No further automated actions are possible until the PR is merged.
