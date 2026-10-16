@@ -1,20 +1,21 @@
 # ComputeNetworkFirewallPolicy Direct Migration Journal
 
-Current Step: Step 2: Identity and Reference Types Pattern
+Current Step: Step 3: Create a Round-Trip KRM Fuzzer
 
 ## Migration Progress
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types | [#9997](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9997) | [#10054](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10054) | Merged | 2026-07-28 | 2026-07-28 |
-| 2 | Identity and Reference Types Pattern | [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) | [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) | PR Created | 2026-07-29 | - |
-| 3 | Create a Round-Trip KRM Fuzzer | - | - | Not Started | - | - |
+| 2 | Identity and Reference Types Pattern | [#12074](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12074) | [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) | Merged | 2026-07-29 | 2026-10-16 |
+| 3 | Create a Round-Trip KRM Fuzzer | [#14035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14035) | - | Open | 2026-10-16 | - |
 | 4 | Ensure MockGCP matches real gcp behavior | - | - | Not Started | - | - |
 | 5 | Implement Direct Controller & E2E Fixtures | - | - | Not Started | - | - |
 | 6 | Validate Direct Promotion | - | - | Not Started | - | - |
 
 ## Updates Log
 
+* **2026-10-16**: Step 2 completed: PR [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) merged. Initiated Step 3 by opening GitHub issue [#14035](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14035) for implementing the round-trip KRM fuzzer for ComputeNetworkFirewallPolicy.
 * **2026-09-11 (active status check - final check-in)**: Re-verified progress for Step 2 today. Pull Request [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) is open and all CI checks are completely green and passing (100% green). Since the active `overseer/stop` label is present on the PR, automated processing remains paused, respecting the stop label and awaiting human OWNER review and merge. Step 2 remains in progress.
 * **2026-09-11 (active overseer status check - current)**: Re-verified progress for Step 2. Pull Request [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) remains open with all 245+ CI check-runs passing successfully. The active `overseer/stop` label is present, so automated processing remains paused, respecting the stop label and awaiting human OWNER review and merge. Step 2 remains in progress.
 * **2026-09-11 (active overseer status check - later run 3)**: Checked progress of Step 2 today. Pull Request [#12093](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12093) remains open with all CI checks passing. Because the `overseer/stop` label is active on the PR, automated processing remains paused, respecting the stop label and awaiting human OWNER review and merge. Step 2 remains in progress.
