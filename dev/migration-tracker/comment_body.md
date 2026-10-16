@@ -193,7 +193,7 @@
 | OSConfigGuestPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939) | daedalus-agent-bot | Missing _reference.go or _identity.go |
 | OSConfigOSPolicyAssignment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | OSConfigPatchDeployment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| OSLoginSSHPublicKey | Stage 4 (MockGCP/E2E Fixtures) | [#13813](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13813) | walle-agent-bot | Missing _reference.go or _identity.go |
+| OSLoginSSHPublicKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13813 is closed but direct controller is not registered in code |
 | PrivateCACertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #11613 |
 | PrivateCACertificateAuthority | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10363 |
 | Project | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #12974, External Work: #13060, External Work: #13068, External Work: #13214 |
