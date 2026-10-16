@@ -78,7 +78,7 @@
 | ComputeOrganizationSecurityPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10010 |
 | ComputePacketMirroring | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputePerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10012 |
-| ComputeProjectMetadata | Stage 4 (MockGCP/E2E Fixtures) | [#13812](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13812) | walle-agent-bot | Missing _reference.go or _identity.go |
+| ComputeProjectMetadata | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13812 is closed but direct controller is not registered in code |
 | ComputeRegionAutoscaler | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeRegionDiskResourcePolicyAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10015 |
 | ComputeRegionNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10017 |
@@ -138,7 +138,7 @@
 | FilestoreSnapshot | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseDatabaseInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| FirebaseHostingSite | Stage 4 (MockGCP/E2E Fixtures) | [#13811](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/13811) | daedalus-agent-bot | Missing _reference.go or _identity.go |
+| FirebaseHostingSite | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13811 is closed but direct controller is not registered in code |
 | FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
