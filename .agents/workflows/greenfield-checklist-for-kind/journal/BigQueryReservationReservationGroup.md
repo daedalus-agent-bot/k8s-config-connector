@@ -5,12 +5,13 @@ Current Step: Step 2 (Direct Controller, E2E fixtures and Fuzzer)
 | Step Number & Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- |
 | 1. Direct API Types, Identity & Reference Types | [#9022](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9022) | [#13985](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/13985) | Completed | 2026-07-06 | 2026-10-16 |
-| 2. Direct Controller, E2E fixtures & Fuzzer | [#14080](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14080) | - | Open | 2026-10-19 | - |
+| 2. Direct Controller, E2E fixtures & Fuzzer | [#14080](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14080) | [#14085](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14085) | PR Created | 2026-10-19 | - |
 | 3. mockGCP Generation | - | - | Pending | - | - |
 | 4. MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Updates
 
+- **2026-10-19 (22:16 UTC)**: Monitored Step 2. PR #14085 ("Greenfield: Implement direct controller, E2E fixtures, and fuzzer for BigQueryReservationReservationGroup") was created for issue #14080. Verified that all 249 CI checks passed (100% green). PR is open in state `OPEN` (mergeable: `MERGEABLE`, reviewDecision: `REVIEW_REQUIRED`) with label `overseer/ready-for-human`, awaiting human OWNER review and merge before proceeding to Step 3.
 - **2026-10-19**: Step 1 completed. PR #13985 was merged on 2026-10-16, successfully closing issue #9022. Initiated Step 2 by opening issue #14080 ("Greenfield: Implement direct controller, E2E fixtures, and fuzzer for BigQueryReservationReservationGroup") labeled `overseer,greenfield,step/controller,overseer/review` with assignees inherited from parent issue #11354.
 
 - **2026-08-25 (22:45 UTC)**: Monitored Step 1 PR #11391. Checked PR status and verified that all CI checks remain 100% green and successful. The PR is open in state `OPEN` (reviewDecision: `REVIEW_REQUIRED`, mergeable: `MERGEABLE`), awaiting final human OWNER review and merge before transitioning to Step 2. The `overseer/stop` label remains active on the PR, pending human OWNER comment or label removal to resume automated progress.
