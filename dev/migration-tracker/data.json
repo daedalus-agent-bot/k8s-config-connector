@@ -428,8 +428,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 149,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14091](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14091)",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -485,8 +485,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 153,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14092](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14092)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -539,8 +539,8 @@
     "notes": "External Work: #5706",
     "sortOrder": 155,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14099](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14099)",
+    "assignee": "feynman-agent-bot",
     "stage": "Investigation/Setup"
   },
   {
@@ -2674,8 +2674,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 257,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14100)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2701,8 +2701,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #10007",
     "sortOrder": 258,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14094](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14094)",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -4813,8 +4813,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 356,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14093](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14093)",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -5224,8 +5224,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 99,
     "downstreamCount": 1,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14098](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14098)",
+    "assignee": "walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -5405,7 +5405,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5418,8 +5418,8 @@
     "notes": "",
     "sortOrder": 387,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14096](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14096)",
+    "assignee": "feynman-agent-bot",
     "stage": "Investigation/Setup"
   },
   {
@@ -6240,8 +6240,8 @@
     "notes": "",
     "sortOrder": 413,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14095](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14095)",
+    "assignee": "daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -8791,8 +8791,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 540,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#14097](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14097)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {

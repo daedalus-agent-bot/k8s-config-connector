@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 216 |
-| Pending | 27 |
+| In Progress | 217 |
+| Pending | 26 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -23,11 +23,11 @@
 | AlloyDBUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeAddonsConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ApigeeEnvironment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | [#14091](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14091) | walle-agent-bot | Missing _reference.go or _identity.go |
 | ApigeeOrganization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | [#14092](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14092) | feynman-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5705 |
-| AppEngineFirewallRule | Investigation/Setup | N/A |  | External Work: #5706 |
+| AppEngineFirewallRule | Investigation/Setup | [#14099](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14099) | feynman-agent-bot | External Work: #5706 |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -73,8 +73,8 @@
 | ComputeNetworkPeeringRoutesConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5608, External Work: #10002 |
 | ComputeNodeGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10003 |
 | ComputeNodeTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10944 is closed but direct controller is not registered in code |
-| ComputeOrganizationSecurityPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10007 |
+| ComputeOrganizationSecurityPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#14100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14100) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | [#14094](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14094) | daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #10007 |
 | ComputeOrganizationSecurityPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10010 |
 | ComputePacketMirroring | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputePerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10012 |
@@ -126,7 +126,7 @@
 | DialogflowEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DialogflowFulfillment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DialogflowIntent | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | [#14093](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14093) | walle-agent-bot | Missing _reference.go or _identity.go |
 | EdgeContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerVpnConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -139,10 +139,11 @@
 | FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseDatabaseInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseHostingSite | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13811 is closed but direct controller is not registered in code |
-| FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | [#14098](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14098) | walle-agent-bot | Missing _reference.go or _identity.go |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| HealthcareConsentStore | Investigation/Setup | [#14096](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14096) | feynman-agent-bot |  |
 | HealthcareDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
@@ -163,7 +164,7 @@
 | IdentityPlatformOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenant | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenantOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
+| KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | [#14095](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14095) | daedalus-agent-bot |  |
 | KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10682 |
 | KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10681 |
 | MLEngineModel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -223,7 +224,7 @@
 | VertexAIDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
 | VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | [#14097](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14097) | feynman-agent-bot | Missing _reference.go or _identity.go |
 | VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
 | VertexAITensorboard | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12176 |
@@ -244,7 +245,6 @@
 | DialogflowCXWebhook | 342 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
 | FirebaseWebApp | 376 | Terraform |  |  |
-| HealthcareConsentStore | 387 | Terraform |  |  |
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
 | HealthcareHL7V2Store | 391 | Terraform |  |  |
