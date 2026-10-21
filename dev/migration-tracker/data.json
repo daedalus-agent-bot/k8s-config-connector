@@ -2701,8 +2701,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #10007",
     "sortOrder": 258,
     "downstreamCount": 0,
-    "trackingIssue": "[#14094](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14094)",
-    "assignee": "daedalus-agent-bot",
+    "trackingIssue": "[#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
