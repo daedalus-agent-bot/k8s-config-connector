@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #5399, External Work: #8480",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #5399",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #10458, External Work: #10459, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12883, External Work: #12906, External Work: #13421",
+    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12883, External Work: #12906, External Work: #13421",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -5696,7 +5696,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #6027",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5837,7 +5837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #1839",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1839, External Work: #14158",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991",
+    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991, External Work: #14166",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6763,7 +6763,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14168",
     "sortOrder": 110,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -7086,7 +7086,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #6207",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #14139",
     "sortOrder": 461,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #12974, External Work: #13060, External Work: #13068, External Work: #13214",
+    "notes": "External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #12974, External Work: #13060, External Work: #13068, External Work: #13214, External Work: #14166, External Work: #14167, External Work: #14168",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "N/A",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5553, External Work: #5556, External Work: #6207, External Work: #9779, External Work: #12745, External Work: #12929, External Work: #12944",
+    "notes": "External Work: #5553, External Work: #5556, External Work: #9779, External Work: #12745, External Work: #12929, External Work: #12944, External Work: #14139",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "[#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
