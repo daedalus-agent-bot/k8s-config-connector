@@ -1,15 +1,16 @@
 # Greenfield Migration Checklist: RunWorkerPool
 
-Current Step: Step 2: Direct Controller, E2E fixtures and Fuzzer
+Current Step: Step 3: mockGCP generation
 
 | Step | Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |------|------|--------------|---------------------|--------|--------------|----------------|
 | 1    | Direct API Types, Identity & Refs | [#12912](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12912) | [#12914](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12914) | Completed | 2026-09-11 | 2026-09-14 |
-| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12927](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12927) | [#12928](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12928) | PR Created | 2026-09-14 | |
-| 3    | mockGCP generation | | | Pending | | |
+| 2    | Direct Controller, E2E fixtures & Fuzzer | [#12927](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12927) | [#12928](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12928) | Completed | 2026-09-14 | 2026-10-23 |
+| 3    | mockGCP generation | [#14303](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14303) | | Open | 2026-10-23 | |
 | 4    | MockGCP Alignment with RealGCP | | | Pending | | |
 
 ## Status Updates
+- **2026-10-23**: Pull request #12928 was merged. Completed Step 2. Opened child issue #14303 to track Step 3 (mockGCP generation).
 - **2026-09-28**: Pull request #12928 is open and undergoing maintainer review for Step 2 (Direct Controller, E2E fixtures & Fuzzer). Waiting for merge before proceeding to Step 3.
 - **2026-09-14**: Pull request #12928 was created for Step 2 (Direct Controller, E2E fixtures & Fuzzer).
 - **2026-09-14**: Pull request #12914 was successfully merged. Successfully completed Step 1. Created child issue #12927 to track Step 2 (Direct Controller, E2E fixtures & Fuzzer).
