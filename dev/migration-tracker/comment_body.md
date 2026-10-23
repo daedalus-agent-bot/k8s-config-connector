@@ -74,7 +74,7 @@
 | ComputeNodeGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10003 |
 | ComputeNodeTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10944 is closed but direct controller is not registered in code |
 | ComputeOrganizationSecurityPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#14100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14100) | feynman-agent-bot | Missing _reference.go or _identity.go |
-| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | [#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252) | feynman-agent-bot | Missing _reference.go or _identity.go, External Work: #10007 |
+| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | [#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252) | feynman-agent-bot | Missing _reference.go or _identity.go |
 | ComputeOrganizationSecurityPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10010 |
 | ComputePacketMirroring | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputePerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10012 |

@@ -2698,7 +2698,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10007",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 258,
     "downstreamCount": 0,
     "trackingIssue": "[#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252)",
