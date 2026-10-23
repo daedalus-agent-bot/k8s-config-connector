@@ -14,6 +14,7 @@ Step 1b: Triage Judgement Queue and Finalize Direct API Types, Identity, and Ref
 | Step 4: MockGCP Alignment with RealGCP | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-10-23**: PR [#14206](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14206) remains open with all CI checks passing (254 successful) and bot review completed; awaiting human review/approval (`overseer/ready-for-human`).
 * **2026-10-22**: PR [#14206](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14206) passed all CI checks and is awaiting human review (`overseer/ready-for-human`).
 * **2026-10-21**: Pull request [#14206](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14206) created for Step 1b. Status updated to `PR Created`.
 * **2026-10-20**: Initialized migration workflow for `SecurityCenterSecurityHealthAnalyticsCustomModule`. Step 1a marked as `Completed (Bulk Prepopulated)` as types and judgement queue were merged on master via #14066. Opened child issue #14201 for Step 1b (Triage Judgement Queue and Finalize Direct API Types, Identity, and Reference Types).
