@@ -2468,11 +2468,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #10122 is closed but direct controller is not registered in code",
     "sortOrder": 251,
     "downstreamCount": 0,
-    "trackingIssue": "[#10122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10122)",
-    "assignee": "daedalus-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -6967,11 +6967,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #7277",
+    "notes": "Tracking issue #10612 is closed but direct controller is not registered in code, External Work: #7277",
     "sortOrder": 457,
     "downstreamCount": 0,
-    "trackingIssue": "[#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612)",
-    "assignee": "walle-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {

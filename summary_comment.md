@@ -66,7 +66,7 @@
 | ComputeManagedSSLCertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9992 |
 | ComputeNetworkEndpoint | Stage 4 (MockGCP/E2E Fixtures) | [#10938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938) | walle-agent-bot, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | ComputeNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | [#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759) | daedalus-agent-bot | Missing _reference.go or _identity.go |
-| ComputeNetworkFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#10122](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10122) | daedalus-agent-bot | Missing _reference.go or _identity.go |
+| ComputeNetworkFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #10122 is closed but direct controller is not registered in code |
 | ComputeNetworkFirewallPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9998 |
 | ComputeNetworkFirewallPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999 |
 | ComputeNetworkPeering | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -184,7 +184,7 @@
 | NetworkSecurityServerTLSPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12369 |
 | NetworkServicesEdgeCacheKeyset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | NetworkServicesEdgeCacheOrigin | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| NetworkServicesEdgeCacheService | Stage 4 (MockGCP/E2E Fixtures) | [#10612](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10612) | walle-agent-bot | External Work: #7277 |
+| NetworkServicesEdgeCacheService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10612 is closed but direct controller is not registered in code, External Work: #7277 |
 | NetworkServicesEndpointPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | NetworkServicesGRPCRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #3520 |
 | NetworkServicesHTTPRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #11687 is closed but direct controller is not registered in code, External Work: #14139 |
