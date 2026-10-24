@@ -9,10 +9,11 @@ Step 3: mockGCP generation (Issue #14401)
 |------|------|-------|----|--------|--------------|----------------|
 | 1 | Direct API Types and Identity | #8662 | #8687 | Completed | 2026-06-21 | 2026-06-21 |
 | 2 | Direct Controller, E2E fixtures and Fuzzer | #13176 | #13791 | Completed | 2026-09-16 | 2026-10-24 |
-| 3 | mockGCP generation | #14401 | - | Open | 2026-10-24 | - |
+| 3 | mockGCP generation | #14401 | #14407 | PR Created | 2026-10-24 | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | - | - | - |
 
 ## Status Updates
+- **2026-10-24**: PR #14407 was created for Step 3 (Issue #14401). PR #14407 is open with CI checks in progress.
 - **2026-10-24**: PR #13791 merged successfully and Issue #13176 was closed. Step 2 is Completed. Created Issue #14401 for Step 3: mockGCP generation.
 - **2026-10-08**: PR #13643 was closed and replaced by PR #13791 for Step 2 (Issue #13176). PR #13791 is open with CI checks in progress.
 - **2026-10-02**: PR #13523 was closed and replaced by PR #13643 for Step 2 (Issue #13176). PR #13643 is open and running CI checks.
