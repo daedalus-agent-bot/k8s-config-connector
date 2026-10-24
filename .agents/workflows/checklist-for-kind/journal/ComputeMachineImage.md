@@ -3,20 +3,21 @@
 This journal tracks the migration of `ComputeMachineImage` to a production-ready direct controller.
 
 ## Current Status
-**Current Step:** Step 2: Move ComputeMachineImage to identity and refs pattern
+**Current Step:** Step 3: Implement round-trip KRM fuzzer
 
 ## Progress Tracking
 
 | Step | Step Name | GitHub Issue | GitHub PR | Status | Date Started | Date Completed |
 |------|-----------|--------------|-----------|--------|--------------|----------------|
 | 1 | Direct API Types | [#9991](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9991) | [#10077](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10077) | Merged | 2026-07-06 | 2026-07-06 |
-| 2 | Move ComputeMachineImage to identity and refs pattern | [#12076](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12076) | [#12084](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12084) | PR Created | 2026-07-29 | N/A |
-| 3 | Implement round-trip KRM fuzzer | N/A | N/A | Pending | N/A | N/A |
+| 2 | Move ComputeMachineImage to identity and refs pattern | [#12076](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12076) | [#12084](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12084) | Merged | 2026-07-29 | 2026-10-23 |
+| 3 | Implement round-trip KRM fuzzer | [#14397](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14397) | N/A | Open | 2026-10-24 | N/A |
 | 4 | Match real gcp behavior in MockGCP | N/A | N/A | Pending | N/A | N/A |
 | 5 | Implement direct controller and test fixtures | N/A | N/A | Pending | N/A | N/A |
 | 6 | Validate direct promotion | N/A | N/A | Pending | N/A | N/A |
 
 ## History of Updates
+- **2026-10-24 01:30 UTC**: Verified Step 2 PR #12084 was merged and issue #12076 closed. Completed Step 2. Transitioned to Step 3: created child issue #14397 for round-trip KRM fuzzer. Progress updated to Step 3.
 - **2026-09-11 17:02 UTC**: Checked PR #12084. Verified the PR remains open with the 'overseer/stop' label applied. All CI check-runs continue to be 100% green and successfully passing. In compliance with safety guardrails, automated processing remains paused, and we are awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
 - **2026-09-11 10:20 UTC**: Checked PR #12084. Verified the PR remains open with the 'overseer/stop' label applied. All CI check-runs continue to be 100% green and successfully passing. In compliance with safety guardrails, automated processing remains paused, and we are awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
 - **2026-09-11 07:55 UTC**: Checked PR #12084. Verified the PR remains open with the 'overseer/stop' label applied. All CI check-runs continue to be 100% green and successfully passing. In compliance with safety guardrails, automated processing remains paused, and we are awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
