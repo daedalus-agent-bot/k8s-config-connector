@@ -150,7 +150,7 @@
 | HealthcareDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
-| IAMCustomRole | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12958 |
+| IAMCustomRole | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12958, External Work: #14425 |
 | IAMPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #2873, External Work: #7650 |
 | IAMPolicyMember | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141 |
 | IAMServiceAccount | Stage 4 (MockGCP/E2E Fixtures) | [#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735) | feynman-agent-bot | Missing _reference.go or _identity.go, External Work: #384, External Work: #760 |
@@ -200,11 +200,11 @@
 | OSLoginSSHPublicKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13813 is closed but direct controller is not registered in code |
 | PrivateCACertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #11613 |
 | PrivateCACertificateAuthority | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10363 |
-| Project | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #13060, External Work: #13214, External Work: #14166, External Work: #14167, External Work: #14168, External Work: #14409 |
+| Project | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #13060, External Work: #13214, External Work: #14166, External Work: #14167, External Work: #14168, External Work: #14409, External Work: #14425, External Work: #14426, External Work: #14429, External Work: #14434 |
 | PubSubLiteReservation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5702 |
 | PubSubLiteSubscription | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5700 |
 | PubSubLiteTopic | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5701 |
-| ResourceManagerLien | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12964 |
+| ResourceManagerLien | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12964, External Work: #14426 |
 | ResourceManagerPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #566 |
 | RunService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #772, External Work: #813, External Work: #5554, External Work: #6686, External Work: #9714, External Work: #12710, External Work: #12963, External Work: #13690, External Work: #14417 |
 | SQLDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
