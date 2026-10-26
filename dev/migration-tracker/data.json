@@ -5405,7 +5405,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5415,11 +5415,11 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #14096 is closed but direct controller is not registered in code",
     "sortOrder": 387,
     "downstreamCount": 0,
-    "trackingIssue": "[#14096](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14096)",
-    "assignee": "feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Investigation/Setup"
   },
   {

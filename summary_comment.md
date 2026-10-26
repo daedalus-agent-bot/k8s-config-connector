@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 220 |
-| Pending | 23 |
+| In Progress | 219 |
+| Pending | 24 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -146,7 +146,6 @@
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| HealthcareConsentStore | Investigation/Setup | [#14096](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14096) | feynman-agent-bot |  |
 | HealthcareDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
@@ -245,6 +244,7 @@
 | DialogflowCXWebhook | 342 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
 | FirebaseWebApp | 376 | Terraform |  |  |
+| HealthcareConsentStore | 387 | Terraform |  | Tracking issue #14096 is closed but direct controller is not registered in code |
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
 | HealthcareHL7V2Store | 391 | Terraform |  |  |
