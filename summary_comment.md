@@ -142,7 +142,7 @@
 | FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseDatabaseInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FirebaseHostingSite | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13811 is closed but direct controller is not registered in code |
-| FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | [#14098](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14098) | walle-agent-bot | Missing _reference.go or _identity.go |
+| FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14098 is closed but direct controller is not registered in code |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
