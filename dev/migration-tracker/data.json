@@ -596,7 +596,7 @@
     "sortOrder": 157,
     "downstreamCount": 0,
     "trackingIssue": "[#14333](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333)",
-    "assignee": "feynman-agent-bot",
+    "assignee": "maqiuyujoyce, feynman-agent-bot",
     "stage": "Investigation/Setup"
   },
   {
@@ -625,7 +625,7 @@
     "sortOrder": 158,
     "downstreamCount": 0,
     "trackingIssue": "[#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334)",
-    "assignee": "feynman-agent-bot",
+    "assignee": "maqiuyujoyce, feynman-agent-bot",
     "stage": "Investigation/Setup"
   },
   {
@@ -684,7 +684,7 @@
     "sortOrder": 173,
     "downstreamCount": 0,
     "trackingIssue": "[#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335)",
-    "assignee": "daedalus-agent-bot",
+    "assignee": "maqiuyujoyce, daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -713,7 +713,7 @@
     "sortOrder": 174,
     "downstreamCount": 0,
     "trackingIssue": "[#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336)",
-    "assignee": "walle-agent-bot",
+    "assignee": "maqiuyujoyce, walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -742,7 +742,7 @@
     "sortOrder": 175,
     "downstreamCount": 0,
     "trackingIssue": "[#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337)",
-    "assignee": "walle-agent-bot",
+    "assignee": "maqiuyujoyce, walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -8765,7 +8765,7 @@
     "sortOrder": 539,
     "downstreamCount": 0,
     "trackingIssue": "[#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338)",
-    "assignee": "feynman-agent-bot",
+    "assignee": "maqiuyujoyce, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {

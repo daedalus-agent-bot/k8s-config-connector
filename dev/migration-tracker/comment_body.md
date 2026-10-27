@@ -29,11 +29,11 @@
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | daedalus-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineFirewallRule | Investigation/Setup | [#14099](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14099) | feynman-agent-bot | External Work: #5706 |
 | AppEngineFlexibleAppVersion | Investigation/Setup | [#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332) | feynman-agent-bot |  |
-| AppEngineServiceSplitTraffic | Investigation/Setup | [#14333](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333) | feynman-agent-bot |  |
-| AppEngineStandardAppVersion | Investigation/Setup | [#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334) | feynman-agent-bot |  |
-| BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | [#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335) | daedalus-agent-bot | Missing _reference.go or _identity.go |
-| BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | [#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336) | walle-agent-bot | Missing _reference.go or _identity.go |
-| BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | [#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337) | walle-agent-bot | Missing _reference.go or _identity.go |
+| AppEngineServiceSplitTraffic | Investigation/Setup | [#14333](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333) | maqiuyujoyce, feynman-agent-bot |  |
+| AppEngineStandardAppVersion | Investigation/Setup | [#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334) | maqiuyujoyce, feynman-agent-bot |  |
+| BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | [#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335) | maqiuyujoyce, daedalus-agent-bot | Missing _reference.go or _identity.go |
+| BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | [#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
+| BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | [#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryDataPolicyDataPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | [#14327](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14327) | walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -225,7 +225,7 @@
 | VPCAccessConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
-| VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | [#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | [#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338) | maqiuyujoyce, feynman-agent-bot | Missing _reference.go or _identity.go |
 | VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | [#14097](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14097) | feynman-agent-bot | Missing _reference.go or _identity.go |
 | VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
