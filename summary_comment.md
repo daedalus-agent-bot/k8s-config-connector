@@ -25,7 +25,7 @@
 | ApigeeEnvironment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14091 is closed but direct controller is not registered in code |
 | ApigeeOrganization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | [#14092](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14092) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | daedalus-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineFirewallRule | Investigation/Setup | [#14099](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14099) | feynman-agent-bot | External Work: #5706 |
 | AppEngineFlexibleAppVersion | Investigation/Setup | [#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332) | feynman-agent-bot |  |
