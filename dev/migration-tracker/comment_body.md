@@ -37,7 +37,7 @@
 | BigQueryDataPolicyDataPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | [#14327](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14327) | walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | [#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100) | factorybot-robot, walle-agent-bot | External Work: #11197 |
+| BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigtableInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #774, External Work: #786, External Work: #12946 |
 | BigtableTable | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #8799 |

@@ -887,11 +887,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11197",
+    "notes": "Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197",
     "sortOrder": 189,
     "downstreamCount": 0,
-    "trackingIssue": "[#10100](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10100)",
-    "assignee": "factorybot-robot, walle-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
