@@ -536,11 +536,11 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #5706",
+    "notes": "Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706",
     "sortOrder": 155,
     "downstreamCount": 0,
-    "trackingIssue": "[#14099](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14099)",
-    "assignee": "feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Investigation/Setup"
   },
   {
