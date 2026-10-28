@@ -16,26 +16,26 @@
 | AccessContextManagerAccessLevel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AccessContextManagerAccessLevelCondition | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601 |
 | AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4820, External Work: #4821, External Work: #12332 |
-| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | [#14329](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14329) | walle-agent-bot | Missing _reference.go or _identity.go, External Work: #13250 |
+| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | [#14329](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14329) | anhdle-sso, walle-agent-bot | Missing _reference.go or _identity.go, External Work: #13250 |
 | AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4754, External Work: #8951 |
 | AccessContextManagerServicePerimeterResource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952 |
 | AlloyDBBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AlloyDBUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| ApigeeAddonsConfig | Stage 4 (MockGCP/E2E Fixtures) | [#14330](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14330) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| ApigeeAddonsConfig | Stage 4 (MockGCP/E2E Fixtures) | [#14330](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14330) | anhdle-sso, feynman-agent-bot | Missing _reference.go or _identity.go |
 | ApigeeEnvironment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14091 is closed but direct controller is not registered in code |
 | ApigeeOrganization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
-| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | daedalus-agent-bot | Missing _reference.go or _identity.go |
+| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706 |
-| AppEngineFlexibleAppVersion | Investigation/Setup | [#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332) | feynman-agent-bot |  |
+| AppEngineFlexibleAppVersion | Investigation/Setup | [#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332) | anhdle-sso, feynman-agent-bot |  |
 | AppEngineServiceSplitTraffic | Investigation/Setup | [#14333](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333) | maqiuyujoyce, feynman-agent-bot |  |
 | AppEngineStandardAppVersion | Investigation/Setup | [#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334) | maqiuyujoyce, feynman-agent-bot |  |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | [#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335) | maqiuyujoyce, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | [#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | [#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryDataPolicyDataPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | [#14327](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14327) | walle-agent-bot | Missing _reference.go or _identity.go |
+| BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | [#14327](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14327) | anhdle-sso, walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -77,15 +77,15 @@
 | ComputeNodeGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10003 |
 | ComputeNodeTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10944 is closed but direct controller is not registered in code |
 | ComputeOrganizationSecurityPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14100 is closed but direct controller is not registered in code |
-| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | [#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252) | feynman-agent-bot | Missing _reference.go or _identity.go |
-| ComputeOrganizationSecurityPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | [#14328](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14328) | daedalus-agent-bot | Missing _reference.go or _identity.go |
+| ComputeOrganizationSecurityPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | [#14252](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14252) | anhdle-sso, feynman-agent-bot | Missing _reference.go or _identity.go |
+| ComputeOrganizationSecurityPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | [#14328](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14328) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | ComputePacketMirroring | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputePerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10012 |
 | ComputeProjectMetadata | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13812 is closed but direct controller is not registered in code |
 | ComputeRegionAutoscaler | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeRegionDiskResourcePolicyAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10015 |
 | ComputeRegionNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10017 |
-| ComputeRegionPerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | [#14326](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14326) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| ComputeRegionPerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | [#14326](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14326) | anhdle-sso, feynman-agent-bot | Missing _reference.go or _identity.go |
 | ComputeRegionSSLPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeResourcePolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ComputeRoute | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10746 is closed but direct controller is not registered in code, External Work: #13581 |
@@ -129,7 +129,7 @@
 | DialogflowEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DialogflowFulfillment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DialogflowIntent | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | [#14093](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14093) | walle-agent-bot | Missing _reference.go or _identity.go |
+| DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14093 is closed but direct controller is not registered in code |
 | EdgeContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerVpnConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -167,8 +167,8 @@
 | IdentityPlatformTenant | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenantOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #14095 is closed but direct controller is not registered in code |
-| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | [#14324](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14324) | feynman-agent-bot |  |
-| KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | [#14325](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14325) | feynman-agent-bot |  |
+| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | [#14324](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14324) | anhdle-sso, feynman-agent-bot |  |
+| KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | [#14325](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14325) | anhdle-sso, feynman-agent-bot |  |
 | MLEngineModel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MemcacheInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MonitoringAlertPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991, External Work: #14166 |
@@ -226,7 +226,7 @@
 | VertexAIDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
 | VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | [#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338) | maqiuyujoyce, feynman-agent-bot | Missing _reference.go or _identity.go |
-| VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | [#14097](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14097) | feynman-agent-bot | Missing _reference.go or _identity.go |
+| VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14097 is closed but direct controller is not registered in code |
 | VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
 | VertexAITensorboard | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12176 |
