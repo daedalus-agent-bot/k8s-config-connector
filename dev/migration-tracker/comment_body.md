@@ -167,7 +167,7 @@
 | IdentityPlatformTenant | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformTenantOAuthIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | KMSCryptoKeyVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #14095 is closed but direct controller is not registered in code |
-| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | [#14324](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14324) | anhdle-sso, feynman-agent-bot |  |
+| KMSKeyRingImportJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #14324 is closed but direct controller is not registered in code |
 | KMSSecretCiphertext | Stage 4 (MockGCP/E2E Fixtures) | [#14325](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14325) | anhdle-sso, feynman-agent-bot |  |
 | MLEngineModel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | MemcacheInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |

@@ -6292,11 +6292,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #14324 is closed but direct controller is not registered in code",
     "sortOrder": 416,
     "downstreamCount": 0,
-    "trackingIssue": "[#14324](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14324)",
-    "assignee": "anhdle-sso, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
