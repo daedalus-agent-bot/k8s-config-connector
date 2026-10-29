@@ -8,7 +8,7 @@
 | Step | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|
 | Step 1a: Prepopulate | - | - | Completed (Bulk Prepopulated) | 2026-10-29 | 2026-10-29 |
-| Step 1b: Judgement Triage | [#14601](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14601) | - | Open | 2026-10-29 | - |
+| Step 1b: Judgement Triage | [#14601](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14601) | [#14627](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14627) | PR Created | 2026-10-29 | - |
 | Step 2: Controller, Fixtures & Fuzzer | - | - | Not Started | - | - |
 | Step 3: MockGCP Implementation | - | - | Not Started | - | - |
 | Step 4: MockGCP Alignment | - | - | Not Started | - | - |
@@ -16,3 +16,4 @@
 ## Updates Log
 - **2026-10-29**: Step 1a verified completed on master (bulk prepopulated with untriaged-bulk-generation in `apis/securesourcemanager/judgement_queue.yaml`).
 - **2026-10-29**: Opened Step 1b issue #14601 (`Greenfield: Triage judgement queue and finalize direct KRM types and identity for SecureSourceManagerBranchRule`).
+- **2026-10-29**: Step 1b PR #14627 opened; all presubmit checks passed. Awaiting review and merge.
