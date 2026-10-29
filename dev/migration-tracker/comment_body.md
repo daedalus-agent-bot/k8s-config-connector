@@ -67,7 +67,7 @@
 | ComputeInterconnectAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeMachineImage | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeManagedSSLCertificate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeNetworkEndpoint | Stage 4 (MockGCP/E2E Fixtures) | [#10938](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10938) | walle-agent-bot, daedalus-agent-bot | Missing _reference.go or _identity.go |
+| ComputeNetworkEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #10938 is closed but direct controller is not registered in code |
 | ComputeNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | [#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759) | daedalus-agent-bot | Missing _reference.go or _identity.go |
 | ComputeNetworkFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #10122 is closed but direct controller is not registered in code |
 | ComputeNetworkFirewallPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9998 |
