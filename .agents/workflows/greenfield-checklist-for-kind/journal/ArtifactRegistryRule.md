@@ -9,10 +9,11 @@
 | Step 1a: Prepopulate | [#14457](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14457) | - | Completed (Bulk Prepopulated) | 2026-10-26 | 2026-10-26 |
 | Step 1b: Judgement Triage | [#14459](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14459) | [#14462](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14462) | Merged | 2026-10-27 | 2026-10-27 |
 | Step 2: Controller, Fixtures & Fuzzer | [#14474](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14474) | [#14479](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14479) | Merged | 2026-10-27 | 2026-10-29 |
-| Step 3: MockGCP Implementation | [#14553](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14553) | - | Open | 2026-10-29 | - |
+| Step 3: MockGCP Implementation | [#14553](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14553) | [#14565](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14565) | PR Created | 2026-10-29 | - |
 | Step 4: MockGCP Alignment | - | - | Pending | - | - |
 
 ## Status Updates
+- [2026-10-29] Step 3 PR #14565 created and passed all CI checks (ready for human review).
 - [2026-10-29] Step 3 issue #14553 created to implement MockGCP and alignment for ArtifactRegistryRule.
 - [2026-10-29] Step 2 PR #14479 merged; Step 2 completed.
 - [2026-10-27] Step 2 PR #14479 created to implement direct controller, E2E fixtures, and fuzzer for ArtifactRegistryRule; all CI checks passed and ready for human review.
