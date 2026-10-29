@@ -3,7 +3,7 @@
 This journal tracks the migration of `ComputeMachineImage` to a production-ready direct controller.
 
 ## Current Status
-**Current Step:** Step 3: Implement round-trip KRM fuzzer
+**Current Step:** Step 4: Match real gcp behavior in MockGCP
 
 ## Progress Tracking
 
@@ -11,12 +11,13 @@ This journal tracks the migration of `ComputeMachineImage` to a production-ready
 |------|-----------|--------------|-----------|--------|--------------|----------------|
 | 1 | Direct API Types | [#9991](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9991) | [#10077](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/10077) | Merged | 2026-07-06 | 2026-07-06 |
 | 2 | Move ComputeMachineImage to identity and refs pattern | [#12076](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12076) | [#12084](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12084) | Merged | 2026-07-29 | 2026-10-23 |
-| 3 | Implement round-trip KRM fuzzer | [#14397](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14397) | [#14398](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14398) | PR Created | 2026-10-24 | N/A |
-| 4 | Match real gcp behavior in MockGCP | N/A | N/A | Pending | N/A | N/A |
+| 3 | Implement round-trip KRM fuzzer | [#14397](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14397) | [#14398](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14398) | Merged | 2026-10-24 | 2026-10-29 |
+| 4 | Match real gcp behavior in MockGCP | [#14643](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14643) | N/A | Open | 2026-10-29 | N/A |
 | 5 | Implement direct controller and test fixtures | N/A | N/A | Pending | N/A | N/A |
 | 6 | Validate direct promotion | N/A | N/A | Pending | N/A | N/A |
 
 ## History of Updates
+- **2026-10-29 19:16 UTC**: Verified Step 3 PR #14398 was merged and child issue #14397 closed. Completed Step 3. Transitioned to Step 4: created child issue #14643 assigned to 'factorybot-robot' for matching real GCP behavior in MockGCP. Progress updated to Step 4.
 - **2026-10-24 03:49 UTC**: Checked Step 3 child issue #14397. Found PR #14398 created for round-trip KRM fuzzer. All CI checks are verified passing (257 successful). The PR is labeled 'overseer/ready-for-human' and awaiting review and merge from a human OWNER. Progress remains at Step 3.
 - **2026-10-24 01:30 UTC**: Verified Step 2 PR #12084 was merged and issue #12076 closed. Completed Step 2. Transitioned to Step 3: created child issue #14397 for round-trip KRM fuzzer. Progress updated to Step 3.
 - **2026-09-11 17:02 UTC**: Checked PR #12084. Verified the PR remains open with the 'overseer/stop' label applied. All CI check-runs continue to be 100% green and successfully passing. In compliance with safety guardrails, automated processing remains paused, and we are awaiting manual review and merge from a human OWNER to complete Step 2. Progress remains at Step 2.
