@@ -1,6 +1,6 @@
 # Migration Progress: ComputeManagedSSLCertificate
 
-**Current Step:** Step 4: Ensure MockGCP matches real gcp behavior
+**Current Step:** Step 5: Implement Direct Controller & E2E Fixtures
 
 ## Progress Tracking Table
 
@@ -9,11 +9,12 @@
 | Step 1: Direct API Types | [#14515](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14515) | [#14518](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14518) | Completed | 2026-10-28 | 2026-10-29 |
 | Step 2: Identity and Reference Types Pattern | [#14588](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14588) | [#14616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14616) | Completed | 2026-10-29 | 2026-10-29 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#14630](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14630) | [#14632](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14632) | Completed | 2026-10-29 | 2026-10-29 |
-| Step 4: Ensure MockGCP matches real gcp behavior | [#14680](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14680) | [#14683](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14683) | PR Created | 2026-10-29 | - |
-| Step 5: Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | [#14680](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14680) | [#14683](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14683) | Completed | 2026-10-29 | 2026-10-30 |
+| Step 5: Implement Direct Controller & E2E Fixtures | [#14697](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14697) | - | Open | 2026-10-30 | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-10-30 (08:35 UTC - Step 5 Issue Created)**: Step 4 PR #14683 merged successfully. Opened child issue #14697 for Step 5 ("Implement direct controller and test fixtures for ComputeManagedSSLCertificate"). Awaiting bot pickup and PR creation.
 - **2026-10-30 (01:39 UTC - PR Created / CI Green)**: PR #14683 was created for Step 4 issue #14680 ("Match real gcp behavior in MockGCP for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked with `overseer/ready-for-human`. Awaiting review and merge.
 - **2026-10-29 (23:15 UTC - Step 4 Issue Created)**: Step 3 PR #14632 merged successfully. Opened child issue #14680 for Step 4 ("Match real gcp behavior in MockGCP for ComputeManagedSSLCertificate") assigned to `factorybot-robot`. Awaiting bot pickup and PR creation.
 - **2026-10-29 (16:55 UTC - PR Created / CI Green)**: PR #14632 was created for Step 3 issue #14630 ("Implement round-trip KRM fuzzer for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked `overseer/ready-for-human`. Awaiting review and merge.
@@ -30,6 +31,6 @@
 - **2026-09-11 (10:30 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All 230+ CI checks continue to pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
 - **2026-09-11 (08:18 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks continue to pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
 - **2026-09-11 (03:51 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
-- **2026-09-11 (01:45 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks continue to pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
-- **2026-09-10 (23:22 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks continue to pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
+- **2026-09-11 (01:45 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
+- **2026-09-10 (23:22 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). All CI checks pass successfully (100% green). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
 - **2026-09-10 (21:00 UTC - PR Conflicting; Assigned to Bot)**: Checked PR #10063 on GitHub. The PR remains OPEN and has merge conflicts (state is `CONFLICTING` / `dirty`). It remains assigned to its author bot `codebot-robot` for merge conflict resolution. Awaiting resolution.
