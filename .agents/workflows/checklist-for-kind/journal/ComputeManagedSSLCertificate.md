@@ -9,11 +9,12 @@
 | Step 1: Direct API Types | [#14515](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14515) | [#14518](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14518) | Completed | 2026-10-28 | 2026-10-29 |
 | Step 2: Identity and Reference Types Pattern | [#14588](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14588) | [#14616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14616) | Completed | 2026-10-29 | 2026-10-29 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#14630](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14630) | [#14632](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14632) | Completed | 2026-10-29 | 2026-10-29 |
-| Step 4: Ensure MockGCP matches real gcp behavior | [#14680](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14680) | - | Open | 2026-10-29 | - |
+| Step 4: Ensure MockGCP matches real gcp behavior | [#14680](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14680) | [#14683](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14683) | PR Created | 2026-10-29 | - |
 | Step 5: Implement Direct Controller & E2E Fixtures | - | - | Pending | - | - |
 | Step 6: Validate Direct Promotion | - | - | Pending | - | - |
 
 ## Status Update Notes
+- **2026-10-30 (01:39 UTC - PR Created / CI Green)**: PR #14683 was created for Step 4 issue #14680 ("Match real gcp behavior in MockGCP for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked with `overseer/ready-for-human`. Awaiting review and merge.
 - **2026-10-29 (23:15 UTC - Step 4 Issue Created)**: Step 3 PR #14632 merged successfully. Opened child issue #14680 for Step 4 ("Match real gcp behavior in MockGCP for ComputeManagedSSLCertificate") assigned to `factorybot-robot`. Awaiting bot pickup and PR creation.
 - **2026-10-29 (16:55 UTC - PR Created / CI Green)**: PR #14632 was created for Step 3 issue #14630 ("Implement round-trip KRM fuzzer for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked `overseer/ready-for-human`. Awaiting review and merge.
 - **2026-10-29 (14:38 UTC - Step 3 Issue Created)**: Step 2 PR #14616 merged successfully. Opened child issue #14630 for Step 3 ("Implement round-trip KRM fuzzer for ComputeManagedSSLCertificate"). Awaiting bot pickup and PR creation.
