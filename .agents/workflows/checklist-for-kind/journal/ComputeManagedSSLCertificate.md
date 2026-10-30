@@ -1,6 +1,6 @@
 # Migration Progress: ComputeManagedSSLCertificate
 
-**Current Step:** Step 5: Implement Direct Controller & E2E Fixtures
+**Current Step:** Step 6: Validate Direct Promotion
 
 ## Progress Tracking Table
 
@@ -10,10 +10,11 @@
 | Step 2: Identity and Reference Types Pattern | [#14588](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14588) | [#14616](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14616) | Completed | 2026-10-29 | 2026-10-29 |
 | Step 3: Create a Round-Trip KRM Fuzzer | [#14630](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14630) | [#14632](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14632) | Completed | 2026-10-29 | 2026-10-29 |
 | Step 4: Ensure MockGCP matches real gcp behavior | [#14680](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14680) | [#14683](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14683) | Completed | 2026-10-29 | 2026-10-30 |
-| Step 5: Implement Direct Controller & E2E Fixtures | [#14697](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14697) | [#14698](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14698) | PR Created | 2026-10-30 | - |
-| Step 6: Validate Direct Promotion | - | - | Pending | - | - |
+| Step 5: Implement Direct Controller & E2E Fixtures | [#14697](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14697) | [#14698](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14698) | Completed | 2026-10-30 | 2026-10-30 |
+| Step 6: Validate Direct Promotion | [#14713](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14713) | - | Open | 2026-10-30 | - |
 
 ## Status Update Notes
+- **2026-10-30 (23:48 UTC - Step 6 Issue Created)**: Step 5 PR #14698 merged successfully. Opened child issue #14713 for Step 6 ("Validate direct promotion for ComputeManagedSSLCertificate"). Awaiting bot pickup and PR creation.
 - **2026-10-30 (10:33 UTC - PR Created / CI Green)**: PR #14698 was created for Step 5 issue #14697 ("Implement direct controller and test fixtures for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked with `overseer/ready-for-human`. Awaiting review and merge.
 - **2026-10-30 (08:35 UTC - Step 5 Issue Created)**: Step 4 PR #14683 merged successfully. Opened child issue #14697 for Step 5 ("Implement direct controller and test fixtures for ComputeManagedSSLCertificate"). Awaiting bot pickup and PR creation.
 - **2026-10-30 (01:39 UTC - PR Created / CI Green)**: PR #14683 was created for Step 4 issue #14680 ("Match real gcp behavior in MockGCP for ComputeManagedSSLCertificate"). All 258 CI checks passed (100% green). PR is mergeable and marked with `overseer/ready-for-human`. Awaiting review and merge.
