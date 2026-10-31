@@ -2930,11 +2930,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14326 is closed but direct controller is not registered in code",
     "sortOrder": 265,
     "downstreamCount": 0,
-    "trackingIssue": "[#14326](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14326)",
-    "assignee": "anhdle-sso, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -6319,11 +6319,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #14325 is closed but direct controller is not registered in code",
     "sortOrder": 417,
     "downstreamCount": 0,
-    "trackingIssue": "[#14325](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14325)",
-    "assignee": "anhdle-sso, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
