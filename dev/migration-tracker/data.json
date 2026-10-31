@@ -2350,7 +2350,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14715",
     "sortOrder": 247,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
