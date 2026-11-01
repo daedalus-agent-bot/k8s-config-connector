@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | Step 1a: Prepopulate | - | - | Completed (Bulk Prepopulated) | 2026-10-29 | 2026-10-29 |
 | Step 1b: Judgement Triage | [#14604](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14604) | [#14621](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14621) | Merged | 2026-10-29 | 2026-11-01 |
-| Step 2: Controller, Fixtures & Fuzzer | [#14733](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14733) | - | Open | 2026-11-01 | - |
+| Step 2: Controller, Fixtures & Fuzzer | [#14733](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14733) | [#14740](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14740) | PR Created | 2026-11-01 | - |
 | Step 3: MockGCP Implementation | - | - | Not Started | - | - |
 | Step 4: MockGCP Alignment | - | - | Not Started | - | - |
 
@@ -16,3 +16,4 @@
 - [2026-10-29] Step 1b PR #14621 created and linked to issue #14604. Waiting for PR to be merged.
 - [2026-11-01] Step 1b PR #14621 merged. Step 1b completed.
 - [2026-11-01] Step 2 issue #14733 created to implement direct controller, E2E fixtures, and fuzzer.
+- [2026-11-01] Step 2 PR #14740 created and linked to issue #14733. Waiting for PR to be merged.
