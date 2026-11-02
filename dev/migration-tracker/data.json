@@ -1840,8 +1840,8 @@
     "notes": "External Work: #570",
     "sortOrder": 237,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108)",
+    "assignee": "factorybot-robot, daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1967,8 +1967,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10111](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10111)",
+    "assignee": "factorybot-robot, walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2560,8 +2560,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 254,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10124)",
+    "assignee": "factorybot-robot, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {

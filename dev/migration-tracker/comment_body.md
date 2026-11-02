@@ -54,10 +54,10 @@
 | ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958 |
 | ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
 | ComputeExternalVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #570 |
+| ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | [#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108) | factorybot-robot, daedalus-agent-bot | External Work: #570 |
 | ComputeFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10884 is closed but direct controller is not registered in code |
 | ComputeFirewallPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeGlobalNetworkEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978 |
+| ComputeGlobalNetworkEndpoint | Stage 4 (MockGCP/E2E Fixtures) | [#10111](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10111) | factorybot-robot, walle-agent-bot | Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978 |
 | ComputeGlobalNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9980 |
 | ComputeHTTPSHealthCheck | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #10923 is closed but direct controller is not registered in code |
 | ComputeHealthCheck | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -72,7 +72,7 @@
 | ComputeNetworkFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #10122 is closed but direct controller is not registered in code |
 | ComputeNetworkFirewallPolicyAssociation | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9998 |
 | ComputeNetworkFirewallPolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999 |
-| ComputeNetworkPeering | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| ComputeNetworkPeering | Stage 4 (MockGCP/E2E Fixtures) | [#10124](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10124) | factorybot-robot, feynman-agent-bot | Missing _reference.go or _identity.go |
 | ComputeNetworkPeeringRoutesConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #5608, External Work: #10002 |
 | ComputeNodeGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #10003 |
 | ComputeNodeTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10944 is closed but direct controller is not registered in code |
