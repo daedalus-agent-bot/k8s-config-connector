@@ -7,7 +7,7 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |------|------|-------|--------------|--------|--------------|----------------|
-| 1 | Direct KRM Types, Identity, generate.sh | [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836) | [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) | PR Created | 2026-09-09 | - |
+| 1 | Direct KRM Types, Identity, generate.sh | [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836) | [#14790](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14790) | PR Created | 2026-09-09 | - |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP Generation & Alignment | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
@@ -30,3 +30,4 @@ Step 1: Direct API Types and Identity and Reference Types Pattern
 - **2026-09-11**: Re-confirmed PR [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) status as open and fully passing. No further action can be taken until it is merged by a human maintainer. Continuing to monitor.
 - **2026-09-11**: Conducted a follow-up status check. Pull Request [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) is still open and healthy with all CI check-runs passing. Awaiting human OWNER approval and merge to proceed to Step 2.
 - **2026-09-11**: Executed automated status verification. PR [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) remains open with all GHA check-runs 100% green and passing. Still waiting for human OWNER review and merge to transition to Step 2.
+- **2026-11-02**: Previous PR [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) was closed without merging. New PR [#14790](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14790) was opened for Step 1 issue [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836). Updated tracking to link PR #14790, which is currently undergoing CI check-runs.
