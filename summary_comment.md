@@ -16,7 +16,7 @@
 | AccessContextManagerAccessLevel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AccessContextManagerAccessLevelCondition | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601 |
 | AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4820, External Work: #4821, External Work: #12332 |
-| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | [#14329](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14329) | anhdle-sso, walle-agent-bot | Missing _reference.go or _identity.go, External Work: #13250 |
+| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code, External Work: #13250 |
 | AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4754, External Work: #8951 |
 | AccessContextManagerServicePerimeterResource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952 |
 | AlloyDBBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
