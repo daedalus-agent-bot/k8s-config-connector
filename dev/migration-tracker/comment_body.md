@@ -151,7 +151,7 @@
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
 | IAMCustomRole | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12958, External Work: #14425 |
 | IAMPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #2873, External Work: #7650 |
-| IAMPolicyMember | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141 |
+| IAMPolicyMember | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141, External Work: #14804 |
 | IAMServiceAccount | Stage 4 (MockGCP/E2E Fixtures) | [#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735) | feynman-agent-bot | Missing _reference.go or _identity.go, External Work: #384, External Work: #760 |
 | IAMServiceAccountKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #425, External Work: #3338, External Work: #6675 |
 | IAMWorkforcePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
