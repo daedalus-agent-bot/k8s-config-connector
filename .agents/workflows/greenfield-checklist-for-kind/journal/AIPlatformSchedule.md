@@ -1,7 +1,7 @@
 # Greenfield Migration Journal: AIPlatformSchedule
 
 ## Current Step
-Step 4: MockGCP Alignment with RealGCP
+Step 5: Release
 
 ## Progress Tracking
 
@@ -10,10 +10,11 @@ Step 4: MockGCP Alignment with RealGCP
 | 1 | Direct API Types & Identity | [#9248](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/9248) | [#11388](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/11388) | Completed | 2026-07-06 | 2026-07-24 |
 | 2 | Direct Controller & E2E | [#11916](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11916) | [#12430](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12430) | Completed | 2026-07-24 | 2026-11-03 |
 | 3 | mockGCP generation | [#14810](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14810) | N/A | Completed | 2026-11-03 | 2026-11-03 |
-| 4 | MockGCP Alignment | [#14820](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14820) | [#14836](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14836) | PR Created | 2026-11-03 | |
-| 5 | Release | | | Planned | | |
+| 4 | MockGCP Alignment | [#14820](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14820) | [#14836](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14836) | Completed | 2026-11-03 | 2026-11-04 |
+| 5 | Release | [#14844](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14844) | | Open | 2026-11-04 | |
 
 ## Status Updates
+- **2026-11-04 (02:15 UTC)**: Step 4 PR [#14836](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14836) merged successfully. Step 4 marked as Completed. Opened Step 5 issue [#14844](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14844) to release AIPlatformSchedule (remove it from BLOCKED_KINDS).
 - **2026-11-04 (01:20 UTC)**: Step 4 PR [#14836](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14836) opened to align MockGCP logs with RealGCP for AIPlatformSchedule. All 258 automated CI checks passed successfully with zero failures; review currently in progress. Status updated to `PR Created`.
 - **2026-11-03 (18:15 UTC)**: Step 3 issue [#14810](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14810) verified and closed by human OWNER @gemmahou as MockGCP schedule support was already implemented on master. Step 3 marked as Completed. Opened Step 4 issue [#14820](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14820) to align MockGCP logs with RealGCP for AIPlatformSchedule.
 - **2026-11-03 (01:31 UTC)**: Step 2 PR [#12430](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12430) merged successfully. Step 2 marked as Completed. Opened Step 3 issue [#14810](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14810) to implement MockGCP and Alignment for AIPlatformSchedule.
