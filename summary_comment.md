@@ -26,10 +26,10 @@
 | ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14091 is closed but direct controller is not registered in code |
 | ApigeeOrganization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
-| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go |
+| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #14852 |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706 |
 | AppEngineFlexibleAppVersion | Investigation/Setup | [#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332) | anhdle-sso, feynman-agent-bot |  |
-| AppEngineServiceSplitTraffic | Investigation/Setup | [#14333](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14333) | maqiuyujoyce, feynman-agent-bot |  |
+| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code |
 | AppEngineStandardAppVersion | Investigation/Setup | [#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334) | maqiuyujoyce, feynman-agent-bot |  |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | [#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335) | maqiuyujoyce, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | [#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
