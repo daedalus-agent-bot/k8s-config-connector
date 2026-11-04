@@ -8,7 +8,7 @@ Step 1b: Triage Judgement Queue and Finalize Direct API Types, Identity, and Ref
 | Step | Name | Issue | Pull Request | Status | Date Started | Date Completed |
 |------|------|-------|--------------|--------|--------------|----------------|
 | 1a | Prepopulate Direct KRM Types, Identity, generate.sh | [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836) | [#14790](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14790) | Merged | 2026-09-09 | 2026-11-04 |
-| 1b | Triage Judgement Queue & Finalize Direct KRM Types | [#14866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14866) | - | Open | 2026-11-04 | - |
+| 1b | Triage Judgement Queue & Finalize Direct KRM Types | [#14866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14866) | [#14876](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14876) | PR Created | 2026-11-04 | - |
 | 2 | Direct Controller, E2E fixtures & Fuzzer | - | - | Pending | - | - |
 | 3 | mockGCP Generation & Alignment | - | - | Pending | - | - |
 | 4 | MockGCP Alignment with RealGCP | - | - | Pending | - | - |
@@ -34,3 +34,4 @@ Step 1b: Triage Judgement Queue and Finalize Direct API Types, Identity, and Ref
 - **2026-09-11**: Executed automated status verification. PR [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) remains open with all GHA check-runs 100% green and passing. Still waiting for human OWNER review and merge to transition to Step 2.
 - **2026-11-02**: Previous PR [#12856](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12856) was closed without merging. New PR [#14790](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14790) was opened for Step 1 issue [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836). Updated tracking to link PR #14790.
 - **2026-11-04**: PR [#14790](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14790) for Step 1a was merged and issue [#12836](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12836) closed. Created Step 1b issue [#14866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14866) to triage `judgement_queue.yaml` and finalize direct KRM types for AIPlatformModelMonitor.
+- **2026-11-04**: PR [#14876](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14876) was opened for Step 1b issue [#14866](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14866). Updated tracking to link PR #14876 with status `PR Created`. Awaiting CI and OWNER review/merge.
