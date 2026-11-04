@@ -17,7 +17,7 @@
 | AccessContextManagerAccessLevelCondition | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601 |
 | AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4820, External Work: #4821, External Work: #12332 |
 | AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code, External Work: #13250 |
-| AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4754, External Work: #8951 |
+| AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4754, External Work: #8951, External Work: #14847, External Work: #14848 |
 | AccessContextManagerServicePerimeterResource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952 |
 | AlloyDBBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AlloyDBUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -35,7 +35,7 @@
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | [#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | [#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337) | maqiuyujoyce, walle-agent-bot | Missing _reference.go or _identity.go |
 | BigQueryDataPolicyDataPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | [#14327](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14327) | anhdle-sso, walle-agent-bot | Missing _reference.go or _identity.go |
+| BigQueryDatasetAccess | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14327 is closed but direct controller is not registered in code |
 | BigQueryJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BigQueryReservationCapacityCommitment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197 |
 | BigQueryRoutine | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
