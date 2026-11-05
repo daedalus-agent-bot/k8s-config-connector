@@ -1,16 +1,17 @@
 # Migration Progress for AIPlatformModelDeploymentMonitoringJob
 
-- **Current Step**: Step 1: Direct API Types and Identity and Reference Types Pattern
-- **Status**: PR #12859 is OPEN and all CI checks have passed. Labeled with `overseer/ready-for-human`. Awaiting human OWNER review and approval.
+- **Current Step**: Step 2: Direct Controller and Fuzzer
+- **Status**: Issue #15060 created for Step 2. Awaiting PR creation by assigned bot.
 
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Direct API Types and Identity | [#12835](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12835) | [#12859](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12859) | PR Created | 2026-09-09 | |
-| 2 | Direct Controller and Fuzzer | | | Pending | | |
+| 1 | Direct API Types and Identity | [#12835](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12835) | [#12859](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/12859) | Merged | 2026-09-09 | 2026-11-05 |
+| 2 | Direct Controller and Fuzzer | [#15060](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15060) | | Open | 2026-11-05 | |
 | 3 | mockGCP Generation | | | Pending | | |
 | 4 | MockGCP Alignment | | | Pending | | |
 
 ### Recent Status Updates
+- **2026-11-05**: Step 1 PR #12859 verified merged. Created Step 2 issue #15060 for direct controller, E2E fixtures, and fuzzer.
 - **2026-09-11**: Verified PR #12859 remains in `OPEN` state with all CI checks passing. Awaiting human OWNER review and approval. (Checked at 21:59 UTC)
 - **2026-09-11**: Verified PR #12859 remains in `OPEN` state with all CI checks passing. Awaiting human OWNER review and approval. (Checked at 19:43 UTC)
 - **2026-09-11**: PR #12859 remains in `OPEN` state with all CI checks passing. Awaiting human OWNER review and approval. (Checked at 17:36 UTC)
