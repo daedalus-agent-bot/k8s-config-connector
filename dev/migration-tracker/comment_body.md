@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 216 |
-| Pending | 27 |
+| In Progress | 226 |
+| Pending | 17 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -41,6 +41,9 @@
 | BillingBudgetsBudget | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596 |
 | BinaryAuthorizationAttestor | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | BinaryAuthorizationPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #4760 |
+| CloudAssetFolderFeed | Investigation/Setup | N/A |  | External Work: #14969 |
+| CloudAssetOrganizationFeed | Investigation/Setup | N/A |  | External Work: #14970 |
+| CloudAssetProjectFeed | Investigation/Setup | N/A |  | External Work: #14971 |
 | CloudBuildTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #370, External Work: #796 |
 | CloudFunctions2Function | Investigation/Setup | N/A |  | External Work: #12192 |
 | CloudFunctionsFunction | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #886, External Work: #12312 |
@@ -80,7 +83,7 @@
 | ComputePerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10012 |
 | ComputeProjectMetadata | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13812 is closed but direct controller is not registered in code |
 | ComputeRegionAutoscaler | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeRegionDiskResourcePolicyAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10015 |
+| ComputeRegionDiskResourcePolicyAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeRegionNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10017 |
 | ComputeRegionPerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14326 is closed but direct controller is not registered in code |
 | ComputeRegionSSLPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -123,9 +126,16 @@
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
 | DeploymentManagerDeployment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DialogflowEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DialogflowFulfillment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DialogflowIntent | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| DialogflowAgent | Investigation/Setup | N/A |  | External Work: #14981 |
+| DialogflowCXAgent | Investigation/Setup | N/A |  | External Work: #14977 |
+| DialogflowCXEntityType | Investigation/Setup | N/A |  | External Work: #14972 |
+| DialogflowCXFlow | Investigation/Setup | N/A |  | External Work: #14975 |
+| DialogflowCXIntent | Investigation/Setup | N/A |  | External Work: #14973 |
+| DialogflowCXPage | Investigation/Setup | N/A |  | External Work: #14974 |
+| DialogflowCXWebhook | Investigation/Setup | N/A |  | External Work: #14976 |
+| DialogflowEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #14978 |
+| DialogflowFulfillment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #14979 |
+| DialogflowIntent | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #14980 |
 | DocumentAIProcessorDefaultVersion | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14093 is closed but direct controller is not registered in code |
 | EdgeContainerCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | EdgeContainerNodePool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -222,7 +232,7 @@
 | VPCAccessConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | VertexAIEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7987 |
-| VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | [#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338) | maqiuyujoyce, feynman-agent-bot | Missing _reference.go or _identity.go |
+| VertexAIFeaturestoreEntityType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14338 is closed but direct controller is not registered in code |
 | VertexAIFeaturestoreEntityTypeFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14097 is closed but direct controller is not registered in code |
 | VertexAIIndex | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | VertexAIIndexEndpoint | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #8390 |
@@ -234,14 +244,7 @@
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service | Tracking issue #14332 is closed but direct controller is not registered in code |
 | AppEngineServiceSplitTraffic | 157 | Terraform |  | Tracking issue #14333 is closed but direct controller is not registered in code |
 | AppEngineStandardAppVersion | 158 | Terraform | Service | Tracking issue #14334 is closed but direct controller is not registered in code |
-| CloudAssetOrganizationFeed | 212 | Terraform |  |  |
 | CloudIOTDevice | 226 | Terraform |  |  |
-| DialogflowAgent | 336 | Terraform |  |  |
-| DialogflowCXEntityType | 338 | Terraform |  |  |
-| DialogflowCXFlow | 339 | Terraform |  |  |
-| DialogflowCXIntent | 340 | Terraform |  |  |
-| DialogflowCXPage | 341 | Terraform |  |  |
-| DialogflowCXWebhook | 342 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
 | FirebaseWebApp | 376 | Terraform |  |  |
 | HealthcareConsentStore | 387 | Terraform |  | Tracking issue #14096 is closed but direct controller is not registered in code |

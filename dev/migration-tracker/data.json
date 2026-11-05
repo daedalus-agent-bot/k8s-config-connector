@@ -1263,7 +1263,7 @@
     "dependencies": [
       "Folder"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1273,7 +1273,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14969",
     "sortOrder": 211,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1290,7 +1290,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1300,7 +1300,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14970",
     "sortOrder": 212,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1319,7 +1319,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1329,7 +1329,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14971",
     "sortOrder": 213,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2870,7 +2870,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10015",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 553,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4522,7 +4522,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4532,7 +4532,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14981",
     "sortOrder": 336,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4551,7 +4551,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4561,7 +4561,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14977",
     "sortOrder": 337,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4578,7 +4578,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4588,7 +4588,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14972",
     "sortOrder": 338,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4605,7 +4605,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4615,7 +4615,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14975",
     "sortOrder": 339,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4632,7 +4632,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4642,7 +4642,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14973",
     "sortOrder": 340,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4659,7 +4659,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4669,7 +4669,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14974",
     "sortOrder": 341,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4686,7 +4686,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -4696,7 +4696,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #14976",
     "sortOrder": 342,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4725,7 +4725,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14978",
     "sortOrder": 344,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4754,7 +4754,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14979",
     "sortOrder": 345,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4783,7 +4783,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14980",
     "sortOrder": 347,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8761,11 +8761,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14338 is closed but direct controller is not registered in code",
     "sortOrder": 539,
     "downstreamCount": 0,
-    "trackingIssue": "[#14338](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14338)",
-    "assignee": "maqiuyujoyce, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
