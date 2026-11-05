@@ -369,11 +369,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14330 is closed but direct controller is not registered in code",
     "sortOrder": 145,
     "downstreamCount": 0,
-    "trackingIssue": "[#14330](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14330)",
-    "assignee": "anhdle-sso, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -555,7 +555,7 @@
     "dependencies": [
       "Service"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -565,11 +565,11 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #14332 is closed but direct controller is not registered in code",
     "sortOrder": 156,
     "downstreamCount": 0,
-    "trackingIssue": "[#14332](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14332)",
-    "assignee": "anhdle-sso, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Investigation/Setup"
   },
   {
@@ -582,7 +582,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -611,7 +611,7 @@
     "dependencies": [
       "Service"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -621,11 +621,11 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "Tracking issue #14334 is closed but direct controller is not registered in code",
     "sortOrder": 158,
     "downstreamCount": 0,
-    "trackingIssue": "[#14334](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14334)",
-    "assignee": "maqiuyujoyce, feynman-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Investigation/Setup"
   },
   {
@@ -5666,7 +5666,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #2873, External Work: #7650",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7650",
     "sortOrder": 397,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5696,7 +5696,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141, External Work: #14804",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
