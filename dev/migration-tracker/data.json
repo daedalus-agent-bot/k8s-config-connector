@@ -193,7 +193,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code, External Work: #13250",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code",
     "sortOrder": 137,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1652,7 +1652,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958, External Work: #15069",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "N/A",

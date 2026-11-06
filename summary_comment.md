@@ -16,7 +16,7 @@
 | AccessContextManagerAccessLevel | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | AccessContextManagerAccessLevelCondition | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601 |
 | AccessContextManagerAccessPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4820, External Work: #4821, External Work: #12332 |
-| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code, External Work: #13250 |
+| AccessContextManagerGCPUserAccessBinding | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14329 is closed but direct controller is not registered in code |
 | AccessContextManagerServicePerimeter | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #4754, External Work: #8951, External Work: #14847, External Work: #14848 |
 | AccessContextManagerServicePerimeterResource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952 |
 | AlloyDBBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -51,7 +51,7 @@
 | CloudIOTDeviceRegistry | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | CloudSchedulerJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #956 |
 | ComputeBackendBucket | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958 |
+| ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958, External Work: #15069 |
 | ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
 | ComputeExternalVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | [#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108) | factorybot-robot, daedalus-agent-bot | External Work: #570 |
