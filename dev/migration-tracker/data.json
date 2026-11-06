@@ -139,7 +139,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #8948, External Work: #7285, External Work: #9601",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7285, External Work: #8948, External Work: #9601",
     "sortOrder": 136,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -166,7 +166,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12332, External Work: #4821, External Work: #4820",
+    "notes": "External Work: #4820, External Work: #4821, External Work: #12332",
     "sortOrder": 37,
     "downstreamCount": 3,
     "trackingIssue": "N/A",
@@ -225,7 +225,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14848, External Work: #14847, External Work: #8951, External Work: #4754",
+    "notes": "External Work: #4754, External Work: #8951, External Work: #14847, External Work: #14848",
     "sortOrder": 138,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -252,7 +252,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #8952, External Work: #6992",
+    "notes": "Missing _reference.go or _identity.go, External Work: #6992, External Work: #8952",
     "sortOrder": 139,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -509,12 +509,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14331, External Work: #14852",
+    "notes": "Missing _reference.go or _identity.go, External Work: #14852",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "[#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331)",
     "assignee": "anhdle-sso, daedalus-agent-bot",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "appengine",
@@ -536,7 +536,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706",
+    "notes": "Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706",
     "sortOrder": 155,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -565,7 +565,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14332 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14332 is closed but direct controller is not registered in code",
     "sortOrder": 156,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -592,7 +592,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14333 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14333 is closed but direct controller is not registered in code",
     "sortOrder": 157,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -621,7 +621,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14334 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14334 is closed but direct controller is not registered in code",
     "sortOrder": 158,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -680,12 +680,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14335",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 173,
     "downstreamCount": 0,
     "trackingIssue": "[#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335)",
     "assignee": "maqiuyujoyce, daedalus-agent-bot",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -709,12 +709,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14336",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 174,
     "downstreamCount": 0,
     "trackingIssue": "[#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336)",
     "assignee": "maqiuyujoyce, walle-agent-bot",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "beyondcorp",
@@ -738,12 +738,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14337",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 175,
     "downstreamCount": 0,
     "trackingIssue": "[#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337)",
     "assignee": "maqiuyujoyce, walle-agent-bot",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquerydatapolicy",
@@ -772,7 +772,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "bigquery",
@@ -887,7 +887,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197",
+    "notes": "Tracking issue #10100 is closed but direct controller is not registered in code, External Work: #11197",
     "sortOrder": 189,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1038,7 +1038,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12946",
+    "notes": "External Work: #774, External Work: #786, External Work: #12946",
     "sortOrder": 17,
     "downstreamCount": 8,
     "trackingIssue": "N/A",
@@ -1096,7 +1096,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11596, External Work: #5011, External Work: #5944, External Work: #4994",
+    "notes": "External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596",
     "sortOrder": 197,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1130,7 +1130,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "binaryauthorization",
@@ -1159,7 +1159,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "certificatemanager",
@@ -1273,12 +1273,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14969",
+    "notes": "External Work: #14969",
     "sortOrder": 211,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1300,12 +1300,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14970",
+    "notes": "External Work: #14970",
     "sortOrder": 212,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudasset",
@@ -1329,12 +1329,12 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14971",
+    "notes": "External Work: #14971",
     "sortOrder": 213,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
+    "stage": "Investigation/Setup"
   },
   {
     "group": "cloudbuild",
@@ -1360,7 +1360,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #370, External Work: #796",
     "sortOrder": 216,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1389,7 +1389,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #12192",
+    "notes": "External Work: #12192",
     "sortOrder": 223,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1419,7 +1419,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #12312, External Work: #886",
+    "notes": "Missing _reference.go or _identity.go, External Work: #886, External Work: #12312",
     "sortOrder": 224,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1476,7 +1476,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 226,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1508,7 +1508,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "cloudscheduler",
@@ -1537,7 +1537,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "compute",
@@ -1652,7 +1652,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #9958, External Work: #7578, External Work: #15069, External Work: #7330",
+    "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958, External Work: #15069",
     "sortOrder": 234,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1686,7 +1686,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #11605, External Work: #8857, External Work: #6975, External Work: #7736",
+    "notes": "External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605",
     "sortOrder": 16,
     "downstreamCount": 9,
     "trackingIssue": "N/A",
@@ -1837,7 +1837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #570",
     "sortOrder": 237,
     "downstreamCount": 0,
     "trackingIssue": "[#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108)",
@@ -1964,7 +1964,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #9978, External Work: #4541, External Work: #7316",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4541, External Work: #7316, External Work: #9978",
     "sortOrder": 241,
     "downstreamCount": 0,
     "trackingIssue": "[#10111](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10111)",
@@ -2263,7 +2263,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #9989, External Work: #6168, External Work: #5958",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5958, External Work: #6168, External Work: #9989",
     "sortOrder": 22,
     "downstreamCount": 7,
     "trackingIssue": "N/A",
@@ -2439,7 +2439,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11759",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 14,
     "downstreamCount": 11,
     "trackingIssue": "[#11759](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11759)",
@@ -2528,7 +2528,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #9999, External Work: #4942",
+    "notes": "Missing _reference.go or _identity.go, External Work: #4942, External Work: #9999",
     "sortOrder": 253,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2587,7 +2587,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10002, External Work: #5608",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5608, External Work: #10002",
     "sortOrder": 255,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2698,7 +2698,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14094 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14252 is closed but direct controller is not registered in code",
     "sortOrder": 258,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -2725,7 +2725,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14328",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 259,
     "downstreamCount": 0,
     "trackingIssue": "[#14328](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14328)",
@@ -3137,7 +3137,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10846 is closed but direct controller is not registered in code, External Work: #12361",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #12700 is closed but direct controller is not registered in code, External Work: #12361",
     "sortOrder": 270,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3194,7 +3194,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #476, External Work: #505, External Work: #803",
     "sortOrder": 272,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3335,7 +3335,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #402, External Work: #687",
     "sortOrder": 274,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3393,7 +3393,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #13410, External Work: #11543, External Work: #5953",
+    "notes": "External Work: #5953, External Work: #13410",
     "sortOrder": 9,
     "downstreamCount": 23,
     "trackingIssue": "[#11543](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11543)",
@@ -3481,7 +3481,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #5399, External Work: #4602",
+    "notes": "Tracking issue #10845 is closed but direct controller is not registered in code, External Work: #4602, External Work: #5399",
     "sortOrder": 57,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -3758,7 +3758,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "containeranalysis",
@@ -3843,7 +3843,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 1 (Direct KRM Types)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "container",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14238, External Work: #13421, External Work: #12883, External Work: #12372, External Work: #12174, External Work: #12144, External Work: #11911, External Work: #11647, External Work: #9813, External Work: #8960, External Work: #7495, External Work: #6655, External Work: #6654, External Work: #6652, External Work: #5901, External Work: #5514, External Work: #1792, External Work: #12906, External Work: #8135, External Work: #6831, External Work: #5086, External Work: #5085, External Work: #4987",
+    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12883, External Work: #12906, External Work: #13421, External Work: #14238",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
@@ -3901,7 +3901,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10886 is closed but direct controller is not registered in code, External Work: #13421, External Work: #13420, External Work: #10534, External Work: #10410, External Work: #3798, External Work: #2775",
+    "notes": "Tracking issue #10886 is closed but direct controller is not registered in code, External Work: #479, External Work: #2775, External Work: #3798, External Work: #10410, External Work: #10534, External Work: #13420, External Work: #13421",
     "sortOrder": 283,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3936,7 +3936,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -3965,7 +3965,7 @@
     "downstreamCount": 1,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -3996,7 +3996,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dlp",
@@ -4025,7 +4025,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dns",
@@ -4111,7 +4111,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10415, External Work: #9777, External Work: #5355, External Work: #4982, External Work: #3287, External Work: #844",
+    "notes": "External Work: #844, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415",
     "sortOrder": 293,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4170,7 +4170,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 295,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4263,7 +4263,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dataflow",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #12241, External Work: #9000, External Work: #8023, External Work: #13292",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "N/A",
@@ -4447,7 +4447,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 327,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4510,7 +4510,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4532,7 +4532,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14981",
+    "notes": "External Work: #14981",
     "sortOrder": 336,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4561,7 +4561,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14977",
+    "notes": "External Work: #14977",
     "sortOrder": 337,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4588,7 +4588,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14972",
+    "notes": "External Work: #14972",
     "sortOrder": 338,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4615,7 +4615,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14975",
+    "notes": "External Work: #14975",
     "sortOrder": 339,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4642,7 +4642,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14973",
+    "notes": "External Work: #14973",
     "sortOrder": 340,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4669,7 +4669,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14974",
+    "notes": "External Work: #14974",
     "sortOrder": 341,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4696,7 +4696,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14976",
+    "notes": "External Work: #14976",
     "sortOrder": 342,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4730,7 +4730,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4759,7 +4759,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "dialogflow",
@@ -4788,7 +4788,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "documentai",
@@ -5051,7 +5051,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #10731, External Work: #2291",
+    "notes": "External Work: #691, External Work: #2291",
     "sortOrder": 369,
     "downstreamCount": 0,
     "trackingIssue": "[#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731)",
@@ -5114,7 +5114,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasedatabase",
@@ -5143,7 +5143,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasehosting",
@@ -5165,7 +5165,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 373,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5199,7 +5199,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebase",
@@ -5226,7 +5226,7 @@
     "downstreamCount": 1,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "firebasestorage",
@@ -5250,7 +5250,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 375,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5332,7 +5332,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9481",
+    "notes": "External Work: #405, External Work: #9481",
     "sortOrder": 1,
     "downstreamCount": 394,
     "trackingIssue": "N/A",
@@ -5415,7 +5415,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14096 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14096 is closed but direct controller is not registered in code",
     "sortOrder": 387,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5442,7 +5442,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 388,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5476,7 +5476,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "healthcare",
@@ -5498,7 +5498,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 390,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5525,7 +5525,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 391,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5696,7 +5696,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14141, External Work: #1082, External Work: #855",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #404, External Work: #709, External Work: #772, External Work: #793, External Work: #855, External Work: #1082, External Work: #14141",
     "sortOrder": 398,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5723,7 +5723,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10735",
+    "notes": "Missing _reference.go or _identity.go, External Work: #384, External Work: #760",
     "sortOrder": 7,
     "downstreamCount": 53,
     "trackingIssue": "[#10735](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10735)",
@@ -5752,7 +5752,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #6675, External Work: #3338",
+    "notes": "External Work: #425, External Work: #3338, External Work: #6675",
     "sortOrder": 399,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5837,7 +5837,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14158, External Work: #1839",
+    "notes": "Missing _reference.go or _identity.go, External Work: #1839, External Work: #14158",
     "sortOrder": 104,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -5957,7 +5957,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -5986,7 +5986,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6015,7 +6015,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6042,7 +6042,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6066,7 +6066,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 408,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6098,7 +6098,7 @@
     "downstreamCount": 1,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "identityplatform",
@@ -6122,7 +6122,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 409,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6151,7 +6151,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 410,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6185,7 +6185,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "kms",
@@ -6237,7 +6237,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14095 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14095 is closed but direct controller is not registered in code",
     "sortOrder": 413,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6292,7 +6292,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14324 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14324 is closed but direct controller is not registered in code",
     "sortOrder": 416,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6319,7 +6319,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #14325 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14325 is closed but direct controller is not registered in code",
     "sortOrder": 417,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6482,7 +6482,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "memcache",
@@ -6533,7 +6533,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14166, External Work: #6991, External Work: #5641",
+    "notes": "External Work: #589, External Work: #648, External Work: #656, External Work: #5641, External Work: #6991, External Work: #14166",
     "sortOrder": 107,
     "downstreamCount": 1,
     "trackingIssue": "N/A",
@@ -6704,7 +6704,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10147, External Work: #5559",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5559, External Work: #10147",
     "sortOrder": 435,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6734,7 +6734,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #9566, External Work: #5714, External Work: #2469",
+    "notes": "External Work: #2469, External Work: #5714, External Work: #9566",
     "sortOrder": 436,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6822,7 +6822,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12373, External Work: #5077",
+    "notes": "External Work: #5077, External Work: #12373",
     "sortOrder": 445,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -6967,7 +6967,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10612 is closed but direct controller is not registered in code, External Work: #7277",
+    "notes": "Tracking issue #10612 is closed but direct controller is not registered in code, External Work: #7277",
     "sortOrder": 457,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7115,7 +7115,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "External Work: #602",
     "sortOrder": 463,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7204,12 +7204,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #10939",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 470,
     "downstreamCount": 0,
     "trackingIssue": "[#10939](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10939)",
     "assignee": "daedalus-agent-bot",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -7238,7 +7238,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 2 (Identity & Reference Types)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "osconfig",
@@ -7267,7 +7267,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "oslogin",
@@ -7294,7 +7294,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "privateca",
@@ -7442,7 +7442,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #12959, External Work: #12958, External Work: #12950, External Work: #12757, External Work: #12640, External Work: #2188, External Work: #5240",
+    "notes": "External Work: #340, External Work: #388, External Work: #402, External Work: #505, External Work: #654, External Work: #720, External Work: #818, External Work: #1734, External Work: #2188, External Work: #5098, External Work: #5240, External Work: #5888, External Work: #6849, External Work: #12640, External Work: #12757, External Work: #12773, External Work: #12950, External Work: #12958, External Work: #12959, External Work: #12964, External Work: #13060, External Work: #14166, External Work: #14167, External Work: #14168, External Work: #14409, External Work: #14425, External Work: #14426, External Work: #14429, External Work: #14434",
     "sortOrder": 3,
     "downstreamCount": 389,
     "trackingIssue": "N/A",
@@ -7500,7 +7500,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #5700",
     "sortOrder": 480,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7740,7 +7740,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #566",
     "sortOrder": 488,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7804,7 +7804,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #13690, External Work: #12963, External Work: #12710, External Work: #9714, External Work: #6686, External Work: #5554, External Work: #14417",
+    "notes": "External Work: #772, External Work: #813, External Work: #5554, External Work: #6686, External Work: #9714, External Work: #12710, External Work: #12963, External Work: #13690, External Work: #14417",
     "sortOrder": 490,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7885,7 +7885,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #11862, External Work: #8796, External Work: #2416, External Work: #11863, External Work: #7148",
+    "notes": "Missing _reference.go or _identity.go, External Work: #548, External Work: #2416, External Work: #7148, External Work: #8796, External Work: #11862, External Work: #11863",
     "sortOrder": 494,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -7972,7 +7972,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 499,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8004,7 +8004,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "serviceusage",
@@ -8324,7 +8324,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14236, External Work: #14139, External Work: #12944, External Work: #12929, External Work: #12745, External Work: #11525, External Work: #9779, External Work: #5556, External Work: #5553",
+    "notes": "External Work: #5553, External Work: #5556, External Work: #9779, External Work: #12745, External Work: #12929, External Work: #12944, External Work: #14139, External Work: #14236",
     "sortOrder": 8,
     "downstreamCount": 40,
     "trackingIssue": "[#11525](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/11525)",
@@ -8353,7 +8353,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #681",
     "sortOrder": 513,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8440,7 +8440,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #444",
     "sortOrder": 518,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8469,7 +8469,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "",
     "sortOrder": 519,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -8498,12 +8498,12 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #681",
     "sortOrder": 520,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "tpu",
@@ -8708,7 +8708,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Stage 3 (KRM Fuzzer)"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8739,7 +8739,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8766,7 +8766,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8793,7 +8793,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8822,7 +8822,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8851,7 +8851,7 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
     "group": "vertexai",
@@ -8880,6 +8880,6 @@
     "downstreamCount": 0,
     "trackingIssue": "N/A",
     "assignee": "",
-    "stage": "Investigation/Setup"
+    "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   }
 ]
