@@ -7,12 +7,13 @@
 | Step | Step Name | GitHub Issue | GitHub Pull Request | Status | Date Started | Date Completed |
 |---|---|---|---|---|---|---|
 | 1 | Direct API Types & Identity | [#12837](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/12837) | [#14874](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14874) | Completed | 2026-09-09 | 2026-11-06 |
-| 2 | Direct Controller & Fuzzer | [#15089](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15089) | - | Open | 2026-11-06 | - |
+| 2 | Direct Controller & Fuzzer | [#15089](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15089) | [#15120](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15120) | PR Created | 2026-11-06 | - |
 | 3 | MockGCP Generation | - | - | Pending | - | - |
 | 4 | MockGCP Alignment | - | - | Pending | - | - |
 | 5 | Release | - | - | Pending | - | - |
 
 ## Status Update Notes
+* **2026-11-06**: Pull Request [#15120](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/15120) has been created for Step 2. All 42 CI checks have passed and reviewbot-robot completed initial review.
 * **2026-11-06**: Step 1 completed: PR #14874 merged. Opened child issue [#15089](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/15089) for Step 2 (Direct Controller, E2E fixtures, and fuzzer).
 * **2026-11-04**: PR #12858 was closed. New PR [#14874](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/14874) has been created for Step 1. All 258 automated CI checks are passing. The PR is awaiting human maintainer review and merge.
 * **2026-09-11**: Re-verified PR #12858. All automated checks and auto-reviews are passing. The PR is awaiting human maintainer review and merge.
