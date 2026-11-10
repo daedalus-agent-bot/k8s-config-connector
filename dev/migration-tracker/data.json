@@ -680,11 +680,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14335 is closed but direct controller is not registered in code",
     "sortOrder": 173,
     "downstreamCount": 0,
-    "trackingIssue": "[#14335](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14335)",
-    "assignee": "maqiuyujoyce, daedalus-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -709,11 +709,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14336 is closed but direct controller is not registered in code",
     "sortOrder": 174,
     "downstreamCount": 0,
-    "trackingIssue": "[#14336](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14336)",
-    "assignee": "maqiuyujoyce, walle-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -738,11 +738,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14337 is closed but direct controller is not registered in code",
     "sortOrder": 175,
     "downstreamCount": 0,
-    "trackingIssue": "[#14337](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14337)",
-    "assignee": "maqiuyujoyce, walle-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1099,8 +1099,8 @@
     "notes": "External Work: #723, External Work: #4994, External Work: #5011, External Work: #5944, External Work: #11596",
     "sortOrder": 197,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10101](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10101)",
+    "assignee": "factorybot-robot, walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1655,8 +1655,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958, External Work: #15069",
     "sortOrder": 234,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10103)",
+    "assignee": "factorybot-robot, daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1811,8 +1811,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 236,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10107](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10107)",
+    "assignee": "factorybot-robot, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1866,11 +1866,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10884 is closed but direct controller is not registered in code",
+    "notes": "",
     "sortOrder": 31,
     "downstreamCount": 4,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10109](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10109)",
+    "assignee": "factorybot-robot, walle-agent-bot, daedalus-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -1996,8 +1996,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #9980",
     "sortOrder": 242,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10112](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10112)",
+    "assignee": "factorybot-robot, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2048,11 +2048,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10923 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 243,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10113](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10113)",
+    "assignee": "factorybot-robot, walle-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2202,11 +2202,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10924 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 89,
     "downstreamCount": 1,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10115](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10115)",
+    "assignee": "factorybot-robot, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2295,8 +2295,8 @@
     "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 33,
     "downstreamCount": 4,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10117](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10117)",
+    "assignee": "factorybot-robot, feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2409,11 +2409,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, Tracking issue #10938 is closed but direct controller is not registered in code",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 250,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10121](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10121)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2501,8 +2501,8 @@
     "notes": "Missing _reference.go or _identity.go, External Work: #9998",
     "sortOrder": 252,
     "downstreamCount": 0,
-    "trackingIssue": "N/A",
-    "assignee": "",
+    "trackingIssue": "[#10123](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10123)",
+    "assignee": "feynman-agent-bot",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -2725,11 +2725,11 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, Tracking issue #14328 is closed but direct controller is not registered in code",
     "sortOrder": 259,
     "downstreamCount": 0,
-    "trackingIssue": "[#14328](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14328)",
-    "assignee": "anhdle-sso, daedalus-agent-bot",
+    "trackingIssue": "N/A",
+    "assignee": "",
     "stage": "Stage 4 (MockGCP/E2E Fixtures)"
   },
   {
@@ -5109,7 +5109,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15267",
     "sortOrder": 371,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5138,7 +5138,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15267",
     "sortOrder": 372,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5267,7 +5267,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #15267",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
