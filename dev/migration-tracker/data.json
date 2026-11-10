@@ -5109,7 +5109,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #15267",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15345",
     "sortOrder": 371,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5138,7 +5138,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #15267",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15345",
     "sortOrder": 372,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5155,7 +5155,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5165,7 +5165,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #15344",
     "sortOrder": 373,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5240,7 +5240,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5250,7 +5250,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #15344",
     "sortOrder": 375,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #15267",
+    "notes": "External Work: #15345",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
