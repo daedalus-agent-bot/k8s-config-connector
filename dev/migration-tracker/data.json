@@ -582,7 +582,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -592,7 +592,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #14333 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301",
     "sortOrder": 157,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -4385,7 +4385,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292",
+    "notes": "Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292, External Work: #15299",
     "sortOrder": 25,
     "downstreamCount": 6,
     "trackingIssue": "N/A",

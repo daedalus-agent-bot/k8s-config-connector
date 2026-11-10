@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 227 |
-| Pending | 16 |
+| In Progress | 228 |
+| Pending | 15 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -28,6 +28,7 @@
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #14852 |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706 |
+| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301 |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14335 is closed but direct controller is not registered in code |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14336 is closed but direct controller is not registered in code |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14337 is closed but direct controller is not registered in code |
@@ -122,7 +123,7 @@
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataFusionInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292 |
+| DataprocCluster | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Tracking issue #10695 is closed but direct controller is not registered in code, External Work: #814, External Work: #8023, External Work: #9000, External Work: #12241, External Work: #13292, External Work: #15299 |
 | DataprocWorkflowTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
 | DeploymentManagerDeployment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
@@ -243,7 +244,6 @@
 | Kind | Sort Order | Default Controller | Dependencies | Notes |
 |------|------------|--------------------|--------------|-------|
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service | Tracking issue #14332 is closed but direct controller is not registered in code |
-| AppEngineServiceSplitTraffic | 157 | Terraform |  | Tracking issue #14333 is closed but direct controller is not registered in code |
 | AppEngineStandardAppVersion | 158 | Terraform | Service | Tracking issue #14334 is closed but direct controller is not registered in code |
 | CloudIOTDevice | 226 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
