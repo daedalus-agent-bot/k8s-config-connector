@@ -1263,7 +1263,7 @@
     "dependencies": [
       "Folder"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1273,7 +1273,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14969",
+    "notes": "",
     "sortOrder": 211,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1290,7 +1290,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1300,7 +1300,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14970",
+    "notes": "",
     "sortOrder": 212,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -1319,7 +1319,7 @@
     "dependencies": [
       "Project"
     ],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -1329,7 +1329,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #14971",
+    "notes": "",
     "sortOrder": 213,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -3869,7 +3869,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12883, External Work: #12906, External Work: #13421, External Work: #14238",
+    "notes": "External Work: #361, External Work: #401, External Work: #437, External Work: #441, External Work: #468, External Work: #477, External Work: #576, External Work: #699, External Work: #1792, External Work: #4987, External Work: #5085, External Work: #5086, External Work: #5514, External Work: #5901, External Work: #6496, External Work: #6652, External Work: #6654, External Work: #6655, External Work: #6831, External Work: #7495, External Work: #8135, External Work: #8960, External Work: #9813, External Work: #11647, External Work: #11911, External Work: #12144, External Work: #12174, External Work: #12372, External Work: #12883, External Work: #12906, External Work: #13421, External Work: #14238, External Work: #15381",
     "sortOrder": 61,
     "downstreamCount": 2,
     "trackingIssue": "N/A",
