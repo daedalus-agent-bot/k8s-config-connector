@@ -28,7 +28,7 @@
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #14852 |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706 |
-| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301 |
+| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435 |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14335 is closed but direct controller is not registered in code |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14336 is closed but direct controller is not registered in code |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14337 is closed but direct controller is not registered in code |
