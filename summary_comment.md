@@ -115,7 +115,7 @@
 | DLPInspectTemplate | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DLPJobTrigger | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7417 |
 | DLPStoredInfoType | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #844, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415 |
+| DNSRecordSet | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #844, External Work: #3287, External Work: #4982, External Work: #5355, External Work: #9777, External Work: #10415, External Work: #15420 |
 | DNSResponsePolicyRule | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogPolicyTag | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | DataCatalogTaxonomy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
