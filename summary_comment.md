@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 226 |
-| Pending | 17 |
+| In Progress | 227 |
+| Pending | 16 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -26,9 +26,9 @@
 | ApigeeNATAddress | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14091 is closed but direct controller is not registered in code |
 | ApigeeOrganization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
 | ApigeeSyncAuthorization | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14092 is closed but direct controller is not registered in code |
-| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #14852 |
+| AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706 |
-| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435 |
+| AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435, External Work: #15445 |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14335 is closed but direct controller is not registered in code |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14336 is closed but direct controller is not registered in code |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14337 is closed but direct controller is not registered in code |
@@ -144,12 +144,13 @@
 | FilestoreBackup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | FilestoreInstance | Stage 4 (MockGCP/E2E Fixtures) | [#10731](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10731) | walle-agent-bot, feynman-agent-bot | External Work: #691, External Work: #2291 |
 | FilestoreSnapshot | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| FirebaseDatabaseInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| FirebaseAndroidApp | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #15444 |
+| FirebaseDatabaseInstance | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #15444 |
 | FirebaseHostingChannel | Investigation/Setup | N/A |  | External Work: #15344 |
 | FirebaseHostingSite | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13811 is closed but direct controller is not registered in code |
 | FirebaseProject | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14098 is closed but direct controller is not registered in code |
 | FirebaseStorageBucket | Investigation/Setup | N/A |  | External Work: #15344 |
+| FirebaseWebApp | Investigation/Setup | N/A |  | External Work: #15444 |
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -245,7 +246,6 @@
 | AppEngineStandardAppVersion | 158 | Terraform | Service | Tracking issue #14334 is closed but direct controller is not registered in code |
 | CloudAssetOrganizationFeed | 212 | Terraform |  |  |
 | CloudIOTDevice | 226 | Terraform |  |  |
-| FirebaseWebApp | 376 | Terraform |  |  |
 | HealthcareConsentStore | 387 | Terraform |  | Tracking issue #14096 is closed but direct controller is not registered in code |
 | HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |

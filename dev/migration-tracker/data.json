@@ -509,7 +509,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go, External Work: #14852",
+    "notes": "Missing _reference.go or _identity.go",
     "sortOrder": 154,
     "downstreamCount": 0,
     "trackingIssue": "[#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331)",
@@ -592,7 +592,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435",
+    "notes": "Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435, External Work: #15445",
     "sortOrder": 157,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5109,7 +5109,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15444",
     "sortOrder": 371,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5138,7 +5138,7 @@
       "tests": true
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Missing _reference.go or _identity.go",
+    "notes": "Missing _reference.go or _identity.go, External Work: #15444",
     "sortOrder": 372,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5267,7 +5267,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5277,7 +5277,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "",
+    "notes": "External Work: #15444",
     "sortOrder": 376,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
