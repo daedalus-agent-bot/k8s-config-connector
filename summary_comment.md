@@ -213,7 +213,7 @@
 | RunService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #772, External Work: #813, External Work: #5554, External Work: #6686, External Work: #9714, External Work: #12710, External Work: #12963, External Work: #13690, External Work: #14417 |
 | SQLDatabase | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | SQLSSLCert | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13814 is closed but direct controller is not registered in code |
-| SQLUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #548, External Work: #2416, External Work: #7148, External Work: #8796, External Work: #11862, External Work: #11863 |
+| SQLUser | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #548, External Work: #2416, External Work: #7148, External Work: #8796, External Work: #11862, External Work: #11863, External Work: #15624 |
 | SecurityCenterSource | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ServiceIdentity | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #11599 |
 | ServiceNetworkingConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
