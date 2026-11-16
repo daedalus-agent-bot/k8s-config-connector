@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 224 |
-| Pending | 19 |
+| In Progress | 225 |
+| Pending | 18 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -29,6 +29,7 @@
 | AppEngineDomainMapping | Stage 4 (MockGCP/E2E Fixtures) | [#14331](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/14331) | anhdle-sso, daedalus-agent-bot | Missing _reference.go or _identity.go |
 | AppEngineFirewallRule | Investigation/Setup | N/A |  | Tracking issue #14099 is closed but direct controller is not registered in code, External Work: #5706, External Work: #15593, External Work: #15594 |
 | AppEngineServiceSplitTraffic | Investigation/Setup | N/A |  | Tracking issue #14333 is closed but direct controller is not registered in code, External Work: #15300, External Work: #15301, External Work: #15434, External Work: #15435, External Work: #15445 |
+| AppEngineStandardAppVersion | Investigation/Setup | N/A |  | Tracking issue #14334 is closed but direct controller is not registered in code, External Work: #15847, External Work: #15848 |
 | BeyondCorpAppConnection | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14335 is closed but direct controller is not registered in code |
 | BeyondCorpAppConnector | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14336 is closed but direct controller is not registered in code |
 | BeyondCorpAppGateway | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14337 is closed but direct controller is not registered in code |
@@ -240,7 +241,6 @@
 | Kind | Sort Order | Default Controller | Dependencies | Notes |
 |------|------------|--------------------|--------------|-------|
 | AppEngineFlexibleAppVersion | 156 | Terraform | Service | Tracking issue #14332 is closed but direct controller is not registered in code |
-| AppEngineStandardAppVersion | 158 | Terraform | Service | Tracking issue #14334 is closed but direct controller is not registered in code |
 | CloudAssetOrganizationFeed | 212 | Terraform |  |  |
 | CloudIOTDevice | 226 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |

@@ -611,7 +611,7 @@
     "dependencies": [
       "Service"
     ],
-    "state": "Not Started",
+    "state": "In Progress",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -621,7 +621,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "Tracking issue #14334 is closed but direct controller is not registered in code",
+    "notes": "Tracking issue #14334 is closed but direct controller is not registered in code, External Work: #15847, External Work: #15848",
     "sortOrder": 158,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
