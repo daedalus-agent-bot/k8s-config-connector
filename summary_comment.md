@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 225 |
-| Pending | 18 |
+| In Progress | 224 |
+| Pending | 19 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -126,7 +126,6 @@
 | DatastreamStream | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1476 |
 | DeploymentManagerDeployment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | DialogflowAgent | Investigation/Setup | N/A |  | External Work: #14981 |
-| DialogflowCXAgent | Investigation/Setup | N/A |  | External Work: #14977 |
 | DialogflowCXEntityType | Investigation/Setup | N/A |  | External Work: #14972 |
 | DialogflowCXFlow | Investigation/Setup | N/A |  | External Work: #14975 |
 | DialogflowCXIntent | Investigation/Setup | N/A |  | External Work: #14973 |
