@@ -4,8 +4,8 @@
 | State | Count |
 |-------|-------|
 | Completed | 61 |
-| In Progress | 227 |
-| Pending | 16 |
+| In Progress | 225 |
+| Pending | 18 |
 | Total | 304 |
 
 ## In Progress Resources
@@ -152,9 +152,7 @@
 | Folder | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #405, External Work: #9481 |
 | GKEHubFeature | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | GKEHubMembership | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| HealthcareDICOMStore | Investigation/Setup | N/A |  | External Work: #15943 |
 | HealthcareDataset | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| HealthcareHL7V2Store | Investigation/Setup | N/A |  | External Work: #15943 |
 | IAMAccessBoundaryPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAMAuditConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #7649 |
 | IAMCustomRole | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #12958, External Work: #14425 |
@@ -247,7 +245,9 @@
 | CloudIOTDevice | 226 | Terraform |  |  |
 | FirebaseHostingChannel | 373 | Terraform |  |  |
 | HealthcareConsentStore | 387 | Terraform |  | Tracking issue #14096 is closed but direct controller is not registered in code |
+| HealthcareDICOMStore | 388 | Terraform |  |  |
 | HealthcareFHIRStore | 390 | Terraform |  |  |
+| HealthcareHL7V2Store | 391 | Terraform |  |  |
 | SecurityCenterNotificationConfig | 499 | Terraform |  |  |
 
 ## Completed Resources

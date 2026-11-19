@@ -5432,7 +5432,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5442,7 +5442,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #15943",
+    "notes": "",
     "sortOrder": 388,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
@@ -5515,7 +5515,7 @@
       "Terraform"
     ],
     "dependencies": [],
-    "state": "In Progress",
+    "state": "Not Started",
     "steps": {
       "gen-types": false,
       "identity-reference": false,
@@ -5525,7 +5525,7 @@
       "tests": false
     },
     "mocksLastRefreshed": "Never",
-    "notes": "External Work: #15943",
+    "notes": "",
     "sortOrder": 391,
     "downstreamCount": 0,
     "trackingIssue": "N/A",
