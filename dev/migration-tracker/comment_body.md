@@ -51,7 +51,7 @@
 | CloudSchedulerJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #956 |
 | ComputeBackendBucket | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | [#10103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10103) | factorybot-robot, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958, External Work: #15069 |
-| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
+| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605, External Work: #16185 |
 | ComputeExternalVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | [#10107](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10107) | factorybot-robot, feynman-agent-bot | Missing _reference.go or _identity.go |
 | ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | [#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108) | factorybot-robot, daedalus-agent-bot | External Work: #570 |
 | ComputeFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#10109](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10109) | factorybot-robot, walle-agent-bot, daedalus-agent-bot |  |
