@@ -51,7 +51,7 @@
 | CloudSchedulerJob | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #956 |
 | ComputeBackendBucket | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeBackendBucketSignedURLKey | Stage 4 (MockGCP/E2E Fixtures) | [#10103](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10103) | factorybot-robot, daedalus-agent-bot | Missing _reference.go or _identity.go, External Work: #7330, External Work: #7578, External Work: #9958 |
-| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
+| ComputeBackendService | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | External Work: #450, External Work: #6975, External Work: #7736, External Work: #8857, External Work: #11605 |
 | ComputeExternalVPNGateway | Stage 4 (MockGCP/E2E Fixtures) | [#10107](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10107) | factorybot-robot, feynman-agent-bot | Missing _reference.go or _identity.go |
 | ComputeFirewall | Stage 4 (MockGCP/E2E Fixtures) | [#10108](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10108) | factorybot-robot, daedalus-agent-bot | External Work: #570 |
 | ComputeFirewallPolicy | Stage 4 (MockGCP/E2E Fixtures) | [#10109](https://github.com/GoogleCloudPlatform/k8s-config-connector/issues/10109) | factorybot-robot, walle-agent-bot, daedalus-agent-bot | External Work: #16332 |
@@ -83,7 +83,7 @@
 | ComputeProjectMetadata | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #13812 is closed but direct controller is not registered in code |
 | ComputeRegionAutoscaler | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeRegionDiskResourcePolicyAttachment | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
-| ComputeRegionNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #10017 |
+| ComputeRegionNetworkEndpointGroup | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #6132, External Work: #10017 |
 | ComputeRegionPerInstanceConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, Tracking issue #14326 is closed but direct controller is not registered in code |
 | ComputeRegionSSLPolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | ComputeResourcePolicy | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
@@ -165,7 +165,7 @@
 | IAMWorkloadIdentityPool | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #1839, External Work: #14158 |
 | IAMWorkloadIdentityPoolProvider | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IAPBrand | Stage 4 (MockGCP/E2E Fixtures) | N/A |  |  |
-| IAPIdentityAwareProxyClient | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
+| IAPIdentityAwareProxyClient | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #450 |
 | IdentityPlatformConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go, External Work: #9416 |
 | IdentityPlatformDefaultSupportedIDPConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
 | IdentityPlatformInboundSAMLConfig | Stage 4 (MockGCP/E2E Fixtures) | N/A |  | Missing _reference.go or _identity.go |
